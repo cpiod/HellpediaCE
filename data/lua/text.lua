@@ -305,7 +305,7 @@ strings = {
 				new_game    = "New game",
 				load_game   = "Load game",
 				whats_new   = "What's new",
-				help        = "Help",
+				help        = "Hellpedia mod",
 				settings    = "Settings",
 				highscores  = "Highscores",
 				player_data = "Player data",
@@ -315,7 +315,7 @@ strings = {
 			},
             ingame_menu = {
 				continue      = "  Continue   ",
-				help          = "    Help     ",
+				help          = "Hellpedia mod",
 				settings      = "  Settings   ",
 				abandon_run   = "Abandon run  ",
 				quit          = "    Quit     ",
@@ -383,20 +383,14 @@ strings = {
                 controller = { title = "Europa", },
                 mouse      = { title = "Io", },
                 mouse_ui   = { title = "Dante", },
-                gameplay   = { title = "B Whizkid", },
-                time       = { title = "A Whizkid", },
-                accuracy   = { title = "P Whizkid", },
-                range      = { title = "Range", },
-                cover      = { title = "Cover", },
-                pain       = { title = "Pain", },
-                dodge      = { title = "Dodge", },
-                melee      = { title = "Melee", },
-                locationsC1      = { title = "Valhalla Terminal", },
-                locationsC2      = { title = "Callisto Mines", },
-                locationsC3      = { title = "Callisto Rift", },
-                locationsC4      = { title = "Mimir Habitat", },
-                locationsC5      = { title = "Military Barracks", },
-                locationsC6      = { title = "Callisto Docking Bay", },
+                gameplay   = { title = "Purgatory", },
+                time       = { title = "Wishes", },
+                accuracy   = { title = "B Whizkid", },
+                range      = { title = "A Whizkid", },
+                cover      = { title = "P Whizkid", },
+                pain       = { title = "", },
+                dodge      = { title = "", },
+                melee      = { title = "", },
                 footer     = "press <{$input_ui_up},{$input_ui_down}> or <{$input_ui_confirm},{$input_ui_cancel}> to continue",
             },
 			tutorial = {
@@ -811,31 +805,31 @@ strings = {
 }
 
 strings.ui.game.help.keyboard.content =
-[=[   {!Valhalla Terminal}
+[=[
+  {!Valhalla Terminal}        activate lockdown!
 Manufacturer perk: ValSec: +25% dmg vs bots
 Rewards: pistol/shotgun/headgear
 Special rewards: Shutdown/hack CalSec, AV2
  AMP, AV2 most used weapon, AV2 marine armor
-   {!Callisto Mines (branch)}
+  {!Callisto Mines}               close portals!
 Manufacturer perk: JoviSec: +25% crit dmg
 Rewards: pistol, shotgun, AV2 AMP most used
  weapon, 2 minor relics
 Special rewards: major relics, Purgatory
-   {!Callisto Rift (branch)}
-Manufacturer perk: TODO
+  {!Callisto Rift}                  open valves!
+Manufacturer perk: JoviSec: +25% crit dmg
 Rewards: pistol or shotgun, AV2 AMP most used
  weapon, medical/tech stations
 Special rewards: poison resistance
-   {!Mimir Habitat (branch)}
+   {!Mimir Habitat}           hack MDF sentries!
 Manufacturer perk: MDF: +1 optimal range
-Rewards: pistol, shotgun, AV2 most used
- weapon
+Rewards: pistol, shotgun, AV2 most used weapon
 Special rewards: CalSec shutdown, MDF exotic
  manufacturing station
-   {!Military Barracks (special)}
+  {!Military Barracks}
 Manufacturer perk: TODO
 Rewards: TODO
-   {!Callisto Docking Bay (special)}
+  {!Callisto Docking Bay}
 Manufacturer perk: TODO
 Rewards: pistols/shotguns
 ]=]
@@ -853,29 +847,123 @@ strings.ui.game.help.mouse_ui.content =
 ]=]
 
 strings.ui.game.help.gameplay.content =
-[=[{!Purgatory}
+[=[{!    Purgatory paths to uniques}
+{!Exosuit} URRDLD       {!Shadowcloak} DRUL
+{!Cybersuit} URULL      {!Find crown} ULDD
+{!Overlord} DLDDD       {!Firecrown} ULLDRR
+
+{!Executioner} URUL     {!Soulstealer} DDLLUR (bug)
+{!Wavesplitter} LDLDL
+
+{!Hate} RURU      {!Death} ULDLD    {!Love} RRDR
+
+{!Carnage} ULLL   {!Viper} LDDRR    {!Void} LLDR
+
+{!Vengeance} LDDR       {!Bloodletter} UUUUL
+{!Shadowhunter} DRULLULUU (bug)
+
+{!Thompson} DRRR        {!Hammerhead} RUUUL
+{!Avalanche} URUULL     {!Vulcan} LUULD (bug)
+
+{!Scrapgun} DRRU        {!Apocalypse} UUULDD
+
+{!BFG10k} ULDLDD        {!Firestorm} ULLD
+{!Calamity} ULLDD
+
+{!Monster} RRRD         {!Denial} ULLDR
+{!Wavedancer} LDLDRU
+
+{!Europa portal} URR    {!Io portal} RRUU
+{!Dante portal} ULLUL
 ]=]
 
 strings.ui.game.help.time.content =
-[=[{!Bulk Whizkid}
+[=[{!Wishes}
+{!"WEALTH!"} - choose one of three unique weapons. The maximum health reduced by 33%, and the current health to 20. All medkits and multitools are removed from the character's inventory and from the level.
+
+
+{!"POWER!"} - Demonblood effect: +50% damage, receive 50% less healing. The maximum health reduced by 50%, and the current health to 20.
+
+
+{!"HEALTH!"} - Demonblood effect: regenerate 5 health per turn up to 50% of the maximum health, healing effects reduced to 25%. Current health reduced to 1.
 ]=]
 
 strings.ui.game.help.accuracy.content =
-[=[{!Accuracy Whizkid}
+[=[  {!Bulky mod Whizkid cheatsheet}
+
+{!Pistol, Semi-Auto,}
+{!SMG, Auto, Rotary}      {!Shotgun, Launcher}
+Swap Harness           Swap Harness
+Speed Loader           Loading Holster
+Extended Mag           Extended Mag
+Barbed                 Barbed
+Efficient              Second Chamber
+
+{!Melee}
+Swap Harness
+Guarded
+Guard Shield
+Barbed
+Surrounded
+
+{!Armor}                  {!Helmet}
+Durable                Durable
+Fire Resistant         Bot Scanner
+Padded                 Tech Monitor
+Loading Feed           Health Monitor
+Auto Repair            Auto Repair
 ]=]
 
 strings.ui.game.help.range.content =
-[=[{!Power Whizkid}
+[=[{!Accuracy mod Whizkid cheatsheet}
+
+{!Pistol, SMG,}
+{!Launcher}               {!Semi-auto, Auto, Rotary}
+Calibrated             Calibrated
+Stabilized             Stabilized
+Precise                Balanced
+Critical               Critical
+Exalted Bane           Exalted Bane
+
+{!Melee}                  {!Shotgun}
+Retaliate              Calibrated
+Resilient              Stabilized
+Mechanebane            Retaliate
+Critical               Critical
+Exalted Bane           Exalted Bane
+
+{!Armor}                  {!Helmet}
+Swift                  Aim Assist
+Painkiller             Long-range tracking
+Critical               Critical
+Pockets                Heat Vision
+Metabolic Boost        Network Scanner
 ]=]
 
 strings.ui.game.help.cover.content =
-[=[{!Cover and Hunker}
+[=[{!Power mod Whizkid cheatsheet}
 
-If an enemy is targeted, and either you or them are affected by cover, green and red indicators will appear near cover elements. Green indicates your cover, red indicates cover that affects your chance to hit him. The number of lines indicates how much does that cover affect the to-hit chance.
+                       {!Semi-auto, Auto,}
+{!Pistol}                 {!Launcher}
+Fresh Mag 3            Longshot
+Ripper                 Ripper
+Longshot               Hunter
+Frenzy                 Frenzy
+Molten                 Molten
 
-Note that switching targets (using {$input_cycle} or manual {$input_target}) also switches the indicators, as they are different depending on target.
+{!Shotgun}        {!SMG}            {!Melee}
+Point Blank    Cleaner         Cleaner
+Ripper         Ripper          Ripper
+Cleaner        Point Blank     Hunter
+Frenzy         Frenzy          Frenzy
+Molten         Molten          Molten
 
-Waiting ({$input_wait}) while behind cover, adds the {!Hunker} buff which increases the nearby cover's effectiveness (making its color change to blue).
+{!Armor}                  {!Helmet}
+Carrier                Exit Scanner
+Meshed                 Danger Monitor
+Acid Shield            Plated
+Plated                 Crit Enhancer
+Auto Med               Supply Scanner
 ]=]
 
 strings.ui.game.help.pain.content =
