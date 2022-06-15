@@ -305,7 +305,7 @@ strings = {
 				new_game    = "New game",
 				load_game   = "Load game",
 				whats_new   = "What's new",
-				help        = "Hellpedia mod",
+				help        = "Hellpedia",
 				settings    = "Settings",
 				highscores  = "Highscores",
 				player_data = "Player data",
@@ -315,7 +315,7 @@ strings = {
 			},
             ingame_menu = {
 				continue      = "  Continue   ",
-				help          = "Hellpedia mod",
+				help          = "  Hellpedia  ",
 				settings      = "  Settings   ",
 				abandon_run   = "Abandon run  ",
 				quit          = "    Quit     ",
@@ -805,46 +805,94 @@ strings = {
 }
 
 strings.ui.game.help.keyboard.content =
-[=[
-  {!Valhalla Terminal}        activate lockdown!
+[=[  {!Valhalla Terminal: activate lockdown!}
 Manufacturer perk: ValSec: +25% dmg vs bots
 Rewards: pistol/shotgun/headgear
-Special rewards: Shutdown/hack CalSec, AV2
- AMP, AV2 most used weapon, AV2 marine armor
-  {!Callisto Mines}               close portals!
+Special rewards: CalSec shutdown/hack, Warden
+ bypass, AV2: AMP, favored weapon, marine armor
+  {!Callisto Mines: close portals!}
 Manufacturer perk: JoviSec: +25% crit dmg
 Rewards: pistol, shotgun, AV2 AMP most used
  weapon, 2 minor relics
 Special rewards: major relics, Purgatory
-  {!Callisto Rift}                  open valves!
+  {!Callisto Rift: open valves!}
 Manufacturer perk: JoviSec: +25% crit dmg
 Rewards: pistol or shotgun, AV2 AMP most used
  weapon, medical/tech stations
 Special rewards: poison resistance
-   {!Mimir Habitat}           hack MDF sentries!
+   {!Mimir Habitat: hack MDF sentries!}
 Manufacturer perk: MDF: +1 optimal range
 Rewards: pistol, shotgun, AV2 most used weapon
-Special rewards: CalSec shutdown, MDF exotic
- manufacturing station
+Special rewards: CalSec shutdown/reboot,
+ MDF exotic manufacturing station
+
   {!Military Barracks}
-Manufacturer perk: TODO
-Rewards: TODO
+Manufacturer perk: JovicSec: +25% crit dmg
+Rewards: pistol, shotgun, 2 exotics
   {!Callisto Docking Bay}
-Manufacturer perk: TODO
+Manufacturer perk: random Callisto perk
 Rewards: pistols/shotguns
 ]=]
 
 strings.ui.game.help.controller.content =
-[=[{!Europa}
+[=[  {!Asterius Habitat: hack & protect the bots!}
+Manufacturer perk: AsterTech: chills on damage
+Rewards: Relic, AV2 AMP, AV2 armor
+Special rewards: exotic mod, AT exotic
+ manufacturing station, phase kit
+  {!C.C.Biolabs: open valves! (bring multitools)}
+Perk: +20% dmg vs bio, +10% dmg vs semi-mecha
+Rewards: relic, weapon
+Special rewards: acid, pain, bleed and fire
+ resistances, +20% damage
+  {!Europa Dig Zone: do NOT open valves!}
+Manufacturer perk: ERI: -75% swap time
+Rewards: Relic, stations, AV2 weapon
+Special rewards: cold resistance
+  {!Europa Ruins}
+Manufacturer perk: (none)
+Rewards: AV3 Combat Armor, AV3 AMP, Frozen Heart
+Special rewards: (none)
+
+  {!The Pit}
+Manufacturer perk: none
+Rewards: Backpack
+  {!Refueling station: open fuel valves!}
+Manufacturer perk: none
+Rewards: Backpack, AV3 visor, AMP
+Special rewark: ENV armor
 ]=]
 
 strings.ui.game.help.mouse.content =
-[=[{!Io}
+[=[  {!Io Black Site}
+Manufacturer perk: (none)
+Rewards: AV3 or exotic weapons, CRI BFT9K
+Special rewards: (none)
+  {!CRI Laboratories}
+Manufacturer perk: (none)
+Rewards: AV3/exotic weapons, CRI armor,
+ CRI BFT9K, AV3 favored AMP
+Special rewards: (none)
+  {!Mephitic Mines: ?}
+Manufacturer perk: IDR: -50% reload time
+Rewards: AV3 Katana, AV3 Marine Armor
+Special rewards: poison resistance
+  {!Shadow Halls}
+Manufacturer perk: (none)
+Rewards: Unique exchange, Wishes (with Frozen
+ Heart), AV3 favored AMP, AV3 weapons
+Special rewards: (none)
+
+  {!Io Warehouse}
+Manufacturer perk: (none)
+Rewards: Lots of lootboxes
+  {!Infernal Lock}
+Manufacturer perk: (none)
+Rewards: Exotic mod, lootboxes
 ]=]
 
 strings.ui.game.help.mouse_ui.content = 
-[=[{!Dante}
-]=]
+[=[(not much to put there yet)]=]
 
 strings.ui.game.help.gameplay.content =
 [=[{!    Purgatory paths to uniques}
@@ -867,7 +915,7 @@ strings.ui.game.help.gameplay.content =
 
 {!Scrapgun} DRRU        {!Apocalypse} UUULDD
 
-{!BFG10k} ULDLDD        {!Firestorm} ULLD
+{!BFG10K} ULDLDD        {!Firestorm} ULLD
 {!Calamity} ULLDD
 
 {!Monster} RRRD         {!Denial} ULLDR
@@ -879,6 +927,8 @@ strings.ui.game.help.gameplay.content =
 
 strings.ui.game.help.time.content =
 [=[{!Wishes}
+
+
 {!"WEALTH!"} - choose one of three unique weapons. The maximum health reduced by 33%, and the current health to 20. All medkits and multitools are removed from the character's inventory and from the level.
 
 
@@ -967,139 +1017,16 @@ Auto Med               Supply Scanner
 ]=]
 
 strings.ui.game.help.pain.content =
-[=[{!Pain}
-
-Each time you receive damage, you get a {!Pain} modifier. This is a direct negative modifier to your chance to hit. The modifier fades away (but not fully if high), so often it's better to retreat behind cover, than fire shots that have a low chance of hitting the enemy.
-
-Various traits and items interact with the {!Pain} modifier in different ways.
-
-Enemies don't have this disadvantage - they either don't care (zombies and robots) or are too badass (demons and CRI).
+[=[{!empty}
 ]=]
 
 strings.ui.game.help.dodge.content =
-[=[{!Dodge}
-
-Each time you move, you get a {!Dodge} modifier. This is a direct debuff to enemy chance to hit you. The modifier fades away when you do a different action than a move.
-
-You might notice that the value seems twice higher for a moment when you move - this is the value that is used for shots firing at you during the move. The value visible afterwards is the value you'll have this turn (unless you move again!).
-
-{!Hellrunner} can increase these values, making you almost unhittable when moving, allowing for step and fire tactics.
+[=[{!empty}
 ]=]
 
 strings.ui.game.help.melee.content =
-[=[{!Melee}
-
-The game is range-focused, so melee builds are hard to pull off. That said, late game melee with the proper melee traits can produce the highest damage values.
-
-Every weapon can perform a melee attack - you do it either by bumping into the enemy, or by holding {!SHIFT} or {!LTrigger} when firing. In case of dedicated melee weapons, regular fire will perform an attack (even diagonally!). If you kill the enemy, you will move to his square for free. You can prevent this move by holding {!SHIFT} or {!LTrigger} when attacking.
-
-Some melee weapons have {!Melee Guard} - this is a general bonus to your dodge if enemies are near you. Attacking enemies in melee will maintain half your {!Dodge} - if the attack kills, you'll get your regular Dodge boost from the move.
+[=[{!empty}
 ]=]
-
-strings.ui.game.help.locationsC1.content =
-[=[{!C-Valhalla Terminal (branch)}
-Enemies: Zombies, Sentries, Guardian Bots
-
-Manufacturer perk: ValSec: +25% dmg vs bots
-
-Special mechanics: initiave lockdown to get
- blue cards from bots
-
-Main rewards: pistol, shotgun, headgear
-
-Special rewards:
-* Shutdown CalSec (1 cards)
-* Hack CalSec (3 cards)
-* Several storage room: (1 card per room)
- * Supply room: AV2 AMP, 2 random consum.
- * Weapon room: AV2 most used weapon
- * Armor room: AV2 marine armor
-
-Remarks:
-* After shutdown, CalSec boss can be disabled
-for 1 multitool
-]=]
-
-strings.ui.game.help.locationsC2.content =
-[=[{!C-Callisto Mines (branch)}
-Enemies: Fiends, Reaver, Zombies
-
-Manufacturer perk: JoviSec: +25% crit dmg
-
-Special mechanics: step onto the purple portal
- before it expires to get Demonic Attunement.
- Be quick!
-
-Main rewards: pistol, shotgun, AV2 AMP most
- used weapon, 2 minor relics
-
-Special rewards:
-* Major relic:
- ... (1 Demonic Attunement)
- ... (2 Demonic Attunement)
-* Entry to purgatory (2 Demonic Attunement)
- Touch the pillars in the Anomaly in order:
-       2 5
-      4   3
-        1
-
-See Purgatory entry to know more.
-]=]
-
-strings.ui.game.help.locationsC3.content =
-[=[{!C-Callisto Rift (branch)}
-Enemies: Fiends, Zombies
-
-Manufacturer perk: TODO
-
-Special mechanics: open every gas valve
-
-Main rewards: pistol or shotgun, AV2 AMP most
- used weapon, lootboxes, medical station,
- technical station
-
-Special rewards: poison resistance by
- stepping on the vent in bottom left room.
-]=]
-
-strings.ui.game.help.locationsC4.content =
-[=[{!C-Mimir Habitat (branch)}
-Enemies: Zombies, Bots
-
-Manufacturer perk: Mimir Defence Force (+1
- optimal range)
-
-Special mechanics: hack MDF Sentries (you can
- walk into them) to download MDF codes
-
-Main rewards: pistol, shotgun, AV2 most used
- weapon
-
-Special rewards:
- * CalSec shutdown
- * MDF exotic manufacturing station
-]=]
-
-strings.ui.game.help.locationsC5.content =
-[=[{!C-Military Barracks (special)}
-Enemies: Hellish zombies
-
-Manufacturer perk: TODO
-
-Main rewards: TODO
-
-{!C-Callisto Docking Bay (special)}
-Enemies: Fiend, Bots
-
-Manufacturer perk: TODO
-
-Main rewards: pistols/shotguns
-
-Remarks:
-- Loot requires two red cards
-]=]
-
-
 
 
 strings.loc_info = {
