@@ -860,7 +860,7 @@ Rewards: Backpack
   {!Refueling station: open fuel valves!}
 Manufacturer perk: none
 Rewards: Backpack, AV3 visor, AMP
-Special rewark: ENV armor
+Special reward: ENV armor
 ]=]
 
 strings.ui.game.help.mouse.content =
@@ -873,10 +873,11 @@ Manufacturer perk: (none)
 Rewards: AV3/exotic weapons, CRI armor,
  CRI BFT9K, AV3 favored AMP
 Special rewards: (none)
-  {!Mephitic Mines: ?}
+  {!Mephitic Mines: open the valves!}
 Manufacturer perk: IDR: -50% reload time
 Rewards: AV3 Katana, AV3 Marine Armor
-Special rewards: poison resistance
+Special rewards: poison resistance (if already
+ resistant: poison aura and +50% poison effect)
   {!Shadow Halls}
 Manufacturer perk: (none)
 Rewards: Unique exchange, Wishes (with Frozen
