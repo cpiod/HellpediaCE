@@ -379,18 +379,24 @@ strings = {
 				footer         = "press <{$input_ui_confirm}> to continue",
             },
             help = {
-                keyboard   = { title = "Keyboard", },
-                controller = { title = "Controller", },
-                mouse      = { title = "Mouse", },
-                mouse_ui   = { title = "Mouse (UI)", },
-                gameplay   = { title = "Gameplay", },
-                time       = { title = "Time", },
-                accuracy   = { title = "Accuracy", },
+                keyboard   = { title = "Callisto", },
+                controller = { title = "Europa", },
+                mouse      = { title = "Io", },
+                mouse_ui   = { title = "Dante", },
+                gameplay   = { title = "B Whizkid", },
+                time       = { title = "A Whizkid", },
+                accuracy   = { title = "P Whizkid", },
                 range      = { title = "Range", },
                 cover      = { title = "Cover", },
                 pain       = { title = "Pain", },
                 dodge      = { title = "Dodge", },
                 melee      = { title = "Melee", },
+                locationsC1      = { title = "Valhalla Terminal", },
+                locationsC2      = { title = "Callisto Mines", },
+                locationsC3      = { title = "Callisto Rift", },
+                locationsC4      = { title = "Mimir Habitat", },
+                locationsC5      = { title = "Military Barracks", },
+                locationsC6      = { title = "Callisto Docking Bay", },
                 footer     = "press <{$input_ui_up},{$input_ui_down}> or <{$input_ui_confirm},{$input_ui_cancel}> to continue",
             },
 			tutorial = {
@@ -805,141 +811,61 @@ strings = {
 }
 
 strings.ui.game.help.keyboard.content =
-[=[{!Keyboard}
-
-  {!Escape}       - menu (quit, help, etc)
-  {!{$key_north|12}} - move north
-  {!{$key_south|12}} - move south
-  {!{$key_west|12}} - move west
-  {!{$key_east|12}} - move east
-  {!{$key_wait|12}} - wait/aim/hunker
-  {!{$key_reload|12}} - reload
-  {!{$key_get|12}} - get item from floor
-  {!{$key_inventory|12}} - inventory
-  {!{$key_equipment|12}} - equipment
-  {!{$key_traits|12}} - view traits
-  {!{$key_fire|12}} - fire at selected target
-  {!{$key_help|12}} - more info on selected target
-  {!{$key_target|12}} - target mode ({!{$key_target}},{!{$key_fire}} to fire,
-                 {!{$key_cycle}} to cycle)
-  {!{$key_map|12}} - map (hold)
-  {!{$key_cycle|12}} - cycle targets
-  {!{$key_action|12}} - act (e.g. open/close door)
-  {!SHIFT}        - (hold) show/compare/use item
-                 on floor ({!{$key_get}} to use), or to
-                 force a melee attack/hold
-                 position during one, swap
-                 position with friendly
-  {!{$key_slot_1}-{$key_slot_4}}          - switch to weapon slot
-  {!{$key_skill_1}-{$key_skill_4}}          - use skill (if present)
-  {!F11}          - toggle true fullscreen
+[=[   {!Valhalla Terminal}
+Manufacturer perk: ValSec: +25% dmg vs bots
+Rewards: pistol/shotgun/headgear
+Special rewards: Shutdown/hack CalSec, AV2
+ AMP, AV2 most used weapon, AV2 marine armor
+   {!Callisto Mines (branch)}
+Manufacturer perk: JoviSec: +25% crit dmg
+Rewards: pistol, shotgun, AV2 AMP most used
+ weapon, 2 minor relics
+Special rewards: major relics, Purgatory
+   {!Callisto Rift (branch)}
+Manufacturer perk: TODO
+Rewards: pistol or shotgun, AV2 AMP most used
+ weapon, medical/tech stations
+Special rewards: poison resistance
+   {!Mimir Habitat (branch)}
+Manufacturer perk: MDF: +1 optimal range
+Rewards: pistol, shotgun, AV2 most used
+ weapon
+Special rewards: CalSec shutdown, MDF exotic
+ manufacturing station
+   {!Military Barracks (special)}
+Manufacturer perk: TODO
+Rewards: TODO
+   {!Callisto Docking Bay (special)}
+Manufacturer perk: TODO
+Rewards: pistols/shotguns
 ]=]
 
 strings.ui.game.help.controller.content =
-[=[{!Controller}
-
-  {!Back}         - menu (quit, help, etc)
-  {!{$button_north|12}} - move north
-  {!{$button_south|12}} - move south
-  {!{$button_west|12}} - move west
-  {!{$button_east|12}} - move east
-  {!{$button_wait|12}} - wait/aim/hunker
-  {!{$button_fire|12}} - fire at selected target
-  {!{$button_reload|12}} - reload
-  {!{$button_get|12}} - get item from floor
-  {!{$button_action|12}} - act (e.g. open/close door)
-  {!{$button_inventory|12}} - inventory
-  {!{$button_target|12}} - target mode 
-  {!{$button_cycle|12}} - cycle targets
-  {!{$button_map|12}} - map (hold)
-  {!LTrigger}     - (hold) show/compare/use item
-                 on floor ({!{$button_get}} to use) or to
-                 force a melee attack/hold
-                 position during one, swap
-                 position with friendly
-  {!RTrigger}     - hold for skill/weapon/info:
-    {!X}            - switch to weapon slot 1
-    {!Y}            - switch to weapon slot 2
-    {!B}            - switch to weapon slot 3
-    {!A}            - switch to weapon slot 4
-    {!D-Pad}        - use skill (if present)
-    {!RStick}       - more info on target enemy
+[=[{!Europa}
 ]=]
 
 strings.ui.game.help.mouse.content =
-[=[{!Mouse}
-
-Mouse control is currently considered {!experimental} - please report any issues! You can enable mouse in-game by setting {!Mouse support} to {!Active}. Note that there are no prompts for mouse control in-game nor in the tutorial, only the following reference:
-
-{!Left-click}   -- travel to given destination, act on environment, melee attack. Travel is automatic as long as there are no enemies in sight, otherwise just a single move. On self - act if there is anything to act nearby, else if on item then pickup, else inventory.
-
-{!Right-click}  -- fire at the targeted square or enemy, reload if magazine empty, reload if click on self.
-
-{!Middle-click} -- if enemy targeted - context menu (aim/hunker, enemy view, melee in place) else inventory, wait/hunker if on self.
-  
-{!Mouse scroll} -- weapon switch menu (scroll to select, wait after selected for swap)
+[=[{!Io}
 ]=]
 
 strings.ui.game.help.mouse_ui.content = 
-[=[{!Mouse (UI)}
-
-{!Left-click}   -- pick/accept
-{!Right-click}  -- cancel/back
-{!Middle-click} -- drop, delete or context menu (if present - currently in equipment screen)
-  
-Additionally some windows have Left/Right active buttons, and there are several clickable or hoverable hotspots on the main HUD, including but not limited to:
-  
-  {!*} hover on level name for level map
-  {!*} hover on item on floor (bottom right) for compare screen - click to pickup, middle-click to use from ground
-  {!*} click on weapon number to swap, weapon/armor name for equipment screen
-  {!*} click on menu names in bottom right to pull up desired screen
-  {!*} click on skill name to use skill
-
-The game should be at a state that its fully playable without touching the keyboard or controller (apart from name entry, but you can click to pass through). If you find any case that is missing, please report!
+[=[{!Dante}
 ]=]
 
 strings.ui.game.help.gameplay.content =
-[=[{!Basic gameplay}
-
-Jupiter Hell is a turn-based, grid-based roguelike game. After every action you take, enemies take their turn. The facing of the characters in the game doesn't matter, only their position.
-
-Your objective is to travel through the bases on the moons of Jupiter: Callisto, Europa and Io to reach the final boss (PROTIP: To defeat the end boss, shoot at it until it dies).
-
-Play the tutorial to learn the basics of combat. Afterwards, advanced topics are available to browse on the left.
+[=[{!Purgatory}
 ]=]
 
 strings.ui.game.help.time.content =
-[=[{!Speed and time}
-
-While it might appear that the game functions in alternating chess-like turns (you move, they move), not every action takes the same amount of time. Underneath, the game uses a timeline, so sometimes the enemies seem to skip a turn, or move twice, depending on timing.
-
-In effect, if you get a speed boost or a trait that makes an action take 75% of time, you might be able to squeeze in an extra turn every 3 turns.
-
-There is no indicator for the order of moves, although in time, you will be able to reasonably predict it.
+[=[{!Bulk Whizkid}
 ]=]
 
 strings.ui.game.help.accuracy.content =
-[=[{!Accuracy}
-
-Your chance to hit the enemy is dependent on several factors. First of them is weapon accuracy that you can check in the equipment screen. If it's not present it means the weapon has 100% accuracy, otherwise there's a modifier to the 100%.
-
-Second are things affecting the character, be it Pain or any traits that modify accuracy.
-
-Next factor is weapon range (see {!Range} topic next for details), and enemy cover (see {!Cover}).
-
-Finally, to increase your chances to hit, you can {!Aim}. To do that, do a {!Wait} action ({$input_wait}). Note that if you're behind cover, this also does {!Hunker} (see {!Cover} topic}).
+[=[{!Accuracy Whizkid}
 ]=]
 
 strings.ui.game.help.range.content =
-[=[{!Range}
-
-Every weapon has a range - either 2 numbers ({!X/Y}) or 3 numbers ({!X/Y/Z}).
-
-If two numbers are present, that's the {!optimal} and {!maximum} range. Any shot within the optimal range has 100% chance to hit (modified by accuracy, pain etc). Further out it falls off in a linear fashion (up to max + 1), with targets at max range being the last ones you can hit.
-
-If there are three numbers, then the first one is the {!minimum} range. At this range you still have 100% but below it the accuracy falls off to 0% at the player position.
-
-So a range {!2/3/6} means 50% at range 1 (right beside the player), 100% at range 2-3, 75% at 4, 50% - 5, 25% - 6 and 0% at 7+. Range is geometric - an enemy diagonally beside the player is at ~1.4.
+[=[{!Power Whizkid}
 ]=]
 
 strings.ui.game.help.cover.content =
@@ -981,6 +907,112 @@ Every weapon can perform a melee attack - you do it either by bumping into the e
 
 Some melee weapons have {!Melee Guard} - this is a general bonus to your dodge if enemies are near you. Attacking enemies in melee will maintain half your {!Dodge} - if the attack kills, you'll get your regular Dodge boost from the move.
 ]=]
+
+strings.ui.game.help.locationsC1.content =
+[=[{!C-Valhalla Terminal (branch)}
+Enemies: Zombies, Sentries, Guardian Bots
+
+Manufacturer perk: ValSec: +25% dmg vs bots
+
+Special mechanics: initiave lockdown to get
+ blue cards from bots
+
+Main rewards: pistol, shotgun, headgear
+
+Special rewards:
+* Shutdown CalSec (1 cards)
+* Hack CalSec (3 cards)
+* Several storage room: (1 card per room)
+ * Supply room: AV2 AMP, 2 random consum.
+ * Weapon room: AV2 most used weapon
+ * Armor room: AV2 marine armor
+
+Remarks:
+* After shutdown, CalSec boss can be disabled
+for 1 multitool
+]=]
+
+strings.ui.game.help.locationsC2.content =
+[=[{!C-Callisto Mines (branch)}
+Enemies: Fiends, Reaver, Zombies
+
+Manufacturer perk: JoviSec: +25% crit dmg
+
+Special mechanics: step onto the purple portal
+ before it expires to get Demonic Attunement.
+ Be quick!
+
+Main rewards: pistol, shotgun, AV2 AMP most
+ used weapon, 2 minor relics
+
+Special rewards:
+* Major relic:
+ ... (1 Demonic Attunement)
+ ... (2 Demonic Attunement)
+* Entry to purgatory (2 Demonic Attunement)
+ Touch the pillars in the Anomaly in order:
+       2 5
+      4   3
+        1
+
+See Purgatory entry to know more.
+]=]
+
+strings.ui.game.help.locationsC3.content =
+[=[{!C-Callisto Rift (branch)}
+Enemies: Fiends, Zombies
+
+Manufacturer perk: TODO
+
+Special mechanics: open every gas valve
+
+Main rewards: pistol or shotgun, AV2 AMP most
+ used weapon, lootboxes, medical station,
+ technical station
+
+Special rewards: poison resistance by
+ stepping on the vent in bottom left room.
+]=]
+
+strings.ui.game.help.locationsC4.content =
+[=[{!C-Mimir Habitat (branch)}
+Enemies: Zombies, Bots
+
+Manufacturer perk: Mimir Defence Force (+1
+ optimal range)
+
+Special mechanics: hack MDF Sentries (you can
+ walk into them) to download MDF codes
+
+Main rewards: pistol, shotgun, AV2 most used
+ weapon
+
+Special rewards:
+ * CalSec shutdown
+ * MDF exotic manufacturing station
+]=]
+
+strings.ui.game.help.locationsC5.content =
+[=[{!C-Military Barracks (special)}
+Enemies: Hellish zombies
+
+Manufacturer perk: TODO
+
+Main rewards: TODO
+
+{!C-Callisto Docking Bay (special)}
+Enemies: Fiend, Bots
+
+Manufacturer perk: TODO
+
+Main rewards: pistols/shotguns
+
+Remarks:
+- Loot requires two red cards
+]=]
+
+
+
 
 strings.loc_info = {
     { name = "English",   code = "en", default = true, },
