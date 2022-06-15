@@ -305,7 +305,7 @@ strings = {
 				new_game    = "New game",
 				load_game   = "Load game",
 				whats_new   = "What's new",
-				help        = "Hellpedia",
+				help        = "HellpediaCE",
 				settings    = "Settings",
 				highscores  = "Highscores",
 				player_data = "Player data",
@@ -315,7 +315,7 @@ strings = {
 			},
             ingame_menu = {
 				continue      = "  Continue   ",
-				help          = "  Hellpedia  ",
+				help          = " HellpediaCE ",
 				settings      = "  Settings   ",
 				abandon_run   = "Abandon run  ",
 				quit          = "    Quit     ",
@@ -895,7 +895,7 @@ strings.ui.game.help.mouse_ui.content =
 [=[(not much to put there yet)]=]
 
 strings.ui.game.help.gameplay.content =
-[=[{!    Purgatory paths to uniques}
+[=[{!  Purgatory paths to uniques}
 {!Exosuit} URRDLD       {!Shadowcloak} DRUL
 {!Cybersuit} URULL      {!Find crown} ULDD
 {!Overlord} DLDDD       {!Firecrown} ULLDRR
@@ -926,7 +926,7 @@ strings.ui.game.help.gameplay.content =
 ]=]
 
 strings.ui.game.help.time.content =
-[=[{!Wishes}
+[=[  {!Wishes}
 
 
 {!"WEALTH!"} - choose one of three unique weapons. The maximum health reduced by 33%, and the current health to 20. All medkits and multitools are removed from the character's inventory and from the level.
@@ -965,7 +965,7 @@ Auto Repair            Auto Repair
 ]=]
 
 strings.ui.game.help.range.content =
-[=[{!Accuracy mod Whizkid cheatsheet}
+[=[  {!Accuracy mod Whizkid cheatsheet}
 
 {!Pistol, SMG,}
 {!Launcher}               {!Semi-auto, Auto, Rotary}
@@ -991,7 +991,7 @@ Metabolic Boost        Network Scanner
 ]=]
 
 strings.ui.game.help.cover.content =
-[=[{!Power mod Whizkid cheatsheet}
+[=[  {!Power mod Whizkid cheatsheet}
 
                        {!Semi-auto, Auto,}
 {!Pistol}                 {!Launcher}
