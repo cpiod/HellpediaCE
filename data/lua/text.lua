@@ -315,7 +315,7 @@ strings = {
 			},
             ingame_menu = {
 				continue      = "  Continue   ",
-				help          = " HellpediaCE ",
+				help          = "HellpediaCE  ",
 				settings      = "  Settings   ",
 				abandon_run   = "Abandon run  ",
 				quit          = "    Quit     ",
@@ -869,7 +869,7 @@ Manufacturer perk: (none)
 Rewards: AV3 or exotic weapons, CRI BFT9K
 Special rewards: (none)
   {!CRI Laboratories}
-Manufacturer perk: (none)
+Manufacturer perk: (CRI: +25% dmg vs demons)
 Rewards: AV3/exotic weapons, CRI armor,
  CRI BFT9K, AV3 favored AMP
 Special rewards: (none)
@@ -950,12 +950,14 @@ Extended Mag           Extended Mag
 Barbed                 Barbed
 Efficient              Second Chamber
 
+
 {!Melee}
 Swap Harness
 Guarded
 Guard Shield
 Barbed
 Surrounded
+
 
 {!Armor}                  {!Helmet}
 Durable                Durable
@@ -968,13 +970,14 @@ Auto Repair            Auto Repair
 strings.ui.game.help.range.content =
 [=[  {!Accuracy mod Whizkid cheatsheet}
 
-{!Pistol, SMG,}
-{!Launcher}               {!Semi-auto, Auto, Rotary}
+{!Pistol, SMG,}           {!Semi-auto,}
+{!Launcher}               {!Auto, Rotary}
 Calibrated             Calibrated
 Stabilized             Stabilized
 Precise                Balanced
 Critical               Critical
 Exalted Bane           Exalted Bane
+
 
 {!Melee}                  {!Shotgun}
 Retaliate              Calibrated
@@ -982,6 +985,7 @@ Resilient              Stabilized
 Mechanebane            Retaliate
 Critical               Critical
 Exalted Bane           Exalted Bane
+
 
 {!Armor}                  {!Helmet}
 Swift                  Aim Assist
@@ -1002,12 +1006,14 @@ Longshot               Hunter
 Frenzy                 Frenzy
 Molten                 Molten
 
+
 {!Shotgun}        {!SMG}            {!Melee}
 Point Blank    Cleaner         Cleaner
 Ripper         Ripper          Ripper
 Cleaner        Point Blank     Hunter
 Frenzy         Frenzy          Frenzy
 Molten         Molten          Molten
+
 
 {!Armor}                  {!Helmet}
 Carrier                Exit Scanner

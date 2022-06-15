@@ -6,6 +6,8 @@ This Jupiter Hell mod replaces the "help" section with some cheatsheets on:
 - the three Cathedral wishes
 - the perk obtainable from mod packs through Whizkid
 
+**This mod contains a lot of spoilers for Jupiter Hell!**
+
 You can access HellpediaCE from the main menu and from the in-game menu.
 
 ## How to install
@@ -17,3 +19,7 @@ Extract the "data" folder from the archive and place it directly into your Jupit
 Thanks to every Jupiter Hell player that maintains the Jupiter Hell Wiki and helped me write this mod.
 
 Special thanks to Mamijomale for their work on Jupiter Hell modding!
+
+## Contact
+
+You can contact me with GitHub issues or by DM on Discord at cpiod#8264. If you feel like participating to HellpediaCE, you can make a pull request!
