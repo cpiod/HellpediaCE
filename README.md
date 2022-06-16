@@ -1,14 +1,14 @@
 # HellpediaCE (Community Edition)
 
-This Jupiter Hell mod replaces the "help" section with some cheatsheets on:
-- the branches in the moons, their mechanisms, their perks and rewards
-- the paths in the Purgatory to get the uniques
-- the three Cathedral wishes
-- the perk obtainable from mod packs through Whizkid
-
 **This mod contains a lot of spoilers for Jupiter Hell!**
 
-You can access HellpediaCE from the main menu and from the in-game menu.
+This Jupiter Hell mod replaces the "help" section with some cheatsheets on:
+- the branches in Callisto, Europa and Io, their mechanisms, their perks and rewards
+- the paths in the Purgatory to get the uniques
+- the three Dark Cathedral wishes
+- the perks you can get from mod packs through Whizkid
+
+You can access HellpediaCE from the main menu and the in-game menu. The mod will only work if you use the English language!
 
 ## How to install
 

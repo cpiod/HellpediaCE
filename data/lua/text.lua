@@ -812,26 +812,27 @@ Special rewards: CalSec shutdown/hack, Warden
  bypass, AV2: AMP, favored weapon, marine armor
   {!Callisto Mines: close portals!}
 Manufacturer perk: JoviSec: +25% crit dmg
-Rewards: pistol, shotgun, AV2 AMP most used
- weapon, 2 minor relics
+Rewards: pistol, shotgun, AV2 favored AMP
+ 2 minor relics
 Special rewards: major relics, Purgatory
   {!Callisto Rift: open valves!}
 Manufacturer perk: JoviSec: +25% crit dmg
 Rewards: pistol or shotgun, AV2 AMP most used
  weapon, medical/tech stations
 Special rewards: poison resistance
-   {!Mimir Habitat: hack MDF sentries!}
+  {!Mimir Habitat: hack MDF sentries!}
 Manufacturer perk: MDF: +1 optimal range
 Rewards: pistol, shotgun, AV2 most used weapon
 Special rewards: CalSec shutdown/reboot,
  MDF exotic manufacturing station
-
   {!Military Barracks}
 Manufacturer perk: JovicSec: +25% crit dmg
 Rewards: pistol, shotgun, 2 exotics
   {!Callisto Docking Bay}
 Manufacturer perk: random Callisto perk
 Rewards: pistols/shotguns
+  {!Valhalla Spaceport}
+Manufacturer perk: ValSec: +25% dmg vs bots
 ]=]
 
 strings.ui.game.help.controller.content =
@@ -853,7 +854,6 @@ Special rewards: cold resistance
 Manufacturer perk: (none)
 Rewards: AV3 Combat Armor, AV3 AMP, Frozen Heart
 Special rewards: (none)
-
   {!The Pit}
 Manufacturer perk: none
 Rewards: Backpack
@@ -861,6 +861,8 @@ Rewards: Backpack
 Manufacturer perk: none
 Rewards: Backpack, AV3 visor, AMP
 Special reward: ENV armor
+  {!Europa Central Dig}
+Manufacturer perk: TODO
 ]=]
 
 strings.ui.game.help.mouse.content =
@@ -883,13 +885,14 @@ Manufacturer perk: (none)
 Rewards: Unique exchange, Wishes (with Frozen
  Heart), AV3 favored AMP, AV3 weapons
 Special rewards: (none)
-
   {!Io Warehouse}
 Manufacturer perk: (none)
 Rewards: Lots of lootboxes
-  {!Infernal Lock}
+  {!Infernal Lock: block doors with items!}
 Manufacturer perk: (none)
 Rewards: Exotic mod, lootboxes
+  {!Gateway}
+Manufacturer perk: (none)
 ]=]
 
 strings.ui.game.help.mouse_ui.content = 
