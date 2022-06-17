@@ -809,21 +809,23 @@ strings.ui.game.help.keyboard.content =
 
   {!Valhalla Terminal: activate lockdown!}
 Manufacturer perk: ValSec: +25% dmg vs bots
-Rewards: pistol/shotgun/headgear
+Rewards: AV2/exo pistol, AV2/exo shotgun, AV2
+ headgear
 Special rewards: CalSec shutdown/hack, Warden
- bypass, AV2: AMP, favored weapon, marine armor
+ bypass, rooms: supply (AV2 AMP), weapon (AV2
+ favored weapon), armor (AV2 marine armor)
 
   {!Callisto Mines: close portals!}
 Manufacturer perk: JoviSec: +25% crit dmg
-Rewards: pistol, shotgun, AV2 favored AMP
- 2 minor relics
-Special rewards: major relics, Purgatory
+Rewards: AV2/exo pistol, AV2/exo shotgun, AV
+ favored AMP, 2 minor relics
+Special rewards: major relic, Purgatory
 
   {!Callisto Rift: open valves!}
 Manufacturer perk: JoviSec: +25% crit dmg
-Rewards: pistol or shotgun, AV2 AMP most used
- weapon, medical/tech stations
-Special rewards: poison resistance
+Rewards: AV2 pistol or shotgun, AV2 favored
+ AMP, medical and tech stations, 3 multitools
+Special reward: poison resistance
 ]=]
 
 strings.ui.game.help.controller.content =
@@ -831,17 +833,25 @@ strings.ui.game.help.controller.content =
 
   {!Mimir Habitat: hack MDF sentries!}
 Manufacturer perk: MDF: +1 optimal range
-Rewards: pistol, shotgun, AV2 most used weapon
-Special rewards: CalSec shutdown/reboot,
- MDF exotic manufacturing station
+Rewards: AV2/exo pistol, AV2/exo shotgun, AV2
+ favored weapon
+Special rewards: CalSec shutdown/reboot, Warden
+ bypass, MDF exotic manufacturing station
+
 
   {!Military Barracks}
 Manufacturer perk: JovicSec: +25% crit dmg
-Rewards: pistol, shotgun, 2 exotics
+Rewards: 2 AV2/exo pistols, 2 AV2/exo shotguns,
+ 2 AV2/exo rifles, AV2/exo grenade launcher,
+ EGLS or AV2 rocket launcher
 
-  {!Callisto Docking Bay}
+  {!Callisto Docking Bay: activate lockdown!}
 Manufacturer perk: random Callisto perk
-Rewards: pistols/shotguns
+Rewards: AV2/exo pistol, AV1/exo pistol,
+ AV2 shotgun, AV1 shotgun, AV2 marine armor,
+ AV2 marine helmet
+Special reward: exo visor
+
 
   {!Valhalla Spaceport}
 Manufacturer perk: ValSec: +25% dmg vs bots
@@ -852,20 +862,23 @@ strings.ui.game.help.mouse.content =
 
   {!Asterius Habitat: hack & protect the bots!}
 Manufacturer perk: AsterTech: chills on damage
-Rewards: Relic, AV2 AMP, AV2 armor
+Rewards: Relic, AV2 auto/pistol/shotgun AMP,
+ AV2 combat armor, AV2 headgear
 Special rewards: exotic mod, AT exotic
- manufacturing station, phase kit
+ manufacturing station
 
   {!C.C.Biolabs: open valves! (bring multitools)}
 Manufacturer perk: CCB: +20% dmg vs bio,
  +10% dmg vs semi-mecha
-Rewards: relic, weapon
+Rewards: AV2 pistol, AV2 semi-auto or rifle
 Special rewards: acid, pain, bleed and fire
  resistances, +20% damage
 
   {!Europa Dig Zone: do NOT open valves!}
 Manufacturer perk: ERI: -75% swap time
-Rewards: Relic, stations, AV2 weapon
+Rewards: AV2 AMP pistol/auto/shotgun/melee or
+ AV2 armor or AV2 rifle, Mk2 manu+tech+medical
+ stations
 Special rewards: cold resistance
 ]=]
 
@@ -874,41 +887,52 @@ strings.ui.game.help.mouse_ui.content =
 
   {!Europa Ruins}
 Manufacturer perk: (none)
-Rewards: AV3 Combat Armor, AV3 AMP, Frozen Heart
+Rewards: AV3 combat armor, AV3 favored AMP,
+ Frozen Heart
 Special rewards: (none)
+
 
   {!The Pit}
 Manufacturer perk: none
-Rewards: Backpack
+Rewards: Backpack, AV3 armor or rifle or
+ semi-auto, AV3 headgear, AV3 favored AMP
 
   {!Refueling station: open fuel valves!}
 Manufacturer perk: none
-Rewards: Backpack, AV3 visor, AMP
+Rewards: Backpack, AV3 visor, AV3 AMP,
+ AV3 general AMP
 Special reward: ENV armor
 
+
   {!Europa Central Dig}
-Manufacturer perk: TODO
+Manufacturer perk: none
 ]=]
 
 strings.ui.game.help.gameplay.content =
 [=[    {!Io spoilers 1/2}
 
-  {!Io Black Site}
+  {!Io Black Site (bring red cards)}
 Manufacturer perk: (none)
-Rewards: AV3 or exotic weapons, CRI BFT9K
+Rewards: AV3 favored AMP or toxin launcher,
+ Mk3 manu. station, AV3 hyperblaster or AWP,
+ major relic, CRI BFT9K
 Special rewards: (none)
 
-  {!CRI Laboratories}
+  {!CRI Laboratories (bring red cards)}
 Manufacturer perk: (CRI: +25% dmg vs demons)
-Rewards: AV3/exotic weapons, CRI armor,
- CRI BFT9K, AV3 favored AMP
+Rewards: 2 AV3/exo favored weapons, AV3/exo
+ pistol/shotgun/rifle, AV3 hyperblaster,
+ CRI armor, Mk3 manu. station, AV3 favored
+ AMP, CRI BFT9K
 Special rewards: (none)
 
   {!Mephitic Mines: open the valves!}
 Manufacturer perk: IDR: -50% reload time
-Rewards: AV3 Katana, AV3 Marine Armor
+Rewards: AV3 katana, AV3 marine armor, ENV
+ helmet, AV1 hyperblaster
 Special rewards: poison resistance (if already
- resistant: poison aura and +50% poison effect)
+ resistant from Rift: strong poison aura and
+ +50% poison effect)
 ]=]
 
 strings.ui.game.help.time.content =
@@ -916,17 +940,23 @@ strings.ui.game.help.time.content =
 
   {!Shadow Halls}
 Manufacturer perk: (none)
-Rewards: Unique exchange, Wishes (with Frozen
- Heart), AV3 favored AMP, AV3 weapons
+Rewards: unique exchange or wishes (with Frozen
+ Heart), AV3 favored AMP or toxin launcher,
+ AV3 armor, AV3 pistol or rife or smg or
+ shotgun, AV3 shotgun or hyperblaster or AWP
 Special rewards: (none)
+
 
   {!Io Warehouse}
 Manufacturer perk: (none)
-Rewards: Lots of lootboxes
+Rewards: Lots of lootboxes, hyperblaster
+ guaranteed
 
   {!Infernal Lock: block doors with items!}
 Manufacturer perk: (none)
-Rewards: Exotic mod, lootboxes
+Rewards: lootboxes, AV3 general AMP
+Special reward: cold/vampiric/EMP/sustain mod
+
 
   {!Gateway}
 Manufacturer perk: (none)
@@ -935,7 +965,9 @@ Manufacturer perk: (none)
 strings.ui.game.help.accuracy.content = 
 [=[    {!Dante spoilers}
 
-(not much to put there yet)]=]
+  {!Inferno}
+Rewards: BFT 10K, AV3 general AMP
+]=]
 
 strings.ui.game.help.range.content =
 [=[  {!Purgatory uniques paths spoilers}
