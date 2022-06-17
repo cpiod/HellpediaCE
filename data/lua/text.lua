@@ -380,17 +380,17 @@ strings = {
             },
             help = {
                 keyboard   = { title = "Callisto", },
-                controller = { title = "Europa", },
-                mouse      = { title = "Io", },
-                mouse_ui   = { title = "Dante", },
-                gameplay   = { title = "Purgatory", },
-                time       = { title = "Wishes", },
-                accuracy   = { title = "B Whizkid", },
-                range      = { title = "A Whizkid", },
-                cover      = { title = "P Whizkid", },
-                pain       = { title = "", },
-                dodge      = { title = "", },
-                melee      = { title = "", },
+                controller = { title = "Callisto", },
+                mouse      = { title = "Europa", },
+                mouse_ui   = { title = "Europa", },
+                gameplay   = { title = "Io", },
+                time       = { title = "Io", },
+                accuracy   = { title = "Dante", },
+                range      = { title = "Purgatory", },
+                cover      = { title = "Wishes", },
+                pain       = { title = "B Whizkid", },
+                dodge      = { title = "A Whizkid", },
+                melee      = { title = "P Whizkid", },
                 footer     = "press <{$input_ui_up},{$input_ui_down}> or <{$input_ui_confirm},{$input_ui_cancel}> to continue",
             },
 			tutorial = {
@@ -805,101 +805,141 @@ strings = {
 }
 
 strings.ui.game.help.keyboard.content =
-[=[  {!Valhalla Terminal: activate lockdown!}
+[=[    {!Callisto spoilers 1/2}
+
+  {!Valhalla Terminal: activate lockdown!}
 Manufacturer perk: ValSec: +25% dmg vs bots
 Rewards: pistol/shotgun/headgear
 Special rewards: CalSec shutdown/hack, Warden
  bypass, AV2: AMP, favored weapon, marine armor
+
   {!Callisto Mines: close portals!}
 Manufacturer perk: JoviSec: +25% crit dmg
 Rewards: pistol, shotgun, AV2 favored AMP
  2 minor relics
 Special rewards: major relics, Purgatory
+
   {!Callisto Rift: open valves!}
 Manufacturer perk: JoviSec: +25% crit dmg
 Rewards: pistol or shotgun, AV2 AMP most used
  weapon, medical/tech stations
 Special rewards: poison resistance
+]=]
+
+strings.ui.game.help.controller.content =
+[=[    {!Callisto spoilers 2/2}
+
   {!Mimir Habitat: hack MDF sentries!}
 Manufacturer perk: MDF: +1 optimal range
 Rewards: pistol, shotgun, AV2 most used weapon
 Special rewards: CalSec shutdown/reboot,
  MDF exotic manufacturing station
+
   {!Military Barracks}
 Manufacturer perk: JovicSec: +25% crit dmg
 Rewards: pistol, shotgun, 2 exotics
+
   {!Callisto Docking Bay}
 Manufacturer perk: random Callisto perk
 Rewards: pistols/shotguns
+
   {!Valhalla Spaceport}
 Manufacturer perk: ValSec: +25% dmg vs bots
 ]=]
 
-strings.ui.game.help.controller.content =
-[=[  {!Asterius Habitat: hack & protect the bots!}
+strings.ui.game.help.mouse.content =
+[=[    {!Europa spoilers 1/2}
+
+  {!Asterius Habitat: hack & protect the bots!}
 Manufacturer perk: AsterTech: chills on damage
 Rewards: Relic, AV2 AMP, AV2 armor
 Special rewards: exotic mod, AT exotic
  manufacturing station, phase kit
+
   {!C.C.Biolabs: open valves! (bring multitools)}
-Perk: +20% dmg vs bio, +10% dmg vs semi-mecha
+Manufacturer perk: CCB: +20% dmg vs bio,
+ +10% dmg vs semi-mecha
 Rewards: relic, weapon
 Special rewards: acid, pain, bleed and fire
  resistances, +20% damage
+
   {!Europa Dig Zone: do NOT open valves!}
 Manufacturer perk: ERI: -75% swap time
 Rewards: Relic, stations, AV2 weapon
 Special rewards: cold resistance
+]=]
+
+strings.ui.game.help.mouse_ui.content =
+[=[    {!Europa spoilers 2/2}
+
   {!Europa Ruins}
 Manufacturer perk: (none)
 Rewards: AV3 Combat Armor, AV3 AMP, Frozen Heart
 Special rewards: (none)
+
   {!The Pit}
 Manufacturer perk: none
 Rewards: Backpack
+
   {!Refueling station: open fuel valves!}
 Manufacturer perk: none
 Rewards: Backpack, AV3 visor, AMP
 Special reward: ENV armor
+
   {!Europa Central Dig}
 Manufacturer perk: TODO
 ]=]
 
-strings.ui.game.help.mouse.content =
-[=[  {!Io Black Site}
+strings.ui.game.help.gameplay.content =
+[=[    {!Io spoilers 1/2}
+
+  {!Io Black Site}
 Manufacturer perk: (none)
 Rewards: AV3 or exotic weapons, CRI BFT9K
 Special rewards: (none)
+
   {!CRI Laboratories}
 Manufacturer perk: (CRI: +25% dmg vs demons)
 Rewards: AV3/exotic weapons, CRI armor,
  CRI BFT9K, AV3 favored AMP
 Special rewards: (none)
+
   {!Mephitic Mines: open the valves!}
 Manufacturer perk: IDR: -50% reload time
 Rewards: AV3 Katana, AV3 Marine Armor
 Special rewards: poison resistance (if already
  resistant: poison aura and +50% poison effect)
+]=]
+
+strings.ui.game.help.time.content =
+[=[    {!Io spoilers 2/2}
+
   {!Shadow Halls}
 Manufacturer perk: (none)
 Rewards: Unique exchange, Wishes (with Frozen
  Heart), AV3 favored AMP, AV3 weapons
 Special rewards: (none)
+
   {!Io Warehouse}
 Manufacturer perk: (none)
 Rewards: Lots of lootboxes
+
   {!Infernal Lock: block doors with items!}
 Manufacturer perk: (none)
 Rewards: Exotic mod, lootboxes
+
   {!Gateway}
 Manufacturer perk: (none)
 ]=]
 
-strings.ui.game.help.mouse_ui.content = 
-[=[(not much to put there yet)]=]
+strings.ui.game.help.accuracy.content = 
+[=[    {!Dante spoilers}
 
-strings.ui.game.help.gameplay.content =
-[=[{!  Purgatory paths to uniques}
+(not much to put there yet)]=]
+
+strings.ui.game.help.range.content =
+[=[  {!Purgatory uniques paths spoilers}
+
 {!Exosuit} URRDLD       {!Shadowcloak} DRUL
 {!Cybersuit} URULL      {!Find crown} ULDD
 {!Overlord} DLDDD       {!Firecrown} ULLDRR
@@ -925,12 +965,11 @@ strings.ui.game.help.gameplay.content =
 {!Monster} RRRD         {!Denial} ULLDR
 {!Wavedancer} LDLDRU
 
-{!Europa portal} URR    {!Io portal} RRUU
-{!Dante portal} ULLUL
+{!Europa} URR     {!Io} RRUU        {!Dante} ULLUL
 ]=]
 
-strings.ui.game.help.time.content =
-[=[  {!Wishes}
+strings.ui.game.help.cover.content =
+[=[  {!Wishes spoilers}
 
 
 {!"WEALTH!"} - choose one of three unique weapons. The maximum health reduced by 33%, and the current health to 20. All medkits and multitools are removed from the character's inventory and from the level.
@@ -942,8 +981,8 @@ strings.ui.game.help.time.content =
 {!"HEALTH!"} - Demonblood effect: regenerate 5 health per turn up to 50% of the maximum health, healing effects reduced to 25%. Current health reduced to 1.
 ]=]
 
-strings.ui.game.help.accuracy.content =
-[=[  {!Bulky mod Whizkid cheatsheet}
+strings.ui.game.help.pain.content =
+[=[  {!Bulky mod Whizkid spoilers}
 
 {!Pistol, Semi-Auto,}
 {!SMG, Auto, Rotary}      {!Shotgun, Launcher}
@@ -970,8 +1009,8 @@ Loading Feed           Health Monitor
 Auto Repair            Auto Repair
 ]=]
 
-strings.ui.game.help.range.content =
-[=[  {!Accuracy mod Whizkid cheatsheet}
+strings.ui.game.help.dodge.content =
+[=[  {!Accuracy mod Whizkid spoilers}
 
 {!Pistol, SMG,}           {!Semi-auto,}
 {!Launcher}               {!Auto, Rotary}
@@ -998,8 +1037,8 @@ Pockets                Heat Vision
 Metabolic Boost        Network Scanner
 ]=]
 
-strings.ui.game.help.cover.content =
-[=[  {!Power mod Whizkid cheatsheet}
+strings.ui.game.help.melee.content =
+[=[  {!Power mod Whizkid spoilers}
 
                        {!Semi-auto, Auto,}
 {!Pistol}                 {!Launcher}
@@ -1025,19 +1064,6 @@ Acid Shield            Plated
 Plated                 Crit Enhancer
 Auto Med               Supply Scanner
 ]=]
-
-strings.ui.game.help.pain.content =
-[=[{!empty}
-]=]
-
-strings.ui.game.help.dodge.content =
-[=[{!empty}
-]=]
-
-strings.ui.game.help.melee.content =
-[=[{!empty}
-]=]
-
 
 strings.loc_info = {
     { name = "English",   code = "en", default = true, },
