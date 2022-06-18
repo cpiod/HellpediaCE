@@ -975,7 +975,7 @@ strings.ui.game.help.range.content =
 [=[  {!Purgatory uniques paths spoilers}
 
 {!Exosuit} URRDLD       {!Shadowcloak} DRUL
-{!Cybersuit} URULL      {!Find crown} ULDD
+{!Cybersuit} URULL      {!Fiend crown} ULDD
 {!Overlord} DLDDD       {!Firecrown} ULLDRR
 
 {!Executioner} URUL     {!Soulstealer} DDLLUR (bug)
