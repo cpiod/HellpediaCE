@@ -899,8 +899,9 @@ Rewards: Backpack, AV3 armor or rifle or
 
   {!Refueling station: open fuel valves!}
 Manufacturer perk: none
-Rewards: Backpack, AV3 visor, AV3 AMP,
- AV3 general AMP
+Rewards: Backpack, AV3 visor, AV3 favored AMP,
+ AV3 general AMP, AV3 armor or rifle or AMP,
+ ammo terminal
 Special reward: ENV armor
 
 
