@@ -1,3 +1,5 @@
+nova.log("HellpediaCE is loaded")
+
 utf8 = {
     [0xBF]   = 184, -- ¿
     [0xA1]   = 185, -- ¡
