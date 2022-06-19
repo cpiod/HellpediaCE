@@ -810,23 +810,23 @@ strings.ui.game.help.keyboard.content =
 [=[    {!Callisto spoilers 1/2}
 
   {!Valhalla Terminal: activate lockdown!}
-{!Perk}: ValSec: +25% dmg vs bots
-{!Rewards}: AV2/exo pistol, AV2/exo shotgun, AV2
- headgear
+{!ValSec}: +25% dmg vs bots
+{!Rewards}: AV2/exo pistol+shotgun, AV2 headgear
 {!Special rewards}: CalSec shutdown/hack, Warden
- bypass, rooms: supply (AV2 AMP), weapon (AV2
- favored weapon), armor (AV2 marine armor)
+ bypass. Rooms: supply (AV2 AMP), weapon (AV2
+ favored weapon), armor (AV2 blue armor)
 
   {!Callisto Mines: close portals!}
-{!Perk}: JoviSec: +25% crit dmg
-{!Rewards}: AV2/exo pistol, AV2/exo shotgun, AV
- favored AMP, 2 minor relics
-{!Special rewards}: major relic, Purgatory
+{!JoviSec}: +25% crit dmg
+{!Rewards}: AV2/exo pistol+shotgun, AV2 favored
+ AMP, red relic
+{!Special rewards}: If 1 closed portal: red relic.
+ If 2: Warlock Eye. If 3: Warlock Horn.
 
   {!Callisto Rift: open valves!}
-{!Perk}: JoviSec: +25% crit dmg
-{!Rewards}: AV2 pistol or shotgun, AV2 favored
- AMP, medical and tech stations, 3 multitools
+{!JoviSec}: +25% crit dmg
+{!Rewards}: AV2 pistol/shotgun, AV2 favored
+ AMP, med+tech stations, 3 multitools
 {!Special reward}: poison resistance
 ]=]
 
@@ -834,53 +834,52 @@ strings.ui.game.help.controller.content =
 [=[    {!Callisto spoilers 2/2}
 
   {!Mimir Habitat: hack MDF sentries!}
-{!Perk}: MDF: +1 optimal range
-{!Rewards}: AV2/exo pistol, AV2/exo shotgun, AV2
- favored weapon
+{!MDF}: +1 optimal range
+{!Rewards}: AV2/exo pistol+shotgun, AV2 favored
+ weapon
 {!Special rewards}: CalSec shutdown/reboot, Warden
  bypass, MDF exotic manufacturing station
 
-
   {!Military Barracks}
-{!Perk}: JovicSec: +25% crit dmg
+{!JoviSec}: +25% crit dmg
 {!Rewards}: 2 AV2/exo pistols, 2 AV2/exo shotguns,
  2 AV2/exo rifles, AV2/exo grenade launcher,
  EGLS or AV2 rocket launcher
 
   {!Callisto Docking Bay: activate lockdown!}
 {!Perk}: random Callisto perk
-{!Rewards}: AV2/exo pistol, AV1/exo pistol,
- AV2 shotgun, AV1 shotgun, AV2 marine armor,
- AV2 marine helmet
+{!Rewards}: AV2/exo + AV1/exo pistols,
+ AV2 + AV1 shotguns, AV2 blue armor+helmet
 {!Special reward}: exo visor
-
+{!Remark}: bring 2 red cards for full reward
 
   {!Valhalla Spaceport}
-{!Perk}: ValSec: +25% dmg vs bots
+{!ValSec}: +25% dmg vs bots
 ]=]
 
 strings.ui.game.help.mouse.content =
 [=[    {!Europa spoilers 1/2}
 
   {!Asterius Habitat: hack & protect the bots!}
-{!Perk}: AsterTech: applies chill on damage
-{!Rewards}: Relic, AV2 auto/pistol/shotgun AMP,
- AV2 combat armor, AV2 headgear
+{!AsterTech}: applies chill on damage
+{!Rewards}: AV2 AMP for auto/pistol/shotgun,
+ red relic, AV2 red armor, AV2 headgear
 {!Special rewards}: exotic mod, AT exotic
  manufacturing station
 
-  {!C.C.Biolabs: open valves! (bring multitools)}
-{!Perk}: CCB: +20% dmg vs bio, +10% dmg vs semi-mecha
-{!Rewards}: AV2 pistol, AV2 semi-auto or rifle
-{!Special rewards}: acid, pain, bleed and fire
- resistances. Secret reward: +20% damage
+  {!Conamara Chaos Biolabs: open valves!}
+{!CCB}: +20% dmg vs bio, +10% dmg vs semi-mecha
+{!Rewards}: AV2 pistol, AV2 semi-auto/rifle
+{!Special rewards}: acid, pain, bleed, fire res.
+ (at most 3 of them). Secret reward: +20% dmg
+{!Remark}: bring 9 (if L2/L3 branch) or 6 (if L4
+ branch) multitools to guarantee secret reward
 
   {!Europa Dig Zone: do NOT open valves!}
-{!Perk}: ERI: -75% swap time
-{!Rewards}: AV2 AMP pistol/auto/shotgun/melee or
- AV2 armor or AV2 rifle, Mk2 manu+tech+medical
- stations
-{!Special rewards}: cold resistance
+{!ERI}: -75% swap time
+{!Rewards}: AV2 AMP for pistol/auto/shotgun/melee
+ or AV2 armor/rifle, Mk2 manu+tech+med stations
+{!Special reward}: cold resistance
 ]=]
 
 strings.ui.game.help.mouse_ui.content =
@@ -888,53 +887,43 @@ strings.ui.game.help.mouse_ui.content =
 
   {!Europa Ruins}
 {!Perk}: (none)
-{!Rewards}: AV3 combat armor, AV3 favored AMP,
- Frozen Heart
+{!Rewards}: AV3 red armor, AV3 favored AMP, heart
 {!Special rewards}: (none)
 
-
   {!The Pit}
-{!Perk}: none
-{!Rewards}: Backpack, AV3 armor or rifle or
- semi-auto, AV3 headgear, AV3 favored AMP
+{!Rewards}: backpack, AV3 headgear, AV3 favored
+ AMP, AV3 armor/rifle/semi-auto
 
   {!Refueling station: open fuel valves!}
-{!Perk}: none
-{!Rewards}: Backpack, AV3 visor, AV3 favored AMP,
- AV3 general AMP, AV3 armor or rifle or AMP,
- ammo terminal
+{!Rewards}: backpack, ammo term, AV3 visor,
+ AV3 favored+general AMPs, AV3 armor/rifle/AMP
 {!Special reward}: ENV armor
-
-
-  {!Europa Central Dig}
-{!Perk}: none
 ]=]
 
 strings.ui.game.help.gameplay.content =
 [=[    {!Io spoilers 1/2}
 
-  {!Io Black Site (bring red cards)}
+  {!Io Black Site}
 {!Perk}: (none)
-{!Rewards}: AV3 favored AMP or toxin launcher,
- Mk3 manu. station, AV3 hyperblaster or AWP,
- major relic, CRI BFT9K
-{!Special rewards}: (none)
+{!Rewards}: AV3 favored AMP, Mk3 manu station,
+ AV3 hyperblaster or AWP, purple relic
+{!Special reward}: CRI BFT9K
+{!Remark}: bring 3 red cards for full reward
 
-  {!CRI Laboratories (bring red cards)}
+  {!CRI Laboratories}
 {!Perk}: (CRI: +25% dmg vs demons)
 {!Rewards}: 2 AV3/exo favored weapons, AV3/exo
- pistol/shotgun/rifle, AV3 hyperblaster,
- CRI armor, Mk3 manu. station, AV3 favored
- AMP, CRI BFT9K
-{!Special rewards}: (none)
+ pistol/shotgun/rifle, AV3 hyperblaster, CRI
+ armor, Mk3 manu station, AV3 favored AMP
+{!Special reward}: CRI BFT9K
+{!Remark}: bring 3 red cards for full reward
 
   {!Mephitic Mines: open the valves!}
-{!Perk}: IDR: -50% reload time
-{!Rewards}: AV3 katana, AV3 marine armor, ENV
+{!IDR}: -50% reload time
+{!Rewards}: AV3 katana, AV3 blue armor, ENV
  helmet, AV1 hyperblaster
-{!Special rewards}: poison resistance (if already
- resistant from Rift: strong poison aura and
- +50% poison effect)
+{!Special rewards}: poison resistance. If Rift
+ reward: strong poison aura, +50% poison effect
 ]=]
 
 strings.ui.game.help.time.content =
@@ -942,12 +931,11 @@ strings.ui.game.help.time.content =
 
   {!Shadow Halls}
 {!Perk}: (none)
-{!Rewards}: unique exchange or wishes (with Frozen
- Heart), AV3 favored AMP or toxin launcher,
- AV3 armor, AV3 pistol or rife or smg or
- shotgun, AV3 shotgun or hyperblaster or AWP
+{!Rewards}: unique exchange (Exosuit/Death/Void/
+ Apocalypse) or wishes (if heart), AV3 favored
+ AMP, AV3 red/blue armor, AV3 pistol/SMG/
+ rifle/shotgun, AV3 shotgun/hyperblaster/AWP
 {!Special rewards}: (none)
-
 
   {!Io Warehouse}
 {!Perk}: (none)
@@ -958,27 +946,23 @@ strings.ui.game.help.time.content =
 {!Perk}: (none)
 {!Rewards}: lootboxes, AV3 general AMP
 {!Special reward}: cold/vampiric/EMP/sustain mod
-
-
-  {!Gateway}
-{!Perk}: (none)
 ]=]
 
 strings.ui.game.help.accuracy.content = 
 [=[    {!Dante spoilers}
 
   {!Inferno}
+{!Perk}: (none)
 {!Rewards}: BFT 10K, AV3 general AMP
 ]=]
 
 strings.ui.game.help.range.content =
-[=[  {!Purgatory uniques paths spoilers}
-
+[=[
 {!Exosuit} URRDLD       {!Shadowcloak} DRUL
 {!Cybersuit} URULL      {!Fiend crown} ULDD
 {!Overlord} DLDDD       {!Firecrown} ULLDRR
 
-{!Executioner} URUL     {!Soulstealer} DDLLUR (bug)
+{!Executioner} URUL     {!Soulstealer} DDLLUR bug
 {!Wavesplitter} LDLDL
 
 {!Hate} RURU      {!Death} ULDLD    {!Love} RRDR
@@ -986,10 +970,10 @@ strings.ui.game.help.range.content =
 {!Carnage} ULLL   {!Viper} LDDRR    {!Void} LLDR
 
 {!Vengeance} LDDR       {!Bloodletter} UUUUL
-{!Shadowhunter} DRULLULUU (bug)
+{!Shadowhunter} DRULLULUU bug
 
 {!Thompson} DRRR        {!Hammerhead} RUUUL
-{!Avalanche} URUULL     {!Vulcan} LUULD (bug)
+{!Avalanche} URUULL     {!Vulcan} LUULD bug
 
 {!Scrapgun} DRRU        {!Apocalypse} UUULDD
 
@@ -999,7 +983,7 @@ strings.ui.game.help.range.content =
 {!Monster} RRRD         {!Denial} ULLDR
 {!Wavedancer} LDLDRU
 
-{!Europa} URR     {!Io} RRUU        {!Dante} ULLUL
+{!Europa} URR     {!Io} RRUU        {!Dante} ULLUL bug
 ]=]
 
 strings.ui.game.help.cover.content =
@@ -1016,31 +1000,31 @@ strings.ui.game.help.cover.content =
 ]=]
 
 strings.ui.game.help.pain.content =
-[=[  {!Bulky mod Whizkid spoilers}
+[=[  {!Bulk mod Whizkid spoilers}
 
 {!Pistol, Semi-Auto,}
 {!SMG, Auto, Rotary}      {!Shotgun, Launcher}
-Swap Harness           Swap Harness
-Speed Loader           Loading Holster
-Extended Mag           Extended Mag
-Barbed                 Barbed
-Efficient              Second Chamber
+ Swap Harness           Swap Harness
+ Speed Loader           Loading Holster
+ Extended Mag           Extended Mag
+ Barbed                 Barbed
+ Efficient              Second Chamber
 
 
 {!Melee}
-Swap Harness
-Guarded
-Guard Shield
-Barbed
-Surrounded
+ Swap Harness
+ Guarded
+ Guard Shield
+ Barbed
+ Surrounded
 
 
 {!Armor}                  {!Helmet}
-Durable                Durable
-Fire Resistant         Bot Scanner
-Padded                 Tech Monitor
-Loading Feed           Health Monitor
-Auto Repair            Auto Repair
+ Durable                Durable
+ Fire Resistant         Bot Scanner
+ Padded                 Tech Monitor
+ Loading Feed           Health Monitor
+ Auto Repair            Auto Repair
 ]=]
 
 strings.ui.game.help.dodge.content =
@@ -1048,55 +1032,55 @@ strings.ui.game.help.dodge.content =
 
 {!Pistol, SMG,}           {!Semi-auto,}
 {!Launcher}               {!Auto, Rotary}
-Calibrated             Calibrated
-Stabilized             Stabilized
-Precise                Balanced
-Critical               Critical
-Exalted Bane           Exalted Bane
+ Calibrated             Calibrated
+ Stabilized             Stabilized
+ Precise                Balanced
+ Critical               Critical
+ Exalted Bane           Exalted Bane
 
 
 {!Melee}                  {!Shotgun}
-Retaliate              Calibrated
-Resilient              Stabilized
-Mechanebane            Retaliate
-Critical               Critical
-Exalted Bane           Exalted Bane
+ Retaliate              Calibrated
+ Resilient              Stabilized
+ Mechanebane            Retaliate
+ Critical               Critical
+ Exalted Bane           Exalted Bane
 
 
 {!Armor}                  {!Helmet}
-Swift                  Aim Assist
-Painkiller             Long-range tracking
-Critical               Critical
-Pockets                Heat Vision
-Metabolic Boost        Network Scanner
+ Swift                  Aim Assist
+ Painkiller             Long-range tracking
+ Critical               Critical
+ Pockets                Heat Vision
+ Metabolic Boost        Network Scanner
 ]=]
 
 strings.ui.game.help.melee.content =
 [=[  {!Power mod Whizkid spoilers}
 
-                       {!Semi-auto, Auto,}
-{!Pistol}                 {!Launcher}
-Fresh Mag 3            Longshot
-Ripper                 Ripper
-Longshot               Hunter
-Frenzy                 Frenzy
-Molten                 Molten
+                       {!Semi-auto,}
+{!Pistol}                 {!Auto, Launcher}
+ Fresh Mag              Longshot
+ Ripper                 Ripper
+ Longshot               Hunter
+ Frenzy                 Frenzy
+ Molten                 Molten
 
 
-{!Shotgun}        {!SMG}            {!Melee}
-Point Blank    Cleaner         Cleaner
-Ripper         Ripper          Ripper
-Cleaner        Point Blank     Hunter
-Frenzy         Frenzy          Frenzy
-Molten         Molten          Molten
+{!Shotgun}        {!SMG}             {!Melee}
+ Point Blank    Cleaner         Cleaner
+ Ripper         Ripper          Ripper
+ Cleaner        Point Blank     Hunter
+ Frenzy         Frenzy          Frenzy
+ Molten         Molten          Molten
 
 
 {!Armor}                  {!Helmet}
-Carrier                Exit Scanner
-Meshed                 Danger Monitor
-Acid Shield            Plated
-Plated                 Crit Enhancer
-Auto Med               Supply Scanner
+ Carrier                Exit Scanner
+ Meshed                 Danger Monitor
+ Acid Shield            Plated
+ Plated                 Crit Enhancer
+ Auto Med               Supply Scanner
 ]=]
 
 strings.loc_info = {
