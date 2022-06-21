@@ -894,8 +894,8 @@ strings.ui.game.help.mouse_ui.content =
 {!Rewards}: backpack, AV3 headgear, AV3 favored
  AMP, AV3 armor/rifle/semi-auto
 {!Special reward}: on level up, Rexio gains bleed,
- poison, fire and cold resistances, more HP,
- more damage and new orders: wait, follow, hunt
+ poison, fire & cold res., up to 90% DR, more
+ HP, more dmg, new orders: wait, follow, hunt
 
  {YRefueling station}{!: open fuel valves!}
 {!Rewards}: backpack, ammo term, AV3 visor,
