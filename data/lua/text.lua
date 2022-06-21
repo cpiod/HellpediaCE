@@ -810,21 +810,21 @@ strings.ui.game.help.keyboard.content =
 [=[  {!Callisto spoilers 1/2}
 
  {YValhalla Terminal}{!: activate lockdown!}
-{!ValSec}: +25% dmg vs bots
+{!ValSec}: +25% damage vs bots
 {!Rewards}: AV2/exo pistol+shotgun, AV2 headgear
 {!Special rewards}: CalSec shutdown/hack, Warden
  bypass. Rooms: supply (AV2 AMP), weapon (AV2
  favored weapon), armor (AV2 blue armor)
 
  {YCallisto Mines}{!: close portals!}
-{!JoviSec}: +25% crit dmg
+{!JoviSec}: +25% crit damage
 {!Rewards}: AV2/exo pistol+shotgun, AV2 favored
  AMP, red relic
 {!Special rewards}: If 1 closed portal: red relic.
  If 2: Warlock Eye. If 3: Warlock Horn.
 
  {YCallisto Rift}{!: open valves!}
-{!JoviSec}: +25% crit dmg
+{!JoviSec}: +25% crit damage
 {!Rewards}: AV2 pistol/shotgun, AV2 favored
  AMP, med+tech stations, 3 multitools
 {!Special reward}: poison resistance
@@ -841,7 +841,7 @@ strings.ui.game.help.controller.content =
  bypass, MDF exotic manufacturing station
 
  {YMilitary Barracks}
-{!JoviSec}: +25% crit dmg
+{!JoviSec}: +25% crit damage
 {!Rewards}: 2 AV2/exo pistols, 2 AV2/exo shotguns,
  2 AV2/exo rifles, AV2/exo grenade launcher,
  EGLS or AV2 rocket launcher
@@ -854,7 +854,7 @@ strings.ui.game.help.controller.content =
 {!Remark}: bring 2 red cards for full reward
 
  {YValhalla Spaceport}
-{!ValSec}: +25% dmg vs bots
+{!ValSec}: +25% damage vs bots
 ]=]
 
 strings.ui.game.help.mouse.content =
@@ -914,7 +914,7 @@ strings.ui.game.help.gameplay.content =
 {!Remark}: bring 3 red cards for full reward
 
  {YCRI Laboratories}
-{!Perk}: (CRI: +25% dmg vs demons)
+{!Perk}: (CRI: +25% damage vs demons)
 {!Rewards}: 2 AV3/exo favored weapons, AV3/exo
  pistol/shotgun/rifle, AV3 hyperblaster, CRI
  armor, Mk3 manu station, AV3 favored AMP
@@ -962,10 +962,10 @@ strings.ui.game.help.accuracy.content =
 strings.ui.game.help.range.content =
 [=[
 {!Exosuit} URRDLD       {!Shadowcloak} DRUL
-{!Cybersuit} URULL      {!Fiend crown} ULDD
+{!Cybersuit} URULL      {!Fiend Crown} ULDD
 {!Overlord} DLDDD       {!Firecrown} ULLDRR
 
-{!Executioner} URUL     {!Soulstealer} DDLLUR bug
+{!Executioner} URUL     {!Soulstealer} DDLLUR {Rbug}
 {!Wavesplitter} LDLDL
 
 {!Hate} RURU      {!Death} ULDLD    {!Love} RRDR
@@ -973,10 +973,10 @@ strings.ui.game.help.range.content =
 {!Carnage} ULLL   {!Viper} LDDRR    {!Void} LLDR
 
 {!Vengeance} LDDR       {!Bloodletter} UUUUL
-{!Shadowhunter} DRULLULUU bug
+{!Shadowhunter} DRULLULUU {Rbug}
 
 {!Thompson} DRRR        {!Hammerhead} RUUUL
-{!Avalanche} URUULL     {!Vulcan} LUULD bug
+{!Avalanche} URUULL     {!Vulcan} LUULD {Rbug}
 
 {!Scrapgun} DRRU        {!Apocalypse} UUULDD
 
@@ -986,7 +986,7 @@ strings.ui.game.help.range.content =
 {!Monster} RRRD         {!Denial} ULLDR
 {!Wavedancer} LDLDRU
 
-{!Europa} URR     {!Io} RRUU        {!Dante} ULLUL bug
+{!Europa} URR     {!Io} RRUU        {!Dante} ULLUL {Rbug}
 ]=]
 
 strings.ui.game.help.cover.content =
