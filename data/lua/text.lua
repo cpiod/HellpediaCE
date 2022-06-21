@@ -894,7 +894,7 @@ strings.ui.game.help.mouse_ui.content =
 {!Rewards}: backpack, AV3 headgear, AV3 favored
  AMP, AV3 armor/rifle/semi-auto
 {!Special reward}: on level up, Rexio gains bleed,
- poison, fire & cold res., up to 90% DR, more
+ poison, fire & cold res., up to 80% DR, more
  HP, more dmg, new orders: wait, follow, hunt
 
  {YRefueling station}{!: open fuel valves!}
@@ -1045,14 +1045,14 @@ strings.ui.game.help.dodge.content =
 {!Melee}                  {!Shotgun}
  Retaliate              Calibrated
  Resilient              Stabilized
- Mechanebane            Retaliate
+ Mechabane              Retaliate
  Critical               Critical
  Exalted Bane           Exalted Bane
 
 
 {!Armor}                  {!Helmet}
  Swift                  Aim Assist
- Painkiller             Long-range tracking
+ Painkiller             Long-range Tracking
  Critical               Critical
  Pockets                Heat Vision
  Metabolic Boost        Network Scanner
