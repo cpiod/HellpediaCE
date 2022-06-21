@@ -807,23 +807,23 @@ strings = {
 }
 
 strings.ui.game.help.keyboard.content =
-[=[    {!Callisto spoilers 1/2}
+[=[  {!Callisto spoilers 1/2}
 
-  {!Valhalla Terminal: activate lockdown!}
+ {YValhalla Terminal}{!: activate lockdown!}
 {!ValSec}: +25% dmg vs bots
 {!Rewards}: AV2/exo pistol+shotgun, AV2 headgear
 {!Special rewards}: CalSec shutdown/hack, Warden
  bypass. Rooms: supply (AV2 AMP), weapon (AV2
  favored weapon), armor (AV2 blue armor)
 
-  {!Callisto Mines: close portals!}
+ {YCallisto Mines}{!: close portals!}
 {!JoviSec}: +25% crit dmg
 {!Rewards}: AV2/exo pistol+shotgun, AV2 favored
  AMP, red relic
 {!Special rewards}: If 1 closed portal: red relic.
  If 2: Warlock Eye. If 3: Warlock Horn.
 
-  {!Callisto Rift: open valves!}
+ {YCallisto Rift}{!: open valves!}
 {!JoviSec}: +25% crit dmg
 {!Rewards}: AV2 pistol/shotgun, AV2 favored
  AMP, med+tech stations, 3 multitools
@@ -831,43 +831,43 @@ strings.ui.game.help.keyboard.content =
 ]=]
 
 strings.ui.game.help.controller.content =
-[=[    {!Callisto spoilers 2/2}
+[=[  {!Callisto spoilers 2/2}
 
-  {!Mimir Habitat: hack MDF sentries!}
+ {YMimir Habitat}{!: hack MDF sentries!}
 {!MDF}: +1 optimal range
 {!Rewards}: AV2/exo pistol+shotgun, AV2 favored
  weapon
 {!Special rewards}: CalSec shutdown/reboot, Warden
  bypass, MDF exotic manufacturing station
 
-  {!Military Barracks}
+ {YMilitary Barracks}
 {!JoviSec}: +25% crit dmg
 {!Rewards}: 2 AV2/exo pistols, 2 AV2/exo shotguns,
  2 AV2/exo rifles, AV2/exo grenade launcher,
  EGLS or AV2 rocket launcher
 
-  {!Callisto Docking Bay: activate lockdown!}
+ {YCallisto Docking Bay}{!: activate lockdown!}
 {!Perk}: random Callisto perk
 {!Rewards}: AV2/exo + AV1/exo pistols,
  AV2 + AV1 shotguns, AV2 blue armor+helmet
 {!Special reward}: exo visor
 {!Remark}: bring 2 red cards for full reward
 
-  {!Valhalla Spaceport}
+ {YValhalla Spaceport}
 {!ValSec}: +25% dmg vs bots
 ]=]
 
 strings.ui.game.help.mouse.content =
-[=[    {!Europa spoilers 1/2}
+[=[  {!Europa spoilers 1/2}
 
-  {!Asterius Habitat: hack & protect the bots!}
+ {YAsterius Habitat}{!: hack & protect the bots!}
 {!AsterTech}: applies chill on damage
 {!Rewards}: AV2 AMP for auto/pistol/shotgun,
  red relic, AV2 red armor, AV2 headgear
 {!Special rewards}: exotic mod, AT exotic
  manufacturing station
 
-  {!Conamara Chaos Biolabs: open valves!}
+ {YConamara Chaos Biolabs}{!: open valves!}
 {!CCB}: +20% dmg vs bio, +10% dmg vs semi-mecha
 {!Rewards}: AV2 pistol, AV2 semi-auto/rifle
 {!Special rewards}: acid, pain, bleed, fire res.
@@ -875,7 +875,7 @@ strings.ui.game.help.mouse.content =
 {!Remark}: bring 9 (if L2/L3 branch) or 6 (if L4
  branch) multitools to guarantee secret reward
 
-  {!Europa Dig Zone: do NOT open valves!}
+ {YEuropa Dig Zone}{!: do NOT open valves!}
 {!ERI}: -75% swap time
 {!Rewards}: AV2 AMP for pistol/auto/shotgun/melee
  or AV2 armor/rifle, Mk2 manu+tech+med stations
@@ -883,37 +883,37 @@ strings.ui.game.help.mouse.content =
 ]=]
 
 strings.ui.game.help.mouse_ui.content =
-[=[    {!Europa spoilers 2/2}
+[=[  {!Europa spoilers 2/2}
 
-  {!Europa Ruins}
+ {YEuropa Ruins}
 {!Perk}: (none)
 {!Rewards}: AV3 red armor, AV3 favored AMP, heart
 {!Special rewards}: (none)
 
-  {!The Pit: pet the small Kerberos! (w/ space)}
+ {YThe Pit}{!: pet the small Kerberos w/ {$input_action}!}
 {!Rewards}: backpack, AV3 headgear, AV3 favored
  AMP, AV3 armor/rifle/semi-auto
-{!Special reward}: On level up, Rexio gains bleed,
+{!Special reward}: on level up, Rexio gains bleed,
  poison, fire and cold resistances, more HP,
  more damage and new orders: wait, follow, hunt
 
-  {!Refueling station: open fuel valves!}
+ {YRefueling station}{!: open fuel valves!}
 {!Rewards}: backpack, ammo term, AV3 visor,
  AV3 favored+general AMPs, AV3 armor/rifle/AMP
 {!Special reward}: ENV armor
 ]=]
 
 strings.ui.game.help.gameplay.content =
-[=[    {!Io spoilers 1/2}
+[=[  {!Io spoilers 1/2}
 
-  {!Io Black Site}
+ {YIo Black Site}
 {!Perk}: (none)
 {!Rewards}: AV3 favored AMP, Mk3 manu station,
  AV3 hyperblaster or AWP, purple relic
 {!Special reward}: CRI BFT9K
 {!Remark}: bring 3 red cards for full reward
 
-  {!CRI Laboratories}
+ {YCRI Laboratories}
 {!Perk}: (CRI: +25% dmg vs demons)
 {!Rewards}: 2 AV3/exo favored weapons, AV3/exo
  pistol/shotgun/rifle, AV3 hyperblaster, CRI
@@ -921,7 +921,7 @@ strings.ui.game.help.gameplay.content =
 {!Special reward}: CRI BFT9K
 {!Remark}: bring 3 red cards for full reward
 
-  {!Mephitic Mines: open the valves!}
+ {YMephitic Mines}{!: open the valves!}
 {!IDR}: -50% reload time
 {!Rewards}: AV3 katana, AV3 blue armor, ENV
  helmet, AV1 hyperblaster
@@ -930,9 +930,9 @@ strings.ui.game.help.gameplay.content =
 ]=]
 
 strings.ui.game.help.time.content =
-[=[    {!Io spoilers 2/2}
+[=[  {!Io spoilers 2/2}
 
-  {!Shadow Halls}
+ {YShadow Halls}
 {!Perk}: (none)
 {!Rewards}: unique exchange (Exosuit/Death/Void/
  Apocalypse) or wishes (if heart), AV3 favored
@@ -940,21 +940,21 @@ strings.ui.game.help.time.content =
  rifle/shotgun, AV3 shotgun/hyperblaster/AWP
 {!Special rewards}: (none)
 
-  {!Io Warehouse}
+ {YIo Warehouse}
 {!Perk}: (none)
 {!Rewards}: Lots of lootboxes, hyperblaster
  guaranteed
 
-  {!Infernal Lock: block doors with items!}
+ {YInfernal Lock}{!: block doors with items!}
 {!Perk}: (none)
 {!Rewards}: lootboxes, AV3 general AMP
 {!Special reward}: cold/vampiric/EMP/sustain mod
 ]=]
 
 strings.ui.game.help.accuracy.content = 
-[=[    {!Dante spoilers}
+[=[  {!Dante spoilers}
 
-  {!Inferno}
+ {YInferno}
 {!Perk}: (none)
 {!Rewards}: BFT 10K, AV3 general AMP
 ]=]
