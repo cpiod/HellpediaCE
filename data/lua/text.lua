@@ -890,9 +890,11 @@ strings.ui.game.help.mouse_ui.content =
 {!Rewards}: AV3 red armor, AV3 favored AMP, heart
 {!Special rewards}: (none)
 
-  {!The Pit}
+  {!The Pit: pet the small Kerberos!}
 {!Rewards}: backpack, AV3 headgear, AV3 favored
  AMP, AV3 armor/rifle/semi-auto
+{!Special reward}: the Kerberos with a smaller 3D
+ model can be tamed with the action button
 
   {!Refueling station: open fuel valves!}
 {!Rewards}: backpack, ammo term, AV3 visor,
