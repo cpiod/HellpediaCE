@@ -890,11 +890,12 @@ strings.ui.game.help.mouse_ui.content =
 {!Rewards}: AV3 red armor, AV3 favored AMP, heart
 {!Special rewards}: (none)
 
-  {!The Pit: pet the small Kerberos!}
+  {!The Pit: pet the small Kerberos! (w/ space)}
 {!Rewards}: backpack, AV3 headgear, AV3 favored
  AMP, AV3 armor/rifle/semi-auto
-{!Special reward}: the Kerberos with a smaller 3D
- model can be tamed with the action button
+{!Special reward}: On level up, Rexio gains bleed,
+ poison, fire and cold resistances, more HP,
+ more damage and new orders: wait, follow, hunt
 
   {!Refueling station: open fuel valves!}
 {!Rewards}: backpack, ammo term, AV3 visor,
