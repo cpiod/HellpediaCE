@@ -807,8 +807,7 @@ strings = {
 }
 
 strings.ui.game.help.keyboard.content =
-[=[  {!Callisto spoilers 1/2}
-
+[=[
  {YValhalla Terminal}{!: activate lockdown!}
 {!ValSec}: +25% damage vs bots
 {!Rewards}: AV2/exo pistol+shotgun, AV2 headgear
@@ -816,6 +815,7 @@ strings.ui.game.help.keyboard.content =
  bypass. Rooms: supply (AV2 AMP), weapon (AV2
  favored weapon), armor (AV2 blue armor)
 {!Remark}: bring 1 red card for full reward
+{!Favored unique}: {GFirestorm}
 
  {YCallisto Mines}{!: close portals!}
 {!JoviSec}: +25% crit damage
@@ -834,8 +834,7 @@ strings.ui.game.help.keyboard.content =
 ]=]
 
 strings.ui.game.help.controller.content =
-[=[  {!Callisto spoilers 2/2}
-
+[=[
  {YMimir Habitat}{!: hack MDF sentries!}
 {!MDF}: +1 optimal range
 {!Rewards}: AV2/exo pistol+shotgun, AV2 favored
@@ -843,12 +842,14 @@ strings.ui.game.help.controller.content =
 {!Special rewards}: CalSec shutdown/reboot, Warden
  bypass, MDF exotic manufacturing station
 {!Remark}: bring 1 red card for full reward
+{!Favored unique}: {GLove}
 
  {YMilitary Barracks}
 {!JoviSec}: +25% crit damage
 {!Rewards}: 2 AV2/exo pistols, 2 AV2/exo shotguns,
  2 AV2/exo rifles, AV2/exo grenade launcher,
  EGLS or AV2 rocket launcher, ammo term.
+{!Favored unique}: {GMonster}
 
  {YCallisto Docking Bay}{!: activate lockdown!}
 {!Perk}: random Callisto perk
@@ -856,20 +857,21 @@ strings.ui.game.help.controller.content =
  AV2 + AV1 shotguns, AV2 blue armor+helmet
 {!Special reward}: exo visor
 {!Remark}: bring 2 red cards for full reward
+{!Favored unique}: {GThompson}
 
  {YValhalla Spaceport}
 {!ValSec}: +25% damage vs bots
 ]=]
 
 strings.ui.game.help.mouse.content =
-[=[  {!Europa spoilers 1/2}
-
+[=[
  {YAsterius Habitat}{!: hack & protect the bots!}
 {!AsterTech}: applies chill on damage
 {!Rewards}: AV2 AMP for auto/pistol/shotgun,
  red relic, AV2 red armor, AV2 headgear
 {!Special rewards}: exotic mod/AV2 general AMP,
  6 consumables, AT exotic manu station
+{!Favored unique}: {GHammerhead}
 
  {YConamara Chaos Biolabs}{!: open valves!}
 {!CCB}: +20% dmg vs bio, +10% dmg vs semi-mecha
@@ -878,23 +880,25 @@ strings.ui.game.help.mouse.content =
  (at most 3 of them). Secret reward: +20% dmg
 {!Remark}: bring 9 (if L2/L3 branch) or 6 (if L4
  branch) multitools to guarantee secret reward
+{!Favored unique}: {GAvalanche}
 
  {YEuropa Dig Zone}{!: do NOT open valves!}
 {!ERI}: -75% swap time
 {!Rewards}: AV2 AMP for pistol/auto/shotgun/melee
  or AV2 armor/rifle, Mk2 manu+tech+med stations
 {!Special reward}: cold resistance
+{!Favored unique}: {GWavesplitter}
 ]=]
 
 strings.ui.game.help.mouse_ui.content =
-[=[  {!Europa spoilers 2/2}
-
+[=[
  {YEuropa Ruins}
 {!Perk}: (none yet)
 {!Rewards}: AV3 red armor, AV3 favored AMP, heart
 {!Special rewards}: (none yet)
 {!Remark}: you can take either the heart or the
  armor + AMP safely otherwise guardians spawn
+{!Favored unique}: {GBloodletter}
 
  {YThe Pit}{!: pet the small Kerberos w/ {$input_action}!}
 {!No perk}
@@ -903,23 +907,25 @@ strings.ui.game.help.mouse_ui.content =
 {!Special reward}: on level up, Rexio gains bleed,
  poison, fire & cold res., up to 80% DR, more
  HP and damage, new orders: wait, follow, hunt
+{!Favored unique}: {GDenial}
 
  {YRefueling Base}{!: open fuel valves!}
 {!No perk}
 {!Rewards}: backpack, ammo term, AV3 visor,
  AV3 favored+general AMPs, AV3 armor/rifle/AMP
 {!Special reward}: ENV armor
+{!Favored unique}: {GCalamity}
 ]=]
 
 strings.ui.game.help.gameplay.content =
-[=[  {!Io spoilers 1/2}
-
+[=[
  {YIo Black Site}
 {!Perk}: (none yet)
 {!Rewards}: AV3 favored AMP, Mk3 manu station,
  AV3 hyperblaster or AWP, purple relic
 {!Special reward}: CRI BFT9K when 4 open vaults
 {!Remark}: bring 3 red cards for full reward
+{!Favored unique}: {GShadowhunter}
 
  {YCRI Laboratories}
 {!Perk}: (probably CRI: +25% damage vs demons)
@@ -928,6 +934,7 @@ strings.ui.game.help.gameplay.content =
  armor, Mk3 manu station, AV3 favored AMP
 {!Special reward}: CRI BFT9K when 4 open vaults
 {!Remark}: bring 3 red cards for full reward
+{!Favored unique}: {GWavedancer}
 
  {YMephitic Mines}{!: open the valves!}
 {!IDR}: -50% reload time
@@ -935,11 +942,11 @@ strings.ui.game.help.gameplay.content =
  helmet, AV1 hyperblaster
 {!Special rewards}: poison resistance. With Rift
  reward: strong poison aura, +50% poison effect
+{!Favored unique}: {GBFT 10K}
 ]=]
 
 strings.ui.game.help.time.content =
-[=[  {!Io spoilers 2/2}
-
+[=[
  {YShadow Halls}
 {!Perk}: (none yet)
 {!Rewards}: unique exchange (Exosuit/Death/Void/
@@ -954,6 +961,7 @@ strings.ui.game.help.time.content =
   healing, max HP reduced by 50%, HP set to 20
  {!"HEALTH!"} regenerate 5 HP/s up to 50% of max
   HP, receive 25% less healing, HP set to 1
+{!Favored unique}: {GDeath}
 
  {YIo Warehouse}
 {!Perk}: (none yet)
@@ -963,21 +971,21 @@ strings.ui.game.help.time.content =
 {!Perk}: (none yet)
 {!Rewards}: lootboxes, AV3 general AMP
 {!Special reward}: cold/vampiric/EMP/sustain mod
+{!Favored unique}: {GApocalypse}
 ]=]
 
 strings.ui.game.help.accuracy.content = 
-[=[  {!Dante spoilers}
-
+[=[
  {YThe Shattered Abyss}
 {!Unlock}: kill an enemy with melee on Dante L1
 {!Perk}: (none yet)
 {!Special rule}: melee only!
-{!Rewards}: Soulstealer
+{!Rewards}: {GSoulstealer}
 
  {YInferno}
 {!Unlock}: kill all enemies of Dante L2
 {!Perk}: (none yet)
-{!Rewards}: guaranteed unique (favored: BFT 10K),
+{!Rewards}: guaranteed unique (favored: {GBFT 10K}),
  AV3 general AMP
 ]=]
 
