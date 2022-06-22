@@ -1025,7 +1025,7 @@ strings.ui.game.help.cover.content =
 {!SMG, Auto, Rotary}      {!Shotgun, Launcher}
  Swap Harness           Swap Harness
  Speed Loader           Loading Holster
- Extended Mag           Extended Mag
+ Extended Mag           Autoloader
  Barbed                 Barbed
  Efficient              Second Chamber
 
