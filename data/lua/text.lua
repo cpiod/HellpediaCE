@@ -815,15 +815,16 @@ strings.ui.game.help.keyboard.content =
 {!Special rewards}: CalSec shutdown/hack, Warden
  bypass. Rooms: supply (AV2 AMP), weapon (AV2
  favored weapon), armor (AV2 blue armor)
+{!Remark}: bring 1 red card for full reward
 
  {YCallisto Mines}{!: close portals!}
 {!JoviSec}: +25% crit damage
-{!Rewards}: AV2/exo pistol+shotgun, AV2 favored
- AMP, red relic
-{!Special rewards}: If 1 closed portal: red   {!2 5}
+{!Rewards}: AV2/exo pistol+shotgun, AV2
+ favored AMP, red relic                    {!2 5}
+{!Special rewards}: If 1 closed portal: red
  relic. If 2: Warlock Eye. If 3: Warlock  {!4   3}
- Horn. If >=1: touch pillars in order (cf.  {!1}
- plan) for Purgatory access (only Medium+)
+ Horn. If >=1: touch pillars in order (cf.
+ plan) for Purgatory access (only Medium+)  {!1}
 
  {YCallisto Rift}{!: open valves!}
 {!JoviSec}: +25% crit damage
@@ -841,6 +842,7 @@ strings.ui.game.help.controller.content =
  weapon
 {!Special rewards}: CalSec shutdown/reboot, Warden
  bypass, MDF exotic manufacturing station
+{!Remark}: bring 1 red card for full reward
 
  {YMilitary Barracks}
 {!JoviSec}: +25% crit damage
@@ -867,7 +869,7 @@ strings.ui.game.help.mouse.content =
 {!Rewards}: AV2 AMP for auto/pistol/shotgun,
  red relic, AV2 red armor, AV2 headgear
 {!Special rewards}: exotic mod/AV2 general AMP,
- 6 consumables, AT exotic manu. station
+ 6 consumables, AT exotic manu station
 
  {YConamara Chaos Biolabs}{!: open valves!}
 {!CCB}: +20% dmg vs bio, +10% dmg vs semi-mecha
@@ -892,7 +894,7 @@ strings.ui.game.help.mouse_ui.content =
 {!Rewards}: AV3 red armor, AV3 favored AMP, heart
 {!Special rewards}: (none yet)
 {!Remark}: you can take either the heart or the
- armor + AMP safely, otherwise guardians spawn
+ armor + AMP safely otherwise guardians spawn
 
  {YThe Pit}{!: pet the small Kerberos w/ {$input_action}!}
 {!No perk}
@@ -902,7 +904,7 @@ strings.ui.game.help.mouse_ui.content =
  poison, fire & cold res., up to 80% DR, more
  HP and damage, new orders: wait, follow, hunt
 
- {YRefueling station}{!: open fuel valves!}
+ {YRefueling Base}{!: open fuel valves!}
 {!No perk}
 {!Rewards}: backpack, ammo term, AV3 visor,
  AV3 favored+general AMPs, AV3 armor/rifle/AMP
@@ -916,7 +918,7 @@ strings.ui.game.help.gameplay.content =
 {!Perk}: (none yet)
 {!Rewards}: AV3 favored AMP, Mk3 manu station,
  AV3 hyperblaster or AWP, purple relic
-{!Special reward}: CRI BFT9K
+{!Special reward}: CRI BFT9K when 4 open vaults
 {!Remark}: bring 3 red cards for full reward
 
  {YCRI Laboratories}
@@ -924,7 +926,7 @@ strings.ui.game.help.gameplay.content =
 {!Rewards}: 2 AV3/exo favored weapons, AV3/exo
  pistol/shotgun/rifle, AV3 hyperblaster, CRI
  armor, Mk3 manu station, AV3 favored AMP
-{!Special reward}: CRI BFT9K
+{!Special reward}: CRI BFT9K when 4 open vaults
 {!Remark}: bring 3 red cards for full reward
 
  {YMephitic Mines}{!: open the valves!}
@@ -975,7 +977,8 @@ strings.ui.game.help.accuracy.content =
  {YInferno}
 {!Unlock}: kill all enemies of Dante L2
 {!Perk}: (none yet)
-{!Rewards}: BFT 10K, AV3 general AMP
+{!Rewards}: guaranteed unique (favored: BFT 10K),
+ AV3 general AMP
 ]=]
 
 strings.ui.game.help.range.content =
@@ -998,7 +1001,7 @@ strings.ui.game.help.range.content =
 
 {!Scrapgun} DRRU        {!Apocalypse} UUULDD
 
-{!BFG10K} ULDLDD        {!Firestorm} ULLD
+{!BFT 10K} ULDLDD        {!Firestorm} ULLD
 {!Calamity} ULLDD
 
 {!Monster} RRRD         {!Denial} ULLDR
