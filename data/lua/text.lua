@@ -389,10 +389,10 @@ strings = {
                 time       = { title = "Io", },
                 accuracy   = { title = "Dante", },
                 range      = { title = "Purgatory", },
-                cover      = { title = "Wishes", },
-                pain       = { title = "B Whizkid", },
-                dodge      = { title = "A Whizkid", },
-                melee      = { title = "P Whizkid", },
+                cover      = { title = "B Whizkid", },
+                pain       = { title = "A Whizkid", },
+                dodge      = { title = "P Whizkid", },
+                melee      = { title = "", },
                 footer     = "press <{$input_ui_up},{$input_ui_down}> or <{$input_ui_confirm},{$input_ui_cancel}> to continue",
             },
 			tutorial = {
@@ -844,7 +844,7 @@ strings.ui.game.help.controller.content =
 {!JoviSec}: +25% crit damage
 {!Rewards}: 2 AV2/exo pistols, 2 AV2/exo shotguns,
  2 AV2/exo rifles, AV2/exo grenade launcher,
- EGLS or AV2 rocket launcher
+ EGLS or AV2 rocket launcher, ammo term.
 
  {YCallisto Docking Bay}{!: activate lockdown!}
 {!Perk}: random Callisto perk
@@ -935,15 +935,21 @@ strings.ui.game.help.time.content =
  {YShadow Halls}
 {!Perk}: (none)
 {!Rewards}: unique exchange (Exosuit/Death/Void/
- Apocalypse) or wishes (if heart), AV3 favored
+ Apocalypse) OR wishes (if heart), AV3 favored
  AMP, AV3 red/blue armor, AV3 pistol/SMG/
  rifle/shotgun, AV3 shotgun/hyperblaster/AWP
-{!Special rewards}: (none)
+{!Special reward}: select one wish:
+ {!"WEALTH!"} choose one among three uniques. Max
+  HP reduced by 33%, HP set to 20, all medkit
+  and multitools removed from player and level
+ {!"POWER!"} +50% damage, receive 50% less
+  healing, max HP reduced by 50%, HP to 20
+ {!"HEALTH!"} regenerate 5 HP/turn up to 50% of
+  max HP, receive 25% less healing, HP set to 1
 
  {YIo Warehouse}
 {!Perk}: (none)
-{!Rewards}: Lots of lootboxes, hyperblaster
- guaranteed
+{!Rewards}: lots of lootboxes, AV3 hyperblaster
 
  {YInfernal Lock}{!: block doors with items!}
 {!Perk}: (none)
@@ -990,19 +996,6 @@ strings.ui.game.help.range.content =
 ]=]
 
 strings.ui.game.help.cover.content =
-[=[  {!Wishes spoilers}
-
-
-{!"WEALTH!"} - choose one of three unique weapons. The maximum health reduced by 33%, and the current health to 20. All medkits and multitools are removed from the character's inventory and from the level.
-
-
-{!"POWER!"} - Demonblood effect: +50% damage, receive 50% less healing. The maximum health reduced by 50%, and the current health to 20.
-
-
-{!"HEALTH!"} - Demonblood effect: regenerate 5 health per turn up to 50% of the maximum health, healing effects reduced to 25%. Current health reduced to 1.
-]=]
-
-strings.ui.game.help.pain.content =
 [=[  {!Bulk mod Whizkid spoilers}
 
 {!Pistol, Semi-Auto,}
@@ -1030,7 +1023,7 @@ strings.ui.game.help.pain.content =
  Auto Repair            Auto Repair
 ]=]
 
-strings.ui.game.help.dodge.content =
+strings.ui.game.help.pain.content =
 [=[  {!Accuracy mod Whizkid spoilers}
 
 {!Pistol, SMG,}           {!Semi-auto,}
@@ -1058,7 +1051,7 @@ strings.ui.game.help.dodge.content =
  Metabolic Boost        Network Scanner
 ]=]
 
-strings.ui.game.help.melee.content =
+strings.ui.game.help.dodge.content =
 [=[  {!Power mod Whizkid spoilers}
 
                        {!Semi-auto,}
@@ -1085,6 +1078,11 @@ strings.ui.game.help.melee.content =
  Plated                 Crit Enhancer
  Auto Med               Supply Scanner
 ]=]
+
+strings.ui.game.help.melee.content =
+[=[(empty)
+]=]
+
 
 strings.loc_info = {
     { name = "English",   code = "en", default = true, },
