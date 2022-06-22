@@ -820,8 +820,10 @@ strings.ui.game.help.keyboard.content =
 {!JoviSec}: +25% crit damage
 {!Rewards}: AV2/exo pistol+shotgun, AV2 favored
  AMP, red relic
-{!Special rewards}: If 1 closed portal: red relic.
- If 2: Warlock Eye. If 3: Warlock Horn.
+{!Special rewards}: If 1 closed portal: red   {!2 5}
+ relic. If 2: Warlock Eye. If 3: Warlock  {!4   3}
+ Horn. If >=1: touch pillars in order (cf.  {!1}
+ plan) for Purgatory access (only Medium+)
 
  {YCallisto Rift}{!: open valves!}
 {!JoviSec}: +25% crit damage
@@ -864,8 +866,8 @@ strings.ui.game.help.mouse.content =
 {!AsterTech}: applies chill on damage
 {!Rewards}: AV2 AMP for auto/pistol/shotgun,
  red relic, AV2 red armor, AV2 headgear
-{!Special rewards}: exotic mod, AT exotic
- manufacturing station
+{!Special rewards}: exotic mod/AV2 general AMP,
+ 6 consumables, AT exotic manu. station
 
  {YConamara Chaos Biolabs}{!: open valves!}
 {!CCB}: +20% dmg vs bio, +10% dmg vs semi-mecha
@@ -886,18 +888,22 @@ strings.ui.game.help.mouse_ui.content =
 [=[  {!Europa spoilers 2/2}
 
  {YEuropa Ruins}
-{!Perk}: (none)
+{!Perk}: (none yet)
 {!Rewards}: AV3 red armor, AV3 favored AMP, heart
-{!Special rewards}: (none)
+{!Special rewards}: (none yet)
+{!Remark}: you can take either the heart or the
+ armor + AMP safely, otherwise guardians spawn
 
  {YThe Pit}{!: pet the small Kerberos w/ {$input_action}!}
+{!No perk}
 {!Rewards}: backpack, AV3 headgear, AV3 favored
  AMP, AV3 armor/rifle/semi-auto
 {!Special reward}: on level up, Rexio gains bleed,
  poison, fire & cold res., up to 80% DR, more
- HP, more dmg, new orders: wait, follow, hunt
+ HP and damage, new orders: wait, follow, hunt
 
  {YRefueling station}{!: open fuel valves!}
+{!No perk}
 {!Rewards}: backpack, ammo term, AV3 visor,
  AV3 favored+general AMPs, AV3 armor/rifle/AMP
 {!Special reward}: ENV armor
@@ -907,14 +913,14 @@ strings.ui.game.help.gameplay.content =
 [=[  {!Io spoilers 1/2}
 
  {YIo Black Site}
-{!Perk}: (none)
+{!Perk}: (none yet)
 {!Rewards}: AV3 favored AMP, Mk3 manu station,
  AV3 hyperblaster or AWP, purple relic
 {!Special reward}: CRI BFT9K
 {!Remark}: bring 3 red cards for full reward
 
  {YCRI Laboratories}
-{!Perk}: (CRI: +25% damage vs demons)
+{!Perk}: (probably CRI: +25% damage vs demons)
 {!Rewards}: 2 AV3/exo favored weapons, AV3/exo
  pistol/shotgun/rifle, AV3 hyperblaster, CRI
  armor, Mk3 manu station, AV3 favored AMP
@@ -925,7 +931,7 @@ strings.ui.game.help.gameplay.content =
 {!IDR}: -50% reload time
 {!Rewards}: AV3 katana, AV3 blue armor, ENV
  helmet, AV1 hyperblaster
-{!Special rewards}: poison resistance. If Rift
+{!Special rewards}: poison resistance. With Rift
  reward: strong poison aura, +50% poison effect
 ]=]
 
@@ -933,26 +939,26 @@ strings.ui.game.help.time.content =
 [=[  {!Io spoilers 2/2}
 
  {YShadow Halls}
-{!Perk}: (none)
+{!Perk}: (none yet)
 {!Rewards}: unique exchange (Exosuit/Death/Void/
- Apocalypse) OR wishes (if heart), AV3 favored
+ Apocalypse) OR wish (if heart), AV3 favored
  AMP, AV3 red/blue armor, AV3 pistol/SMG/
  rifle/shotgun, AV3 shotgun/hyperblaster/AWP
 {!Special reward}: select one wish:
- {!"WEALTH!"} choose one among three uniques. Max
-  HP reduced by 33%, HP set to 20, all medkit
+ {!"WEALTH!"} choose one among three uniques, max
+  HP reduced by 33%, HP set to 20, all medkits
   and multitools removed from player and level
  {!"POWER!"} +50% damage, receive 50% less
-  healing, max HP reduced by 50%, HP to 20
- {!"HEALTH!"} regenerate 5 HP/turn up to 50% of
-  max HP, receive 25% less healing, HP set to 1
+  healing, max HP reduced by 50%, HP set to 20
+ {!"HEALTH!"} regenerate 5 HP/s up to 50% of max
+  HP, receive 25% less healing, HP set to 1
 
  {YIo Warehouse}
-{!Perk}: (none)
+{!Perk}: (none yet)
 {!Rewards}: lots of lootboxes, AV3 hyperblaster
 
  {YInfernal Lock}{!: block doors with items!}
-{!Perk}: (none)
+{!Perk}: (none yet)
 {!Rewards}: lootboxes, AV3 general AMP
 {!Special reward}: cold/vampiric/EMP/sustain mod
 ]=]
@@ -961,13 +967,12 @@ strings.ui.game.help.accuracy.content =
 [=[  {!Dante spoilers}
 
  {YInferno}
-{!Perk}: (none)
+{!Perk}: (none yet)
 {!Rewards}: BFT 10K, AV3 general AMP
 ]=]
 
 strings.ui.game.help.range.content =
-[=[
-{!Exosuit} URRDLD       {!Shadowcloak} DRUL
+[=[{!Exosuit} URRDLD       {!Shadowcloak} DRUL
 {!Cybersuit} URULL      {!Fiend Crown} ULDD
 {!Overlord} DLDDD       {!Firecrown} ULLDRR
 
