@@ -966,7 +966,14 @@ strings.ui.game.help.time.content =
 strings.ui.game.help.accuracy.content = 
 [=[  {!Dante spoilers}
 
+ {YThe Shattered Abyss}
+{!Unlock}: kill an enemy with melee on Dante L1
+{!Perk}: (none yet)
+{!Special rule}: melee only!
+{!Rewards}: Soulstealer
+
  {YInferno}
+{!Unlock}: kill all enemies of Dante L2
 {!Perk}: (none yet)
 {!Rewards}: BFT 10K, AV3 general AMP
 ]=]
