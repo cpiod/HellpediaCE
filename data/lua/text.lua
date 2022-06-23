@@ -965,7 +965,7 @@ strings.ui.game.help.time.content =
 
  {YIo Warehouse}
 {!Perk}: (none yet)
-{!Rewards}: lots of lootboxes, AV3 hyperblaster
+{!Rewards}: lots of lootboxes, AV1 hyperblaster
 
  {YInfernal Lock}{!: block doors with items!}
 {!Perk}: (none yet)
