@@ -839,8 +839,8 @@ strings.ui.game.help.controller.content =
 {!MDF}: +1 optimal range
 {!Rewards}: AV2/exo pistol+shotgun, AV2 favored
  weapon
-{!Special rewards}: CalSec shutdown/reboot, Warden
- bypass, MDF exotic manufacturing station
+{!Special rewards}: CalSec shutdown/reboot, MDF
+ exotic manufacturing station
 {!Remark}: bring 1 red card for full reward
 {!Favored unique}: {GLove}
 
