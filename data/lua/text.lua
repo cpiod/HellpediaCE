@@ -878,8 +878,8 @@ strings.ui.game.help.mouse.content =
 {!Rewards}: AV2 pistol, AV2 semi-auto/rifle
 {!Special rewards}: acid, pain, bleed, fire res.
  (at most 3 of them). Secret reward: +20% dmg
-{!Remark}: bring 9 (if L2/L3 branch) or 6 (if L4
- branch) multitools to guarantee secret reward
+{!Remark}: bring 9 multitools to guarantee secret
+ reward (only available if L2 or L3 branch)
 {!Favored unique}: {GAvalanche}
 
  {YEuropa Dig Zone}{!: do NOT open valves!}
