@@ -825,12 +825,14 @@ strings.ui.game.help.keyboard.content =
  relic. If 2: Warlock Eye. If 3: Warlock  {!4   3}
  Horn. If >=1: touch pillars in order (cf.
  plan) for Purgatory access (only Medium+)  {!1}
+{!Favored unique}: {GExecutioner}
 
  {YCallisto Rift}{!: open valves!}
 {!JoviSec}: +25% crit damage
 {!Rewards}: AV2 pistol/shotgun, AV2 favored
  AMP, med+tech stations, 3 multitools
 {!Special reward}: poison resistance
+{!Favored unique}: none
 ]=]
 
 strings.ui.game.help.controller.content =
@@ -869,7 +871,7 @@ strings.ui.game.help.mouse.content =
 {!AsterTech}: applies chill on damage
 {!Rewards}: AV2 AMP for auto/pistol/shotgun,
  red relic, AV2 red armor, AV2 headgear
-{!Special rewards}: exotic mod/AV2 general AMP,
+{!Special rewards}: exotic mod/AV1 general AMP,
  6 consumables, AT exotic manu station
 {!Favored unique}: {GHammerhead}
 
