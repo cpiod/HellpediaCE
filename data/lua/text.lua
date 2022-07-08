@@ -893,7 +893,6 @@ strings.ui.game.help.mouse.content =
 {!Special reward}: cold resistance
 {!Favored unique}: {GWavesplitter}
 
-* Favored uniques are 3 times more likely
 ]=]
 
 strings.ui.game.help.mouse_ui.content =
@@ -955,8 +954,8 @@ strings.ui.game.help.time.content =
 [=[
  {YShadow Halls}
 {!Perk}: (none yet)
-{!Rewards}: unique exchange (Exosuit/Death/Void/
- Apocalypse) OR wish (if heart), AV3 favored
+{!Rewards}: unique exchange (random: Exosuit/Void/
+ Death/Apocalypse) OR wish (if heart), AV3 fav.
  AMP, AV3 red/blue armor, AV3 pistol/SMG/
  rifle/shotgun, AV3 shotgun/hyperblaster/AWP
 {!Special reward}: select one wish:
@@ -1114,15 +1113,14 @@ strings.ui.game.help.dodge.content =
  {!Tier 1}
 {GExecutioner} ({!Callisto Mines}) knife that
  autokills low HP targets
-{GLove}{!*} ({!Mimir Habitat}) vampiric .44 revolver
+{GLove} ({!Mimir Habitat}) vampiric .44 revolver
 {GCarnage} 9mm SMG, attacks other targets on kill
 {GVengeance} .44 hunter rifle, stacks crit chance
  if not manually reloaded (get a loading feed!)
-{GThompson} ({!Callisto Docking Bay}) .44 auto rifle
- with "Spin-up"
+{GThompson} ({!Docking Bay}) .44 auto w/ spin-up
 {GScrapgun} moddable 9mm chaingun, ammo efficient
 {GMonster} ({!Military Barracks}) low range, high
- damage double shotgun wit 25% swap time
+ damage 12ga double shotgun with 25% swap time
 {GFirestorm} ({!Valhalla Terminal}) fireball
  launcher with regenerating ammo
 {GShadowcloak} armor, no penalty, stealths on kill
@@ -1131,36 +1129,35 @@ strings.ui.game.help.dodge.content =
  {!Tier 2}
 {GWavesplitter} ({!Europa Dig Zone}) plasma blade,
  charges a ranged attack
-{GHate}{!*} 7.62 sidearm, stacks crit chance on hits
-{GTwin Viper} 7.62 SMG, inflicts poison, drops
- second copy on level up for dual wielding
+{GHate} 7.62 sidearm, stacks crit chance on hits
+{GTwin Viper} 7.62 SMG, inflicts poison, gets copy
 {GBloodletter} ({!Europa Ruins}) sniper rifle,
  uses health as ammo
 {GHammerhead} ({!Asterius Habitat}) 7.62 pierce
- rifle, always hits
+ damage rifle, always hits
 {GVulcan} pierce damage chaingun
+{GDenial} ({!The Pit}) 12ga autoshotty with a
+ secondary freeze shockwave
 ]=]
 
 strings.ui.game.help.melee.content =
 [=[
  {!Tier 2} (cont.)
-{GDenial} ({!The Pit}) 12ga autoshotty with a
- secondary freeze shockwave
-{GCalamity} ({!Refueling Base}) archmedusa's
- plasma beam launcher
+{GCalamity} ({!Refueling Base}) plasma beam launcher
 {GCybersuit} {Runremovable} armor, high dodge
  penalty, high defense, many mod slots
-{GOverlord} helmet, turns all mechs friendly
+{GOverlord} helmet, turns mechs friendly
 
  {!Tier 3}
-{GSoulstealer} sword, gains dmg and max HP on kill
-{GDeath}{!*} ({!Shadow Halls}) plasma pistol, lethal DoT
+{GSoulstealer} sword, gains damage and max HP on
+ kill, no dual-wielding, Shattered Abyss only
+{GDeath} ({!Shadow Halls}) plasma pistol, lethal DoT
 {GVoid} plasma SMG with infinite ammo
 {GShadowhunter} ({!Io Black Site}) railgun whose
  bullets jump to multiple targets
 {GAvalanche} ({!Conamara Chaos Biolabs}) plasma
  rifle with regenerating ammo
-{GApocalypse} ({!Io Warehouse}) hyperblaster
+{GApocalypse} ({!Infernal Lock}) hyperblaster
  with explosions on impact
 {GWavedancer} ({!CRI Labs}) plasma shotgun
  with explosions on impact
@@ -1170,7 +1167,9 @@ strings.ui.game.help.melee.content =
  movement and action speed
 {GFirecrown} helmet, sets enemies in sight on fire
 
-{!*} dual-wielded unique pistols share perks
+{!*} dual-wielded unique pistols share their perks
+{!*} one moon has a unique: 20% Ca, 40% Eu, 40% Io
+{!*} favored uniques are 3 times more likely
 ]=]
 
 
