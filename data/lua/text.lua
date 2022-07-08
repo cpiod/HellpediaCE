@@ -827,16 +827,6 @@ strings.ui.game.help.keyboard.content =
  plan) for Purgatory access (only Medium+)  {!1}
 {!Favored unique}: {GExecutioner}
 
- {YCallisto Rift}{!: open valves!}
-{!JoviSec}: +25% crit damage
-{!Rewards}: AV2 pistol/shotgun, AV2 favored
- AMP, med+tech stations, 3 multitools
-{!Special reward}: poison resistance
-{!Favored unique}: none
-]=]
-
-strings.ui.game.help.controller.content =
-[=[
  {YMimir Habitat}{!: hack MDF sentries!}
 {!MDF}: +1 optimal range
 {!Rewards}: AV2/exo pistol+shotgun, AV2 favored
@@ -845,6 +835,15 @@ strings.ui.game.help.controller.content =
  exotic manufacturing station
 {!Remark}: bring 1 red card for full reward
 {!Favored unique}: {GLove}
+]=]
+
+strings.ui.game.help.controller.content =
+[=[
+ {YCallisto Rift}{!: open valves!}
+{!JoviSec}: +25% crit damage
+{!Rewards}: AV2 pistol/shotgun, AV2 favored
+ AMP, med+tech stations, 3 multitools
+{!Special reward}: poison resistance
 
  {YMilitary Barracks}
 {!JoviSec}: +25% crit damage
@@ -861,7 +860,10 @@ strings.ui.game.help.controller.content =
 {!Remark}: bring 2 red cards for full reward
 {!Favored unique}: {GThompson}
 
- {YValhalla Spaceport}
+ {YCallisto Hub} (L4)
+{!Remark}: Europa Report (branch list) in terminal
+
+ {YValhalla Spaceport} (outro level)
 {!ValSec}: +25% damage vs bots
 ]=]
 
@@ -890,6 +892,8 @@ strings.ui.game.help.mouse.content =
  or AV2 armor/rifle, Mk2 manu+tech+med stations
 {!Special reward}: cold resistance
 {!Favored unique}: {GWavesplitter}
+
+* Favored uniques are 3 times more likely
 ]=]
 
 strings.ui.game.help.mouse_ui.content =
