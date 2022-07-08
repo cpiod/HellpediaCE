@@ -817,17 +817,17 @@ strings.ui.game.help.keyboard.content =
 {!Remark}: bring 1 red card for full reward
 {!Favored unique}: {GFirestorm} (5% chance)
 
- {YCallisto Mines}{!: close portals!}
+ {YCallisto Mines}{!: close} {Mportals}{!, QUICK!}
 {!JoviSec}: +25% crit damage
 {!Rewards}: AV2/exo pistol+shotgun, AV2
  favored AMP, red relic                    {!2 5}
 {!Special rewards}: If 1 closed portal: red
  relic. If 2: Warlock Eye. If 3: Warlock  {!4   3}
  Horn. If >=1: touch pillars in order (cf.
- plan) for Purgatory access (only Medium+)  {!1}
+ plan) for {!Purgatory} access (only Medium+)  {!1}
 {!Favored unique}: {GExecutioner} (5% chance)
 
- {YMimir Habitat}{!: hack MDF sentries!}
+ {YMimir Habitat}{!: dl codes from MDF sentries!}
 {!MDF}: +1 optimal range
 {!Rewards}: AV2/exo pistol+shotgun, AV2 favored
  weapon
@@ -861,7 +861,7 @@ strings.ui.game.help.controller.content =
 {!Favored unique}: {GThompson} (5% chance)
 
  {YCallisto Hub} (L4)
-{!Remark}: Europa Report (branch list) in terminal
+{!Secret}: Europa branch list in terminal for 1 mt
 
  {YValhalla Spaceport} (outro level)
 {!ValSec}: +25% damage vs bots
@@ -869,7 +869,7 @@ strings.ui.game.help.controller.content =
 
 strings.ui.game.help.mouse.content =
 [=[
- {YAsterius Habitat}{!: hack & protect the bots!}
+ {YAsterius Habitat}{!: hack & protect AT sentries!}
 {!AsterTech}: applies chill on damage
 {!Rewards}: AV2 AMP for auto/pistol/shotgun,
  red relic, AV2 red armor, AV2 headgear
@@ -877,7 +877,7 @@ strings.ui.game.help.mouse.content =
  6 consumables, AT exotic manu station
 {!Favored unique}: {GHammerhead} (5% chance)
 
- {YConamara Chaos Biolabs}{!: open valves!}
+ {YC. Chaos Biolabs}{!: open valves, get essences!}
 {!CCB}: +20% dmg vs bio, +10% dmg vs semi-mecha
 {!Rewards}: AV2 pistol, AV2 semi-auto/rifle
 {!Special rewards}: acid, pain, bleed, fire res.
@@ -886,7 +886,7 @@ strings.ui.game.help.mouse.content =
  reward (only available if L2 or L3 branch)
 {!Favored unique}: {GAvalanche} (5% chance)
 
- {YEuropa Dig Zone}{!: do NOT open valves!}
+ {YEuropa Dig Zone}{!: do} {RNOT} {!open valves!}
 {!ERI}: -75% swap time
 {!Rewards}: AV2 AMP for pistol/auto/shotgun/melee
  or AV2 armor/rifle, Mk2 manu+tech+med stations
@@ -905,7 +905,7 @@ strings.ui.game.help.mouse_ui.content =
  armor + AMP safely otherwise guardians spawn
 {!Favored unique}: {GBloodletter} (5% chance)
 
- {YThe Pit}{!: pet the small Kerberos w/ {$input_action}!}
+ {YThe Pit}{!: pet the smaller Kerberos w/ {$input_action}!}
 {!No perk}
 {!Rewards}: backpack, AV3 headgear, AV3 favored
  AMP, AV3 armor/rifle/semi-auto
@@ -918,7 +918,8 @@ strings.ui.game.help.mouse_ui.content =
 {!No perk}
 {!Rewards}: backpack, ammo term, AV3 visor,
  AV3 favored+general AMPs, AV3 armor/rifle/AMP
-{!Special reward}: ENV armor
+{!Special reward}: ENV armor (fire, cold and
+ 50% poison resistances)
 {!Favored unique}: {GCalamity} (5% chance)
 ]=]
 
@@ -941,10 +942,11 @@ strings.ui.game.help.gameplay.content =
 {!Remark}: bring 3 red cards for full reward
 {!Favored unique}: {GWavedancer} (5% chance)
 
- {YMephitic Mines}{!: open the valves!}
+ {YMephitic Mines}{!: reroute the gas!}
 {!IDR}: -50% reload time
 {!Rewards}: AV3 katana, AV3 blue armor, ENV
- helmet, AV1 hyperblaster
+ helmet (dark vision, heatvision + poison, 50%
+ fire, 50% cold resistances), AV1 hyperblaster
 {!Special rewards}: poison resistance. With Rift
  reward: strong poison aura, +50% poison effect
 {!Favored unique}: {GBFT 10K} (5% chance)
@@ -991,7 +993,7 @@ strings.ui.game.help.accuracy.content =
 {!Unlock}: kill all enemies of Dante L2
 {!Perk}: (none yet)
 {!Rewards}: guaranteed unique, AV3 general AMP
-{!Favored unique}: {GBFT 10K} (25% chance)
+{!Favored unique}: {GBFT 10K} (25% chance!)
 
  {YPurgatory paths} (red ones are broken)
     {!Tier 1}         {!Tier 2}          {!Tier 3}
@@ -1006,7 +1008,7 @@ strings.ui.game.help.accuracy.content =
 {GSh.cloak}  DRUL {GCy.suit}  URULL {GExosuit}    URRDLD
 {GFd Crown}  ULDD {GOverlord} DLDDD {GFirecrown}  ULLDRR
 
-{!Eu portal}  URR {!Io portal} RRUU {!Da portal}   {RULLUL}
+{MEu portal}  URR {MIo portal} RRUU {MDa portal}   {RULLUL}
 ]=]
 
 strings.ui.game.help.pain.content =
@@ -1095,7 +1097,7 @@ strings.ui.game.help.melee.content =
 
 strings.ui.game.help.range.content =
 [=[
-{GExecutioner} ({!Callisto Mines}) knife that   {YCa,Eu}
+{GExecutioner} ({!Callisto Mines}) knife that {Y[Ca,Eu]}
  one-shots low (60/90/120) HP targets
 {GLove} ({!Mimir Habitat}) vampiric .44 revolver
 {GCarnage} 9mm SMG, attacks other targets on kill
@@ -1111,7 +1113,7 @@ strings.ui.game.help.range.content =
 {GFiend Crown} helmet, grants dark vision, turns
  fiends neutral/friendly
 
-{GWavesplitter} ({!Europa Dig Zone}) plasma     {YEu,Io}
+{GWavesplitter} ({!Europa Dig Zone}) plasma   {Y[Eu,Io]}
  blade, charges a slash ranged attack
 {GHate} 7.62 sidearm, stacks crit chance on hits
 {GTwin Viper} 7.62 SMG, inflicts poison, gets copy
@@ -1131,8 +1133,8 @@ strings.ui.game.help.cover.content =
  high dodge penalty, many mod slots
 {GOverlord} helmet, turns mechs neutral/friendly
 
-{GSoulstealer} ({!Sh. Abyss} only) sword, gains {YIo,Da}
- damage and max HP on kill, no dual-wielding
+{GSoulstealer} ({!Sh. Abyss} only) sword, on  {Y[Io,Da]}
+ kill gains damage and max HP, no dual-wielding
 {GDeath} ({!Shadow Halls}) plasma pistol, lethal DoT
 {GVoid} plasma SMG with infinite ammo
 {GShadowhunter} ({!Io Black Site}) railgun with
