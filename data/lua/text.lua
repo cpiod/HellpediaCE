@@ -808,7 +808,7 @@ strings = {
 
 strings.ui.game.help.keyboard.content =
 [=[
- {YValhalla Terminal}{!: activate lockdown!}
+ {YValhalla Terminal}{!: activate lockdowns!}
 {!ValSec}: +25% damage vs bots
 {!Rewards}: AV2/exo pistol+shotgun, AV2 headgear
 {!Special rewards}: CalSec shutdown/hack, Warden
@@ -1124,7 +1124,7 @@ strings.ui.game.help.dodge.content =
 {GMonster} ({!Military Barracks}) low range/high
  damage double shotgun
 {GFirestorm} ({!Valhalla Terminal}) fireball
- launcher w/regenerating ammo
+ launcher with regenerating ammo
 {GShadowcloak} armor, no penalty, stealths on kill
 {GFiend Crown} helmet, turns fiends friendly
 
@@ -1142,7 +1142,7 @@ strings.ui.game.help.dodge.content =
 
 strings.ui.game.help.melee.content =
 [=[
- {!Tier 2} (continued)
+ {!Tier 2} (cont.)
 {GVulcan} pierce damage chaingun
 {GDenial} ({!The Pit}) 12ga autoshotty with a
  secondary freeze shockwave
@@ -1154,20 +1154,20 @@ strings.ui.game.help.melee.content =
 
  {!Tier 3}
 {GSoulstealer} sword, gains dmg and max HP on kill
-{GDeath} ({!Shadow Halls}) plasma pistol, inflicts
- lethal DoT
+{GDeath} ({!Shadow Halls}) plasma pistol, lethal DoT
 {GVoid} plasma SMG with infinite ammo
-{GShadowhunter} ({!Io Black Site}) railgun that
+{GShadowhunter} ({!Io Black Site}) railgun, bullet
  jumps to multiple targets
 {GAvalanche} ({!Conamara Chaos Biolabs}) plasma
  rifle with regenerating ammo
 {GApocalypse} ({!Io Warehouse}) hyperblaster
- w/explosions on impact
+ with explosions on impact
 {GWavedancer} ({!CRI Labs}) plasma shotgun
- w/explosions on impact
+ with explosions on impact
 {GBFT 10k} ({!Mephitic Mines and Dante Inferno})
- BFT w/multiple jumps
-{GExosuit} armor, boosts movement and action speed
+ BFT with multiple jumps
+{GExosuit} armor, no dodge penalty, boosts
+ movement and action speed
 {GFirecrown} helmet, sets enemies in sight on fire
 ]=]
 

@@ -3,10 +3,10 @@
 **This mod contains a lot of spoilers for Jupiter Hell!**
 
 This Jupiter Hell mod replaces the "help" section with some cheatsheets on:
-- the branches in Callisto, Europa and Io, their mechanisms, their perks and rewards
-- the paths in the Purgatory to get the uniques
+- the branches in Callisto, Europa, Io and Dante, their mechanisms, their perks and rewards
 - the three Dark Cathedral wishes
 - the perks you can get from mod packs through Whizkid
+- the descriptions of all unique weapons
 
 You can access HellpediaCE from the main menu and the in-game menu. The mod will only work if you use the English language!
 
@@ -18,9 +18,9 @@ If you are on MacOS: navigate to your Jupiter Hell app, right click, select "sho
 
 ## Special thanks
 
-Thanks to every Jupiter Hell player that maintains the Jupiter Hell Wiki and helped me write this mod.
+Thanks to every Jupiter Hell player that maintains the Jupiter Hell Wiki and helped me write this mod, notably Ranmilia and Psojed.
 
-Special thanks to Mamijomale for their work on Jupiter Hell modding!
+Special thanks to Mamijomale for his work on Jupiter Hell modding!
 
 ## Contact
 
