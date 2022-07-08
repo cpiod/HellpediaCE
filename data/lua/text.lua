@@ -994,19 +994,19 @@ strings.ui.game.help.accuracy.content =
  AV3 general AMP
 
  {YPurgatory paths} (red ones are broken)
-    {!Tier 1}         {!Tier 2}         {!Tier 3}
-{GExec.} URUL     {GW.spl.} LDLDL   {GSoulst.} {RDDLLUR}
-{GLove} RRDR      {GHate} RURU      {GDeath} ULDLD
-{GCarnage} ULLL   {GTw Viper} LDDRR {GVoid} LLDR
-{GVengeance} LDDR {GBloodl.} UUUUL  {GSh.htr} {RDRULLULUU}
-{GThompson} DRRR  {GHammerh.} RUUUL {GAvalanche} URUULL
-{GScrapgun} DRRU  {GVulcan} {RLUULD}   {GApocalypse} UUULDD
-{GMonster} RRRD   {GDenial} ULLDR   {GWavedancer} LDLDRU
-{GFirestorm} ULLD {GCalamity} ULLDD {GBFT 10K} ULDLDD
-{GSh.cloak} DRUL  {GCy.suit} URULL  {GExosuit} URRDLD
-{GFd Crown} ULDD  {GOverlord} DLDDD {GFirecrown} ULLDRR
+    {!Tier 1}         {!Tier 2}          {!Tier 3}
+{GExec.}     URUL {GW.spl.}   LDLDL {GSoulst.}    {RDDLLUR}
+{GLove}      RRDR {GHate}      RURU {GDeath}       ULDLD
+{GCarnage}   ULLL {GTw Viper} LDDRR {GVoid}         LLDR
+{GVengeance} LDDR {GBloodl.}  UUUUL {GSh.htr}  {RDRULLULUU}
+{GThompson}  DRRR {GHammerh.} RUUUL {GAvalanche}  URUULL
+{GScrapgun}  DRRU {GVulcan}   {RLUULD} {GApocalypse} UUULDD
+{GMonster}   RRRD {GDenial}   ULLDR {GWavedancer} LDLDRU
+{GFirestorm} ULLD {GCalamity} ULLDD {GBFT 10K}    ULDLDD
+{GSh.cloak}  DRUL {GCy.suit}  URULL {GExosuit}    URRDLD
+{GFd Crown}  ULDD {GOverlord} DLDDD {GFirecrown}  ULLDRR
 
-{!Eu portal} URR  {!Io portal} RRUU {!Da portal} {RULLUL}
+{!Eu portal}  URR {!Io portal} RRUU {!Da portal}   {RULLUL}
 ]=]
 
 strings.ui.game.help.pain.content =
@@ -1095,7 +1095,7 @@ strings.ui.game.help.melee.content =
 
 strings.ui.game.help.range.content =
 [=[
-{GExecutioner} ({!Callisto Mines}) knife that  {YTier 1}
+{GExecutioner} ({!Callisto Mines}) knife that   {YCa,Eu}
  one-shots low (60/90/120) HP targets
 {GLove} ({!Mimir Habitat}) vampiric .44 revolver
 {GCarnage} 9mm SMG, attacks other targets on kill
@@ -1111,7 +1111,7 @@ strings.ui.game.help.range.content =
 {GFiend Crown} helmet, grants dark vision, turns
  fiends neutral/friendly
 
-{GWavesplitter} ({!Europa Dig Zone}) plasma    {YTier 2}
+{GWavesplitter} ({!Europa Dig Zone}) plasma     {YEu,Io}
  blade, charges a slash ranged attack
 {GHate} 7.62 sidearm, stacks crit chance on hits
 {GTwin Viper} 7.62 SMG, inflicts poison, gets copy
@@ -1122,36 +1122,35 @@ strings.ui.game.help.range.content =
 {GVulcan} pierce damage chaingun
 {GDenial} ({!The Pit}) 12ga autoshotgun with a
  secondary plasma shockwave
-{GCalamity} ({!Refueling Base}) plasma beam launcher
 ]=]
 
 strings.ui.game.help.cover.content =
 [=[
-{GCybersuit} {Runremovable} armor, high dodge
- penalty, high defense, many mod slots
+{GCalamity} ({!Refueling Base}) plasma beam launcher
+{GCybersuit} {Runremovable} armor, high defense,
+ high dodge penalty, many mod slots
 {GOverlord} helmet, turns mechs neutral/friendly
 
-{GSoulstealer} sword, gains damage and max  {YTier 3}
- HP on kill, no dual-wielding, Sh. Abyss only
+{GSoulstealer} ({!Sh. Abyss} only) sword, gains {YIo,Da}
+ damage and max HP on kill, no dual-wielding
 {GDeath} ({!Shadow Halls}) plasma pistol, lethal DoT
 {GVoid} plasma SMG with infinite ammo
-{GShadowhunter} ({!Io Black Site}) railgun whose
- bullets jump to multiple targets
+{GShadowhunter} ({!Io Black Site}) railgun with
+ bullets jumping to multiple targets
 {GAvalanche} ({!Conamara Chaos Biolabs}) plasma rifle
  with regenerating ammo
 {GApocalypse} ({!Infernal Lock}) hyperblaster with
  explosions on impact
 {GWavedancer} ({!CRI Labs}) plasma shotgun with
  explosions on impact
-{GBFT 10k} ({!Mephitic Mines, Inferno}) BFT with
+{GBFT 10k} ({!Mephitic Mines}, {!Inferno}) BFT with
  multiple jumps
 {GExosuit} armor, no dodge penalty, boosts action
  and movement speed
 {GFirecrown} helmet, grants fire resistance, sets
  enemies in sight on fire
 
-{!*} Tier 1: Ca, Eu. Tier 2: Eu, Io. Tier 3: Io+
-{!*} Guaranteed unique in: 20% Ca, 40% Eu, 40% Io
+{!*} guaranteed unique in: 20% Ca, 40% Eu, 40% Io
 {!*} favored uniques are 3 times more likely
 {!*} dual-wielded unique pistols share their perks
 ]=]
