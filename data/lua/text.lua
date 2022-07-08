@@ -390,9 +390,9 @@ strings = {
                 accuracy   = { title = "Dante/Purg.", },
                 range      = { title = "Uniques", },
                 cover      = { title = "Uniques", },
-                pain      = { title = "B Whizkid", },
-                dodge      = { title = "A Whizkid", },
-                melee       = { title = "P Whizkid", },
+                pain      = { title = "Whizkid", },
+                dodge      = { title = "Whizkid/AMP", },
+                melee       = { title = "", },
                 footer     = "press <{$input_ui_up},{$input_ui_down}> or <{$input_ui_confirm},{$input_ui_cancel}> to continue",
             },
 			tutorial = {
@@ -1012,9 +1012,8 @@ strings.ui.game.help.accuracy.content =
 ]=]
 
 strings.ui.game.help.pain.content =
-[=[  {!Bulk mod Whizkid spoilers}
-
-{!Pistol, Semi-Auto,}
+[=[
+{!Pistol, Semi,}                          {YBulk mod}
 {!SMG, Auto, Rotary}      {!Shotgun, Launcher}
  Swap Harness           Swap Harness
  Speed Loader           Loading Holster
@@ -1022,77 +1021,65 @@ strings.ui.game.help.pain.content =
  Barbed                 Barbed
  Efficient              Second Chamber
 
+{!Melee}          {!Armor}          {!Helmet}
+ Swap Harness   Durable        Durable
+ Guarded Fire   Resistant      Bot Scanner
+ Guard Shield   Padded         Tech Monitor
+ Barbed         Loading Feed   Health Monitor
+ Surrounded     Auto Repair    Auto Repair
 
-{!Melee}
- Swap Harness
- Guarded
- Guard Shield
- Barbed
- Surrounded
+{!Pist,SMG,Laun}  {!Semi,Auto,Rot}  {!Melee}    {YAcc. mod}
+ Calibrated     Calibrated     Retaliate
+ Stabilized     Stabilized     Resiliant
+ Precise        Balanced       Mechabane
+ Critical       Critical       Critical
+ Exalted Bane   Exalted Bane   Exalted Bane
 
-
-{!Armor}                  {!Helmet}
- Durable                Durable
- Fire Resistant         Bot Scanner
- Padded                 Tech Monitor
- Loading Feed           Health Monitor
- Auto Repair            Auto Repair
+{!Shotgun}        {!Armor}          {!Helmet}
+ Calibrated     Swift          Aim Assist
+ Stabilized     Painkiller     Long Tracking
+ Retaliate      Critical       Critical
+ Critical       Pockets        Heat Vision
+ Exalted Bane   Meta. Boost    Network Scanner
 ]=]
 
 strings.ui.game.help.dodge.content =
-[=[  {!Accuracy mod Whizkid spoilers}
+[=[
+{!Semi,Auto,Laun} {!Pistol}         {!Armor}   {YPower mod}
+ Longshot       Fresh Mag      Carrier
+ Ripper         Ripper         Meshed
+ Hunter         Longshot       Acid Shield
+ Frenzy         Frenzy         Plated
+ Molten         Molten         Auto Med
 
-{!Pistol, SMG,}           {!Semi-auto,}
-{!Launcher}               {!Auto, Rotary}
- Calibrated             Calibrated
- Stabilized             Stabilized
- Precise                Balanced
- Critical               Critical
- Exalted Bane           Exalted Bane
+{!Shotgun}        {!SMG}            {!Melee}
+ Point Blank    Cleaner        Cleaner
+ Ripper         Ripper         Ripper
+ Cleaner        Point Blank    Hunter
+ Frenzy         Frenzy         Frenzy
+ Molten         Molten         Molten
 
-
-{!Melee}                  {!Shotgun}
- Retaliate              Calibrated
- Resilient              Stabilized
- Mechabane              Retaliate
- Critical               Critical
- Exalted Bane           Exalted Bane
-
-
-{!Armor}                  {!Helmet}
- Swift                  Aim Assist
- Painkiller             Long-range Tracking
- Critical               Critical
- Pockets                Heat Vision
- Metabolic Boost        Network Scanner
+{!Helmet}           {YAMP}          {!Melee AMP}
+ Exit Scanner  {!Gen. AMP}        +20% crit
+ Danger Monitor Auto Med       +25% crit dmg
+ Plated         Carrier        +25% guard
+ Crit Enhancer  Meta. Boost    Retaliate
+ Supply Scanner (class perks)
+                              {!Shotgun AMP}
+{!Pistol AMP}     {!Auto AMP}        Autoloader
++20% crit       +20% crit      +50% crit
++25% crit dmg   Precise        +25% crit dmg
+Scope           -1 min range   Scope
++1 max range    +1 max range   Retaliate
++1 opt range    +1 opt range   +1 opt range
+Speed-loader    Speed-loader   Speed-leader
 ]=]
 
+
 strings.ui.game.help.melee.content =
-[=[  {!Power mod Whizkid spoilers}
-
-                       {!Semi-auto,}
-{!Pistol}                 {!Auto, Launcher}
- Fresh Mag              Longshot
- Ripper                 Ripper
- Longshot               Hunter
- Frenzy                 Frenzy
- Molten                 Molten
+[=[(nothing yet)
 
 
-{!Shotgun}        {!SMG}             {!Melee}
- Point Blank    Cleaner         Cleaner
- Ripper         Ripper          Ripper
- Cleaner        Point Blank     Hunter
- Frenzy         Frenzy          Frenzy
- Molten         Molten          Molten
-
-
-{!Armor}                  {!Helmet}
- Carrier                Exit Scanner
- Meshed                 Danger Monitor
- Acid Shield            Plated
- Plated                 Crit Enhancer
- Auto Med               Supply Scanner
 ]=]
 
 strings.ui.game.help.range.content =
