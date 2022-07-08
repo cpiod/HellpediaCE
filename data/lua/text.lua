@@ -1117,7 +1117,7 @@ strings.ui.game.help.dodge.content =
 {GVengeance} .44 hunter rifle, stacks crit chance
  if not manually reloaded (get a loading feed!)
 {GThompson} ({!Docking Bay}) .44 auto w/ spin-up
-{GScrapgun} moddable 9mm chaingun, ammo efficient
+{GScrapgun} modable 9mm chaingun, ammo efficient
 {GMonster} ({!Military Barracks}) low range, high
  damage 12ga double shotgun with 25% swap time
 {GFirestorm} ({!Valhalla Terminal}) fireball launcher
@@ -1137,11 +1137,11 @@ strings.ui.game.help.dodge.content =
 {GVulcan} pierce damage chaingun
 {GDenial} ({!The Pit}) 12ga autoshotgun with a
  secondary plasma shockwave
+{GCalamity} ({!Refueling Base}) plasma beam launcher
 ]=]
 
 strings.ui.game.help.melee.content =
 [=[
-{GCalamity} ({!Refueling Base}) plasma beam launcher
 {GCybersuit} {Runremovable} armor, high dodge
  penalty, high defense, many mod slots
 {GOverlord} helmet, turns mechs neutral/friendly
@@ -1158,16 +1158,17 @@ strings.ui.game.help.melee.content =
  explosions on impact
 {GWavedancer} ({!CRI Labs}) plasma shotgun with
  explosions on impact
-{GBFT 10k} ({!Mephitic Mines, Dante Inferno}) BFT
- with multiple jumps
+{GBFT 10k} ({!Mephitic Mines, Inferno}) BFT with
+ multiple jumps
 {GExosuit} armor, no dodge penalty, boosts action
  and movement speed
 {GFirecrown} helmet, grants fire resistance, sets
  enemies in sight on fire
 
-{!*} dual-wielded unique pistols share their perks
-{!*} one moon has a unique: 20% Ca, 40% Eu, 40% Io
+{!*} Tier 1: Ca, Eu. Tier 2: Eu, Io. Tier 3: Io+
+{!*} Guaranteed unique in: 20% Ca, 40% Eu, 40% Io
 {!*} favored uniques are 3 times more likely
+{!*} dual-wielded unique pistols share their perks
 ]=]
 
 
