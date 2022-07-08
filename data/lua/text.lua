@@ -1114,15 +1114,15 @@ strings.ui.game.help.dodge.content =
  {!Tier 1}
 {GExecutioner} ({!Callisto Mines}) knife that
  autokills low HP targets
-{GLove} ({!Mimir Habitat}) vampiric .44 revolver
+{GLove}{!*} ({!Mimir Habitat}) vampiric .44 revolver
 {GCarnage} 9mm SMG, attacks other targets on kill
 {GVengeance} .44 hunter rifle, stacks crit chance
- if not manually reloaded
+ if not manually reloaded (get a loading feed!)
 {GThompson} ({!Callisto Docking Bay}) .44 auto rifle
  with "Spin-up"
 {GScrapgun} moddable 9mm chaingun, ammo efficient
-{GMonster} ({!Military Barracks}) low range/high
- damage double shotgun
+{GMonster} ({!Military Barracks}) low range, high
+ damage double shotgun wit 25% swap time
 {GFirestorm} ({!Valhalla Terminal}) fireball
  launcher with regenerating ammo
 {GShadowcloak} armor, no penalty, stealths on kill
@@ -1131,19 +1131,19 @@ strings.ui.game.help.dodge.content =
  {!Tier 2}
 {GWavesplitter} ({!Europa Dig Zone}) plasma blade,
  charges a ranged attack
-{GHate} 7.62 sidearm, stacks crit chance on hits
+{GHate}{!*} 7.62 sidearm, stacks crit chance on hits
 {GTwin Viper} 7.62 SMG, inflicts poison, drops
  second copy on level up for dual wielding
 {GBloodletter} ({!Europa Ruins}) sniper rifle,
  uses health as ammo
 {GHammerhead} ({!Asterius Habitat}) 7.62 pierce
  rifle, always hits
+{GVulcan} pierce damage chaingun
 ]=]
 
 strings.ui.game.help.melee.content =
 [=[
  {!Tier 2} (cont.)
-{GVulcan} pierce damage chaingun
 {GDenial} ({!The Pit}) 12ga autoshotty with a
  secondary freeze shockwave
 {GCalamity} ({!Refueling Base}) archmedusa's
@@ -1154,21 +1154,23 @@ strings.ui.game.help.melee.content =
 
  {!Tier 3}
 {GSoulstealer} sword, gains dmg and max HP on kill
-{GDeath} ({!Shadow Halls}) plasma pistol, lethal DoT
+{GDeath}{!*} ({!Shadow Halls}) plasma pistol, lethal DoT
 {GVoid} plasma SMG with infinite ammo
-{GShadowhunter} ({!Io Black Site}) railgun, bullet
- jumps to multiple targets
+{GShadowhunter} ({!Io Black Site}) railgun whose
+ bullets jump to multiple targets
 {GAvalanche} ({!Conamara Chaos Biolabs}) plasma
  rifle with regenerating ammo
 {GApocalypse} ({!Io Warehouse}) hyperblaster
  with explosions on impact
 {GWavedancer} ({!CRI Labs}) plasma shotgun
  with explosions on impact
-{GBFT 10k} ({!Mephitic Mines and Dante Inferno})
- BFT with multiple jumps
+{GBFT 10k} ({!Mephitic Mines, Dante Inferno}) BFT
+ with multiple jumps
 {GExosuit} armor, no dodge penalty, boosts
  movement and action speed
 {GFirecrown} helmet, sets enemies in sight on fire
+
+{!*} dual-wielded unique pistols share perks
 ]=]
 
 
