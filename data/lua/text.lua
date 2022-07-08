@@ -1076,7 +1076,7 @@ strings.ui.game.help.cover.content =
  Swift                  Aim Assist
  Painkiller             Long-range Tracking
  Critical               Critical
-Pockets                Heat Vision
+ Pockets                Heat Vision
  Metabolic Boost        Network Scanner
 ]=]
 
@@ -1110,9 +1110,8 @@ strings.ui.game.help.pain.content =
 
 strings.ui.game.help.dodge.content =
 [=[
- {!Tier 1}
-{GExecutioner} ({!Callisto Mines}) knife that
- autokills low HP targets
+{GExecutioner} ({!Callisto Mines}) knife that  {YTier 1}
+ one-shots low (60/90/120) HP targets
 {GLove} ({!Mimir Habitat}) vampiric .44 revolver
 {GCarnage} 9mm SMG, attacks other targets on kill
 {GVengeance} .44 hunter rifle, stacks crit chance
@@ -1121,51 +1120,50 @@ strings.ui.game.help.dodge.content =
 {GScrapgun} moddable 9mm chaingun, ammo efficient
 {GMonster} ({!Military Barracks}) low range, high
  damage 12ga double shotgun with 25% swap time
-{GFirestorm} ({!Valhalla Terminal}) fireball
- launcher with regenerating ammo
+{GFirestorm} ({!Valhalla Terminal}) fireball launcher
+ with regenerating ammo, 50% swap time
 {GShadowcloak} armor, no penalty, stealths on kill
-{GFiend Crown} helmet, turns fiends friendly
+{GFiend Crown} helmet, grants dark vision, turns
+ fiends neutral/friendly
 
- {!Tier 2}
-{GWavesplitter} ({!Europa Dig Zone}) plasma blade,
- charges a ranged attack
+{GWavesplitter} ({!Europa Dig Zone}) plasma    {YTier 2}
+ blade, charges a slash ranged attack
 {GHate} 7.62 sidearm, stacks crit chance on hits
 {GTwin Viper} 7.62 SMG, inflicts poison, gets copy
-{GBloodletter} ({!Europa Ruins}) sniper rifle,
- uses health as ammo
+{GBloodletter} ({!Europa Ruins}) 7.62 sniper rifle,
+ causes damage and bleed by automatical reload
 {GHammerhead} ({!Asterius Habitat}) 7.62 pierce
- damage rifle, always hits
+ rifle, rail projectile, 100% crit damage
 {GVulcan} pierce damage chaingun
-{GDenial} ({!The Pit}) 12ga autoshotty with a
- secondary freeze shockwave
+{GDenial} ({!The Pit}) 12ga autoshotgun with a
+ secondary plasma shockwave
 ]=]
 
 strings.ui.game.help.melee.content =
 [=[
- {!Tier 2} (cont.)
 {GCalamity} ({!Refueling Base}) plasma beam launcher
 {GCybersuit} {Runremovable} armor, high dodge
  penalty, high defense, many mod slots
-{GOverlord} helmet, turns mechs friendly
+{GOverlord} helmet, turns mechs neutral/friendly
 
- {!Tier 3}
-{GSoulstealer} sword, gains damage and max HP on
- kill, no dual-wielding, Shattered Abyss only
+{GSoulstealer} sword, gains damage and max  {YTier 3}
+ HP on kill, no dual-wielding, Sh. Abyss only
 {GDeath} ({!Shadow Halls}) plasma pistol, lethal DoT
 {GVoid} plasma SMG with infinite ammo
 {GShadowhunter} ({!Io Black Site}) railgun whose
  bullets jump to multiple targets
-{GAvalanche} ({!Conamara Chaos Biolabs}) plasma
- rifle with regenerating ammo
-{GApocalypse} ({!Infernal Lock}) hyperblaster
- with explosions on impact
-{GWavedancer} ({!CRI Labs}) plasma shotgun
- with explosions on impact
+{GAvalanche} ({!Conamara Chaos Biolabs}) plasma rifle
+ with regenerating ammo
+{GApocalypse} ({!Infernal Lock}) hyperblaster with
+ explosions on impact
+{GWavedancer} ({!CRI Labs}) plasma shotgun with
+ explosions on impact
 {GBFT 10k} ({!Mephitic Mines, Dante Inferno}) BFT
  with multiple jumps
-{GExosuit} armor, no dodge penalty, boosts
- movement and action speed
-{GFirecrown} helmet, sets enemies in sight on fire
+{GExosuit} armor, no dodge penalty, boosts action
+ and movement speed
+{GFirecrown} helmet, grants fire resistance, sets
+ enemies in sight on fire
 
 {!*} dual-wielded unique pistols share their perks
 {!*} one moon has a unique: 20% Ca, 40% Eu, 40% Io
