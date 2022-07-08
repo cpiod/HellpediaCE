@@ -388,11 +388,11 @@ strings = {
                 gameplay   = { title = "Io", },
                 time       = { title = "Io", },
                 accuracy   = { title = "Dante", },
-                range      = { title = "Purgatory", },
-                cover      = { title = "B Whizkid", },
-                pain       = { title = "A Whizkid", },
-                dodge      = { title = "P Whizkid", },
-                melee      = { title = "", },
+                range      = { title = "B Whizkid", },
+                cover      = { title = "A Whizkid", },
+                pain       = { title = "P Whizkid", },
+                dodge      = { title = "Uniques", },
+                melee      = { title = "Uniques", },
                 footer     = "press <{$input_ui_up},{$input_ui_down}> or <{$input_ui_confirm},{$input_ui_cancel}> to continue",
             },
 			tutorial = {
@@ -995,36 +995,37 @@ strings.ui.game.help.accuracy.content =
  AV3 general AMP
 ]=]
 
+-- strings.ui.game.help.range.content =
+-- [=[{!Exosuit} URRDLD       {!Shadowcloak} DRUL
+-- {!Cybersuit} URULL      {!Fiend Crown} ULDD
+-- {!Overlord} DLDDD       {!Firecrown} ULLDRR
+
+-- {!Executioner} URUL     {!Soulstealer} DDLLUR {Rbug}
+-- {!Wavesplitter} LDLDL
+
+-- {!Hate} RURU      {!Death} ULDLD    {!Love} RRDR
+
+-- {!Carnage} ULLL   {!Viper} LDDRR    {!Void} LLDR
+
+-- {!Vengeance} LDDR       {!Bloodletter} UUUUL
+-- {!Shadowhunter} DRULLULUU {Rbug}
+
+-- {!Thompson} DRRR        {!Hammerhead} RUUUL
+-- {!Avalanche} URUULL
+
+-- {!Scrapgun} DRRU        {!Apocalypse} UUULDD
+-- {!Vulcan} LUULD {Rbug}
+
+-- {!BFT 10K} ULDLDD        {!Firestorm} ULLD
+-- {!Calamity} ULLDD
+
+-- {!Monster} RRRD         {!Denial} ULLDR
+-- {!Wavedancer} LDLDRU
+
+-- {!Europa} URR     {!Io} RRUU        {!Dante} ULLUL {Rbug}
+-- ]=]
+
 strings.ui.game.help.range.content =
-[=[{!Exosuit} URRDLD       {!Shadowcloak} DRUL
-{!Cybersuit} URULL      {!Fiend Crown} ULDD
-{!Overlord} DLDDD       {!Firecrown} ULLDRR
-
-{!Executioner} URUL     {!Soulstealer} DDLLUR {Rbug}
-{!Wavesplitter} LDLDL
-
-{!Hate} RURU      {!Death} ULDLD    {!Love} RRDR
-
-{!Carnage} ULLL   {!Viper} LDDRR    {!Void} LLDR
-
-{!Vengeance} LDDR       {!Bloodletter} UUUUL
-{!Shadowhunter} DRULLULUU {Rbug}
-
-{!Thompson} DRRR        {!Hammerhead} RUUUL
-{!Avalanche} URUULL     {!Vulcan} LUULD {Rbug}
-
-{!Scrapgun} DRRU        {!Apocalypse} UUULDD
-
-{!BFT 10K} ULDLDD        {!Firestorm} ULLD
-{!Calamity} ULLDD
-
-{!Monster} RRRD         {!Denial} ULLDR
-{!Wavedancer} LDLDRU
-
-{!Europa} URR     {!Io} RRUU        {!Dante} ULLUL {Rbug}
-]=]
-
-strings.ui.game.help.cover.content =
 [=[  {!Bulk mod Whizkid spoilers}
 
 {!Pistol, Semi-Auto,}
@@ -1052,7 +1053,7 @@ strings.ui.game.help.cover.content =
  Auto Repair            Auto Repair
 ]=]
 
-strings.ui.game.help.pain.content =
+strings.ui.game.help.cover.content =
 [=[  {!Accuracy mod Whizkid spoilers}
 
 {!Pistol, SMG,}           {!Semi-auto,}
@@ -1076,11 +1077,11 @@ strings.ui.game.help.pain.content =
  Swift                  Aim Assist
  Painkiller             Long-range Tracking
  Critical               Critical
- Pockets                Heat Vision
+Pockets                Heat Vision
  Metabolic Boost        Network Scanner
 ]=]
 
-strings.ui.game.help.dodge.content =
+strings.ui.game.help.pain.content =
 [=[  {!Power mod Whizkid spoilers}
 
                        {!Semi-auto,}
@@ -1108,8 +1109,66 @@ strings.ui.game.help.dodge.content =
  Auto Med               Supply Scanner
 ]=]
 
+strings.ui.game.help.dodge.content =
+[=[
+ {!Tier 1}
+{GExecutioner} ({!Callisto Mines}) knife that
+ autokills low HP targets
+{GLove} ({!Mimir Habitat}) vampiric .44 revolver
+{GCarnage} 9mm SMG, attacks other targets on kill
+{GVengeance} .44 hunter rifle, stacks crit chance
+ if not manually reloaded
+{GThompson} ({!Callisto Docking Bay}) .44 auto rifle
+ with "Spin-up"
+{GScrapgun} moddable 9mm chaingun, ammo efficient
+{GMonster} ({!Military Barracks}) low range/high
+ damage double shotgun
+{GFirestorm} ({!Valhalla Terminal}) fireball
+ launcher w/regenerating ammo
+{GShadowcloak} armor, no penalty, stealths on kill
+{GFiend Crown} helmet, turns fiends friendly
+
+ {!Tier 2}
+{GWavesplitter} ({!Europa Dig Zone}) plasma blade,
+ charges a ranged attack
+{GHate} 7.62 sidearm, stacks crit chance on hits
+{GTwin Viper} 7.62 SMG, inflicts poison, drops
+ second copy on level up for dual wielding
+{GBloodletter} ({!Europa Ruins}) sniper rifle,
+ uses health as ammo
+{GHammerhead} ({!Asterius Habitat}) 7.62 pierce
+ rifle, always hits
+]=]
+
 strings.ui.game.help.melee.content =
-[=[(empty)
+[=[
+ {!Tier 2} (continued)
+{GVulcan} pierce damage chaingun
+{GDenial} ({!The Pit}) 12ga autoshotty with a
+ secondary freeze shockwave
+{GCalamity} ({!Refueling Base}) archmedusa's
+ plasma beam launcher
+{GCybersuit} {Runremovable} armor, high dodge
+ penalty, high defense, many mod slots
+{GOverlord} helmet, turns all mechs friendly
+
+ {!Tier 3}
+{GSoulstealer} sword, gains dmg and max HP on kill
+{GDeath} ({!Shadow Halls}) plasma pistol, inflicts
+ lethal DoT
+{GVoid} plasma SMG with infinite ammo
+{GShadowhunter} ({!Io Black Site}) railgun that
+ jumps to multiple targets
+{GAvalanche} ({!Conamara Chaos Biolabs}) plasma
+ rifle with regenerating ammo
+{GApocalypse} ({!Io Warehouse}) hyperblaster
+ w/explosions on impact
+{GWavedancer} ({!CRI Labs}) plasma shotgun
+ w/explosions on impact
+{GBFT 10k} ({!Mephitic Mines and Dante Inferno})
+ BFT w/multiple jumps
+{GExosuit} armor, boosts movement and action speed
+{GFirecrown} helmet, sets enemies in sight on fire
 ]=]
 
 
