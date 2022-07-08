@@ -387,12 +387,12 @@ strings = {
                 mouse_ui   = { title = "Europa", },
                 gameplay   = { title = "Io", },
                 time       = { title = "Io", },
-                accuracy   = { title = "Dante", },
-                range      = { title = "B Whizkid", },
-                cover      = { title = "A Whizkid", },
-                pain       = { title = "P Whizkid", },
-                dodge      = { title = "Uniques", },
-                melee      = { title = "Uniques", },
+                accuracy   = { title = "Dante/Purg.", },
+                range      = { title = "Uniques", },
+                cover      = { title = "Uniques", },
+                pain      = { title = "B Whizkid", },
+                dodge      = { title = "A Whizkid", },
+                melee       = { title = "P Whizkid", },
                 footer     = "press <{$input_ui_up},{$input_ui_down}> or <{$input_ui_confirm},{$input_ui_cancel}> to continue",
             },
 			tutorial = {
@@ -992,39 +992,24 @@ strings.ui.game.help.accuracy.content =
 {!Perk}: (none yet)
 {!Rewards}: guaranteed unique (favored: {GBFT 10K}),
  AV3 general AMP
+
+ {YPurgatory paths} (red ones are broken)
+    {!Tier 1}         {!Tier 2}         {!Tier 3}
+{GExec.} URUL     {GW.spl.} LDLDL   {GSoulst.} {RDDLLUR}
+{GLove} RRDR      {GHate} RURU      {GDeath} ULDLD
+{GCarnage} ULLL   {GTw Viper} LDDRR {GVoid} LLDR
+{GVengeance} LDDR {GBloodl.} UUUUL  {GSh.htr} {RDRULLULUU}
+{GThompson} DRRR  {GHammerh.} RUUUL {GAvalanche} URUULL
+{GScrapgun} DRRU  {GVulcan} {RLUULD}   {GApocalypse} UUULDD
+{GMonster} RRRD   {GDenial} ULLDR   {GWavedancer} LDLDRU
+{GFirestorm} ULLD {GCalamity} ULLDD {GBFT 10K} ULDLDD
+{GSh.cloak} DRUL  {GCy.suit} URULL  {GExosuit} URRDLD
+{GFd Crown} ULDD  {GOverlord} DLDDD {GFirecrown} ULLDRR
+
+{!Eu portal} URR  {!Io portal} RRUU {!Da portal} {RULLUL}
 ]=]
 
--- strings.ui.game.help.range.content =
--- [=[{!Exosuit} URRDLD       {!Shadowcloak} DRUL
--- {!Cybersuit} URULL      {!Fiend Crown} ULDD
--- {!Overlord} DLDDD       {!Firecrown} ULLDRR
-
--- {!Executioner} URUL     {!Soulstealer} DDLLUR {Rbug}
--- {!Wavesplitter} LDLDL
-
--- {!Hate} RURU      {!Death} ULDLD    {!Love} RRDR
-
--- {!Carnage} ULLL   {!Viper} LDDRR    {!Void} LLDR
-
--- {!Vengeance} LDDR       {!Bloodletter} UUUUL
--- {!Shadowhunter} DRULLULUU {Rbug}
-
--- {!Thompson} DRRR        {!Hammerhead} RUUUL
--- {!Avalanche} URUULL
-
--- {!Scrapgun} DRRU        {!Apocalypse} UUULDD
--- {!Vulcan} LUULD {Rbug}
-
--- {!BFT 10K} ULDLDD        {!Firestorm} ULLD
--- {!Calamity} ULLDD
-
--- {!Monster} RRRD         {!Denial} ULLDR
--- {!Wavedancer} LDLDRU
-
--- {!Europa} URR     {!Io} RRUU        {!Dante} ULLUL {Rbug}
--- ]=]
-
-strings.ui.game.help.range.content =
+strings.ui.game.help.pain.content =
 [=[  {!Bulk mod Whizkid spoilers}
 
 {!Pistol, Semi-Auto,}
@@ -1052,7 +1037,7 @@ strings.ui.game.help.range.content =
  Auto Repair            Auto Repair
 ]=]
 
-strings.ui.game.help.cover.content =
+strings.ui.game.help.dodge.content =
 [=[  {!Accuracy mod Whizkid spoilers}
 
 {!Pistol, SMG,}           {!Semi-auto,}
@@ -1080,7 +1065,7 @@ strings.ui.game.help.cover.content =
  Metabolic Boost        Network Scanner
 ]=]
 
-strings.ui.game.help.pain.content =
+strings.ui.game.help.melee.content =
 [=[  {!Power mod Whizkid spoilers}
 
                        {!Semi-auto,}
@@ -1108,7 +1093,7 @@ strings.ui.game.help.pain.content =
  Auto Med               Supply Scanner
 ]=]
 
-strings.ui.game.help.dodge.content =
+strings.ui.game.help.range.content =
 [=[
 {GExecutioner} ({!Callisto Mines}) knife that  {YTier 1}
  one-shots low (60/90/120) HP targets
@@ -1140,7 +1125,7 @@ strings.ui.game.help.dodge.content =
 {GCalamity} ({!Refueling Base}) plasma beam launcher
 ]=]
 
-strings.ui.game.help.melee.content =
+strings.ui.game.help.cover.content =
 [=[
 {GCybersuit} {Runremovable} armor, high dodge
  penalty, high defense, many mod slots
