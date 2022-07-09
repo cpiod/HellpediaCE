@@ -1023,21 +1023,21 @@ strings.ui.game.help.pain.content =
 
 {!Melee}          {!Armor}          {!Helmet}
  Swap Harness   Durable        Durable
- Guarded Fire   Resistant      Bot Scanner
+ Guarded        Fire Resistant Bot Scanner
  Guard Shield   Padded         Tech Monitor
  Barbed         Loading Feed   Health Monitor
  Surrounded     Auto Repair    Auto Repair
 
 {!Pist,SMG,Laun}  {!Semi,Auto,Rot}  {!Melee}    {YAcc. mod}
  Calibrated     Calibrated     Retaliate
- Stabilized     Stabilized     Resiliant
+ Stabilized     Stabilized     Resilient
  Precise        Balanced       Mechabane
  Critical       Critical       Critical
  Exalted Bane   Exalted Bane   Exalted Bane
 
 {!Shotgun}        {!Armor}          {!Helmet}
  Calibrated     Swift          Aim Assist
- Stabilized     Painkiller     Long Tracking
+ Stabilized     Painkiller     Long-range Track
  Retaliate      Critical       Critical
  Critical       Pockets        Heat Vision
  Exalted Bane   Meta. Boost    Network Scanner
@@ -1064,7 +1064,7 @@ strings.ui.game.help.dodge.content =
  Danger Monitor Auto Med       +25% crit dmg
  Plated         Carrier        +25% guard
  Crit Enhancer  Meta. Boost    Retaliate
- Supply Scanner (class perks)
+ Supply Scanner +class perks
                               {!Shotgun AMP}
 {!Pistol AMP}     {!Auto AMP}        Autoloader
 +20% crit       +20% crit      +50% crit
