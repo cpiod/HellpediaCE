@@ -809,32 +809,32 @@ strings = {
 strings.ui.game.help.keyboard.content =
 [=[
  {YValhalla Terminal}{!: activate lockdowns!}
-{!ValSec}: +25% damage vs bots
+{!ValSec}: +25% damage vs bots       {!Fav}:{GFirestorm}
 {!Rewards}: AV2/exo pistol+shotgun, AV2 headgear
 {!Special rewards}: CalSec shutdown/hack, Warden
  bypass. Rooms: supply (AV2 AMP), weapon (AV2
  favored weapon), armor (AV2 blue armor)
 {!Remark}: bring 1 red card for full reward
-{!Favored unique}: {GFirestorm} (5% chance)
 
  {YCallisto Mines}{!: close} {Mportals}{!, QUICK!}
-{!JoviSec}: +25% crit damage
+{!JoviSec}: +25% crit damage       {!Fav}:{GExecutioner}
 {!Rewards}: AV2/exo pistol+shotgun, AV2
  favored AMP, red relic                    {!2 5}
 {!Special rewards}: If 1 closed portal: red
- relic. If 2: Warlock Eye. If 3: Warlock  {!4   3}
- Horn. If >=1: touch pillars in order (cf.
+ relic. If 2: {MWarlock Eye}. If 3: {MWarlock}  {!4   3}
+ {MHorn}. If >=1: touch pillars in order (cf.
  plan) for {!Purgatory} access (only Medium+)  {!1}
-{!Favored unique}: {GExecutioner} (5% chance)
 
  {YMimir Habitat}{!: dl codes from MDF sentries!}
-{!MDF}: +1 optimal range
+{!MDF}: +1 optimal range                  {!Fav}:{GLove}
 {!Rewards}: AV2/exo pistol+shotgun, AV2 favored
  weapon
 {!Special rewards}: CalSec shutdown/reboot, MDF
- exotic manufacturing station
+ exo manu station (among {M9mm cal.}, {MHE revolver},
+ {Mdeagle}, {Mflintlock}, {M40mm drum}, {Mtorr. SMG}, {MJAC}
+ {MSMG}, {Mprec. rifle}, {Mtac. rifle}, {Mtoxin semi},
+ {Mjackhammer}, {Msuper-shotgun}, {Mfocused shotgun})
 {!Remark}: bring 1 red card for full reward
-{!Favored unique}: {GLove} (5% chance)
 ]=]
 
 strings.ui.game.help.controller.content =
@@ -846,19 +846,17 @@ strings.ui.game.help.controller.content =
 {!Special reward}: poison resistance
 
  {YMilitary Barracks}
-{!JoviSec}: +25% crit damage
+{!JoviSec}: +25% crit damage           {!Fav}:{GMonster}
 {!Rewards}: 2 AV2/exo pistols, 2 AV2/exo shotguns,
  2 AV2/exo rifles, AV2/exo grenade launcher,
  EGLS or AV2 rocket launcher, ammo term.
-{!Favored unique}: {GMonster} (5% chance)
 
  {YCallisto Docking Bay}{!: activate lockdown!}
-{!Perk}: random Callisto perk
+{!Perk}: random Callisto perk         {!Fav}:{GThompson}
 {!Rewards}: AV2/exo + AV1/exo pistols,
  AV2 + AV1 shotguns, AV2 blue armor+helmet
 {!Special reward}: exo visor
 {!Remark}: bring 2 red cards for full reward
-{!Favored unique}: {GThompson} (5% chance)
 
  {YCallisto Hub} (L4)
 {!Secret}: Europa branch list in terminal for 1 mt
@@ -870,92 +868,88 @@ strings.ui.game.help.controller.content =
 strings.ui.game.help.mouse.content =
 [=[
  {YAsterius Habitat}{!: hack & protect AT sentries!}
-{!AsterTech}: applies chill on damage
+{!AsterTech}: chill on damage       {!Fav}:{GHammerhead}
 {!Rewards}: AV2 AMP for auto/pistol/shotgun,
  red relic, AV2 red armor, AV2 headgear
 {!Special rewards}: exotic mod/AV1 general AMP,
- 6 consumables, AT exotic manu station
-{!Favored unique}: {GHammerhead} (5% chance)
+ 6 consumables, AT exotic manu station (3 among
+ {Msword}, {Mdeagle}, {MHE revolver}, {Mriot SMG}, {Mrailgun},
+ {Mmicro-laucher}, {Mjackhammer}, {Msuper-shotgun},
+ {Mgatling}, {Mpierce rifle})
 
  {YC. Chaos Biolabs}{!: open valves, get essences!}
 {!CCB}: +20% dmg vs bio, +10% dmg vs semi-mecha
+                                  {!Fav}:{GAvalanche}
 {!Rewards}: AV2 pistol, AV2 semi-auto/rifle
-{!Special rewards}: acid, pain, bleed, fire res.
- (at most 3 of them). Secret reward: +20% dmg
+{!Special rewards}: acid, pain, bleed, fire
+ resistances (at most 3 of them)
+{!Secret reward}: +20% damage (if 3 res. bought)
 {!Remark}: bring 9 multitools to guarantee secret
- reward (only available if L2 or L3 branch)
-{!Favored unique}: {GAvalanche} (5% chance)
+ reward (only available if L2, maybe L3 branch)
 
  {YEuropa Dig Zone}{!: do} {RNOT} {!open valves!}
-{!ERI}: -75% swap time
+{!ERI}: -75% swap time            {!Fav}:{GWavesplitter}
 {!Rewards}: AV2 AMP for pistol/auto/shotgun/melee
  or AV2 armor/rifle, Mk2 manu+tech+med stations
 {!Special reward}: cold resistance
-{!Favored unique}: {GWavesplitter} (5% chance)
 
 ]=]
 
 strings.ui.game.help.mouse_ui.content =
 [=[
  {YEuropa Ruins}
-{!Perk}: (none yet)
+{!Perk}: (none yet)                {!Fav}:{GBloodletter}
 {!Rewards}: AV3 red armor, AV3 favored AMP, heart
 {!Special rewards}: (none yet)
 {!Remark}: you can take either the heart or the
- armor + AMP safely otherwise guardians spawn
-{!Favored unique}: {GBloodletter} (5% chance)
+ armor + AMP safely, otherwise guardians spawn
 
  {YThe Pit}{!: pet the smaller Kerberos w/ {$input_action}!}
-{!No perk}
-{!Rewards}: backpack, AV3 headgear, AV3 favored
+{!No perk}                              {!Fav}:{GDenial}
+{!Rewards}: {Mbackpack}, AV3 headgear, AV3 favored
  AMP, AV3 armor/rifle/semi-auto
-{!Special reward}: on level up, Rexio gains bleed,
+{!Special reward}: on level up, {!Rexio} gains bleed,
  poison, fire & cold res., up to 80% DR, more
  HP and damage, new orders: wait, follow, hunt
-{!Favored unique}: {GDenial} (5% chance)
 
  {YRefueling Base}{!: open fuel valves!}
-{!No perk}
-{!Rewards}: backpack, ammo term, AV3 visor,
+{!No perk}                            {!Fav}:{GCalamity}
+{!Rewards}: {Mbackpack}, ammo term, AV3 visor,
  AV3 favored+general AMPs, AV3 armor/rifle/AMP
 {!Special reward}: ENV armor (fire, cold and
  50% poison resistances)
-{!Favored unique}: {GCalamity} (5% chance)
 ]=]
 
 strings.ui.game.help.gameplay.content =
 [=[
  {YIo Black Site}
-{!Perk}: (none yet)
+{!Perk}: (none yet)               {!Fav}:{GShadowhunter}
 {!Rewards}: AV3 favored AMP, Mk3 manu station,
  AV3 hyperblaster or AWP, purple relic
-{!Special reward}: CRI BFT9K when 4 open vaults
+{!Special reward}: {MBFT9K} when 4 open vaults
 {!Remark}: bring 3 red cards for full reward
-{!Favored unique}: {GShadowhunter} (5% chance)
 
  {YCRI Laboratories}
-{!Perk}: (probably CRI: +25% damage vs demons)
+{!Perk}: CRI: +25% dmg vs demons    {!Fav}:{GWavedancer}
 {!Rewards}: 2 AV3/exo favored weapons, AV3/exo
  pistol/shotgun/rifle, AV3 hyperblaster, CRI
  armor, Mk3 manu station, AV3 favored AMP
-{!Special reward}: CRI BFT9K when 4 open vaults
+{!Special reward}: CRI {MBFT9K} when 4 open vaults
 {!Remark}: bring 3 red cards for full reward
-{!Favored unique}: {GWavedancer} (5% chance)
 
  {YMephitic Mines}{!: reroute the gas!}
-{!IDR}: -50% reload time
+{!IDR}: -50% reload time               {!Fav}:{GBFT 10K}
 {!Rewards}: AV3 katana, AV3 blue armor, ENV
  helmet (dark vision, heatvision + poison, 50%
  fire, 50% cold resistances), AV1 hyperblaster
-{!Special rewards}: poison resistance. With Rift
+{!Special rewards}: poison resistance. With {!Rift}
  reward: strong poison aura, +50% poison effect
-{!Favored unique}: {GBFT 10K} (5% chance)
 ]=]
 
 strings.ui.game.help.time.content =
 [=[
  {YShadow Halls}
-{!Perk}: (none yet)
+{!Perk}: (none yet)                      {!Fav}:{GDeath}
 {!Rewards}: unique exchange (random: Exosuit/Void/
  Death/Apocalypse) OR wish (if heart), AV3 fav.
  AMP, AV3 red/blue armor, AV3 pistol/SMG/
@@ -968,17 +962,15 @@ strings.ui.game.help.time.content =
   healing, max HP reduced by 50%, HP set to 20
  {!"HEALTH!"} regenerate 5 HP/s up to 50% of max
   HP, receive 25% less healing, HP set to 1
-{!Favored unique}: {GDeath} (5% chance)
 
  {YIo Warehouse}
 {!Perk}: (none yet)
 {!Rewards}: lots of lootboxes, AV1 hyperblaster
 
  {YInfernal Lock}{!: block doors with items!}
-{!Perk}: (none yet)
+{!Perk}: (none yet)                 {!Fav}:{GApocalypse}
 {!Rewards}: lootboxes, AV3 general AMP
 {!Special reward}: cold/vampiric/EMP/sustain mod
-{!Favored unique}: {GApocalypse} (5% chance)
 ]=]
 
 strings.ui.game.help.accuracy.content = 
@@ -987,13 +979,13 @@ strings.ui.game.help.accuracy.content =
 {!Unlock}: kill an enemy with melee on Dante L1
 {!Perk}: (none yet)
 {!Special rule}: melee only!
-{!Rewards}: {GSoulstealer} (guaranteed)
+{!Reward}: {GSoulstealer} (guaranteed)
 
  {YInferno}
 {!Unlock}: kill all enemies of Dante L2
-{!Perk}: (none yet)
-{!Rewards}: guaranteed unique, AV3 general AMP
-{!Favored unique}: {GBFT 10K} (25% chance!)
+{!Perk}: (none yet)                   {!Fav}:{GBFT 10K}
+{!Rewards}: guaranteed unique (25% chance it’s
+ {GBFT10K}), AV3 general AMP
 
  {YPurgatory paths} (red ones are broken)
     {!Tier 1}         {!Tier 2}          {!Tier 3}
@@ -1131,7 +1123,7 @@ strings.ui.game.help.cover.content =
  explosions on impact
 {GWavedancer} ({!CRI Labs}) plasma shotgun with
  explosions on impact
-{GBFT 10k} ({!Mephitic Mines}, {!Inferno}) BFT with
+{GBFT 10K} ({!Mephitic Mines}, {!Inferno}) BFT with
  multiple jumps
 {GExosuit} armor, no dodge penalty, boosts action
  and movement speed
@@ -1140,6 +1132,8 @@ strings.ui.game.help.cover.content =
 
 {!*} guaranteed unique in: 20% Ca, 40% Eu, 40% Io
 {!*} dual-wielded unique pistols share their perks
+{!*} within parenthesis: favored locations
+{!*} favored uniques have 5% chance of appearing
 ]=]
 
 
