@@ -391,7 +391,7 @@ strings = {
                 range      = { title = "Uniques", },
                 cover      = { title = "Uniques", },
                 pain      = { title = "Whizkid", },
-                dodge      = { title = "Whizkid/AMP", },
+                dodge      = { title = "Whizkid", },
                 melee       = { title = "", },
                 footer     = "press <{$input_ui_up},{$input_ui_down}> or <{$input_ui_confirm},{$input_ui_cancel}> to continue",
             },
@@ -809,31 +809,30 @@ strings = {
 strings.ui.game.help.keyboard.content =
 [=[
  {YValhalla Terminal}{!: activate lockdowns!}
-{!ValSec}: +25% damage vs bots       {!Fav}:{GFirestorm}
+{!ValSec}: +25% damage vs bots
 {!Rewards}: AV2/exo pistol+shotgun, AV2 headgear
 {!Special rewards}: CalSec shutdown/hack, Warden
  bypass. Rooms: supply (AV2 AMP), weapon (AV2
  favored weapon), armor (AV2 blue armor)
 {!Remark}: bring 1 red card for full reward
 
- {YCallisto Mines}{!: close} {Mportals}{!, QUICK!}
-{!JoviSec}: +25% crit damage       {!Fav}:{GExecutioner}
+ {YCallisto Mines}{!: close portals, QUICK!}
+{!JoviSec}: +25% crit damage
 {!Rewards}: AV2/exo pistol+shotgun, AV2
  favored AMP, red relic                    {!2 5}
 {!Special rewards}: If 1 closed portal: red
- relic. If 2: {MWarlock Eye}. If 3: {MWarlock}  {!4   3}
- {MHorn}. If >=1: touch pillars in order (cf.
+ relic. If 2: Warlock Eye. If 3: Warlock  {!4   3}
+ Horn. If >=1: touch pillars in order (cf.
  plan) for {!Purgatory} access (only Medium+)  {!1}
 
  {YMimir Habitat}{!: dl codes from MDF sentries!}
-{!MDF}: +1 optimal range                  {!Fav}:{GLove}
+{!MDF}: +1 optimal range
 {!Rewards}: AV2/exo pistol+shotgun, AV2 favored
  weapon
 {!Special rewards}: CalSec shutdown/reboot, MDF
- exo manu station (among {M9mm cal.}, {MHE revolver},
- {Mdeagle}, {Mflintlock}, {M40mm drum}, {Mtorr. SMG}, {MJAC}
- {MSMG}, {Mprec. rifle}, {Mtac. rifle}, {Mtoxin semi},
- {Mjackhammer}, {Msuper-shotgun}, {Mfocused shotgun})
+ exo manu station (L2 clearance: 4 choices, L3
+ clearance: 6 choices among pistols, SMG,
+ rifles, toxin semi, 40mm drum and shotguns)
 {!Remark}: bring 1 red card for full reward
 ]=]
 
@@ -846,13 +845,13 @@ strings.ui.game.help.controller.content =
 {!Special reward}: poison resistance
 
  {YMilitary Barracks}
-{!JoviSec}: +25% crit damage           {!Fav}:{GMonster}
+{!JoviSec}: +25% crit damage
 {!Rewards}: 2 AV2/exo pistols, 2 AV2/exo shotguns,
  2 AV2/exo rifles, AV2/exo grenade launcher,
  EGLS or AV2 rocket launcher, ammo term.
 
  {YCallisto Docking Bay}{!: activate lockdown!}
-{!Perk}: random Callisto perk         {!Fav}:{GThompson}
+{!Perk}: random Callisto perk
 {!Rewards}: AV2/exo + AV1/exo pistols,
  AV2 + AV1 shotguns, AV2 blue armor+helmet
 {!Special reward}: exo visor
@@ -868,18 +867,15 @@ strings.ui.game.help.controller.content =
 strings.ui.game.help.mouse.content =
 [=[
  {YAsterius Habitat}{!: hack & protect AT sentries!}
-{!AsterTech}: chill on damage       {!Fav}:{GHammerhead}
+{!AsterTech}: chill on damage
 {!Rewards}: AV2 AMP for auto/pistol/shotgun,
  red relic, AV2 red armor, AV2 headgear
 {!Special rewards}: exotic mod/AV1 general AMP,
- 6 consumables, AT exotic manu station (3 among
- {Msword}, {Mdeagle}, {MHE revolver}, {Mriot SMG}, {Mrailgun},
- {Mmicro-laucher}, {Mjackhammer}, {Msuper-shotgun},
- {Mgatling}, {Mpierce rifle})
+ 6 consumables, AT exotic manu station (list of
+ 3 from a pool containing every weapon group)
 
  {YC. Chaos Biolabs}{!: open valves, get essences!}
 {!CCB}: +20% dmg vs bio, +10% dmg vs semi-mecha
-                                  {!Fav}:{GAvalanche}
 {!Rewards}: AV2 pistol, AV2 semi-auto/rifle
 {!Special rewards}: acid, pain, bleed, fire
  resistances (at most 3 of them)
@@ -888,7 +884,7 @@ strings.ui.game.help.mouse.content =
  reward (only available if L2, maybe L3 branch)
 
  {YEuropa Dig Zone}{!: do} {RNOT} {!open valves!}
-{!ERI}: -75% swap time            {!Fav}:{GWavesplitter}
+{!ERI}: -75% swap time
 {!Rewards}: AV2 AMP for pistol/auto/shotgun/melee
  or AV2 armor/rifle, Mk2 manu+tech+med stations
 {!Special reward}: cold resistance
@@ -898,23 +894,23 @@ strings.ui.game.help.mouse.content =
 strings.ui.game.help.mouse_ui.content =
 [=[
  {YEuropa Ruins}
-{!Perk}: (none yet)                {!Fav}:{GBloodletter}
+{!Perk}: (none yet)
 {!Rewards}: AV3 red armor, AV3 favored AMP, heart
 {!Special rewards}: (none yet)
 {!Remark}: you can take either the heart or the
  armor + AMP safely, otherwise guardians spawn
 
  {YThe Pit}{!: pet the smaller Kerberos w/ {$input_action}!}
-{!No perk}                              {!Fav}:{GDenial}
-{!Rewards}: {Mbackpack}, AV3 headgear, AV3 favored
+{!No perk}
+{!Rewards}: backpack, AV3 headgear, AV3 favored
  AMP, AV3 armor/rifle/semi-auto
 {!Special reward}: on level up, {!Rexio} gains bleed,
  poison, fire & cold res., up to 80% DR, more
  HP and damage, new orders: wait, follow, hunt
 
  {YRefueling Base}{!: open fuel valves!}
-{!No perk}                            {!Fav}:{GCalamity}
-{!Rewards}: {Mbackpack}, ammo term, AV3 visor,
+{!No perk}
+{!Rewards}: backpack, ammo term, AV3 visor,
  AV3 favored+general AMPs, AV3 armor/rifle/AMP
 {!Special reward}: ENV armor (fire, cold and
  50% poison resistances)
@@ -923,22 +919,22 @@ strings.ui.game.help.mouse_ui.content =
 strings.ui.game.help.gameplay.content =
 [=[
  {YIo Black Site}
-{!Perk}: (none yet)               {!Fav}:{GShadowhunter}
+{!Perk}: (none yet)
 {!Rewards}: AV3 favored AMP, Mk3 manu station,
  AV3 hyperblaster or AWP, purple relic
-{!Special reward}: {MBFT9K} when 4 open vaults
+{!Special reward}: BFT9K when 4 open vaults
 {!Remark}: bring 3 red cards for full reward
 
  {YCRI Laboratories}
-{!Perk}: CRI: +25% dmg vs demons    {!Fav}:{GWavedancer}
+{!Perk}: CRI: +25% dmg vs demons
 {!Rewards}: 2 AV3/exo favored weapons, AV3/exo
  pistol/shotgun/rifle, AV3 hyperblaster, CRI
  armor, Mk3 manu station, AV3 favored AMP
-{!Special reward}: CRI {MBFT9K} when 4 open vaults
+{!Special reward}: CRI BFT9K when 4 open vaults
 {!Remark}: bring 3 red cards for full reward
 
  {YMephitic Mines}{!: reroute the gas!}
-{!IDR}: -50% reload time               {!Fav}:{GBFT 10K}
+{!IDR}: -50% reload time
 {!Rewards}: AV3 katana, AV3 blue armor, ENV
  helmet (dark vision, heatvision + poison, 50%
  fire, 50% cold resistances), AV1 hyperblaster
@@ -949,7 +945,7 @@ strings.ui.game.help.gameplay.content =
 strings.ui.game.help.time.content =
 [=[
  {YShadow Halls}
-{!Perk}: (none yet)                      {!Fav}:{GDeath}
+{!Perk}: (none yet)
 {!Rewards}: unique exchange (random: Exosuit/Void/
  Death/Apocalypse) OR wish (if heart), AV3 fav.
  AMP, AV3 red/blue armor, AV3 pistol/SMG/
@@ -968,7 +964,7 @@ strings.ui.game.help.time.content =
 {!Rewards}: lots of lootboxes, AV1 hyperblaster
 
  {YInfernal Lock}{!: block doors with items!}
-{!Perk}: (none yet)                 {!Fav}:{GApocalypse}
+{!Perk}: (none yet)
 {!Rewards}: lootboxes, AV3 general AMP
 {!Special reward}: cold/vampiric/EMP/sustain mod
 ]=]
@@ -983,7 +979,7 @@ strings.ui.game.help.accuracy.content =
 
  {YInferno}
 {!Unlock}: kill all enemies of Dante L2
-{!Perk}: (none yet)                   {!Fav}:{GBFT 10K}
+{!Perk}: (none yet)
 {!Rewards}: guaranteed unique (25% chance it’s
  {GBFT10K}), AV3 general AMP
 
@@ -1000,7 +996,7 @@ strings.ui.game.help.accuracy.content =
 {GSh.cloak}  DRUL {GCy.suit}  URULL {GExosuit}    URRDLD
 {GFd Crown}  ULDD {GOverlord} DLDDD {GFirecrown}  ULLDRR
 
-{MEu portal}  URR {MIo portal} RRUU {MDa portal}   {RULLUL}
+Eu portal  URR Io portal RRUU Da portal   {RULLUL}
 ]=]
 
 strings.ui.game.help.pain.content =
@@ -1049,21 +1045,13 @@ strings.ui.game.help.dodge.content =
  Hunter         Acid Shield    Plated
  Frenzy         Plated         Crit Enhancer
  Molten         Auto Med       Supply Scanner
-             {Y+---------------------------------}
-{!SMG}          {Y|} {!General AMP}    {!Melee AMP}     {YAMP}
- Cleaner     {Y|}  Auto Med       +20% crit
- Ripper      {Y|}  Carrier        +25% crit dmg
- Point Blank {Y|}  Meta. Boost    +25% guard
- Frenzy      {Y|}  +class perks   Retaliate
- Molten      {Y|}
-{Y-------------+}                {!Shotgun AMP}
-{!Pistol AMP}     {!Auto AMP}        Autoloader
- +20% crit      +20% crit      +50% crit
- +25% crit dmg  Precise        +25% crit dmg
- Scope          -1 min range   Scope
- +1 max range   +1 max range   Retaliate
- +1 opt range   +1 opt range   +1 opt range
- Speed-loader   Speed-loader   Speed-leader
+
+{!SMG}
+ Cleaner
+ Ripper
+ Point Blank
+ Frenzy
+ Molten
 ]=]
 
 
@@ -1081,7 +1069,7 @@ strings.ui.game.help.range.content =
 {GCarnage} 9mm SMG, attacks other targets on kill
 {GVengeance} .44 hunter rifle, stacks crit chance
  if not manually reloaded (get a loading feed!)
-{GThompson} ({!Docking Bay}) .44 auto w/ spin-up
+{GThompson} ({!C. Docking Bay}) .44 auto w/ spin-up
 {GScrapgun} modable 9mm chaingun, ammo efficient
 {GMonster} ({!Military Barracks}) low range, high
  damage 12ga double shotgun with 25% swap time
