@@ -1013,13 +1013,12 @@ strings.ui.game.help.accuracy.content =
 
 strings.ui.game.help.pain.content =
 [=[
-{!Pistol, Semi,}                          {YBulk mod}
-{!SMG, Auto, Rotary}      {!Shotgun, Launcher}
- Swap Harness           Swap Harness
- Speed Loader           Loading Holster
- Extended Mag           Autoloader
- Barbed                 Barbed
- Efficient              Second Chamber
+{!Pistol,Semi,SMG,Auto,Rotary}   {!Shotgun,Launcher}
+ Swap Harness                  Swap Harness
+ Speed Loader     {YBulk mod}     Loading Holster
+ Extended Mag                  Autoloader
+ Barbed                        Barbed
+ Efficient                     Second Chamber
 
 {!Melee}          {!Armor}          {!Helmet}
  Swap Harness   Durable        Durable
@@ -1027,52 +1026,52 @@ strings.ui.game.help.pain.content =
  Guard Shield   Padded         Tech Monitor
  Barbed         Loading Feed   Health Monitor
  Surrounded     Auto Repair    Auto Repair
-
-{!Pist,SMG,Laun}  {!Semi,Auto,Rot}  {!Melee}    {YAcc. mod}
- Calibrated     Calibrated     Retaliate
- Stabilized     Stabilized     Resilient
- Precise        Balanced       Mechabane
+{Y-----------------------------------------------}
+{!Pist,SMG,Laun}  {!Semi,Auto,Rot}  {!Shotgun}  {YAcc. mod}
+ Calibrated     Calibrated     Calibrated
+ Stabilized     Stabilized     Stabilized
+ Precise        Balanced       Retaliate
  Critical       Critical       Critical
  Exalted Bane   Exalted Bane   Exalted Bane
 
-{!Shotgun}        {!Armor}          {!Helmet}
- Calibrated     Swift          Aim Assist
- Stabilized     Painkiller     Long-range Track
- Retaliate      Critical       Critical
+{!Melee}          {!Armor}          {!Helmet}
+ Retaliate      Swift          Aim Assist
+ Resilient      Painkiller     Long-range Track
+ Mechabane      Critical       Critical
  Critical       Pockets        Heat Vision
  Exalted Bane   Meta. Boost    Network Scanner
 ]=]
 
 strings.ui.game.help.dodge.content =
 [=[
-{!Semi,Auto,Laun} {!Pistol}         {!Armor}   {YPower mod}
- Longshot       Fresh Mag      Carrier
- Ripper         Ripper         Meshed
- Hunter         Longshot       Acid Shield
- Frenzy         Frenzy         Plated
- Molten         Molten         Auto Med
-
-{!Shotgun}        {!SMG}            {!Melee}
- Point Blank    Cleaner        Cleaner
+{!Semi,Auto,Laun} {!Pistol}         {!Shotgun} {YPower mod}
+ Longshot       Fresh Mag      Point Blank
  Ripper         Ripper         Ripper
- Cleaner        Point Blank    Hunter
+ Hunter         Longshot       Cleaner
  Frenzy         Frenzy         Frenzy
  Molten         Molten         Molten
 
-{!Helmet}           {YAMP}          {!Melee AMP}
- Exit Scanner  {!Gen. AMP}        +20% crit
- Danger Monitor Auto Med       +25% crit dmg
- Plated         Carrier        +25% guard
- Crit Enhancer  Meta. Boost    Retaliate
- Supply Scanner +class perks
-                              {!Shotgun AMP}
+{!Melee}          {!Armor}          {!Helmet}
+ Cleaner        Carrier        Exit Scanner
+ Ripper         Meshed         Danger Monitor
+ Hunter         Acid Shield    Plated
+ Frenzy         Plated         Crit Enhancer
+ Molten         Auto Med       Supply Scanner
+             {Y+---------------------------------}
+{!SMG}          {Y|} {!General AMP}    {!Melee AMP}     {YAMP}
+ Cleaner     {Y|}  Auto Med       +20% crit
+ Ripper      {Y|}  Carrier        +25% crit dmg
+ Point Blank {Y|}  Meta. Boost    +25% guard
+ Frenzy      {Y|}  +class perks   Retaliate
+ Molten      {Y|}
+{Y-------------+}                {!Shotgun AMP}
 {!Pistol AMP}     {!Auto AMP}        Autoloader
-+20% crit       +20% crit      +50% crit
-+25% crit dmg   Precise        +25% crit dmg
-Scope           -1 min range   Scope
-+1 max range    +1 max range   Retaliate
-+1 opt range    +1 opt range   +1 opt range
-Speed-loader    Speed-loader   Speed-leader
+ +20% crit      +20% crit      +50% crit
+ +25% crit dmg  Precise        +25% crit dmg
+ Scope          -1 min range   Scope
+ +1 max range   +1 max range   Retaliate
+ +1 opt range   +1 opt range   +1 opt range
+ Speed-loader   Speed-loader   Speed-leader
 ]=]
 
 
