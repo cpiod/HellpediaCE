@@ -874,6 +874,7 @@ strings.ui.game.help.mouse.content =
  6 consumables, AT exotic manu station (list of
  3 from a pool containing every weapon group)
 
+
  {YC. Chaos Biolabs}{!: open valves, get essences!}
 {!CCB}: +20% dmg vs bio, +10% dmg vs semi-mecha
 {!Rewards}: AV2 pistol, AV2 semi-auto/rifle
@@ -882,6 +883,7 @@ strings.ui.game.help.mouse.content =
 {!Secret reward}: +20% damage (if 3 res. bought)
 {!Remark}: bring 9 multitools to guarantee secret
  reward (only available if L2, maybe L3 branch)
+
 
  {YEuropa Dig Zone}{!: do} {RNOT} {!open valves!}
 {!ERI}: -75% swap time
@@ -900,6 +902,7 @@ strings.ui.game.help.mouse_ui.content =
 {!Remark}: you can take either the heart or the
  armor + AMP safely, otherwise guardians spawn
 
+
  {YThe Pit}{!: pet the smaller Kerberos w/ {$input_action}!}
 {!No perk}
 {!Rewards}: backpack, AV3 headgear, AV3 favored
@@ -907,6 +910,7 @@ strings.ui.game.help.mouse_ui.content =
 {!Special reward}: on level up, {!Rexio} gains bleed,
  poison, fire & cold res., up to 80% DR, more
  HP and damage, new orders: wait, follow, hunt
+
 
  {YRefueling Base}{!: open fuel valves!}
 {!No perk}
@@ -925,6 +929,7 @@ strings.ui.game.help.gameplay.content =
 {!Special reward}: BFT9K when 4 open vaults
 {!Remark}: bring 3 red cards for full reward
 
+
  {YCRI Laboratories}
 {!Perk}: CRI: +25% dmg vs demons
 {!Rewards}: 2 AV3/exo favored weapons, AV3/exo
@@ -932,6 +937,7 @@ strings.ui.game.help.gameplay.content =
  armor, Mk3 manu station, AV3 favored AMP
 {!Special reward}: CRI BFT9K when 4 open vaults
 {!Remark}: bring 3 red cards for full reward
+
 
  {YMephitic Mines}{!: reroute the gas!}
 {!IDR}: -50% reload time
@@ -959,9 +965,11 @@ strings.ui.game.help.time.content =
  {!"HEALTH!"} regenerate 5 HP/s up to 50% of max
   HP, receive 25% less healing, HP set to 1
 
+
  {YIo Warehouse}
 {!Perk}: (none yet)
 {!Rewards}: lots of lootboxes, AV1 hyperblaster
+
 
  {YInfernal Lock}{!: block doors with items!}
 {!Perk}: (none yet)
@@ -983,12 +991,13 @@ strings.ui.game.help.accuracy.content =
 {!Rewards}: guaranteed unique (25% chance it’s
  {GBFT10K}), AV3 general AMP
 
+
  {YPurgatory paths} (red ones are broken)
     {!Tier 1}         {!Tier 2}          {!Tier 3}
 {GExec.}     URUL {GW.spl.}   LDLDL {GSoulst.}    {RDDLLUR}
 {GLove}      RRDR {GHate}      RURU {GDeath}       ULDLD
 {GCarnage}   ULLL {GTw Viper} LDDRR {GVoid}         LLDR
-{GVengeance} LDDR {GBloodl.}  UUUUL {GSh.htr}  {RDRULLULUU}
+{GVengeance} LDDR {GBloodl.}  UUUUL {GSh.hunter}  {RDRULLU}
 {GThompson}  DRRR {GHammerh.} RUUUL {GAvalanche}  URUULL
 {GScrapgun}  DRRU {GVulcan}   {RLUULD} {GApocalypse} UUULDD
 {GMonster}   RRRD {GDenial}   ULLDR {GWavedancer} LDLDRU
@@ -1032,7 +1041,9 @@ strings.ui.game.help.pain.content =
 
 strings.ui.game.help.dodge.content =
 [=[
-{!Semi,Auto,Laun} {!Pistol}         {!Shotgun} {YPower mod}
+                                      {YPower mod}
+
+{!Semi,Auto,Laun} {!Pistol}         {!Shotgun}
  Longshot       Fresh Mag      Point Blank
  Ripper         Ripper         Ripper
  Hunter         Longshot       Cleaner
