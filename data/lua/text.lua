@@ -390,8 +390,8 @@ strings = {
                 accuracy   = { title = "Dante/Purg.", },
                 range      = { title = "Uniques", },
                 cover      = { title = "Uniques", },
-                pain      = { title = "Whizkid", },
-                dodge      = { title = "Whizkid", },
+                pain      = { title = "Whizkid B+A", },
+                dodge      = { title = "Whizkid P", },
                 melee       = { title = "", },
                 footer     = "press <{$input_ui_up},{$input_ui_down}> or <{$input_ui_confirm},{$input_ui_cancel}> to continue",
             },
@@ -1012,11 +1012,11 @@ strings.ui.game.help.pain.content =
 [=[
 {!Pistol,Semi,SMG,Auto,Rotary}   {!Shotgun,Launcher}
  Swap Harness                  Swap Harness
- Speed Loader     {YBulk mod}     Loading Holster
+ Speed Loader                  Loading Holster
  Extended Mag 4,4,5,6,6        Autoloader
- Barbed 3,3,3,1,1              Barbed 3,3
+ Barbed 3,3,1,1,1              Barbed 3
  Efficient                     Second Chamber
-
+                                       {YBulk mod}
 {!Melee}          {!Armor}          {!Helmet}
  Swap Harness   Durable        Durable
  Guarded 10     Fire Resistant Bot Scanner
@@ -1043,12 +1043,12 @@ strings.ui.game.help.dodge.content =
 [=[
                                       {YPower mod}
 
-{!Semi,Auto}      {!Pistol}         {!Shotgun}
- Longshot 4,1   Fresh Mag 3    Point Blank 8
- Ripper 4,1     Ripper 3       Ripper 8
- Hunter 4,1     Longshot 3     Cleaner 8
- Frenzy 4,1     Frenzy 3       Frenzy 8
- Molten 3,1     Molten 3       Molten 3
+{!Pistol}         {!Semi,Auto}       {!Shotgun}
+ Fresh Mag 3    Longshot 4,1   Point Blank 8
+ Ripper 3       Ripper 4,1     Ripper 8
+ Longshot 3     Hunter 4,1     Cleaner 8
+ Frenzy 3       Frenzy 4,1     Frenzy 8
+ Molten 3       Molten 3,1     Molten 3
 
 {!Melee}          {!Armor}          {!Helmet}
  Cleaner 5      Carrier        Exit Scanner
