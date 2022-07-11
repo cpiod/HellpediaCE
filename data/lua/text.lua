@@ -1013,29 +1013,29 @@ strings.ui.game.help.pain.content =
 {!Pistol,Semi,SMG,Auto,Rotary}   {!Shotgun,Launcher}
  Swap Harness                  Swap Harness
  Speed Loader     {YBulk mod}     Loading Holster
- Extended Mag                  Autoloader
- Barbed                        Barbed
+ Extended Mag 4,4,5,6,6        Autoloader
+ Barbed 3,3,3,1,1              Barbed 3,3
  Efficient                     Second Chamber
 
 {!Melee}          {!Armor}          {!Helmet}
  Swap Harness   Durable        Durable
- Guarded        Fire Resistant Bot Scanner
+ Guarded 10     Fire Resistant Bot Scanner
  Guard Shield   Padded         Tech Monitor
- Barbed         Loading Feed   Health Monitor
+ Barbed 3       Loading Feed   Health Monitor
  Surrounded     Auto Repair    Auto Repair
 {Y-----------------------------------------------}
 {!Pist,SMG,Laun}  {!Semi,Auto,Rot}  {!Shotgun}  {YAcc. mod}
  Calibrated     Calibrated     Calibrated
  Stabilized     Stabilized     Stabilized
  Precise        Balanced       Retaliate
- Critical       Critical       Critical
+ Critical 25    Critical 25    Critical 25
  Exalted Bane   Exalted Bane   Exalted Bane
 
 {!Melee}          {!Armor}          {!Helmet}
  Retaliate      Swift          Aim Assist
  Resilient      Painkiller     Long-range Track
- Mechabane      Critical       Critical
- Critical       Pockets        Heat Vision
+ Mechabane      Critical 10    Critical 10
+ Critical 25    Pockets        Heat Vision 3
  Exalted Bane   Meta. Boost    Network Scanner
 ]=]
 
@@ -1043,26 +1043,26 @@ strings.ui.game.help.dodge.content =
 [=[
                                       {YPower mod}
 
-{!Semi,Auto,Laun} {!Pistol}         {!Shotgun}
- Longshot       Fresh Mag      Point Blank
- Ripper         Ripper         Ripper
- Hunter         Longshot       Cleaner
- Frenzy         Frenzy         Frenzy
- Molten         Molten         Molten
+{!Semi,Auto}      {!Pistol}         {!Shotgun}
+ Longshot 4,1   Fresh Mag 3    Point Blank 8
+ Ripper 4,1     Ripper 3       Ripper 8
+ Hunter 4,1     Longshot 3     Cleaner 8
+ Frenzy 4,1     Frenzy 3       Frenzy 8
+ Molten 3,1     Molten 3       Molten 3
 
 {!Melee}          {!Armor}          {!Helmet}
- Cleaner        Carrier        Exit Scanner
- Ripper         Meshed         Danger Monitor
- Hunter         Acid Shield    Plated
- Frenzy         Plated         Crit Enhancer
- Molten         Auto Med       Supply Scanner
+ Cleaner 5      Carrier        Exit Scanner
+ Ripper 5       Meshed         Danger Monitor
+ Hunter 5       Acid Shield    Plated
+ Frenzy 5       Plated         Crit Enhancer 25
+ Molten 3       Auto Med       Supply Scanner
 
-{!SMG}
- Cleaner
- Ripper
- Point Blank
- Frenzy
- Molten
+{!SMG}            {!Launcher}
+ Cleaner 1      Longshot 8
+ Ripper 1       Focused
+ Point Blank 1  Hunter 8
+ Frenzy 1       Frenzy 8
+ Molten 1       Molten 3
 ]=]
 
 
