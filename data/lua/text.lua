@@ -1043,7 +1043,7 @@ strings.ui.game.help.dodge.content =
 [=[
                                       {YPower mod}
 
-{!Pistol}         {!Semi,Auto}       {!Shotgun}
+{!Pistol}         {!Semi,Auto}      {!Shotgun}
  Fresh Mag 3    Longshot 4,1   Point Blank 8
  Ripper 3       Ripper 4,1     Ripper 8
  Longshot 3     Hunter 4,1     Cleaner 8
