@@ -1010,7 +1010,7 @@ Eu portal  URR Io portal RRUU Da portal   {RULLUL}
 
 strings.ui.game.help.pain.content =
 [=[
-{!Pistol,Semi,SMG,Auto,Rotary}   {!Shotgun,Launcher}
+{!Pist,Semi,SMG,Auto,Rot}        {!Shotgun,Launcher}
  Swap Harness                  Swap Harness
  Speed Loader                  Loading Holster
  Extended Mag 4,4,5,6,6        Autoloader
@@ -1043,12 +1043,12 @@ strings.ui.game.help.dodge.content =
 [=[
                                       {YPower mod}
 
-{!Pistol}         {!Semi,Auto}      {!Shotgun}
- Fresh Mag 3    Longshot 4,1   Point Blank 8
- Ripper 3       Ripper 4,1     Ripper 8
- Longshot 3     Hunter 4,1     Cleaner 8
- Frenzy 3       Frenzy 4,1     Frenzy 8
- Molten 3       Molten 3,1     Molten 3
+{!Pistol}         {!Semi,Auto,Rot}    {!Shotgun}
+ Fresh Mag 3    Longshot 4,1,1   Point Blank 8
+ Ripper 3       Ripper 4,1,1     Ripper 8
+ Longshot 3     Hunter 4,1,1     Cleaner 8
+ Frenzy 3       Frenzy 4,1,1     Frenzy 8
+ Molten 3       Molten 3,1,1     Molten 3
 
 {!Melee}          {!Armor}          {!Helmet}
  Cleaner 5      Carrier        Exit Scanner
@@ -1074,8 +1074,8 @@ strings.ui.game.help.melee.content =
 
 strings.ui.game.help.range.content =
 [=[
-{GExecutioner} ({!Callisto Mines}) knife that {Y[Ca,Eu]}
- one-shots low (60/90/120) HP targets
+{GExecutioner} ({!Callisto Mines}) knife      {Y[Ca,Eu]}
+ that one-shots low HP targets
 {GLove} ({!Mimir Habitat}) vampiric .44 revolver
 {GCarnage} 9mm SMG, attacks other targets on kill
 {GVengeance} .44 hunter rifle, stacks crit chance
