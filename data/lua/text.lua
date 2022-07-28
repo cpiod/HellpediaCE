@@ -819,11 +819,11 @@ strings.ui.game.help.keyboard.content =
  {YCallisto Mines}{!: close portals, QUICK!}
 {!JoviSec}: +25% crit damage
 {!Rewards}: AV2/exo pistol+shotgun, AV2
- favored AMP, red relic                    {!2 5}
+ favored AMP, AV2 helmet/armor, red relic  {!2 5}
 {!Special rewards}: If 1 closed portal: red
  relic. If 2: Warlock Eye. If 3: Warlock  {!4   3}
  Horn. If >=1: touch pillars in order (cf.
- plan) for {!Purgatory} access (only Medium+)  {!1}
+ plan) for {!Purgatory} access (Medium+ only)  {!1}
 
  {YMimir Habitat}{!: dl codes from MDF sentries!}
 {!MDF}: +1 optimal range
@@ -922,21 +922,22 @@ strings.ui.game.help.mouse_ui.content =
 
 strings.ui.game.help.gameplay.content =
 [=[
- {YIo Black Site}
-{!Perk}: (none yet)
+ {YIo Black Site}{!: help the CRI kill the demons!}
+{!Perk}: TTL: inflicts Wither on bio & semi-mecha
+ (-50% resistances, +20% damage taken)
 {!Rewards}: AV3 favored AMP, Mk3 manu station,
- AV3 hyperblaster or AWP, purple relic
-{!Special reward}: BFT9K when 4 open vaults
-{!Remark}: bring 3 red cards for full reward
+ AV3 hyperblaster or AWP, purple relic,
+ TTL BFT9K when 4 open vaults (w/ 3 red cards)
+{!Special reward}: 2 red cards
 
 
- {YCRI Laboratories}
+ {YCRI Labs}{!: defend the CRI against the demons!}
 {!Perk}: CRI: +25% dmg vs demons
 {!Rewards}: 2 AV3/exo favored weapons, AV3/exo
  pistol/shotgun/rifle, AV3 hyperblaster, CRI
- armor, Mk3 manu station, AV3 favored AMP
-{!Special reward}: CRI BFT9K when 4 open vaults
-{!Remark}: bring 3 red cards for full reward
+ armor, Mk3 manu station, AV3 favored AMP,
+ CRI BFT9K when 4 open vaults (w/ 3 red cards)
+{!Special reward}: all vaults are opened
 
 
  {YMephitic Mines}{!: reroute the gas!}
