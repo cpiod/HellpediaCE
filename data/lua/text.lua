@@ -996,7 +996,7 @@ strings.ui.game.help.accuracy.content =
     {!Tier 1}         {!Tier 2}          {!Tier 3}
 {GExec.}     URUL {GW.spl.}   LDLDL {GSoulst.}    {RDDLLUR}
 {GLove}      RRDR {GHate}      RURU {GDeath}       ULDLD
-{GCarnage}   ULLL {GTw Viper} LDDRR {GVoid}         LLDR
+{GCarnage}   ULLL {GTw Viper} LDDRR {GVoid}       LLDRDD
 {GVengeance} LDDR {GBloodl.}  UUUUL {GSh.hunter}  {RDRULLU}
 {GThompson}  DRRR {GHammerh.} RUUUL {GAvalanche}  URUULL
 {GScrapgun}  DRRU {GVulcan}   {RLUULD} {GApocalypse} UUULDD
