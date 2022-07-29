@@ -923,22 +923,22 @@ strings.ui.game.help.mouse_ui.content =
 strings.ui.game.help.gameplay.content =
 [=[
  {YIo Black Site}{!: help the CRI kill the demons!}
-{!Perk}: TTL: inflicts Wither on bio & semi-mecha
- (-50% resistances, +20% damage taken)
+{!TTL}: inflicts Wither on bio & semi-mecha (-50%
+ resistances, +20% damage taken, for 3s)
 {!Rewards}: AV3 favored AMP, Mk3 manu station,
  AV3 hyperblaster or AWP, purple relic,
  TTL BFT9K when 4 open vaults (w/ 3 red cards)
-{!Special reward}: 2 red cards
-
+{!Special reward}: 2 red cards, CRI is neutral
+{!Remark}: at least one CRI marine must survive
 
  {YCRI Labs}{!: defend the CRI against the demons!}
-{!Perk}: CRI: +25% dmg vs demons
+{!CRI}: +25% damage vs demons
 {!Rewards}: 2 AV3/exo favored weapons, AV3/exo
  pistol/shotgun/rifle, AV3 hyperblaster, CRI
  armor, Mk3 manu station, AV3 favored AMP,
  CRI BFT9K when 4 open vaults (w/ 3 red cards)
-{!Special reward}: all vaults are opened
-
+{!Special reward}: vaults are open, CRI is neutral
+{!Remark}: a 1/3 of the CRI marines must survive
 
  {YMephitic Mines}{!: reroute the gas!}
 {!IDR}: -50% reload time
