@@ -847,7 +847,7 @@ strings.ui.game.help.controller.content =
  {YMilitary Barracks}
 {!JoviSec}: +25% crit damage
 {!Rewards}: 2 AV2/exo pistols, 2 AV2/exo shotguns,
- 2 AV2/exo rifles, AV2/exo grenade launcher,
+ 2 AV2/exo autos, AV2/exo grenade launcher,
  EGLS or AV2 rocket launcher, ammo term.
 
  {YCallisto Docking Bay}{!: activate lockdown!}
@@ -877,7 +877,7 @@ strings.ui.game.help.mouse.content =
 
  {YC. Chaos Biolabs}{!: open valves, get essences!}
 {!CCB}: +20% dmg vs bio, +10% dmg vs semi-mecha
-{!Rewards}: AV2 pistol, AV2 semi-auto/rifle
+{!Rewards}: AV2 pistol, AV2 semi-auto/auto
 {!Special rewards}: acid, pain, bleed, fire
  resistances (at most 3 of them)
 {!Secret reward}: +20% damage (if 3 res. bought)
@@ -888,7 +888,7 @@ strings.ui.game.help.mouse.content =
  {YEuropa Dig Zone}{!: do} {RNOT} {!open valves!}
 {!ERI}: -75% swap time
 {!Rewards}: AV2 AMP for pistol/auto/shotgun/melee
- or AV2 armor/rifle, Mk2 manu+tech+med stations
+ or AV2 armor/auto, Mk2 manu+tech+med stations
 {!Special reward}: cold resistance
 
 ]=]
@@ -906,7 +906,7 @@ strings.ui.game.help.mouse_ui.content =
  {YThe Pit}{!: pet the smaller Kerberos w/ {$input_action}!}
 {!No perk}
 {!Rewards}: backpack, AV3 headgear, AV3 favored
- AMP, AV3 armor/rifle/semi-auto
+ AMP, AV3 armor/auto/semi-auto
 {!Special reward}: on level up, {!Rexio} gains bleed,
  poison, fire & cold res., up to 80% DR, more
  HP and damage, new orders: wait, follow, hunt
@@ -915,30 +915,30 @@ strings.ui.game.help.mouse_ui.content =
  {YRefueling Base}{!: open fuel valves!}
 {!No perk}
 {!Rewards}: backpack, ammo term, AV3 visor,
- AV3 favored+general AMPs, AV3 armor/rifle/AMP
+ AV3 favored+general AMPs, AV3 armor/auto/AMP
 {!Special reward}: ENV armor (fire, cold and
  50% poison resistances)
 ]=]
 
 strings.ui.game.help.gameplay.content =
 [=[
+ {YCRI Labs}{!: defend the CRI against the demons!}
+{!CRI}: +25% damage vs demons
+{!Rewards}: 2 AV3/exo favored weapons, exo pistol/
+ shotgun/auto, AV3 hyperblaster, CRI armor,
+ Mk3 manu station, AV3 favored AMP, CRI BFT9K{!*}
+{!Special reward}: vaults open, CRI is friendly{!**}
+{!Remark}: there can be at most 2 CRI deaths by
+ level to unlock the special reward
+
  {YIo Black Site}{!: help the CRI kill the demons!}
 {!TTL}: inflicts Wither on bio & semi-mecha (-50%
  resistances, +20% damage taken, for 3s)
 {!Rewards}: AV3 favored AMP, Mk3 manu station,
- AV3 hyperblaster or AWP, purple relic,
- TTL BFT9K when 4 open vaults (w/ 3 red cards)
-{!Special reward}: 2 red cards, CRI is neutral
-{!Remark}: at least one CRI marine must survive
-
- {YCRI Labs}{!: defend the CRI against the demons!}
-{!CRI}: +25% damage vs demons
-{!Rewards}: 2 AV3/exo favored weapons, AV3/exo
- pistol/shotgun/rifle, AV3 hyperblaster, CRI
- armor, Mk3 manu station, AV3 favored AMP,
- CRI BFT9K when 4 open vaults (w/ 3 red cards)
-{!Special reward}: vaults are open, CRI is neutral
-{!Remark}: a 1/3 of the CRI marines must survive
+ AV3 hyperblaster/AWP, purple relic, TTL BFT9K{!*}
+{!Special reward}: 2 red cards, CRI is friendly{!**}
+{!Remark}: same as CRI Labs + clearing the level
+ before CRI arrival cancels the event
 
  {YMephitic Mines}{!: reroute the gas!}
 {!IDR}: -50% reload time
@@ -947,7 +947,10 @@ strings.ui.game.help.gameplay.content =
  fire, 50% cold resistances), AV1 hyperblaster
 {!Special rewards}: poison resistance. With {!Rift}
  reward: strong poison aura, +50% poison effect
-]=]
+
+{!*} avail. if 4 vaults are open (w/ 3 red cards)
+{!**} doesn’t apply to former CRI soldiers
+ ]=]
 
 strings.ui.game.help.time.content =
 [=[
@@ -956,7 +959,7 @@ strings.ui.game.help.time.content =
 {!Rewards}: unique exchange (random: Exosuit/Void/
  Death/Apocalypse) OR wish (if heart), AV3 fav.
  AMP, AV3 red/blue armor, AV3 pistol/SMG/
- rifle/shotgun, AV3 shotgun/hyperblaster/AWP
+ auto/shotgun, AV3 shotgun/hyperblaster/AWP
 {!Special reward}: select one wish:
  {!"WEALTH!"} choose one among three uniques, max
   HP reduced by 33%, HP set to 20, all medkits
