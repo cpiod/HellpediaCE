@@ -872,7 +872,7 @@ strings.ui.game.help.mouse.content =
  red relic, AV2 red armor, AV2 headgear
 {!Special rewards}: exotic mod/AV1 general AMP,
  6 consumables, AT exotic manu station (list of
- 3 from a pool containing every weapon group)
+ 3 from a pool covering all weapon groups)
 
 
  {YC. Chaos Biolabs}{!: open valves, get essences!}
@@ -904,7 +904,6 @@ strings.ui.game.help.mouse_ui.content =
 
 
  {YThe Pit}{!: pet the smaller Kerberos w/ {$input_action}!}
-{!No perk}
 {!Rewards}: backpack, AV3 headgear, AV3 favored
  AMP, AV3 armor/auto/semi-auto
 {!Special reward}: on level up, {!Rexio} gains bleed,
@@ -913,7 +912,6 @@ strings.ui.game.help.mouse_ui.content =
 
 
  {YRefueling Base}{!: open fuel valves!}
-{!No perk}
 {!Rewards}: backpack, ammo term, AV3 visor,
  AV3 favored+general AMPs, AV3 armor/auto/AMP
 {!Special reward}: ENV armor (fire, cold and
@@ -940,13 +938,11 @@ strings.ui.game.help.gameplay.content =
 {!Remark}: same as CRI Labs + clearing the level
  before CRI arrival cancels the event
 
- {YMephitic Mines}{!: reroute the gas!}
-{!IDR}: -50% reload time
-{!Rewards}: AV3 katana, AV3 blue armor, ENV
- helmet (dark vision, heatvision + poison, 50%
- fire, 50% cold resistances), AV1 hyperblaster
-{!Special rewards}: poison resistance. With {!Rift}
- reward: strong poison aura, +50% poison effect
+ {YInfernal Lock}{!: block doors with items!}
+{!Rewards}: lootboxes, AV3 general AMP
+{!Special reward}: cold (33% chance), sustain
+ (33%), nano (17%), or onyx (17%) mod. No
+ special reward after locks destruction!
 
 {!*} avail. if 4 vaults are open (w/ 3 red cards)
 {!**} doesn’t apply to former CRI soldiers
@@ -969,15 +965,16 @@ strings.ui.game.help.time.content =
  {!"HEALTH!"} regenerate 5 HP/s up to 50% of max
   HP, receive 25% less healing, HP set to 1
 
- {YIo Warehouse}
-{!No perk}
-{!Rewards}: lots of lootboxes, AV1 hyperblaster
+ {YMephitic Mines}{!: reroute the gas!}
+{!IDR}: -50% reload time
+{!Rewards}: AV3 katana, AV3 blue armor, ENV
+ helmet (dark vision, heatvision + poison, 50%
+ fire, 50% cold resistances), AV1 hyperblaster
+{!Special rewards}: poison resistance. With {!Rift}
+ reward: strong poison aura, +50% poison effect
 
- {YInfernal Lock}{!: block doors with items!}
-{!No perk}
-{!Rewards}: lootboxes, AV3 general AMP
-{!Special reward}: cold (33% chance), sustain
- (33%), nano (17%), or onyx (17%) mod
+ {YIo Warehouse}
+{!Rewards}: lots of lootboxes, AV1 hyperblaster
 ]=]
 
 strings.ui.game.help.accuracy.content = 
@@ -986,13 +983,13 @@ strings.ui.game.help.accuracy.content =
 {!Unlock}: kill an enemy with melee on Dante L1
 {!Perk}: (none yet)
 {!Special rule}: melee only!
-{!Reward}: {GSoulstealer} (guaranteed)
+{!Reward}: {GSoulstealer}
 
  {YInferno}
 {!Unlock}: kill all enemies of Dante L2
 {!Perk}: (none yet)
-{!Rewards}: guaranteed unique (25% chance it’s
- {GBFT10K}), AV3 general AMP
+{!Rewards}: AV3 general AMP, a Tier 3 unique (25%
+ chance it’s {GBFT 10K})
 
 
  {YPurgatory paths} (red ones are broken)
@@ -1098,7 +1095,7 @@ strings.ui.game.help.range.content =
 {GHate} 7.62 sidearm, stacks crit chance on hits
 {GTwin Viper} 7.62 SMG, inflicts poison, gets copy
 {GBloodletter} ({!Europa Ruins}) 7.62 sniper rifle,
- causes damage and bleed by automatical reload
+ causes damage and bleed by automatic reload
 {GHammerhead} ({!Asterius Habitat}) 7.62 pierce
  rifle, rail projectile, 100% crit damage
 {GVulcan} pierce damage chaingun
