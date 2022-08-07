@@ -832,7 +832,7 @@ strings.ui.game.help.keyboard.content =
 {!Special rewards}: CalSec shutdown/reboot, MDF
  exo manu station (L2 clearance: 4 choices, L3
  clearance: 6 choices among pistols, SMG,
- rifles, toxin semi, 40mm drum and shotguns)
+ autos, toxin semi, 40mm drum and shotguns)
 {!Remark}: bring 1 red card for full reward
 ]=]
 
@@ -966,16 +966,15 @@ strings.ui.game.help.time.content =
  {!"HEALTH!"} regenerate 5 HP/s up to 50% of max
   HP, receive 25% less healing, HP set to 1
 
-
  {YIo Warehouse}
-{!Perk}: (none yet)
+{!No perk}
 {!Rewards}: lots of lootboxes, AV1 hyperblaster
 
-
  {YInfernal Lock}{!: block doors with items!}
-{!Perk}: (none yet)
+{!No perk}
 {!Rewards}: lootboxes, AV3 general AMP
-{!Special reward}: cold/vampiric/EMP/sustain mod
+{!Special reward}: cold (33% chance), sustain
+ (33%), nano (17%), or onyx (17%) mod
 ]=]
 
 strings.ui.game.help.accuracy.content = 
@@ -1006,7 +1005,7 @@ strings.ui.game.help.accuracy.content =
 {GSh.cloak}  DRUL {GCy.suit}  URULL {GExosuit}    URRDLD
 {GFd Crown}  ULDD {GOverlord} DLDDD {GFirecrown}  ULLDRR
 
-Eu portal  URR Io portal RRUU Da portal   {RULLUL}
+{YEur} portal URR {YIo} portal RRUU {YDante} port. {RULLUL}
 ]=]
 
 strings.ui.game.help.pain.content =
