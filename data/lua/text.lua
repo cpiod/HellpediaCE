@@ -390,9 +390,9 @@ strings = {
                 accuracy   = { title = "Dante/Purg.", },
                 range      = { title = "Uniques", },
                 cover      = { title = "Uniques", },
-                pain      = { title = "Whizkid B+A", },
-                dodge      = { title = "Whizkid P", },
-                melee       = { title = "", },
+                pain       = { title = "Exotics", },
+                dodge      = { title = "Whizkid B+A", },
+                melee      = { title = "Whizkid P", },
                 footer     = "press <{$input_ui_up},{$input_ui_down}> or <{$input_ui_confirm},{$input_ui_cancel}> to continue",
             },
 			tutorial = {
@@ -1009,7 +1009,7 @@ strings.ui.game.help.accuracy.content =
 {YEur} portal URR {YIo} portal RRUU {YDante} port. ULLUL
 ]=]
 
-strings.ui.game.help.pain.content =
+strings.ui.game.help.dodge.content =
 [=[
 {!Pist,Semi,SMG,Auto,Rot}        {!Shotgun,Launcher}
  Swap Harness                  Swap Harness
@@ -1040,7 +1040,7 @@ strings.ui.game.help.pain.content =
  Exalted Bane   Meta. Boost    Network Scanner
 ]=]
 
-strings.ui.game.help.dodge.content =
+strings.ui.game.help.melee.content =
 [=[
                                       {YPower mod}
 
@@ -1067,10 +1067,36 @@ strings.ui.game.help.dodge.content =
 ]=]
 
 
-strings.ui.game.help.melee.content =
-[=[(nothing yet)
-
-
+strings.ui.game.help.pain.content =
+[=[
+{MClass blade} +100% crit when used with skill
+{MQuickblade} +100% crit after draw   {MSword} plasma
+{MPlasma katana} extra EMP {MPower saw} 400% vs armor
+{M9mm cal} pierce, 50% crit in opt range
+{M9mm mag pistol} pierce, losing power with hits
+{M.44 HE revolver} gibbed enemies explode
+{M.44 flintlock} concussion, no crit damage
+{M.44 deagle} no acc malus     {MBlaster} regen. ammo
+{M9mm torrent} extra crit chance on close enemies
+{M9mm storm} pain accuracy malus becomes crit
+{M.44 JAC} enemies near dead enemies bleed
+{M7.62 riot} +2 dmg for each extra enemy in sight
+{M.44 toxin rifle} deals poison  {MEMP rifle} EMP dmg
+{M7.62 AWP rifle} each kill increases crit chance
+{MRailgun} no min range   {MMagrail} idem + no reload
+{M9mm tac rifle} scope, +50% aim bonus
+{M9mm prec rifle} shoot 1 powerful ammo after aim
+{M7.62 pierce rifle} high crit dmg, 300% vs armor
+{M(Super) Nailgun} consumes 1 multitool to reload
+{M7.62 gatling} +1 dmg for each kill until reload
+{M9mm frag shotgun} deals bleed, +50% vs bleeding
+{MFocused shotgun} impact damage, narrow cone
+{MElephant} concussion    {MJackhammer} 3 shells/shot
+{MSuper shotgun} auto-reload on kill
+{M40mm drum} 3 grenades/shot        {MEGLS} no reload
+{MMicro-launcher} 4-rockets magazine, small AoE
+{MBio launcher} dead enemies emit poison
+{MBFT9K} BFT with multiple jumps
 ]=]
 
 strings.ui.game.help.range.content =
