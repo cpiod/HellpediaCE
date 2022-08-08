@@ -1042,12 +1042,12 @@ strings.ui.game.help.melee.content =
 
 strings.ui.game.help.dodge.content =
 [=[{MGuardian} light, saves your life once      {YArmor}
-{MAblative} no repair      {MDuramesh} indestructible
-{MMedifiber} heals, costs dura.   {MNecrotic} inverse
+{MAblative} no repair     {MDuramesh} indestructible
+{MMedifiber} heals, costs dura.  {MNecrotic} inverse
 {MClass armor/helmet} various effects
 {MSupply v.} +1 charge in terminal/station  {YHelmet}
-{MAnalytic v.} +20% XP  {MCommand v.} red door bypass
-{MBlast h.} -75% splash dmg  {MBattle h.} DR% = pain%
+{MAnalytic v.} +20% XP {MCommand v.} red door bypass
+{MBlast h.} -75% splash dmg {MBattle h.} DR% = pain%
 {Y-----------------------------------------------}
 {!Pistol}         {!Semi,Auto,Rot}    {!Shotgun}
  Fresh Mag 3    Longshot 4,1,1   Point Blank 8
@@ -1055,7 +1055,6 @@ strings.ui.game.help.dodge.content =
  Longshot 3     Hunter 4,1,1     Cleaner 8
  Frenzy 3       Frenzy 4,1,1     Frenzy 8
  Molten 3       Molten 3,1,1     Molten 3
-                                      {YPower mod}
 {!Melee}          {!Armor}          {!Helmet}
  Cleaner 5      Carrier        Exit Scanner
  Ripper 5       Meshed         Danger Monitor
@@ -1063,7 +1062,7 @@ strings.ui.game.help.dodge.content =
  Frenzy 5       Plated         Crit Enhancer 25
  Molten 3       Auto Med       Supply Scanner
 
-{!SMG}            {!Launcher}
+{!SMG}            {!Launcher}               {YPower mod}
  Cleaner 1      Longshot 8
  Ripper 1       Focused
  Point Blank 1  Hunter 8
@@ -1075,20 +1074,20 @@ strings.ui.game.help.dodge.content =
 strings.ui.game.help.pain.content =
 [=[
 {MClass blade} +100% crit with skill use     {YMelee}
-{MQuickblade} +100% crit after draw   {MSword} plasma
-{MPlasma kat.} plasma+EMP  {MPower saw} 400% vs armor
+{MQuickblade} +100% crit after draw  {MSword} plasma
+{MPlasma kat.} plasma+EMP {MPower saw} 400% vs armor
 {M.44 HE revolver} gibbed enemies explode   {YPistol}
 {M9mm calibrated} pierce, 50% crit in opt range
 {M9mm mag pistol} pierce, loses damage with hits
 {M.44 flintlock} concussion but no crit damage
-{M.44 deagle} no pain acc malus {MBlaster} regen ammo
+{M.44 deagle} no acc malus     {MBlaster} regen ammo
 {M.44 JAC} makes enemies near dead ones bleed  {YSMG}
 {M9mm torrent} extra crit chance on close enemies
 {M9mm storm} pain accuracy malus becomes crit
 {M7.62 riot} +2 dmg for each extra enemy in sight
-{M.44 toxin rifle} deals poison  {MEMP rifle} EMP dmg
+{M.44 toxin rifle} deals poison {MEMP rifle} EMP dmg
 {M7.62 AWP rifle} kills increase crit chance  {YSemi}
-{MRailgun} no min range   {MMagrail} idem + no reload
+{MRailgun} no min range  {MMagrail} idem + no reload
 {M9mm tactical rifle} scope, +50% aim bonus   {YAuto}
 {M9mm prec. rifle} aim to shoot 1 powerful bullet
 {M7.62 pierce rifle} high crit dmg, 300% vs armor
@@ -1097,11 +1096,11 @@ strings.ui.game.help.pain.content =
 {MSuper shotgun} auto-reload on kill       {YShotgun}
 {M9mm frag shotgun} deals bleed, +50% vs bleeding
 {MFocused shotgun} impact damage, narrow cone
-{MElephant} concussion    {MJackhammer} 3 shells/shot
+{MElephant} concussion   {MJackhammer} 3 shells/shot
 {MBFT9K} jumping big plasma ball          {YLauncher}
 {MMicro launcher} 4-rockets magazine, small AoE
 {MBio launcher} toxic, dead enemies emit poison
-{M40mm drum laun.} 3 grenades/shot  {MEGLS} no reload
+{M40mm drum laun.} 3 grenades/shot {MEGLS} no reload
 ]=]
 
 strings.ui.game.help.range.content =
