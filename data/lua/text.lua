@@ -391,8 +391,8 @@ strings = {
                 range      = { title = "Uniques", },
                 cover      = { title = "Uniques", },
                 pain       = { title = "Exotics", },
-                dodge      = { title = "Whizkid B+A", },
-                melee      = { title = "Whizkid P", },
+                dodge      = { title = "Exo/Whik. P", },
+                melee      = { title = "Whizkid B+A", },
                 footer     = "press <{$input_ui_up},{$input_ui_down}> or <{$input_ui_confirm},{$input_ui_cancel}> to continue",
             },
 			tutorial = {
@@ -1009,7 +1009,7 @@ strings.ui.game.help.accuracy.content =
 {YEur} portal URR {YIo} portal RRUU {YDante} port. ULLUL
 ]=]
 
-strings.ui.game.help.dodge.content =
+strings.ui.game.help.melee.content =
 [=[
 {!Pist,Semi,SMG,Auto,Rot}        {!Shotgun,Launcher}
  Swap Harness                  Swap Harness
@@ -1040,17 +1040,22 @@ strings.ui.game.help.dodge.content =
  Exalted Bane   Meta. Boost    Network Scanner
 ]=]
 
-strings.ui.game.help.melee.content =
-[=[
-                                      {YPower mod}
-
+strings.ui.game.help.dodge.content =
+[=[{MGuardian} light, saves your life once      {YArmor}
+{MAblative} no repair      {MDuramesh} indestructible
+{MMedifiber} heals, costs dura.   {MNecrotic} inverse
+{MClass armor/helmet} various effects
+{MSupply v.} +1 charge in terminal/station  {YHelmet}
+{MAnalytic v.} +20% XP  {MCommand v.} red door bypass
+{MBlast h.} -75% splash dmg  {MBattle h.} DR% = pain%
+{Y-----------------------------------------------}
 {!Pistol}         {!Semi,Auto,Rot}    {!Shotgun}
  Fresh Mag 3    Longshot 4,1,1   Point Blank 8
  Ripper 3       Ripper 4,1,1     Ripper 8
  Longshot 3     Hunter 4,1,1     Cleaner 8
  Frenzy 3       Frenzy 4,1,1     Frenzy 8
  Molten 3       Molten 3,1,1     Molten 3
-
+                                      {YPower mod}
 {!Melee}          {!Armor}          {!Helmet}
  Cleaner 5      Carrier        Exit Scanner
  Ripper 5       Meshed         Danger Monitor
@@ -1069,34 +1074,34 @@ strings.ui.game.help.melee.content =
 
 strings.ui.game.help.pain.content =
 [=[
-{MClass blade} +100% crit when used with skill
+{MClass blade} +100% crit with skill use     {YMelee}
 {MQuickblade} +100% crit after draw   {MSword} plasma
-{MPlasma katana} extra EMP {MPower saw} 400% vs armor
+{MPlasma kat.} plasma+EMP  {MPower saw} 400% vs armor
+{M.44 HE revolver} gibbed enemies explode   {YPistol}
 {M9mm calibrated} pierce, 50% crit in opt range
 {M9mm mag pistol} pierce, loses damage with hits
-{M.44 HE revolver} gibbed enemies explode
 {M.44 flintlock} concussion but no crit damage
 {M.44 deagle} no pain acc malus {MBlaster} regen ammo
+{M.44 JAC} makes enemies near dead ones bleed  {YSMG}
 {M9mm torrent} extra crit chance on close enemies
 {M9mm storm} pain accuracy malus becomes crit
-{M.44 JAC} makes enemies near dead ones bleed
 {M7.62 riot} +2 dmg for each extra enemy in sight
 {M.44 toxin rifle} deals poison  {MEMP rifle} EMP dmg
-{M7.62 AWP rifle} each kill increases crit chance
+{M7.62 AWP rifle} kills increase crit chance  {YSemi}
 {MRailgun} no min range   {MMagrail} idem + no reload
-{M9mm tactical rifle} scope, +50% aim bonus
+{M9mm tactical rifle} scope, +50% aim bonus   {YAuto}
 {M9mm prec. rifle} aim to shoot 1 powerful bullet
 {M7.62 pierce rifle} high crit dmg, 300% vs armor
-{M(Super) Nailgun} consumes 1 multitool to reload
+{M(Super) Nailgun} 1 multitool to reload    {YRotary}
 {M7.62 gatling} +1 dmg for each kill until reload
+{MSuper shotgun} auto-reload on kill       {YShotgun}
 {M9mm frag shotgun} deals bleed, +50% vs bleeding
 {MFocused shotgun} impact damage, narrow cone
 {MElephant} concussion    {MJackhammer} 3 shells/shot
-{MSuper shotgun} auto-reload on kill
-{M40mm drum laun.} 3 grenades/shot  {MEGLS} no reload
+{MBFT9K} jumping big plasma ball          {YLauncher}
 {MMicro launcher} 4-rockets magazine, small AoE
 {MBio launcher} toxic, dead enemies emit poison
-{MBFT9K} plasma ball jumping to other targets
+{M40mm drum laun.} 3 grenades/shot  {MEGLS} no reload
 ]=]
 
 strings.ui.game.help.range.content =
