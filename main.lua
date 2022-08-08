@@ -239,8 +239,6 @@ register_blueprint "hellpediace_purgatory"
 {GFd Crown}  ULDD {GOverlord} DLDDD {GFirecrown}  ULLDRR
 
 {YEur} portal URR {YIo} portal RRUU {YDante} port. ULLUL
-
-Check the "Uniques" entries for more details
 ]=]
     }
 }
@@ -324,7 +322,7 @@ register_blueprint "hellpediace_exotics_1"
  {YMelee}
 {MClass blade} +100% crit in adren./stealth/smoke
 {MQuickblade} +100% crit after draw, quick swap
-{MSword} plasma blade
+{MCRI sword} plasma blade
 {MPlasma katana} plasma blade + EMP damage
 {MPower saw} 400% damage vs armor
 
@@ -344,8 +342,8 @@ register_blueprint "hellpediace_exotics_1"
 
  {YSemi}
 {M.44 toxin rifle} low damage, deals poison
-{MEMP rifle} deals EMP damage {Rammo?}
 {M7.62 AWP rifle} kills increase crit chance
+{MEMP rifle} deals EMP damage {Rammo?}
 {MRailgun} no minimum range
 {MMagrail} no minimum range, cannot reload
 ]=]
@@ -364,13 +362,13 @@ register_blueprint "hellpediace_exotics_2"
 {MNail gun} 1 multitool to reload
 
  {YRotary}
-{MSuper nailgun} 1 multitool to reload
 {M7.62 gatling} +1 dmg for each kill until reload
+{MSuper nailgun} 1 multitool to reload
 
  {YShotgun}
-{MSuper shotgun} auto-reload on kill
 {M9mm frag shotgun} deals bleed, +50% vs bleeding
 {MFocused shotgun} impact damage, narrow cone
+{MSuper shotgun} auto-reload on kill
 {MElephant} hit enemies deal 50% damage {Rverify}
 {MJackhammer} fires 3 shells/shot
 
@@ -379,7 +377,7 @@ register_blueprint "hellpediace_exotics_2"
 {MEGLS} grenade launcher, cannot reload
 {MMicro launcher} 4-rockets magazine, small AoE
 {MBio launcher} toxic, dead enemies emit poison
-{MBFT9K} jumping big plasma ball
+{MBFT9K} big plasma ball jumping to other targets
 ]=]
     }
 }
@@ -391,7 +389,7 @@ register_blueprint "hellpediace_exotics_3"
         title = "Exotics",
         content = [=[
  {YArmor}
-{MGuardian} light, saves your life once     
+{MGuardian} light armor, saves your life once
 {MAblative} high protection, no repair
 {MDuramesh} low protection, indestructible
 {MMedifiber} heals at the cost of durability
@@ -428,19 +426,26 @@ register_blueprint "hellpediace_whizkid_b"
         content = [=[
  {!Bulk mod}
 
-{!Pist,Semi,SMG,Auto,Rot}        {!Shotgun,Launcher}
- Swap Harness                  Swap Harness
- Speed Loader                  Loading Holster
- Extended Mag 4,4,5,6,6        Autoloader
- Barbed 3,3,1,1,1              Barbed 3
- Efficient                     Second Chamber
+{!Melee}       {!Pistol}            {!SMG}
+ Swap Harness   Swap Harness   Swap Harness
+ Guarded 10     Speed Loader   Speed Loader
+ Guard Shield   Extended Mag 4 Extended Mag 5
+ Barbed 3       Barbed 3       Barbed 1
+ Surrounded     Efficient      Efficient
 
-{!Melee}          {!Armor}          {!Helmet}
+{!Semi}           {!Auto,Rotary}    {!Shotgun}
+ Swap Harness   Swap Harness   Swap Harness
+ Speed Loader   Speed Loader   Loading Holster
+ Extended Mag 4 Extended Mag 6 Autoloader
+ Barbed 3       Barbed 1       Barbed 3
+ Efficient      Efficient      Second Chamber
+
+{!Launcher}       {!Armor}          {!Helmet}
  Swap Harness   Durable        Durable
- Guarded 10     Fire Resistant Bot Scanner
- Guard Shield   Padded         Tech Monitor
+ Load. Holster  Fire Resistant Bot Scanner
+ Autoloader     Padded         Tech Monitor
  Barbed 3       Loading Feed   Health Monitor
- Surrounded     Auto Repair    Auto Repair
+ Second Chamber Auto Repair    Auto Repair
 ]=]
     }
 }
@@ -452,17 +457,24 @@ register_blueprint "hellpediace_whizkid_a"
         content = [=[
  {!Accuracy mod}
 
-{!Pist,SMG,Laun}  {!Semi,Auto,Rot}  {!Shotgun}
- Calibrated     Calibrated     Calibrated
- Stabilized     Stabilized     Stabilized
- Precise        Balanced       Retaliate
+{!Melee}          {!Pistol}         {!SMG}
+ Relataliate    Calibrated     Calibrated
+ Resilient      Stabilized     Stabilized
+ Mechabane      Precise        Precise
  Critical 25    Critical 25    Critical 25
  Exalted Bane   Exalted Bane   Exalted Bane
 
-{!Melee}          {!Armor}          {!Helmet}
- Retaliate      Swift          Aim Assist
- Resilient      Painkiller     Long-range Track
- Mechabane      Critical 10    Critical 10
+{!Semi}           {!Auto,Rotary}    {!Shotgun}
+ Calibrated     Calibrated     Calibrated
+ Stabilized     Stabilized     Stabilized
+ Balanced       Balanced       Retaliate
+ Critical 25    Critical 25    Critical 25
+ Exalted Bane   Exalted Bane   Exalted Bane
+
+{!Launcher}       {!Armor}          {!Helmet}
+ Calibrated     Swift          Aim Assist
+ Stabilized     Painkiller     Long-range Track
+ Precise        Critical 10    Critical 10
  Critical 25    Pockets        Heat Vision 3
  Exalted Bane   Meta. Boost    Network Scanner
 ]=]
@@ -476,26 +488,26 @@ register_blueprint "hellpediace_whizkid_p"
         content = [=[
  {!Power mod}
 
-{!Pistol}         {!Semi,Auto,Rot}    {!Shotgun}
- Fresh Mag 3    Longshot 4,1,1   Point Blank 8
- Ripper 3       Ripper 4,1,1     Ripper 8
- Longshot 3     Hunter 4,1,1     Cleaner 8
- Frenzy 3       Frenzy 4,1,1     Frenzy 8
- Molten 3       Molten 3,1,1     Molten 3
+{!Melee}          {!Pistol}         {!SMG}
+ Cleaner 5      Fresh Mag 3    Cleaner 1
+ Ripper 5       Ripper 3       Ripper 1
+ Hunter 5       Longshot 3     Point Blank 1
+ Frenzy 5       Frenzy 3       Frenzy 1
+ Molten 3       Molten 3       Molten 1
 
-{!Melee}          {!Armor}          {!Helmet}
- Cleaner 5      Carrier        Exit Scanner
- Ripper 5       Meshed         Danger Monitor
- Hunter 5       Acid Shield    Plated
- Frenzy 5       Plated         Crit Enhancer 25
+{!Semi}           {!Auto,Rotary}    {!Shotgun}
+ Longshot 4     Longshot 1     Point Blank 8
+ Ripper 4       Ripper 1       Ripper 8
+ Hunter 4       Hunter 1       Cleaner 8
+ Frenzy 4       Frenzy 1       Frenzy 8
+ Molten 3       Molten 1       Molten 3
+
+{!Launcher}       {!Armor}          {!Helmet}
+ Longshot 8     Carrier        Exit Scanner
+ Focused        Meshed         Danger Monitor
+ Hunter 8       Acid Shield    Plated
+ Frenzy 8       Plated         Crit Enhancer 25
  Molten 3       Auto Med       Supply Scanner
-
-{!SMG}            {!Launcher}
- Cleaner 1      Longshot 8
- Ripper 1       Focused
- Point Blank 1  Hunter 8
- Frenzy 1       Frenzy 8
- Molten 1       Molten 3
 ]=]
     }
 }
