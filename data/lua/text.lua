@@ -1072,20 +1072,20 @@ strings.ui.game.help.pain.content =
 {MClass blade} +100% crit when used with skill
 {MQuickblade} +100% crit after draw   {MSword} plasma
 {MPlasma katana} extra EMP {MPower saw} 400% vs armor
-{M9mm cal} pierce, 50% crit in opt range
-{M9mm mag pistol} pierce, losing power with hits
+{M9mm calibrated} pierce, 50% crit in opt range
+{M9mm mag pistol} pierce, loses damage with hits
 {M.44 HE revolver} gibbed enemies explode
-{M.44 flintlock} concussion, no crit damage
-{M.44 deagle} no acc malus     {MBlaster} regen. ammo
+{M.44 flintlock} concussion but no crit damage
+{M.44 deagle} no pain acc malus {MBlaster} regen ammo
 {M9mm torrent} extra crit chance on close enemies
 {M9mm storm} pain accuracy malus becomes crit
-{M.44 JAC} enemies near dead enemies bleed
+{M.44 JAC} makes enemies near dead ones bleed
 {M7.62 riot} +2 dmg for each extra enemy in sight
 {M.44 toxin rifle} deals poison  {MEMP rifle} EMP dmg
 {M7.62 AWP rifle} each kill increases crit chance
 {MRailgun} no min range   {MMagrail} idem + no reload
-{M9mm tac rifle} scope, +50% aim bonus
-{M9mm prec rifle} shoot 1 powerful ammo after aim
+{M9mm tactical rifle} scope, +50% aim bonus
+{M9mm prec. rifle} aim to shoot 1 powerful bullet
 {M7.62 pierce rifle} high crit dmg, 300% vs armor
 {M(Super) Nailgun} consumes 1 multitool to reload
 {M7.62 gatling} +1 dmg for each kill until reload
@@ -1093,10 +1093,10 @@ strings.ui.game.help.pain.content =
 {MFocused shotgun} impact damage, narrow cone
 {MElephant} concussion    {MJackhammer} 3 shells/shot
 {MSuper shotgun} auto-reload on kill
-{M40mm drum} 3 grenades/shot        {MEGLS} no reload
-{MMicro-launcher} 4-rockets magazine, small AoE
-{MBio launcher} dead enemies emit poison
-{MBFT9K} BFT with multiple jumps
+{M40mm drum laun.} 3 grenades/shot  {MEGLS} no reload
+{MMicro launcher} 4-rockets magazine, small AoE
+{MBio launcher} toxic, dead enemies emit poison
+{MBFT9K} plasma ball jumping to other targets
 ]=]
 
 strings.ui.game.help.range.content =
