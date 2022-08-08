@@ -993,20 +993,20 @@ strings.ui.game.help.accuracy.content =
  chance it’s {GBFT 10K})
 
 
- {YPurgatory paths} (red ones are broken)
+ {YPurgatory paths}
     {!Tier 1}         {!Tier 2}          {!Tier 3}
-{GExec.}     URUL {GW.spl.}   LDLDL {GSoulst.}    {RDDLLUR}
+{GExec.}     URUL {GW.spl.}   LDLDL {GSoulst.}    DDLLUR
 {GLove}      RRDR {GHate}      RURU {GDeath}       ULDLD
 {GCarnage}   ULLL {GTw Viper} LDDRR {GVoid}       LLDRDD
-{GVengeance} LDDR {GBloodl.}  UUUUL {GSh.hunter}  {RDRULLU}
+{GVengeance} LDDR {GBloodl.}  UUUUL {GSh.hunter}  DRULLU
 {GThompson}  DRRR {GHammerh.} RUUUL {GAvalanche}  URUULL
-{GScrapgun}  DRRU {GVulcan}   {RLUULD} {GApocalypse} UUULDD
+{GScrapgun}  DRRU {GVulcan}   LUULD {GApocalypse} UUULDD
 {GMonster}   RRRD {GDenial}   ULLDR {GWavedancer} LDLDRU
 {GFirestorm} ULLD {GCalamity} ULLDD {GBFT 10K}    ULDLDD
 {GSh.cloak}  DRUL {GCy.suit}  URULL {GExosuit}    URRDLD
 {GFd Crown}  ULDD {GOverlord} DLDDD {GFirecrown}  ULLDRR
 
-{YEur} portal URR {YIo} portal RRUU {YDante} port. {RULLUL}
+{YEur} portal URR {YIo} portal RRUU {YDante} port. ULLUL
 ]=]
 
 strings.ui.game.help.pain.content =
