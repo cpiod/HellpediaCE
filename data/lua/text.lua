@@ -818,11 +818,12 @@ strings.ui.game.help.keyboard.content =
 
  {YCallisto Mines}{!: close portals, QUICK!}
 {!JoviSec}: +25% crit damage
-{!Rewards}: AV2/exo pistol+shotgun, AV2
- favored AMP, AV2 helmet/armor, red relic  {!2 5}
+{!Rewards}: AV2/exo pistol+shotgun, AV2 favored
+ AMP, red relic. If no closed portal:
+ AV2 helmet/armor                          {!2 5}
 {!Special rewards}: If 1 closed portal: red
  relic. If 2: Warlock Eye. If 3: Warlock  {!4   3}
- Horn. If >=1: touch pillars in order (cf.
+ Horn. If >=2: touch pillars in order (cf.
  plan) for {!Purgatory} access (Medium+ only)  {!1}
 
  {YMimir Habitat}{!: dl codes from MDF sentries!}
