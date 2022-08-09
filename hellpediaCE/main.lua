@@ -229,7 +229,7 @@ register_blueprint "hellpediace_dante"
 }
 
 
-register_blueprint "hellpediace_purgatory"
+register_blueprint "hellpediace_purgatory_1"
 {
     text = {
         title = "Purgatory",
@@ -265,6 +265,44 @@ register_blueprint "hellpediace_purgatory"
 ]=]
     }
 }
+
+register_blueprint "hellpediace_purgatory_2"
+{
+    text = {
+        title = "Purgatory",
+        content = [=[
+     /-{!UULD}--{GVulcan}
+ /-{!L}-+-{!LDRDD}-{GVoid}
+ |   \-{!D}-+-{!LD}-+-{!RU}-{GWavedancer}
+ |       |    \-{!L}--{GWavesplitter}
+ |       \-{!DR}-{GVengeance}-{!R}-{GViper}
+ |         /-{!RD}-{GMonster}
+ +-{!R}-+-{!R}---+-{!UU}-{YIo portal}
+ |   |     \-{!DR}-{GLove}
+ |   \-{!U}-+-{!RU}--{GHate}
+ |       \-{!UUL}-{GHammerhead}
+-+-{!D}-+-{!DLLUR}-{GSoulstealer}
+ |   +-{!LDDD}--{GOverlord}
+ |   |       /-{!R}-{GThompson}
+ |   \-{!R}-+-{!R}-+-{!U}-{GScrapgun}
+ |       \-{!UL}-{GShadowcloak}-{!LU}-{GShadowhunter}
+ \-{!U}-+-{!UU}--+-{!UL}--{GBloodletter}
+     |     \-{!LDD}-{GApocalypse}
+     |
+     |      /-{!L}--{GCarnage}
+     +-{!L}-+{!L}-+-{!UL}-{YDante portal}
+     |   |  \-{!D}--{GFirestorm}-+-{!R}-{GDenial}-{!R}-{GF.crown}
+     |   |                 \-{!D}-{GCalamity}
+     |   \-{!D}-+-{!LD}-{GDeath}-{!D}-{GBFG10K}
+     |       \-{!D}--{GFirecrown}
+     |   /-{!R}-{YEuropa portal}-{!DLD}-{GExosuit}
+     \-{!R}-+-{!U}-+-{!ULL}-{GAvalanche}
+             \-{!L}---{GExecutioner}-{!L}-{GCybersuit}
+]=]
+    }
+}
+
+
 
 register_blueprint "hellpediace_uniques_1"
 {
@@ -445,10 +483,11 @@ register_blueprint "hellpediace_exotics_3"
     }
 }
 
+
 register_blueprint "hellpediace_whizkid_b"
 {
     text = {
-        title = "Whk Bulk",
+        title = "Whizkid B",
         content = [=[
  {!Bulk mod}
 
@@ -479,7 +518,7 @@ register_blueprint "hellpediace_whizkid_b"
 register_blueprint "hellpediace_whizkid_a"
 {
     text = {
-        title = "Whk Acc.",
+        title = "Whizkid A",
         content = [=[
  {!Accuracy mod}
 
@@ -510,7 +549,7 @@ register_blueprint "hellpediace_whizkid_a"
 register_blueprint "hellpediace_whizkid_p"
 {
     text = {
-        title = "Whk Power",
+        title = "Whizkid P",
         content = [=[
  {!Power mod}
 
@@ -550,7 +589,8 @@ register_blueprint "ui_help"
     "hellpediace_exotics_1",
     "hellpediace_uniques_2",
     "hellpediace_uniques_1",
-    "hellpediace_purgatory",
+    "hellpediace_purgatory_2",
+    "hellpediace_purgatory_1",
     "hellpediace_dante",
     "hellpediace_io_2",
     "hellpediace_io_1",
