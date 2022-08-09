@@ -236,19 +236,32 @@ register_blueprint "hellpediace_purgatory"
         content = [=[
  {YPurgatory paths}
 
-    {!Tier 1}         {!Tier 2}          {!Tier 3}
-{GExec.}     URUL {GW.spl.}   LDLDL {GSoulst.}    DDLLUR
-{GLove}      RRDR {GHate}      RURU {GDeath}       ULDLD
-{GCarnage}   ULLL {GTw Viper} LDDRR {GVoid}       LLDRDD
-{GVengeance} LDDR {GBloodl.}  UUUUL {GSh.hunter}  DRULLU
-{GThompson}  DRRR {GHammerh.} RUUUL {GAvalanche}  URUULL
-{GScrapgun}  DRRU {GVulcan}   LUULD {GApocalypse} UUULDD
-{GMonster}   RRRD {GDenial}   ULLDR {GWavedancer} LDLDRU
-{GFirestorm} ULLD {GCalamity} ULLDD {GBFT 10K}    ULDLDD
-{GSh.cloak}  DRUL {GCy.suit}  URULL {GExosuit}    URRDLD
-{GFd Crown}  ULDD {GOverlord} DLDDD {GFirecrown}  ULLDRR
+       {!Tier 1}                  {!Tier 2}
+{GExecutioner}     URUL    {GWavesplitter}   LDLDL
+{GLove}            RRDR    {GHate}            RURU
+{GCarnage}         ULLL    {GTwin Viper}     LDDRR
+{GVengeance}       LDDR    {GBloodletter}    UUUUL
+{GThompson}        DRRR    {GHammerhead}     RUUUL
+{GScrapgun}        DRRU    {GVulcan}         LUULD
+{GMonster}         RRRD    {GDenial}         ULLDR
+{GFirestorm}       ULLD    {GCalamity}       ULLDD
+{GShadowcloak}     DRUL    {GCybersuit}      URULL
+{GFiend Crown}     ULDD    {GOverlord}       DLDDD
 
-{YEur} portal URR {YIo} portal RRUU {YDante} port. ULLUL
+                   {!Tier 3}
+            {GSoulstealer}    DDLLUR
+            {GDeath}           ULDLD
+            {GVoid}           LLDRDD
+            {GShadowhunter}   DRULLU
+            {GAvalanche}      URUULL
+            {GApocalypse}     UUULDD
+            {GWavedancer}     LDLDRU
+            {GBFT 10K}        ULDLDD
+            {GExosuit}        URRDLD
+            {GFirecrown}      ULLDRR
+
+{YEuropa} portal    URR    {YIo} portal       RRUU
+{YDante} portal   ULLUL
 ]=]
     }
 }
@@ -432,11 +445,10 @@ register_blueprint "hellpediace_exotics_3"
     }
 }
 
-
 register_blueprint "hellpediace_whizkid_b"
 {
     text = {
-        title = "Whizkid B",
+        title = "Whk Bulk",
         content = [=[
  {!Bulk mod}
 
@@ -467,7 +479,7 @@ register_blueprint "hellpediace_whizkid_b"
 register_blueprint "hellpediace_whizkid_a"
 {
     text = {
-        title = "Whizkid A",
+        title = "Whk Acc.",
         content = [=[
  {!Accuracy mod}
 
@@ -498,7 +510,7 @@ register_blueprint "hellpediace_whizkid_a"
 register_blueprint "hellpediace_whizkid_p"
 {
     text = {
-        title = "Whizkid P",
+        title = "Whk Power",
         content = [=[
  {!Power mod}
 
