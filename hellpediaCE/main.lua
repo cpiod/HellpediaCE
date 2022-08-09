@@ -203,8 +203,7 @@ register_blueprint "hellpediace_io_2"
  reward: strong poison aura, +50% poison effect
 
  {YGateway} (outro level)
-{!Boss loot} ancient gun / ancient sword / relic
- (+25% all res.) / relic (+25% dmg vs demons)
+{!Boss loot} ancient gun/sword/armband/necklace
 ]=]
     }
 }
@@ -519,8 +518,6 @@ register_blueprint "hellpediace_relics_1"
     text = {
         title = "Relics",
         content = [=[
- {!Minor relics}
-
 {RFiend heart} pain immunity, -75% repair
 {RFiend claw} +25% slash dmg, -25% other dmg
 {RFiend head} sense biological targets, -10% XP
@@ -543,6 +540,11 @@ register_blueprint "hellpediace_relics_1"
  poison status, poison resistance, -33% healing
 {RCryoreaver claw} cold resistance, cold on hit,
  +50% cold status, -100% fire resistance
+
+{MRavager heart} regen up to 75% of max HP, -75%
+ healing, -5 HP max on each level change
+{MRavager claw} ignore splash, explosion on
+ hit (25 damage), -50% damage
 ]=]
     }
 }
@@ -552,12 +554,6 @@ register_blueprint "hellpediace_relics_2"
     text = {
         title = "Relics",
         content = [=[
- {!Major relics}
-
-{MRavager heart} regen up to 75% of max HP, -75%
- healing, -5 HP max on each level change
-{MRavager claw} ignore splash, explosion on
- hit (25 damage), -50% damage
 {MPlasma ravager arm} +50% plasma, exalted
  summons on level change
 {MKerberos heart} when <50%HP: +50% damage, +40%
@@ -577,6 +573,13 @@ register_blueprint "hellpediace_relics_2"
  loss every third time
 {MMedusa tentacle} always at max dodge, at 20% HP
  on level change
+
+{MWarlock eye} warlock gaze immunity,   {YCal. Mines}
+ visible enemies under a warlock aura bleed
+{MWarlock horn} warlock gaze immunity,  {YCal. Mines}
+ 50% acid+fire+poison resistances, -20% XP
+{MAncient necklace} +25% res. vs all       {YIo Boss}
+{MAncient armband} +25% dmg vs demons      {YIo Boss}
 ]=]
     }
 }
