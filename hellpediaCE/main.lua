@@ -6,32 +6,32 @@ register_blueprint "hellpediace_callisto_1"
         title = "Callisto",
         content = [=[
  {YValhalla Terminal}{!: activate lockdowns!}
-{!ValSec}: +25% damage vs bots
-{!Rewards}: AV2/exo pistol+shotgun, AV2 headgear
-{!Special rewards}: CalSec shutdown/hack, Warden
+{!ValSec} +25% damage vs bots
+{!Rewards} AV2/exo pistol+shotgun, AV2 headgear
+{!Special rewards} CalSec shutdown/hack, Warden
  bypass. Rooms: supply (AV2 AMP), weapon (AV2
  favored weapon), armor (AV2 blue armor)
-{!Remark}: bring 1 red card for full reward
+{!Remark} bring 1 red card for full reward
 
  {YCallisto Mines}{!: close portals, QUICK!}
-{!JoviSec}: +25% crit damage
-{!Rewards}: AV2/exo pistol+shotgun, AV2 favored
+{!JoviSec} +25% crit damage
+{!Rewards} AV2/exo pistol+shotgun, AV2 favored
  AMP, red relic. If no closed portal:
  AV2 helmet/armor                          {!2 5}
-{!Special rewards}: If 1 closed portal: red
+{!Special rewards} If 1 closed portal: red
  relic. If 2: Warlock Eye. If 3: Warlock  {!4   3}
  Horn. If >=2: touch pillars in order (cf.
  plan) for {!Purgatory} access (Medium+ only)  {!1}
 
  {YMimir Habitat}{!: dl codes from MDF sentries!}
-{!MDF}: +1 optimal range
-{!Rewards}: AV2/exo pistol+shotgun, AV2 favored
+{!MDF} +1 optimal range
+{!Rewards} AV2/exo pistol+shotgun, AV2 favored
  weapon
-{!Special rewards}: CalSec shutdown/reboot, MDF
+{!Special rewards} CalSec shutdown/reboot, MDF
  exo manu station (L2 clearance: 4 choices, L3
  clearance: 6 choices among pistols, SMG,
  autos, toxin semi, 40mm drum and shotguns)
-{!Remark}: bring 1 red card for full reward
+{!Remark} bring 1 red card for full reward
 ]=]
     }
 }
@@ -42,30 +42,30 @@ register_blueprint "hellpediace_callisto_2"
         title = "Callisto",
         content = [=[
  {YCallisto Rift}{!: open valves!}
-{!JoviSec}: +25% crit damage
-{!Rewards}: AV2 pistol/shotgun, AV2 favored
- AMP, med+tech stations, 3 multitools
-{!Special reward}: poison resistance
+{!JoviSec} +25% crit damage
+{!Rewards} AV2 pistol/shotgun, AV2 favored AMP,
+ medical and tech stations, 3 multitools
+{!Special reward} poison resistance
 
  {YMilitary Barracks}
-{!JoviSec}: +25% crit damage
-{!Rewards}: 2 AV2/exo pistols, 2 AV2/exo shotguns,
+{!JoviSec} +25% crit damage
+{!Rewards} 2 AV2/exo pistols, 2 AV2/exo shotguns,
  2 AV2/exo autos, AV2/exo grenade launcher,
- EGLS or AV2 rocket launcher, ammo term.
+ EGLS or AV2 rocket launcher, ammo terminal
 
  {YCallisto Docking Bay}{!: activate lockdown!}
-{!Perk}: random Callisto perk
-{!Rewards}: AV2/exo + AV1/exo pistols,
- AV2 + AV1 shotguns, AV2 blue armor+helmet
-{!Special reward}: exo visor
-{!Remark}: bring 2 red cards for full reward
+{!Perk} random Callisto perk
+{!Rewards} AV2/exo + AV1/exo pistols, AV2+AV1
+ shotguns, AV2 blue armor+helmet
+{!Special reward} exo visor
+{!Remark} bring 2 red cards for full reward
 
  {YCallisto Hub} (L4)
-{!Secret}: Europa branch list in terminal for 1 mt
+{!Secret} Europa branch list in terminal for 1 mt
 
  {YValhalla Spaceport} (outro level)
-{!ValSec}: +25% damage vs bots
-{!Boss loot}: 2 multitools, large medkit, possibly
+{!ValSec} +25% damage vs bots
+{!Boss loot} 2 multitools, large medkit, possibly
 a bonus item (exo mod, grenade, general AMP,
 armor, phase kit, large combat pack)
 ]=]
@@ -78,29 +78,29 @@ register_blueprint "hellpediace_europa_1"
         title = "Europa",
         content = [=[
  {YAsterius Habitat}{!: hack & protect AT sentries!}
-{!AsterTech}: chill on damage
-{!Rewards}: AV2 AMP for auto/pistol/shotgun,
+{!AsterTech} chill on damage
+{!Rewards} AV2 AMP for auto/pistol/shotgun,
  red relic, AV2 red armor, AV2 headgear
-{!Special rewards}: exotic mod/AV1 general AMP,
+{!Special rewards} exotic mod/AV1 general AMP,
  6 consumables, AT exotic manu station (list of
  3 from a pool covering all weapon groups)
 
 
  {YC. Chaos Biolabs}{!: open valves, get essences!}
-{!CCB}: +20% dmg vs bio, +10% dmg vs semi-mecha
-{!Rewards}: AV2 pistol, AV2 semi-auto/auto
-{!Special rewards}: acid, pain, bleed, fire
+{!CCB} +20% dmg vs bio, +10% dmg vs semi-mecha
+{!Rewards} AV2 pistol, AV2 semi-auto/auto
+{!Special rewards} acid, pain, bleed, fire
  resistances (at most 3 of them)
-{!Secret reward}: +20% damage (if 3 res. bought)
-{!Remark}: bring 9 multitools to guarantee secret
+{!Secret reward} +20% damage (if 3 res. bought)
+{!Remark} bring 9 multitools to guarantee secret
  reward (only available if L2, maybe L3 branch)
 
 
  {YEuropa Dig Zone}{!: do} {RNOT} {!open valves!}
-{!ERI}: -75% swap time
-{!Rewards}: AV2 AMP for pistol/auto/shotgun/melee
+{!ERI} -75% swap time
+{!Rewards} AV2 AMP for pistol/auto/shotgun/melee
  or AV2 armor/auto, Mk2 manu+tech+med stations
-{!Special reward}: cold resistance
+{!Special reward} cold resistance
 ]=]
     }
 }
@@ -111,27 +111,29 @@ register_blueprint "hellpediace_europa_2"
         title = "Europa",
         content = [=[
  {YEuropa Ruins}
-{!Perk}: (none yet)
-{!Rewards}: AV3 red armor, AV3 favored AMP, heart
-{!Special rewards}: (none yet)
-{!Remark}: you can take either the heart or the
+{!Perk} (none yet)
+{!Rewards} AV3 red armor, AV3 favored AMP, heart
+{!Special rewards} (none yet)
+{!Remark} you can take either the heart or the
  armor + AMP safely, otherwise guardians spawn
 
+
  {YThe Pit}{!: pet the smaller Kerberos w/ {$input_action}!}
-{!Rewards}: backpack, AV3 headgear, AV3 favored
+{!Rewards} backpack, AV3 headgear, AV3 favored
  AMP, AV3 armor/auto/semi-auto
-{!Special reward}: on level up, {!Rexio} gains bleed,
+{!Special reward} on level up, {!Rexio} gains bleed,
  poison, fire & cold res., up to 80% DR, more
  HP and damage, new orders: wait, follow, hunt
 
+
  {YRefueling Base}{!: open fuel valves!}
-{!Rewards}: backpack, ammo term, AV3 visor,
+{!Rewards} backpack, ammo term, AV3 visor,
  AV3 favored+general AMPs, AV3 armor/auto/AMP
-{!Special reward}: ENV armor (fire, cold and
- 50% poison resistances)
+{!Special reward} ENV armor
+
 
  {YEuropa Central Dig} (outro level)
-{!Boss loot}: red relic
+{!Boss loot} red relic
 ]=]
     }
 }
@@ -142,30 +144,30 @@ register_blueprint "hellpediace_io_1"
         title = "Io",
         content = [=[
  {YCRI Labs}{!: defend the CRI against the demons!}
-{!CRI}: +25% damage vs demons
-{!Rewards}: 2 AV3/exo favored weapons, exo pistol/
+{!CRI} +25% damage vs demons
+{!Rewards} 2 AV3/exo favored weapons, exo pistol/
  shotgun/auto, AV3 hyperblaster, CRI armor,
  Mk3 manu station, AV3 favored AMP, CRI BFT9K{!*}
-{!Special reward}: vaults open, CRI is friendly{!**}
-{!Remark}: there can be at most 2 CRI deaths by
+{!Special reward} vaults open, CRI is friendly{!**}
+{!Remark} there can be at most 2 CRI deaths by
  level to unlock the special reward
 
  {YIo Black Site}{!: help the CRI kill the demons!}
-{!TTL}: inflicts Wither on bio & semi-mecha (-50%
+{!TTL} inflicts Wither on bio & semi-mecha (-50%
  resistances, +20% damage taken, for 3s)
-{!Rewards}: AV3 favored AMP, Mk3 manu station,
+{!Rewards} AV3 favored AMP, Mk3 manu station,
  AV3 hyperblaster/AWP, purple relic, TTL BFT9K{!*}
-{!Special reward}: 2 red cards, CRI is friendly{!**}
-{!Remark}: same as CRI Labs + clearing the level
+{!Special reward} 2 red cards, CRI is friendly{!**}
+{!Remark} same as CRI Labs + clearing the level
  before CRI arrival cancels the event
 
  {YInfernal Lock}{!: block doors with items!}
-{!Rewards}: lootboxes, AV3 general AMP
-{!Special reward}: cold (33% chance), sustain
+{!Rewards} lootboxes, AV3 general AMP
+{!Special reward} cold (33% chance), sustain
  (33%), nano (17%), or onyx (17%) mod
 
  {YIo Warehouse}
-{!Rewards}: lots of lootboxes, AV2 hyperblaster
+{!Rewards} lots of lootboxes, AV2 hyperblaster
 
 {!*} avail. if 4 vaults are open (w/ 3 red cards)
 {!**} doesn’t apply to former CRI soldiers
@@ -179,12 +181,12 @@ register_blueprint "hellpediace_io_2"
         title = "Io",
         content = [=[
  {YShadow Halls}
-{!Perk}: (none yet)
-{!Rewards}: unique exchange (random: Exosuit/Void/
+{!Perk} (none yet)
+{!Rewards} unique exchange (random: Exosuit/Void/
  Death/Apocalypse) OR wish (if heart), AV3 fav.
  AMP, AV3 red/blue armor, AV3 pistol/SMG/
  auto/shotgun, AV3 shotgun/hyperblaster/AWP
-{!Special reward}: select one wish:
+{!Special reward} select one wish:
  {!"WEALTH!"} choose one among three uniques, max
   HP reduced by 33%, HP set to 20, all medkits
   and multitools removed from player and level
@@ -194,15 +196,14 @@ register_blueprint "hellpediace_io_2"
   HP, receive 25% less healing, HP set to 1
 
  {YMephitic Mines}{!: reroute the gas!}
-{!IDR}: -50% reload time
-{!Rewards}: AV3 katana, AV3 blue armor, ENV
- helmet (dark vision, heatvision + poison, 50%
- fire, 50% cold resistances), AV1 hyperblaster
-{!Special rewards}: poison resistance. With {!Rift}
+{!IDR} -50% reload time
+{!Rewards} AV3 katana, AV3 blue armor, ENV
+ helmet, AV1 hyperblaster
+{!Special rewards} poison resistance. With {!Rift}
  reward: strong poison aura, +50% poison effect
 
  {YGateway} (outro level)
-{!Boss loot}: ancient gun / ancient sword / relic
+{!Boss loot} ancient gun / ancient sword / relic
  (+25% all res.) / relic (+25% dmg vs demons)
 ]=]
     }
@@ -211,19 +212,25 @@ register_blueprint "hellpediace_io_2"
 register_blueprint "hellpediace_dante"
 {
     text = {
-        title = "Dante",
+        title = "Dante/Bey.",
         content = [=[
- {YThe Shattered Abyss}
-{!Unlock}: kill an enemy with melee on Dante L1
-{!Perk}: (none yet)
-{!Special rule}: melee only!
-{!Reward}: {GSoulstealer}
+ {YThe Shattered Abyss}              {YDante, Beyond}
+{!Unlock} kill an enemy with melee on L1
+{!Perk} (none yet)
+{!Special rule} melee only!
+{!Reward} {GSoulstealer}
 
- {YInferno}
-{!Unlock}: kill all enemies of Dante L2
-{!Perk}: (none yet)
-{!Rewards}: AV3 general AMP, a Tier 3 unique (25%
+
+ {YInferno}                                  {YDante}
+{!Unlock} kill all enemies of Dante L2
+{!Perk} (none yet)
+{!Rewards} AV3 general AMP, a Tier 3 unique (25%
  chance it’s {GBFT 10K})
+
+
+ {YLimbo}                                   {YBeyond}
+{!Rewards} AV3 armor or AV3 auto/pistol/shotgun
+ AMP, tech station, phase kit
 ]=]
     }
 }
@@ -234,8 +241,6 @@ register_blueprint "hellpediace_purgatory_1"
     text = {
         title = "Purgatory",
         content = [=[
- {YPurgatory paths}
-
        {!Tier 1}                  {!Tier 2}
 {GExecutioner}     URUL    {GWavesplitter}   LDLDL
 {GLove}            RRDR    {GHate}            RURU
@@ -260,8 +265,9 @@ register_blueprint "hellpediace_purgatory_1"
             {GExosuit}        URRDLD
             {GFirecrown}      ULLDRR
 
-{YEuropa} portal    URR    {YIo} portal       RRUU
-{YDante} portal   ULLUL
+{YEuropa} portal    URR
+{YIo} portal       RRUU            D=Down  R=Right
+{YDante} portal   ULLUL            U=Up    L=Left
 ]=]
     }
 }
@@ -271,7 +277,7 @@ register_blueprint "hellpediace_purgatory_2"
     text = {
         title = "Purgatory",
         content = [=[
-     /-{!UULD}--{GVulcan}
+     /-{!UULD}--{GVulcan}               {!Purgatory Map}
  /-{!L}-+-{!LDRDD}-{GVoid}
  |   \-{!D}-+-{!LD}-+-{!RU}-{GWavedancer}
  |       |    \-{!L}--{GWavesplitter}
@@ -371,8 +377,8 @@ register_blueprint "hellpediace_uniques_2"
 
 {!*} guaranteed unique in: 20% Ca, 40% Eu, 40% Io
 {!*} dual-wielded unique pistols share their perks
-{!*} within parenthesis: favored locations
-{!*} favored uniques have 5% chance of appearing
+{!*} within parenthesis: favored locations where
+ favored uniques have 5% chance of appearing
 ]=]
     }
 }
@@ -390,26 +396,23 @@ register_blueprint "hellpediace_exotics_1"
 {MPower saw} deals 400% damage vs armor
 {MAncient sword} +50% damage vs demons     {YIo boss}
 
+
  {!Pistol}
 {M9mm calibrated} pierce, 50% crit in opt range
 {M9mm mag pistol} pierce, loses damage with hits
 {M.44 HE revolver} gibbed enemies explode
-{M.44 flintlock} concussion but no crit damage
+{M.44 flintlock} hit enemies deal -50% damage,
+ but no crit damage
 {M.44 deagle} no pain accuracy malus
 {MBlaster} plasma pistol with regenerating ammo
 
+
  {!SMG}
 {M9mm torrent} extra crit chance on close enemies
-{M9mm storm} pain accuracy malus becomes crit
+{M9mm storm} convert (and ignore) pain accuracy
+ malus into crit chance
 {M.44 JAC} makes enemies near dead ones bleed
 {M7.62 riot} +2 dmg for each extra enemy in sight
-
- {!Semi}
-{M.44 toxin rifle} low damage, deals poison
-{M7.62 AWP rifle} kills increase crit chance
-{MEMP rifle} EMP damage only, freezes non-mecha
-{MRailgun} no minimum range
-{MMagrail} no minimum range, cannot reload
 ]=]
     }
 }
@@ -419,12 +422,21 @@ register_blueprint "hellpediace_exotics_2"
     text = {
         title = "Exotics",
         content = [=[
+ {!Semi}
+{M.44 toxin rifle} low damage, deals poison
+{M7.62 AWP rifle} kills increase crit chance
+{MEMP rifle} EMP damage only, freezes non-mecha
+{MRailgun} no minimum range
+{MMagrail} no minimum range, cannot reload
+
  {!Auto}
 {M9mm tactical rifle} scope, +50% aim bonus
-{M9mm prec. rifle} aim to shoot 1 powerful bullet
+{M9mm precision rifle} aim to shoot one bullet
+ with +15 damage and +100% crit chance
 {M7.62 pierce rifle} high crit dmg, 300% vs armor
 {MNail gun} 1 multitool to reload
-{MAncient gun} no mag., +50% dmg vs demons {YIo boss}
+{MAncient gun} do not use ammo to reload, +50%
+ damage vs demons                       {YIo boss}
 
  {!Rotary}
 {M7.62 gatling} +1 dmg on kill until reload, max 5
@@ -436,13 +448,6 @@ register_blueprint "hellpediace_exotics_2"
 {MSuper shotgun} auto-reload on kill
 {MElephant} hit enemies deal -50% damage
 {MJackhammer} fires 3 shells/shot
-
- {!Launcher}
-{M40mm drum launcher} fires 3 grenades/shot
-{MEGLS} grenade launcher, cannot reload
-{MMicro launcher} 4-rockets magazine, small AoE
-{MBio launcher} toxic, dead enemies emit poison
-{MBFT9K} big plasma ball jumping to other targets
 ]=]
     }
 }
@@ -452,25 +457,47 @@ register_blueprint "hellpediace_exotics_3"
     text = {
         title = "Exotics",
         content = [=[
+ {!Launcher}
+{M40mm drum launcher} fires 3 grenades/shot
+{MEGLS} grenade launcher, cannot reload
+{MMicro launcher} 4-rockets magazine, small AoE
+{MBio launcher} toxic, dead enemies emit poison
+{MBFT9K} big plasma ball jumping to other targets
+
+
  {!Armor}
+{MMarine armor} +50% damage during adrenaline
+{MScout armor} +50% crit for 3s after stealth ends
+{MTech armor} power orbs heals for half the power
 {MGuardian} light armor, saves your life once
 {MAblative} high protection, no repair
 {MDuramesh} low protection, indestructible
 {MMedifiber} heals at the cost of durability
 {MNecrotic} auto-repairs at the cost of health
-{MMarine armor} +50% damage during adrenaline
-{MScout armor} +50% crit for 3s after stealth ends
-{MTech armor} power orbs heals for half the power
+{!CRI armor} high protection, low penalty {YCRI Labs}
+{!ENV armor} cold, fire, 50% poison res  {YRef. Base}
 
+]=]
+    }
+}
+
+register_blueprint "hellpediace_exotics_4"
+{
+    text = {
+        title = "Exotics",
+        content = [=[
  {!Helmet}
 {MSupply visor} +1 charge in terminal/station
 {MAnalytic visor} +20% experience
 {MCommand visor} red door bypass
-{MBlast helmet} -75% splash damage
-{MBattle helmet} damage reduction equals pain%
 {MMarine helmet} adren. heals more, clears status
 {MScout helmet} stealth stims you for 5s
 {MTech helmet} enemies in smoke take +50% damage
+{MBlast helmet} -75% splash damage
+{MBattle helmet} damage reduction equals pain%
+{!ENV helmet} dark vision, heatvision + poison,
+ 50% fire, 50% cold resistances  {YMephitic Mines}
+
 
  {!Mod}
 {MCold} inflicts freeze status effect
@@ -479,6 +506,77 @@ register_blueprint "hellpediace_exotics_3"
 {MSustain} get ammo back in magazine on kill
 {MOnyx} makes armor indestructible
 {MNano} weapon reloads without needing ammo
+
+
+ {!Permanent}
+{MBackpack} +2 inventory space  {YThe Pit, Ref. Base}
+]=]
+    }
+}
+
+register_blueprint "hellpediace_relics_1"
+{
+    text = {
+        title = "Relics",
+        content = [=[
+ {!Minor relics}
+
+{RFiend heart} pain immunity, -75% repair
+{RFiend claw} +25% slash dmg, -25% other dmg
+{RFiend head} sense biological targets, -10% XP
+{RFire fiend rib} fire resistance, fire in melee,
+ +50% fire status, -100% cold resistance
+{RIce fiend claw} cold resistance, chill in melee,
+ +50% cold status, -100% fire resistance
+{RToxic fiend fang} poison resistance, poison in
+ melee, +50% poison status, -10% damage
+{RReaver heart} regenerate up to 25% of max HP,
+ -50% healing
+{RReaver claw} bleed resistance, bleed on hit,
+ +50% bleed status, -10% damage
+{RReaver tendon} +15% move speed, longer pain
+{RArchreaver carapace} +2 armor, acid resistance,
+ -20% move speed
+{RArchreaver claw} acid puddle on kill, +100%
+ armor damage, acid resistance, -25% healing
+{RToxic reaver spleen} poison cloud on kill, +50%
+ poison status, poison resistance, -33% healing
+{RCryoreaver claw} cold resistance, cold on hit,
+ +50% cold status, -100% fire resistance
+]=]
+    }
+}
+
+register_blueprint "hellpediace_relics_2"
+{
+    text = {
+        title = "Relics",
+        content = [=[
+ {!Major relics}
+
+{MRavager heart} regen up to 75% of max HP, -75%
+ healing, -5 HP max on each level change
+{MRavager claw} ignore splash, explosion on
+ hit (25 damage), -50% damage
+{MPlasma ravager arm} +50% plasma, exalted
+ summons on level change
+{MKerberos heart} when <50%HP: +50% damage, +40%
+ move speed but lose health (until 10HP)
+{MKerberos paw} +40% move speed, enemies are
+ looking for you
+{MKerberos jaw} +50% damage, enemies spawn next to
+ you regularly
+{MToxiberos tusk} inflicts Death on hit, at 20% HP
+ on level change, -50% healing
+{MCryoberos fang} chilled enemies in sight, you
+ slowly lose health
+{MCyberos heart} vampiric, -100% healing
+{MMedusa eye} enemies in sight bleed, max HP loss
+ on level change
+{MMedusa fang} one-shot biological enemies, max HP
+ loss every third time
+{MMedusa tentacle} always at max dodge, at 20% HP
+ on level change
 ]=]
     }
 }
@@ -584,6 +682,9 @@ register_blueprint "ui_help"
     "hellpediace_whizkid_p",
     "hellpediace_whizkid_a",
     "hellpediace_whizkid_b",
+    "hellpediace_relics_2",
+    "hellpediace_relics_1",
+    "hellpediace_exotics_4",
     "hellpediace_exotics_3",
     "hellpediace_exotics_2",
     "hellpediace_exotics_1",
