@@ -65,6 +65,9 @@ register_blueprint "hellpediace_callisto_2"
 
  {YValhalla Spaceport} (outro level)
 {!ValSec}: +25% damage vs bots
+{!Boss loot}: 2 multitools, large medkit, possibly
+a bonus item (exo mod, grenade, general AMP,
+armor, phase kit, large combat pack)
 ]=]
     }
 }
@@ -98,7 +101,6 @@ register_blueprint "hellpediace_europa_1"
 {!Rewards}: AV2 AMP for pistol/auto/shotgun/melee
  or AV2 armor/auto, Mk2 manu+tech+med stations
 {!Special reward}: cold resistance
-
 ]=]
     }
 }
@@ -115,7 +117,6 @@ register_blueprint "hellpediace_europa_2"
 {!Remark}: you can take either the heart or the
  armor + AMP safely, otherwise guardians spawn
 
-
  {YThe Pit}{!: pet the smaller Kerberos w/ {$input_action}!}
 {!Rewards}: backpack, AV3 headgear, AV3 favored
  AMP, AV3 armor/auto/semi-auto
@@ -123,12 +124,14 @@ register_blueprint "hellpediace_europa_2"
  poison, fire & cold res., up to 80% DR, more
  HP and damage, new orders: wait, follow, hunt
 
-
  {YRefueling Base}{!: open fuel valves!}
 {!Rewards}: backpack, ammo term, AV3 visor,
  AV3 favored+general AMPs, AV3 armor/auto/AMP
 {!Special reward}: ENV armor (fire, cold and
  50% poison resistances)
+
+ {YEuropa Central Dig} (outro level)
+{!Boss loot}: red relic
 ]=]
     }
 }
@@ -159,8 +162,10 @@ register_blueprint "hellpediace_io_1"
  {YInfernal Lock}{!: block doors with items!}
 {!Rewards}: lootboxes, AV3 general AMP
 {!Special reward}: cold (33% chance), sustain
- (33%), nano (17%), or onyx (17%) mod. No
- special reward after locks destruction!
+ (33%), nano (17%), or onyx (17%) mod
+
+ {YIo Warehouse}
+{!Rewards}: lots of lootboxes, AV2 hyperblaster
 
 {!*} avail. if 4 vaults are open (w/ 3 red cards)
 {!**} doesn’t apply to former CRI soldiers
@@ -196,8 +201,10 @@ register_blueprint "hellpediace_io_2"
 {!Special rewards}: poison resistance. With {!Rift}
  reward: strong poison aura, +50% poison effect
 
- {YIo Warehouse}
-{!Rewards}: lots of lootboxes, AV2 hyperblaster
+ {YGateway} (outro level)
+{!Boss loot}: ancient gun / ancient sword / relic
+ (+25% all res.) / relic (+25% dmg vs demons)
+]=]
     }
 }
 
@@ -217,8 +224,10 @@ register_blueprint "hellpediace_dante"
 {!Perk}: (none yet)
 {!Rewards}: AV3 general AMP, a Tier 3 unique (25%
  chance it’s {GBFT 10K})
+]=]
     }
 }
+
 
 register_blueprint "hellpediace_purgatory"
 {
@@ -226,6 +235,7 @@ register_blueprint "hellpediace_purgatory"
         title = "Purgatory",
         content = [=[
  {YPurgatory paths}
+
     {!Tier 1}         {!Tier 2}          {!Tier 3}
 {GExec.}     URUL {GW.spl.}   LDLDL {GSoulst.}    DDLLUR
 {GLove}      RRDR {GHate}      RURU {GDeath}       ULDLD
@@ -276,6 +286,8 @@ register_blueprint "hellpediace_uniques_1"
 {GDenial} ({!The Pit}) 12ga autoshotgun with a
  secondary plasma shockwave
 ]=]
+    }
+}
 
 register_blueprint "hellpediace_uniques_2"
 {
@@ -319,14 +331,15 @@ register_blueprint "hellpediace_exotics_1"
     text = {
         title = "Exotics",
         content = [=[
- {YMelee}
+ {!Melee}
 {MClass blade} +100% crit in adren./stealth/smoke
 {MQuickblade} +100% crit after draw, quick swap
-{MCRI sword} plasma blade
-{MPlasma katana} plasma blade + EMP damage
-{MPower saw} 400% damage vs armor
+{MCRI sword} deals plasma damage
+{MPlasma katana} plasma damage + EMP effect
+{MPower saw} deals 400% damage vs armor
+{MAncient sword} +50% damage vs demons     {YIo boss}
 
- {YPistol}
+ {!Pistol}
 {M9mm calibrated} pierce, 50% crit in opt range
 {M9mm mag pistol} pierce, loses damage with hits
 {M.44 HE revolver} gibbed enemies explode
@@ -334,16 +347,16 @@ register_blueprint "hellpediace_exotics_1"
 {M.44 deagle} no pain accuracy malus
 {MBlaster} plasma pistol with regenerating ammo
 
- {YSMG}
+ {!SMG}
 {M9mm torrent} extra crit chance on close enemies
 {M9mm storm} pain accuracy malus becomes crit
 {M.44 JAC} makes enemies near dead ones bleed
 {M7.62 riot} +2 dmg for each extra enemy in sight
 
- {YSemi}
+ {!Semi}
 {M.44 toxin rifle} low damage, deals poison
 {M7.62 AWP rifle} kills increase crit chance
-{MEMP rifle} deals EMP damage {Rammo?}
+{MEMP rifle} EMP damage only, freezes non-mecha
 {MRailgun} no minimum range
 {MMagrail} no minimum range, cannot reload
 ]=]
@@ -355,24 +368,25 @@ register_blueprint "hellpediace_exotics_2"
     text = {
         title = "Exotics",
         content = [=[
- {YAuto}
+ {!Auto}
 {M9mm tactical rifle} scope, +50% aim bonus
 {M9mm prec. rifle} aim to shoot 1 powerful bullet
 {M7.62 pierce rifle} high crit dmg, 300% vs armor
 {MNail gun} 1 multitool to reload
+{MAncient gun} no mag., +50% dmg vs demons {YIo boss}
 
- {YRotary}
-{M7.62 gatling} +1 dmg for each kill until reload
+ {!Rotary}
+{M7.62 gatling} +1 dmg on kill until reload, max 5
 {MSuper nailgun} 1 multitool to reload
 
- {YShotgun}
+ {!Shotgun}
 {M9mm frag shotgun} deals bleed, +50% vs bleeding
 {MFocused shotgun} impact damage, narrow cone
 {MSuper shotgun} auto-reload on kill
-{MElephant} hit enemies deal 50% damage {Rverify}
+{MElephant} hit enemies deal -50% damage
 {MJackhammer} fires 3 shells/shot
 
- {YLauncher}
+ {!Launcher}
 {M40mm drum launcher} fires 3 grenades/shot
 {MEGLS} grenade launcher, cannot reload
 {MMicro launcher} 4-rockets magazine, small AoE
@@ -382,42 +396,42 @@ register_blueprint "hellpediace_exotics_2"
     }
 }
 
-
 register_blueprint "hellpediace_exotics_3"
 {
     text = {
         title = "Exotics",
         content = [=[
- {YArmor}
+ {!Armor}
 {MGuardian} light armor, saves your life once
 {MAblative} high protection, no repair
 {MDuramesh} low protection, indestructible
 {MMedifiber} heals at the cost of durability
 {MNecrotic} auto-repairs at the cost of health
-{RMarine armor}
-{RScout armor}
-{RTech armor}
+{MMarine armor} +50% damage during adrenaline
+{MScout armor} +50% crit for 3s after stealth ends
+{MTech armor} power orbs heals for half the power
 
- {YHelmet}
+ {!Helmet}
 {MSupply visor} +1 charge in terminal/station
 {MAnalytic visor} +20% experience
 {MCommand visor} red door bypass
 {MBlast helmet} -75% splash damage
 {MBattle helmet} damage reduction equals pain%
-{RMarine helmet}
-{RScout helmet}
-{RTech helmet}
+{MMarine helmet} adren. heals more, clears status
+{MScout helmet} stealth stims you for 5s
+{MTech helmet} enemies in smoke take +50% damage
 
- {YMod}
-{MCold} inflicts cold
-{MEMP} inflicts disabled status
+ {!Mod}
+{MCold} inflicts freeze status effect
+{MEMP} inflicts disabled status effect
 {MVampiric} heals on kill
-{MSustain} get ammo back after kill
+{MSustain} get ammo back in magazine on kill
 {MOnyx} makes armor indestructible
-{MNano} weapon no longer requires ammo
+{MNano} weapon reloads without needing ammo
 ]=]
     }
 }
+
 
 register_blueprint "hellpediace_whizkid_b"
 {
@@ -426,7 +440,7 @@ register_blueprint "hellpediace_whizkid_b"
         content = [=[
  {!Bulk mod}
 
-{!Melee}       {!Pistol}            {!SMG}
+{!Melee}          {!Pistol}         {!SMG}
  Swap Harness   Swap Harness   Swap Harness
  Guarded 10     Speed Loader   Speed Loader
  Guard Shield   Extended Mag 4 Extended Mag 5
