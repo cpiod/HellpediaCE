@@ -278,29 +278,29 @@ register_blueprint "hellpediace_purgatory_2"
         content = [=[
      /-{!UULD}--{GVulcan}               {!Purgatory Map}
  /-{!L}-+-{!LDRDD}-{GVoid}
+ |   |        /-{!L}--{GWavesplitter}
  |   \-{!D}-+-{!LD}-+-{!RU}-{GWavedancer}
- |       |    \-{!L}--{GWavesplitter}
- |       \-{!DR}-{GVengeance}-{!R}-{GViper}
+ |       \-{!DR}--{GVengeance}-{!R}-{GViper}
  |         /-{!RD}-{GMonster}
--+-{!R}-+-{!R}---+-{!UU}-{YIo portal}
+-+-{!R}-+--{!R}--+-{!UU}-{YIo}
  |   |     \-{!DR}-{GLove}
+ |   |   /-{!UUL}-{GHammerhead}
  |   \-{!U}-+-{!RU}--{GHate}
- |       \-{!UUL}-{GHammerhead}
  |   /-{!DLLUR}-{GSoulstealer}
  +-{!D}-+-{!LDDD}--{GOverlord}
  |   |       /-{!R}-{GThompson}
  |   \-{!R}-+-{!R}-+-{!U}-{GScrapgun}
  |       \-{!UL}-{GShadowcloak}-{!LU}-{GShadowhunter}
  |
- |         /-{!UL}--{GBloodletter}
- \-{!U}-+-{!UU}--+-{!LDD}-{GApocalypse}
-     |      /-{!L}--{GCarnage}
-     +-{!L}-+{!L}-+-{!UL}-{YDante portal}
-     |   |  \{!D}-{GFirestorm}-+{!R}-{GDenial}-{!R}-{GFirecrown}
-     |   |               \{!D}-{GCalamity}
-     |   \-{!D}-+-{!LD}-{GDeath}-{!D}-{GBFG10K}
-     |       \-{!D}--{GFirecrown}
-     |   /-{!R}-{YEuropa portal}-{!DLD}-{GExosuit}
+ |        /-{!UL}--{GBloodletter}
+ |   /-{!UU}-+-{!LDD}-{GApocalypse}
+ |   |   /-{!D}-+-{!LD}-{GDeath}-{!D}-{GBFG10K}
+ |   |   |   \-{!D}--{GFirecrown}
+ |   |   |  /{!L}--{GCarnage}
+ \-{!U}-+-{!L}-+{!L}-+{!UL}-{YDante}
+     |      \{!D}--{GFirestorm}-+{!R}-{GDenial}-{!R}-{GFirecrown}
+     |                    \{!D}-{GCalamity}
+     |   /-{!R}-{YEuropa}-{!DLD}-{GExosuit}
      \-{!R}-+-{!U}-+-{!ULL}-{GAvalanche}
              \-{!L}---{GExecutioner}-{!L}-{GCybersuit}
 ]=]
@@ -519,7 +519,7 @@ register_blueprint "hellpediace_relics_1"
         title = "Relics",
         content = [=[
 {RFiend heart} pain immunity, -75% repair
-{RFiend claw} +25% slash dmg, -25% other dmg
+{RFiend claw} +25% slash damage, -25% other damage
 {RFiend head} sense biological targets, -10% XP
 {RFire fiend rib} fire resistance, fire in melee,
  +50% fire status, -100% cold resistance
