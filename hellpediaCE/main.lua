@@ -282,22 +282,22 @@ register_blueprint "hellpediace_purgatory_2"
  |       |    \-{!L}--{GWavesplitter}
  |       \-{!DR}-{GVengeance}-{!R}-{GViper}
  |         /-{!RD}-{GMonster}
- +-{!R}-+-{!R}---+-{!UU}-{YIo portal}
+-+-{!R}-+-{!R}---+-{!UU}-{YIo portal}
  |   |     \-{!DR}-{GLove}
  |   \-{!U}-+-{!RU}--{GHate}
  |       \-{!UUL}-{GHammerhead}
--+-{!D}-+-{!DLLUR}-{GSoulstealer}
- |   +-{!LDDD}--{GOverlord}
+ |   /-{!DLLUR}-{GSoulstealer}
+ +-{!D}-+-{!LDDD}--{GOverlord}
  |   |       /-{!R}-{GThompson}
  |   \-{!R}-+-{!R}-+-{!U}-{GScrapgun}
  |       \-{!UL}-{GShadowcloak}-{!LU}-{GShadowhunter}
- \-{!U}-+-{!UU}--+-{!UL}--{GBloodletter}
-     |     \-{!LDD}-{GApocalypse}
-     |
+ |
+ |         /-{!UL}--{GBloodletter}
+ \-{!U}-+-{!UU}--+-{!LDD}-{GApocalypse}
      |      /-{!L}--{GCarnage}
      +-{!L}-+{!L}-+-{!UL}-{YDante portal}
-     |   |  \-{!D}--{GFirestorm}-+-{!R}-{GDenial}-{!R}-{GF.crown}
-     |   |                 \-{!D}-{GCalamity}
+     |   |  \{!D}-{GFirestorm}-+{!R}-{GDenial}-{!R}-{GFirecrown}
+     |   |               \{!D}-{GCalamity}
      |   \-{!D}-+-{!LD}-{GDeath}-{!D}-{GBFG10K}
      |       \-{!D}--{GFirecrown}
      |   /-{!R}-{YEuropa portal}-{!DLD}-{GExosuit}
