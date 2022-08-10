@@ -1,3 +1,6 @@
+
+nova.require "data/lua/core/common"
+
 nova.log("HellpediaCE is loaded")
 
 register_blueprint "hellpediace_callisto_1"
@@ -493,7 +496,7 @@ register_blueprint "hellpediace_exotics_4"
 {MTech helmet} enemies in smoke take +50% damage
 {MBlast helmet} -75% splash damage
 {MBattle helmet} damage reduction equals pain%
-{!ENV helmet} dark vision, heatvision + poison,
+{!ENV helmet} darkvision, heatvision and poison,
  50% fire, 50% cold resistances  {YMephitic Mines}
 
 
@@ -848,6 +851,61 @@ register_blueprint "hellpediace_whizkid_p"
     }
 }
 
+register_blueprint "hellpediace_map"
+{
+    text = {
+        title = "Map",
+        content = [=[
+Check a terminal Recon to activate the map.
+        ]=]
+    },
+}
+
+
+register_blueprint "hellpediace_map_update"
+{
+    callbacks = {
+        on_create = [=[
+            function( self )
+                nova.log("Hellpedia on create!")
+                print("all is fine")
+                local level = world:get_level()
+                -- print("TEST: "..ecs:get(level, "ui_help"))
+
+                blueprints["hellpediace_map"].text.content="Map found"
+                ui.game.hellpediace_map.text.content="Map found"
+                ui:reset_help_overlay()
+                for e in level:entities() do
+                    print(world:get_id(e))
+                    if world:get_id( e ) == world:hash("hellpediace_map") then 
+                        print("FOUND!")
+                        e.text.content="Map found"
+                    end
+                end
+                -- local index = world.data.cbranch
+                -- if index then
+                --     local header, hsize = uitk.episode_report( self, index, 0 )
+                --     if hsize > 5 then
+                --         local tinfo = self.data.terminal.params
+                --         tinfo.header = header
+                --         tinfo.hsize  = hsize
+                --     end
+                -- end
+            end
+        ]=],
+    },
+}
+
+-- Thanks Deemzul for that part :)
+local i = 0
+local v = 0
+while true do
+  -- find the last "end"
+  i = blueprints["trial_arena_terminal"].callbacks.on_create:find("end", i+1)
+  if i == nil then break end
+  v = i
+end
+blueprints["trial_arena_terminal"].callbacks.on_create = blueprints["trial_arena_terminal"].callbacks.on_create:sub(1, v - 3)..[[self:attach( "hellpediace_map_update" )]].."\nend"
 
 register_blueprint "ui_help"
 {
@@ -876,4 +934,6 @@ register_blueprint "ui_help"
     "hellpediace_europa_1",
     "hellpediace_callisto_2",
     "hellpediace_callisto_1",
+    "hellpediace_map",
 }
+
