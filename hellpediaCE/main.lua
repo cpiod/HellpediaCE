@@ -655,25 +655,25 @@ register_blueprint "hellpediace_perks_3"
     text = {
         title = "AMP Perks",
         content = [=[
-{!Speed-loader} -75% reload if empty mag.  P
-{!Speed-loader} -50% reload if empty mag.   AS
-{!Autoloader} reload on move                 S
-{!Reloader} -50% reload time                AS
-{!Accelerator/Pellet boost} +20% crit      PASM
-{!Capacitor} +25% crit damage              P  M
-{!Capacitor} +50% crit damage                S
-{!Long-range tracking} +1 max distance     PA
-{!Target tracking} +1 optimal distance     PA
-{!Spread control} +1 optimal distance        S
-{!Stabilizer} -1 minimal range              A
-{!Focus} add scope (aim% added to crit)    P S
-{!Precise} half aim% is added to damage     A
-{!Retaliation} pain% added to damage         SM
-{!Melee guard} +25% guard                     M
+{!Speed-loader} -75% reload if empty mag.  {!P   }
+{!Speed-loader} -50% reload if empty mag.  {! AS }
+{!Autoloader} reload on move               {!  S }
+{!Reloader} -50% reload time               {! AS }
+{!Accelerator/Pellet boost} +20% crit      {!PASM}
+{!Capacitor} +25% crit damage              {!P  M}
+{!Capacitor} +50% crit damage              {!  S }
+{!Long-range tracking} +1 max distance     {!PA  }
+{!Target tracking} +1 optimal distance     {!PA  }
+{!Spread control} +1 optimal distance      {!  S }
+{!Stabilizer} -1 minimal range             {! A  }
+{!Focus} add scope (aim% added to crit)    {!P S }
+{!Precise} half aim% is added to damage    {! A  }
+{!Retaliation} pain% added to damage       {!  SM}
+{!Melee guard} +25% guard                  {!   M}
 
-{CBooster} +20% damage                     PASM
-{CHit tracker} +40% crit chance            P
-{CCrit system} +25% crit, +25% crit dmg     ASM
+{CBooster} +20% damage                     {!PASM}
+{CHit tracker} +40% crit chance            {!P   }
+{CCrit system} +25% crit, +25% crit dmg    {! ASM}
 
  {!P} pistol AMP, applies to SMG too
  {!A} auto AMP, applies to rotary and semi too
