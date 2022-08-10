@@ -24,7 +24,7 @@ Otherwise, look where you installed the game!
 
 1. Create a "mods" folder in the Jupiter Hell root directory if it does not exist.
 2. Create a "HellpediaCE" folder inside the "mods" folder.
-3. Inside the "HellpediaCE" folder", put the content of this archive: https://github.com/cpiod/HellpediaCE/archive/refs/heads/main.zip
+3. Inside the "HellpediaCE" folder, put the content of this archive: https://github.com/cpiod/HellpediaCE/archive/refs/heads/main.zip
 
 In the end, the folder structure should be: "(jupiter hell root directory) > mods > HellpediaCE > main.lua".
 
@@ -33,7 +33,7 @@ In the end, the folder structure should be: "(jupiter hell root directory) > mod
 1. Navigate to your Jupiter Hell app, right click, select "show package contents", navigate to contents,
 2. Create a "mods" folder there if it does not exist.
 2. Create a "HellpediaCE" folder inside the "mods" folder.
-3. Inside the "HellpediaCE" folder", put the content of this archive: https://github.com/cpiod/HellpediaCE/archive/refs/heads/main.zip
+3. Inside the "HellpediaCE" folder, put the content of this archive: https://github.com/cpiod/HellpediaCE/archive/refs/heads/main.zip
 
 ### Install with git
 
@@ -45,12 +45,12 @@ Go to the Jupiter Hell root directory and type:
 
 To update HellpediaCE, go to the Jupiter Hell root directory and type:
 
-    cd mods
+    cd mods/HellpediaCE
     git pull
 
 ### Beta testers
 
-If you are a beta testers, you can used this archive instead: https://github.com/cpiod/HellpediaCE/archive/refs/heads/beta.zip
+If you are a beta tester, you can used this archive instead: https://github.com/cpiod/HellpediaCE/archive/refs/heads/beta.zip
 
 For the git install, go inside the HellpediaCE folder and type:
 
