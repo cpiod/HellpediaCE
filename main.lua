@@ -20,7 +20,7 @@ register_blueprint "hellpediace_callisto_1"
  AV2 helmet/armor                          {!2 5}
 {!Special rewards} If 1 closed portal: red
  relic. If 2: Warlock Eye. If 3: Warlock  {!4   3}
- Horn. If >=2: touch pillars in order (cf.
+ Horn. If 2+: touch pillars in order (cf.
  plan) for {!Purgatory} access (Medium+ only)  {!1}
 
  {YMimir Habitat}{!: dl codes from MDF sentries!}
@@ -510,7 +510,7 @@ register_blueprint "hellpediace_exotics_4"
 {MVampiric} heals on organic kill
 {MSustain} get ammo back in magazine on kill
 {MOnyx} makes armor indestructible
-{MNano} weapon reloads without needing ammo
+{MNano} reloading doesn’t require ammo
 
  {!Permanent}
 {MBackpack} +2 inventory space  {YThe Pit, Ref. Base}
@@ -595,6 +595,8 @@ register_blueprint "hellpediace_perks_1"
         title = "Weap. Perks",
         content = [=[
 {!Ambush} bonus damage vs enemies at >=100% HP
+{!Autocalibrated} +10% damage, +1 opt distance,
+ 50 kills required to be activated
 {!Autoloader} reloads on move
 {!Balanced} decrease minimal distance
 {!Barbed} applies bleed
@@ -614,11 +616,10 @@ register_blueprint "hellpediace_perks_1"
 {!High explosive} +1 blast radius, -10 damage
 {!Hunter} bonus vs enemies w/ >60 max HP
 {!Loading holster} auto-reload on swap
-{!Longshot} bonus damage at range >=5
+{!Longshot} bonus damage at range 5+
 {!Mechabane} +25% damage vs bots
 {!Molten} applies burning
 {!Point blank} bonus damage in range < 3
-{!Precise} half aim% added to damage
 ]=]
     }
 }
@@ -628,16 +629,18 @@ register_blueprint "hellpediace_perks_2"
     text = {
         title = "Weap. Perks",
         content = [=[
+{!Precise} half aim% added to base damage
 {!Resilient} -50% pain effect on accuracy
 {!Retaliate} pain% added to damage
 {!Ripper} bonus damage vs wounded enemies
 {!Rush} bonus damage after move
 {!Safe} no self-damage with explosion
+{!Scope} (innate on semis) aim% added to crit
 {!Second chamber} doubles magazine size
 {!Specialist} +100% damage after skill use
 {!Speedloader} -75% reload if empty magazine
 {!Stabilized} increase maximum range
-{!Surrounded} 33% DR if >2 enemies in sight
+{!Surrounded} 33% DR if 3+ enemies in sight
 {!Swap harness} -75% swap time
 {!Zombiebane} +50% damage vs zombies
 
@@ -646,11 +649,12 @@ register_blueprint "hellpediace_perks_2"
 {CDisruptive} applied EMP status effect
 {CFreezing} applies freeze
 {CMomentum} damage bonus at 50% dodge
+{CNanotech} reloading doesn’t require ammo
 {CPoisoned} applies poison
 {CSustain} get ammo back in magazine on kill
 {CToxic} area covered in poison clouds
 {CTracking} +100% accuracy
-{CTriggerhappy} +1 shot
+{CTriggerhappy} +1 shot per volley
 {CVampiric} heals on organic kill
 ]=]
     }
