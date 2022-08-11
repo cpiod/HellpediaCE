@@ -22,11 +22,11 @@ register_blueprint "hellpediace_callisto_1"
  relic. If 2: Warlock Eye. If 3: Warlock  {!4   3}
  Horn. If 2+: touch pillars in order (cf.
  plan) for {!Purgatory} access (Medium+ only)  {!1}
+{!Remark} branch guaranteed on Callisto L2/L3
 
  {YMimir Habitat}{!: dl codes from MDF sentries!}
 {!Mimir Defence Force} +1 optimal range
-{!Rewards} AV2/exo pistol+shotgun, AV2 favored
- weapon
+{!Rewards} AV2/exo pistol+shotgun, AV2 fav. weapon
 {!Special rewards} CalSec shutdown/reboot, MDF
  exo manu station (L2 clearance: 4 choices, L3
  clearance: 6 choices among pistols, SMG,
@@ -116,6 +116,7 @@ register_blueprint "hellpediace_europa_2"
 {!Special rewards} (none yet)
 {!Remark} you can take either the heart or the
  armor + AMP safely, otherwise guardians spawn
+{!Remark} branch guaranteed
 
  {YThe Pit}{!: pet the smaller Kerberos w/ {$input_action}!}
 {!Rewards} backpack, AV3 headgear, AV3 favored
@@ -193,6 +194,7 @@ register_blueprint "hellpediace_io_2"
   healing, max HP reduced by 50%, HP set to 20
  {!"HEALTH!"} regenerate 5 HP/s up to 50% of max
   HP, receive 25% less healing, HP set to 1
+{!Remark} branch guaranteed
 
  {YMephitic Mines}{!: reroute the gas!}
 {!IDR} -50% reload time
@@ -238,6 +240,83 @@ register_blueprint "hellpediace_dante"
     }
 }
 
+register_blueprint "hellpediace_siderooms"
+{
+    text = {
+        title = "Side rooms",
+        content = [=[
+ {CStrongroom}
+
+ {CStorage room}
+
+ {CWorkshop}
+
+ {CLaboratory}
+{Remark} there are no demons in this side room
+]=]
+    }
+}
+
+register_blueprint "hellpediace_events_1"
+{
+    text = {
+        title = "Events",
+        content = [=[
+ {YVolatile storage}   {![L2/L3 of Ca,Eu,Io and CCB]}
+{!Effect} the level is filled with barrels
+{!Extra XP} 250
+
+ {YLockdown}                        {![Not on Dante]}
+{!Effect} bots will arrive in 120/150/180s
+{!Extra XP} 500 if canceled by terminal
+
+ {YLow light}                       {![Not on Dante]}
+{!Effect} light range is reduced to 4
+{!Extra XP} 500 if power is restored, else 250
+
+ {YDesolation}                 {![Callisto L4/L5/L6]}
+{!Effect} patches of fire, auto-exploding barrels,
+ low light
+
+ {YVault}               {![From Ca L4, not on Dante]}
+{!Effect} a vault with loot and exalted enemies
+
+ {YHunt}                              {![From Ca L5]}
+{!Effect} enemies will soon hunt you
+{!Extra XP} 1000
+]=]
+    }
+}
+
+register_blueprint "hellpediace_events_2"
+{
+    text = {
+        title = "Events",
+        content = [=[
+ {YContamination}               {![Ca L5/L6, Eu, Io]}
+{!Effect} poison cloud in the level
+{!Extra XP} 500 if canceled by terminal
+
+ {YWindchill}                                 {![Eu]}
+{!Effect} chill cloud in the level
+{!Extra XP} 500 if canceled by terminal
+
+ {YInfestation}                         {![Ca,Eu,Io]}
+{!Effect} only one kind of demons in this level
+{!Extra XP} 250
+
+ {YExalted curse}                          {![Io,Eu]}
+{!Effect} only exalted enemies on this level
+{!Location} Europa branches, Io branches
+{!Extra XP} 500
+
+ {YExalted summons}                     {![Io,Eu,Da]}
+{!Effect} Portals will soon release demons. Step
+ on them to cancel the summoning
+{!Extra XP} 200 for each closed portal
+]=]
+    }
+}
 
 register_blueprint "hellpediace_purgatory_1"
 {
@@ -907,6 +986,8 @@ register_blueprint "ui_help"
     "hellpediace_uniques_1",
     "hellpediace_purgatory_2",
     "hellpediace_purgatory_1",
+    "hellpediace_events_2",
+    "hellpediace_events_1",
     "hellpediace_dante",
     "hellpediace_io_2",
     "hellpediace_io_1",
