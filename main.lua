@@ -262,27 +262,29 @@ register_blueprint "hellpediace_events_1"
     text = {
         title = "Events",
         content = [=[
- {YVolatile storage}   {![L2/L3 of Ca,Eu,Io and CCB]}
+ {RVolatile storage}       {![L2/L3 of Ca,Eu,Io+CCB]}
 {!Effect} the level is filled with barrels
 {!Extra XP} 250
 
- {YLockdown}                        {![Not on Dante]}
-{!Effect} bots will arrive in 120/150/180s
+ {RLockdown}                        {![Not on Dante]}
+{!Effect} bots (sentry on Ca, security bots on
+ Eu, CRI bots on Io) hunt you in 120/150/180s
 {!Extra XP} 500 if canceled by terminal
 
- {YLow light}                       {![Not on Dante]}
+ {RLow light}                       {![Not on Dante]}
 {!Effect} light range is reduced to 4
 {!Extra XP} 500 if power is restored, else 250
 
- {YDesolation}                 {![Callisto L4/L5/L6]}
+ {RDesolation}                 {![Callisto L4/L5/L6]}
 {!Effect} patches of fire, auto-exploding barrels,
  low light
 
- {YVault}               {![From Ca L4, not on Dante]}
-{!Effect} a vault with loot and exalted enemies
+ {RVault}               {![From Ca L4, not on Dante]}
+{!Effect} a vault with a purple lootbox or a
+ manufacturing station, and exalted enemies
 
- {YHunt}                              {![From Ca L5]}
-{!Effect} enemies will soon hunt you
+ {RHunt}                              {![From Ca L5]}
+{!Effect} enemies will hunt you in 60s
 {!Extra XP} 1000
 ]=]
     }
@@ -293,27 +295,31 @@ register_blueprint "hellpediace_events_2"
     text = {
         title = "Events",
         content = [=[
- {YContamination}               {![Ca L5/L6, Eu, Io]}
-{!Effect} poison cloud in the level
+ {RContamination}               {![Ca L5/L6, Eu, Io]}
+{!Effect} poison clouds in the level
 {!Extra XP} 500 if canceled by terminal
 
- {YWindchill}                                 {![Eu]}
-{!Effect} chill cloud in the level
+ {RWindchill}                                 {![Eu]}
+{!Effect} chill clouds in the level
 {!Extra XP} 500 if canceled by terminal
 
- {YInfestation}                         {![Ca,Eu,Io]}
-{!Effect} only one kind of demons in this level
+ {RInfestation}                         {![Ca,Eu,Io]}
+{!Effect} the level is populated by demons (fiends
+ on Callisto, reavers on Europa, kerberi on Io)
 {!Extra XP} 250
 
- {YExalted curse}                          {![Io,Eu]}
+ {RExalted curse}                          {![Io,Eu]}
 {!Effect} only exalted enemies on this level
-{!Location} Europa branches, Io branches
 {!Extra XP} 500
 
- {YExalted summons}                     {![Io,Eu,Da]}
-{!Effect} Portals will soon release demons. Step
- on them to cancel the summoning
+ {RExalted summons}                     {![Io,Eu,Da]}
+{!Effect} Portals will release hunting demons
+ in 120s: step on them to cancel the summoning
 {!Extra XP} 200 for each closed portal
+
+ {RCursed}                            {![Side rooms]}
+{!Effect} Portals will release hunting demons
+ in 30s: step on them to cancel the summoning
 ]=]
     }
 }
