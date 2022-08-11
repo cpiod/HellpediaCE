@@ -765,6 +765,33 @@ register_blueprint "hellpediace_perks_5"
     }
 }
 
+register_blueprint "hellpediace_perks_6"
+{
+    text = {
+        title = "Enem. Perks",
+        content = [=[
+    {YExalted perk}
+{!ACCURATE} +25% accuracy
+{!ARMORED} heavy armor, extra 30 max HP
+{!DEADLY} deal double damage
+{!FAST} move speed 50% faster
+{!HUNTER} unlimited tracking, +25% move speed
+{!REGENERATE} 10% HP (at most 5 HP) regenerate
+ per action (not per second!)
+{!RESILIENT} overhealth equal to base HP
+{!UNSTABLE} explode (25 damage) on death
+
+
+    {YSpecial status}
+{!Slithering} increased evasion
+{!Warlock Aura} health regenerate to overhealth,
+ 50% fire, poison and acid resistance
+{!Warlock Gaze} pain doesn’t go away
+]=]
+    }
+}
+
+
 register_blueprint "hellpediace_whizkid_b"
 {
     text = {
@@ -864,6 +891,7 @@ register_blueprint "ui_help"
     "hellpediace_whizkid_p",
     "hellpediace_whizkid_a",
     "hellpediace_whizkid_b",
+    "hellpediace_perks_6",
     "hellpediace_perks_5",
     "hellpediace_perks_4",
     "hellpediace_perks_3",
