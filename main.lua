@@ -375,7 +375,7 @@ register_blueprint "hellpediace_uniques_2"
  multiple jumps
 {GExosuit} armor, no dodge penalty, boosts action
  and movement speed
-{GFirecrown} helmet, grants fire resistance, sets
+{GFirecrown} helmet, +100% fire resistance, sets
  enemies in sight on fire
 
 {!*} guaranteed unique in: 20% Ca, 40% Eu, 40% Io
@@ -438,8 +438,8 @@ register_blueprint "hellpediace_exotics_2"
  with +15 damage and +100% crit chance
 {M7.62 pierce rifle} high crit dmg, 300% vs armor
 {MNail gun} 1 multitool to reload
-{MAncient gun} do not use ammo to reload, +50%
- damage vs demons                       {YIo boss}
+{MAncient gun} do not use ammo to reload,  {YIo boss}
+ +50% damage vs demons
 
  {!Rotary}
 {M7.62 gatling} +1 dmg on kill until reload, max 5
@@ -467,19 +467,23 @@ register_blueprint "hellpediace_exotics_3"
 {MBio launcher} toxic, dead enemies emit poison
 {MBFT9K} big plasma ball jumping to other targets
 
-
  {!Armor}
-{MMarine armor} +50% damage during adrenaline
-{MScout armor} +50% crit for 3s after stealth ends
-{MTech armor} power orbs heals for half the power
-{MGuardian} light armor, saves your life once
+{MAssault armor} +50% damage during adren.  {!Marine}
+{MInfiltration armor} +50% crit for 3s       {!Scout}
+ after stealth ends
+{MMediTech} power orbs heal for 1/2 the power {!Tech}
 {MAblative} high protection, no repair
 {MDuramesh} low protection, indestructible
+{MGuardian} light armor, saves your life once
 {MMedifiber} heals at the cost of durability
 {MNecrotic} auto-repairs at the cost of health
-{WCRI armor} high protection, low penalty {YCRI Labs}
+{!CRI armor} high protection, low penalty {YCRI Labs}
 {!ENV armor} cold, fire, 50% poison res  {YRef. Base}
 
+ {!Visor}
+{MAnalytic visor} +20% experience
+{MCommand visor} red door bypass
+{MSupply visor} +1 charge in terminal/station
 ]=]
     }
 }
@@ -490,17 +494,15 @@ register_blueprint "hellpediace_exotics_4"
         title = "Exotics",
         content = [=[
  {!Helmet}
-{MSupply visor} +1 charge in terminal/station
-{MAnalytic visor} +20% experience
-{MCommand visor} red door bypass
-{MMarine helmet} adren. heals more, clears status
-{MScout helmet} stealth stims you for 5s
-{MTech helmet} enemies in smoke take +50% damage
+{MAdrenal helmet} adrenaline heals more,    {!Marine}
+ clears status
+{MInfiltrator helmet} stealth stims for 5s   {!Scout}
+{MVaporscan helmet} enemies in smoke take     {!Tech}
+ +50% damage
 {MBlast helmet} -75% splash damage
 {MBattle helmet} damage reduction equals pain%
-{!ENV helmet} dark vision, heatvision + poison,
- 50% fire, 50% cold resistances  {YMephitic Mines}
-
+{!ENV helmet} darkvision, heatvision,  {YMeph. Mines}
+ poison, 50% fire, 50% cold resistances
 
  {!Mod}
 {MCold} inflicts freeze status effect
@@ -509,7 +511,6 @@ register_blueprint "hellpediace_exotics_4"
 {MSustain} get ammo back in magazine on kill
 {MOnyx} makes armor indestructible
 {MNano} weapon reloads without needing ammo
-
 
  {!Permanent}
 {MBackpack} +2 inventory space  {YThe Pit, Ref. Base}
@@ -566,11 +567,11 @@ register_blueprint "hellpediace_relics_2"
  looking for you
 {MKerberos jaw} +50% damage, enemies spawn next to
  you regularly
+{MCyberos heart} vampiric, -100% healing
 {MToxiberos tusk} inflicts Death on hit, at 20% HP
  on level change, -50% healing
 {MCryoberos fang} chilled enemies in sight, you
  slowly lose health
-{MCyberos heart} vampiric, -100% healing
 {MMedusa eye} enemies in sight bleed, max HP loss
  on level change
 {MMedusa fang} one-shot biological enemies, max HP
@@ -593,31 +594,31 @@ register_blueprint "hellpediace_perks_1"
     text = {
         title = "Weap. Perks",
         content = [=[
-{!Fresh mag} bonus damage on full magazine
-{!Point blank} bonus damage in range < 3
 {!Ambush} bonus damage vs enemies at >=100% HP
-{!Rush} bonus damage after move
-{!Ripper} bonus damage vs wounded enemies
-{!Cleaner} bonus vs enemies w/ <=60 max HP
-{!Hunter} bonus vs enemies w/ >60 max HP
-{!Longshot} bonus damage at range >=5
-{!Frenzy} cumulative bonus after kill for 5s
-{!Molten} applies burning
-{!Barbed} applies bleed
-{!Focused} -1 blast radius, +10 damage
-{!High explosive} +1 blast radius, -10 damage
-{!Swap harness} -75% swap time
-{!Speedloader} -75% reload if empty magazine
-{!Extended mag} increase magazine size
-{!Loading holster} auto-reload on swap
 {!Autoloader} reloads on move
-{!Second chamber} doubles magazine size
-{!Surrounded} 33% DR if >2 visible enemies
+{!Balanced} decrease minimal distance
+{!Barbed} applies bleed
+{!Calibrated} increase optimal distance
+{!Cleaner} bonus vs enemies w/ <=60 max HP
+{!Critical} increase crit chance
+{!Efficient} half reload consumption
+{!Exalted bane} +25% damage vs exalted
+{!Extended mag} increase magazine size
+{!Focused} -1 blast radius, +10 damage
+{!Frenzy} cumulative bonus after kill for 5s
+{!Fresh mag} bonus damage on full magazine
+{!Grenadier} +100% damage after grenade
 {!Guarded} increase melee guard
 {!Guard shield} increase guard range
-{!Calibrated} increase optimal distance
-{!Balanced} decrease minimal distance
-{!Stabilized} increase maximum range
+{!Haze} cover area in smoke
+{!High explosive} +1 blast radius, -10 damage
+{!Hunter} bonus vs enemies w/ >60 max HP
+{!Loading holster} auto-reload on swap
+{!Longshot} bonus damage at range >=5
+{!Mechabane} +25% damage vs bots
+{!Molten} applies burning
+{!Point blank} bonus damage in range < 3
+{!Precise} half aim% added to damage
 ]=]
     }
 }
@@ -627,30 +628,30 @@ register_blueprint "hellpediace_perks_2"
     text = {
         title = "Weap. Perks",
         content = [=[
-{!Precise} half aim% added to damage
-{!Grenadier} +100% damage after grenade
-{!Specialist} +100% damage after skill use
-{!Safe} no self-damage with explosion
-{!Retaliate} pain% added to damage
 {!Resilient} -50% pain effect on accuracy
-{!Critical} increase crit chance
-{!Haze} cover area in smoke
+{!Retaliate} pain% added to damage
+{!Ripper} bonus damage vs wounded enemies
+{!Rush} bonus damage after move
+{!Safe} no self-damage with explosion
+{!Second chamber} doubles magazine size
+{!Specialist} +100% damage after skill use
+{!Speedloader} -75% reload if empty magazine
+{!Stabilized} increase maximum range
+{!Surrounded} 33% DR if >2 enemies in sight
+{!Swap harness} -75% swap time
 {!Zombiebane} +50% damage vs zombies
-{!Mechabane} +25% damage vs bots
-{!Efficient} half reload consumption
-{!Exalted bane} +25% damage vs exalted
 
-{CDemon bane} +25% damage vs demons
 {CDeadly} increase flat damage
-{CVampiric} heals on organic kill
-{CPoisoned} applies poison
-{CFreezing} applies freeze
+{CDemon bane} +25% damage vs demons
 {CDisruptive} applied EMP status effect
+{CFreezing} applies freeze
+{CMomentum} damage bonus at 50% dodge
+{CPoisoned} applies poison
 {CSustain} get ammo back in magazine on kill
 {CToxic} area covered in poison clouds
-{CTriggerhappy} +1 shot
-{CMomentum} damage bonus at 50% dodge
 {CTracking} +100% accuracy
+{CTriggerhappy} +1 shot
+{CVampiric} heals on organic kill
 ]=]
     }
 }
@@ -660,25 +661,25 @@ register_blueprint "hellpediace_perks_3"
     text = {
         title = "AMP Perks",
         content = [=[
-{!Speed-loader} -75% reload if empty mag.  {!P   }
-{!Speed-loader} -50% reload if empty mag.  {! AS }
-{!Autoloader} reload on move               {!  S }
-{!Reloader} -50% reload time               {! AS }
-{!Accelerator/Pellet boost} +20% crit      {!PASM}
-{!Capacitor} +25% crit damage              {!P  M}
-{!Capacitor} +50% crit damage              {!  S }
-{!Long-range tracking} +1 max distance     {!PA  }
-{!Target tracking} +1 optimal distance     {!PA  }
-{!Spread control} +1 optimal distance      {!  S }
-{!Stabilizer} -1 minimal range             {! A  }
-{!Focus} add scope (aim% added to crit)    {!P S }
-{!Precise} half aim% is added to damage    {! A  }
-{!Retaliation} pain% added to damage       {!  SM}
-{!Melee guard} +25% guard                  {!   M}
+{!Speed-loader} -75% reload if empty mag.    {!P   }
+{!Speed-loader} -50% reload if empty mag.    {! AS }
+{!Autoloader} reload on move                 {!  S }
+{!Reloader} -50% reload time                 {! AS }
+{!Accelerator/Pellet boost} +20% crit        {!PASM}
+{!Capacitor} +25% crit damage                {!P  M}
+{!Capacitor} +50% crit damage                {!  S }
+{!Long-range tracking} +1 max distance       {!PA  }
+{!Target tracking} +1 optimal distance       {!PA  }
+{!Spread control} +1 optimal distance        {!  S }
+{!Stabilizer} -1 minimal range               {! A  }
+{!Focus} add scope (aim% added to crit)      {!P S }
+{!Precise} half aim% is added to damage      {! A  }
+{!Retaliation} pain% added to damage         {!  SM}
+{!Melee guard} +25% guard                    {!   M}
 
-{CBooster} +20% damage                     {!PASM}
-{CHit tracker} +40% crit chance            {!P   }
-{CCrit system} +25% crit, +25% crit dmg    {! ASM}
+{CBooster} +20% damage                       {!PASM}
+{CHit tracker} +40% crit chance              {!P   }
+{CCrit system} +25% crit, +25% crit dmg      {! ASM}
 
  {!P} pistol AMP, applies to SMG too
  {!A} auto AMP, applies to rotary and semi too
@@ -692,31 +693,31 @@ register_blueprint "hellpediace_perks_4"
     text = {
         title = "Armor Perks",
         content = [=[
-{!Carrier} +1 inventory slot
-{!Plated} protection +1
-{!Auto-med} small heal on level entry
-{!Durable} double durability
-{!Critical} increase crit chance
-{!Auto-repair} repair itself up to 30%
-{!Metabolic boost} +10% move speed
 {!Tenacity} increase heal on level entry    {!Marine}
 {!Camoboost} increase stealth duration       {!Scout}
 {!Pockets} consumables used twice as fast     {!Tech}
+{!Acid shield} +100% acid resistance
+{!Auto-med} small heal on level entry
+{!Auto-repair} repair itself up to 30%
+{!Carrier} +1 inventory slot
 {!Compartments} +2 inventory slots
+{!Critical} increase crit chance
+{!Durable} double durability
+{!Fire-resistant} +50% fire resistance
 {!Loading feed} partially reload SMGs, autos,
  semis and rotaries on the move
-{!Painkiler} +50% pain reduction per turn
-{!Swift} -10% dodge penalty
 {!Meshed} bleed immunity
-{!Fire-resistant} 50% fire resistance
-{!Padded} 50% cold resistance
-{!Acid shield} acid resistance
+{!Metabolic boost} +10% move speed
+{!Padded} +50% cold resistance
+{!Painkiler} +50% pain reduction per turn
+{!Plated} protection +1
+{!Swift} -10% dodge penalty
 
-{CAdrenal} increase adren. healing         {!Marine}
-{CSilent} bonus shot while in stealth       {!Scout}
-{CSmokegen} smoke range +1                   {!Tech}
-{CFireproof} fire resistance
-{CHeated} cold resistance
+{CAdrenal} increase adren. healing          {!Marine}
+{CSilent} bonus shot while in stealth        {!Scout}
+{CSmokegen} smoke range +1                    {!Tech}
+{CFireproof} +100% fire resistance
+{CHeated} +100% cold resistance
 {CKinetic shield} damage reduction is half dodge
 {CPowered} +20% move speed
 ]=]
@@ -728,26 +729,26 @@ register_blueprint "hellpediace_perks_5"
     text = {
         title = "Other Perks",
         content = [=[
- {YHelmet perks}
-{!Exit scanner} reveal standard elevators
-{!Danger monitor} +5% dodge (no max dodge bonus)
-{!Crit enhancer} +25% crit damage
-{!Supply scanner} reveal lootboxes
-{!Bot scanner} reveal turrets and bots
-{!Tech monitor} +50% repair
-{!Health monitor} +20% healing
+ {YHelmet/visor perks}
 {!Aim assist} +50% aim action
-{!Long-range tracking} +1 max range
+{!Bot scanner} reveal turrets and bots
+{!Crit enhancer} +25% crit damage
+{!Danger monitor} +5% dodge (no max dodge bonus)
+{!Exit scanner} reveal standard elevators
+{!Filtered} +50% poison resistance
+{!Health monitor} +20% healing
 {!Heatvision} reveals close enemies through walls
+{!Long-range tracking} +1 max range
 {!Network scanner} reveals terminals and stations
-{!Filtered} 50% poison resistance
-{CSealed} poison resistance
-{CNightvision} better vision in dark
+{!Supply scanner} reveal lootboxes
+{!Tech monitor} +50% repair
 {CDarkvision} complete vision in dark
-{CTarget tracking} +1 optimal distance
 {CHacking rig} +1 to hacking skill
+{CNightvision} better vision in dark (+1 range)
+{CSealed} +100% poison resistance
+{CTarget tracking} +1 optimal distance
 
- {YGeneral AMP perks}
+ {YClass-dependent AMP perks}
 {!Furious} +1 fury per kill                 {!Marine}
 {!Energetic} +5 energy per box open          {!Scout}
 {!Powerful} +1 power per orb                  {!Tech}
@@ -781,7 +782,7 @@ register_blueprint "hellpediace_whizkid_b"
  Barbed 3       Barbed 1       Barbed 3
  Efficient      Efficient      Second Chamber
 
-{!Launcher}       {!Armor}          {!Helmet}
+{!Launcher}       {!Armor}          {!Helmet/Visor}
  Swap Harness   Durable        Durable
  Load. Holster  Fire Resistant Bot Scanner
  Autoloader     Padded         Tech Monitor
@@ -812,7 +813,7 @@ register_blueprint "hellpediace_whizkid_a"
  Critical 25    Critical 25    Critical 25
  Exalted Bane   Exalted Bane   Exalted Bane
 
-{!Launcher}       {!Armor}          {!Helmet}
+{!Launcher}       {!Armor}          {!Helmet/Visor}
  Calibrated     Swift          Aim Assist
  Stabilized     Painkiller     Long-range Track
  Precise        Critical 10    Critical 10
@@ -843,7 +844,7 @@ register_blueprint "hellpediace_whizkid_p"
  Frenzy 4       Frenzy 1       Frenzy 8
  Molten 3       Molten 1       Molten 3
 
-{!Launcher}       {!Armor}          {!Helmet}
+{!Launcher}       {!Armor}          {!Helmet/Visor}
  Longshot 8     Carrier        Exit Scanner
  Focused        Meshed         Danger Monitor
  Hunter 8       Acid Shield    Plated
