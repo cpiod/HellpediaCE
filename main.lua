@@ -24,7 +24,7 @@ register_blueprint "hellpediace_callisto_1"
  plan) for {!Purgatory} access (Medium+ only)  {!1}
 
  {YMimir Habitat}{!: dl codes from MDF sentries!}
-{!MDF} +1 optimal range
+{!Mimir Defence Force} +1 optimal range
 {!Rewards} AV2/exo pistol+shotgun, AV2 favored
  weapon
 {!Special rewards} CalSec shutdown/reboot, MDF
@@ -88,7 +88,7 @@ register_blueprint "hellpediace_europa_1"
 
  {YC. Chaos Biolabs}{!: open valves, get essences!}
 {!CCB} +20% dmg vs bio, +10% dmg vs semi-mecha
-{!Rewards} AV2 pistol, AV2 semi-auto/auto
+{!Rewards} AV2 pistol, AV2 semi/auto
 {!Special rewards} acid, pain, bleed, fire
  resistances (at most 3 of them)
 {!Secret reward} +20% damage (if 3 res. bought)
@@ -97,7 +97,7 @@ register_blueprint "hellpediace_europa_1"
 
 
  {YEuropa Dig Zone}{!: do} {RNOT} {!open valves!}
-{!ERI} -75% swap time
+{!Europan Recon Initiative} -75% swap time
 {!Rewards} AV2 AMP for pistol/auto/shotgun/melee
  or AV2 armor/auto, Mk2 manu+tech+med stations
 {!Special reward} cold resistance
@@ -111,29 +111,28 @@ register_blueprint "hellpediace_europa_2"
         title = "Europa",
         content = [=[
  {YEuropa Ruins}
-{!Perk} (none yet)
+{!Cartel Recon Tech}
 {!Rewards} AV3 red armor, AV3 favored AMP, heart
 {!Special rewards} (none yet)
 {!Remark} you can take either the heart or the
  armor + AMP safely, otherwise guardians spawn
 
-
  {YThe Pit}{!: pet the smaller Kerberos w/ {$input_action}!}
 {!Rewards} backpack, AV3 headgear, AV3 favored
- AMP, AV3 armor/auto/semi-auto
+ AMP, AV3 armor/auto/semi
 {!Special reward} on level up, {!Rexio} gains bleed,
  poison, fire & cold res., up to 80% DR, more
  HP and damage, new orders: wait, follow, hunt
-
 
  {YRefueling Base}{!: open fuel valves!}
 {!Rewards} backpack, ammo term, AV3 visor,
  AV3 favored+general AMPs, AV3 armor/auto/AMP
 {!Special reward} ENV armor
-
+{!Remark} light range is 5
 
  {YEuropa Central Dig} (outro level)
 {!Boss loot} red relic
+{!Remark} light range is 7
 ]=]
     }
 }
@@ -167,6 +166,7 @@ register_blueprint "hellpediace_io_1"
 
  {YIo Warehouse}
 {!Rewards} lots of lootboxes, AV2 hyperblaster
+{!Remark} light range is 4
 
 {!*} avail. if 4 vaults are open (w/ 3 red cards)
 {!**} doesn’t apply to former CRI soldiers
@@ -180,7 +180,7 @@ register_blueprint "hellpediace_io_2"
         title = "Io",
         content = [=[
  {YShadow Halls}
-{!Perk} (none yet)
+{!Cartel Recon Tech}
 {!Rewards} unique exchange (random: Exosuit/Void/
  Death/Apocalypse) OR wish (if heart), AV3 fav.
  AMP, AV3 red/blue armor, AV3 pistol/SMG/
@@ -200,6 +200,7 @@ register_blueprint "hellpediace_io_2"
  helmet, AV1 hyperblaster
 {!Special rewards} poison resistance. With {!Rift}
  reward: strong poison aura, +50% poison effect
+{!Remark} light range is 5 (4 in special level)
 
  {YGateway} (outro level)
 {!Boss loot} ancient gun/sword/armband/necklace
@@ -212,6 +213,10 @@ register_blueprint "hellpediace_dante"
     text = {
         title = "Dante/Bey.",
         content = [=[
+ {YDante/Beyond L1} (intro level)
+{!Remark} light range is 4
+
+
  {YThe Shattered Abyss}              {YDante, Beyond}
 {!Unlock} kill an enemy with melee on L1
 {!Perk} (none yet)
