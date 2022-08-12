@@ -4,9 +4,10 @@
 
 This Jupiter Hell mod replaces the "help" section with some cheatsheets on:
 - the branches in Callisto, Europa, Io and Dante, their mechanisms, their perks and rewards
-- the paths to uniques in the Purgatory
+- the paths to uniques in the Purgatory and a map
 - the descriptions of all unique and exotics weapons, the relics and the perks
 - the perks you can get from mod packs through Whizkid
+- bosses descriptions and advice
 
 You can access HellpediaCE from the main menu and the in-game menu by going into the **Help** menu.
 

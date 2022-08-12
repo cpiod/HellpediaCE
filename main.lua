@@ -92,13 +92,15 @@ register_blueprint "hellpediace_europa_1"
 {!Remark} bring 9 multitools to guarantee secret
  reward (only available if L2, maybe L3 branch)
 
- {YEuropa Ruins}
-{!Cartel Recon Tech}
+ {YEuropa Ruins}{!: (don’t) be greedy!}
+{!Cartel Recon Tech} +25% damage after move
 {!Enemies} only demons
-{!Rewards} AV3 red armor, AV3 favored AMP, heart
+{!Rewards} AV3 armor, AV3 fav. AMP, frozen heart
+ (cold res. when carried), 2 ancient items
 {!Special rewards} (none yet)
-{!Remark} you can take either the heart or the
- armor + AMP safely, otherwise guardians spawn
+{!Remark} you can take either the heart or 2
+ rewards, otherwise guardians spawn here and
+ in Central Dig when Cryomancer is at half HP
 {!Remark} branch guaranteed
 ]=]
     }
@@ -177,22 +179,25 @@ register_blueprint "hellpediace_io_2"
     text = {
         title = "Io",
         content = [=[
- {YShadow Halls}
-{!Cartel Recon Tech}
+ {YShadow Halls}{!: drop worthy items on portals!}
+{!Cartel Recon Tech} +25% damage after move
 {!Enemies} demons only
+{!Special rewards} +50% fire res. and affinity,
+ +50% bleed res. and affinity, +10% damage,
+ ancient loot
 {!Rewards} unique exchange (random: Exosuit/Void/
- Death/Apocalypse) OR wish (if heart), AV3 fav.
- AMP, AV3 red/blue armor, AV3 pistol/SMG/
- auto/shotgun, AV3 shotgun/hyperblaster/AWP
+ Death/Apocalypse) OR wish (w/ heart), AV3
+ favored AMP, AV3 armor, AV3 pistol/SMG/auto/
+ shotgun, AV3 shotgun/hyperblaster/AWP
 {!Special reward} select one wish:
- {!"WEALTH!"} choose one among three uniques, max
-  HP reduced by 33%, HP set to 20, all medkits
-  and multitools removed from player and level
+ {!"WEALTH!"} choose 1 of 5 uniques, HP set to 20,
+  all healing items and mt removed from level
  {!"POWER!"} +50% damage, receive 50% less
-  healing, max HP reduced by 50%, HP set to 20
+  healing, max HP reduced by 25%, HP set to 20
  {!"HEALTH!"} regenerate 5 HP/s up to 50% of max
   HP, receive 25% less healing, HP set to 1
 {!Remark} branch guaranteed
+{!Remark} worthy item: exo/uniques/ancient/AV
 
  {MIo Warehouse}
 {!Enemies} demons only
@@ -246,7 +251,7 @@ register_blueprint "hellpediace_bosses_1"
         content = [=[
  {YCallisto}{!: CalSec Warden} (large bot)
 {!Stats} 240 HP, more on N!+
-{!Gimmick} Bulwark mode on damage gate (80):
+{!Gimmick} Bulwark mode on damage gate (30):
  throw mortars and gains armor for a few turns
 {!Advice} EMP grenades will disabled it, protect
  from mortal by closing the hangar doors
@@ -561,8 +566,8 @@ register_blueprint "hellpediace_exotics_1"
 {MCRI sword} deals plasma damage              {YAst.}
 {MPlasma katana} plasma damage + EMP effect
 {MPower saw} deals 400% damage vs armor
-{MAncient sword} +50% damage vs demons,    {YIo boss}
- no dual-wielding
+{MAncient sword} +50% damage vs       {YIo boss,Hall}
+ demons, no dual-wielding
 
  {!Pistol}
 {M9mm calibrated} pierce, +50% crit in opt   {YMimir}
@@ -606,8 +611,8 @@ register_blueprint "hellpediace_exotics_2"
 {M7.62 pierce rifle} high crit dmg, +200%     {YAst.}
  damage vs armor, 100% crit against mecha
 {MNail gun} 1 multitool to reload
-{MAncient gun} do not use ammo to reload,  {YIo boss}
- +50% damage vs demons
+{MAncient gun} do not use ammo to    {YIo boss, Hall}
+ reload, +50% damage vs demons
 
  {!Rotary}
 {M7.62 gatling} +1 dmg on kill until reload   {YAst.}
@@ -680,9 +685,16 @@ register_blueprint "hellpediace_exotics_4"
 {MSustain} get ammo back in magazine on kill
 {MOnyx} makes armor indestructible
 {MNano} reloading doesn’t require ammo
+{CAncient} +20% damage                  {YRuins,Hall}
 
  {!Permanent}
 {MBackpack} +2 inventory space  {YThe Pit, Ref. Base}
+
+ {!Others}
+{CAncient salve} full heal, 20s stimmed {YRuins,Hall}
+{RAncient heart elixir} +5 max HP       {YRuins,Hall}
+{CAncient phase kit} teleports you      {YRuins,Hall}
+ somewhere near the elevator to the next level
 ]=]
     }
 }
@@ -714,11 +726,12 @@ register_blueprint "hellpediace_relics_1"
  poison status, poison resistance, -33% healing
 {RCryoreaver claw} cold resistance, cold on hit,
  +50% cold status, -100% fire resistance
-
+{RAncient trinket} +25% poison/fire effect   {YRuins}
+{RAncient collar} +50% cold/fire res.        {YRuins}
+{RAncient sigil} +50% poison/acid res.       {YRuins}
+{RAncient legwrap} +10% move speed           {YRuins}
 {MRavager heart} regen up to 75% of max HP, -75%
  healing, -5 HP max on each level change
-{MRavager claw} ignore splash, explosion on
- hit (25 damage), -50% damage
 ]=]
     }
 }
@@ -728,6 +741,8 @@ register_blueprint "hellpediace_relics_2"
     text = {
         title = "Relics",
         content = [=[
+{MRavager claw} ignore splash, explosion on
+ hit (25 damage), -50% damage
 {MPlasma ravager arm} +50% plasma, exalted
  summons on level change
 {MKerberos heart} when <50%HP: +50% damage, +40%
@@ -747,13 +762,12 @@ register_blueprint "hellpediace_relics_2"
  loss every third time
 {MMedusa tentacle} always at max dodge, at 20% HP
  on level change
-
 {MWarlock eye} warlock gaze immunity,   {YCal. Mines}
  visible enemies under a warlock aura bleed
 {MWarlock horn} warlock gaze immunity,  {YCal. Mines}
  50% acid+fire+poison resistances, -20% XP
-{MAncient necklace} +25% res. vs all       {YIo Boss}
-{MAncient armband} +25% dmg vs demons      {YIo Boss}
+{MAncient necklace} +25% res. vs all  {YIo Boss,Hall}
+{MAncient armband} +25% dmg vs demons {YIo Boss,Hall}
 ]=]
     }
 }
@@ -946,7 +960,7 @@ register_blueprint "hellpediace_perks_6"
 {!VS} +25% damage vs bots  {![Valhalla Term/Spacep.]}
 {!AT} applies chill on damage             {![Aster.]}
 {!CCB} +20%/10% damage vs bio/semi-mecha     {![CCB]}
-{!CRT}                     {![Eu. Ruins, Sha. Halls]}
+{!CRT} +25% dmg after move {![Eu. Ruins, Sha. Halls]}
 {!ERI} -75% swap time               {![Eu. Dig Zone]}
 {!CRI} +25% vs demons                   {![CRI Labs]}
 {!IDR} -50% reload time              {![Meph. Mines]}
