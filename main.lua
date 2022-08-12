@@ -58,8 +58,8 @@ register_blueprint "hellpediace_callisto_2"
  {YCallisto Docking Bay}{!: activate lockdown!}
 {!Perk} random Callisto perk
 {!Enemies} bots, demons
-{!Rewards} 2 red cards for AV2/exo + AV1/exo
- pist., AV1+AV2 shotguns, AV2 blue armor+helmet
+{!Rewards} 2 red cards for AV2/exo+AV1/exo pistol,
+ AV1+AV2 shotguns, AV2 blue armor+helmet
 {!Special reward} exo visor
 
  {YCallisto Hub} (L4)
@@ -328,7 +328,7 @@ register_blueprint "hellpediace_events_2"
 {!Effect} Bots will kill everything
  {RSummoning}                     {![Callisto Mines]}
 {!Effect} "Exalted summons", 1 portal, little time
- {RInvasion}                            {![CRI Labs]}
+ {RInvasion}                            {![CRI Labs]}
 {!Effect} demons will be summoned in 90/120/150s
  {RCRI Assault}                    {![Io Black Site]}
 {!Effect} CRI will hunt demons in 180/210/240s
@@ -529,7 +529,7 @@ register_blueprint "hellpediace_exotics_2"
 {M7.62 AWP rifle} kills increase crit chance
 {MEMP rifle} EMP damage only, freezes non-mecha,
  no scope
-{MRailgun} no minimum range {YAst.}
+{MRailgun} no minimum range                   {YAst.}
 {MMagrail} no minimum range, cannot reload
 
  {!Auto}
@@ -873,16 +873,16 @@ register_blueprint "hellpediace_perks_6"
         title = "Other Perks",
         content = [=[
  {YManufacturer perks}
-{!VS} +25% damage vs bots               {![Valhalla]}
+{!VS} +25% damage vs bots  {![Valhalla Term/Spacep.]}
 {!MDF} +1 optimal range                    {![Mimir]}
 {!JS} +25% crit damage  {![Cal. Mines,Barracks,Rift]}
 {!ERI} -75% swap time               {![Eu. Dig Zone]}
 {!AT} applies chill on damage             {![Aster.]}
-{!IDR} -50% reload time              {![Meph. Mines]}
+{!CRT}                     {![Eu. Ruins, Sha. Halls]}
 {!CCB} +20%/10% damage vs bio/semi-mecha     {![CCB]}
+{!IDR} -50% reload time              {![Meph. Mines]}
 {!CRI} +25% vs demons                   {![CRI Labs]}
 {!TTL} inflicts Wither                {![Black Site]}
-{!CRT}                     {![Eu. Ruins, Sha. Halls]}
 
  {YExalted perks}
 {!ACCURATE} +25% accuracy
