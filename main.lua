@@ -48,14 +48,14 @@ register_blueprint "hellpediace_callisto_2"
  medical and tech stations, 3 multitools
 {!Special reward} poison resistance
 
- {YMilitary Barracks}
+ {MMilitary Barracks}
 {!JoviSec} +25% crit damage
 {!Enemies} hellish zombies only
 {!Rewards} 2 AV2/exo pistols, 2 AV2/exo shotguns,
  2 AV2/exo autos, AV2/exo grenade launcher,
  EGLS or AV2 rocket launcher, ammo terminal
 
- {YCallisto Docking Bay}{!: activate lockdown!}
+ {MCallisto Docking Bay}{!: activate lockdown!}
 {!Perk} random Callisto perk
 {!Enemies} bots, demons
 {!Rewards} 2 red cards for AV2/exo+AV1/exo pistol,
@@ -115,7 +115,7 @@ register_blueprint "hellpediace_europa_2"
  or AV2 armor/auto, Mk2 manu+tech+med stations
 {!Special reward} cold resistance
 
- {YThe Pit}{!: pet the smaller Kerberos w/ {$input_action}!}
+ {MThe Pit}{!: pet the smaller Kerberos w/ {$input_action}!}
 {!Enemies} kerberi, fiends, ice fiends
 {!Rewards} backpack, AV3 headgear, AV3 favored
  AMP, AV3 armor/auto/semi
@@ -123,7 +123,7 @@ register_blueprint "hellpediace_europa_2"
  poison, fire & cold res., up to 80% DR, more
  HP and damage, new orders: wait, follow, hunt
 
- {YRefueling Base}{!: open fuel valves!}
+ {MRefueling Base}{!: open fuel valves!}
 {!Enemies} demons, plaguebearer
 {!Rewards} backpack, ammo term, AV3 visor,
  AV3 favored+general AMPs, AV3 armor/auto/AMP
@@ -159,15 +159,13 @@ register_blueprint "hellpediace_io_1"
 {!Remark} same as CRI Labs + clearing the level
  before CRI arrival cancels the event
 
- {YInfernal Lock}{!: block doors with items!}
-{!Enemies} bots only
-{!Rewards} lootboxes, AV3 general AMP
-{!Special reward} cold, sustain, nano or onyx mod
-
- {YIo Warehouse}
-{!Enemies} demons only
-{!Rewards} lots of lootboxes, AV2 hyperblaster
-{!Remark} light range is 4
+ {YMephitic Mines}{!: reroute the gas!}
+{!Io Defense Reserve} -50% reload time
+{!Rewards} AV3 katana, AV3 blue armor, ENV
+ helmet, AV1 hyperblaster
+{!Special rewards} poison resistance. With {!Rift}
+ reward: strong poison aura, +50% poison effect
+{!Remark} light range is 5 (4 in special level)
 
 {!*} avail. if 4 vaults are open (w/ 3 red cards)
  ]=]
@@ -196,13 +194,15 @@ register_blueprint "hellpediace_io_2"
   HP, receive 25% less healing, HP set to 1
 {!Remark} branch guaranteed
 
- {YMephitic Mines}{!: reroute the gas!}
-{!Io Defense Reserve} -50% reload time
-{!Rewards} AV3 katana, AV3 blue armor, ENV
- helmet, AV1 hyperblaster
-{!Special rewards} poison resistance. With {!Rift}
- reward: strong poison aura, +50% poison effect
-{!Remark} light range is 5 (4 in special level)
+ {MIo Warehouse}
+{!Enemies} demons only
+{!Rewards} lots of lootboxes, AV2 hyperblaster
+{!Remark} light range is 4
+
+ {MInfernal Lock}{!: block doors with items!}
+{!Enemies} bots only
+{!Rewards} lootboxes, AV3 general AMP
+{!Special reward} cold, sustain, nano or onyx mod
 ]=]
     }
 }
