@@ -67,8 +67,6 @@ register_blueprint "hellpediace_callisto_2"
 
  {YValhalla Spaceport} (outro level)
 {!ValSec} +25% damage vs bots
-{!Boss loot} 2 mt, large medkit, and maybe exo
- mod/plasme grenade/phase kit/armor/AMP/heal
 ]=]
     }
 }
@@ -80,7 +78,6 @@ register_blueprint "hellpediace_europa_1"
         content = [=[
  {YAsterius Habitat}{!: hack & protect AT sentries!}
 {!AsterTech} chill on damage
-{!Enemies} bots, zombies, ice demons
 {!Rewards} AV2 AMP for auto/pistol/shotgun,
  red relic, AV2 red armor, AV2 headgear
 {!Special rewards} exotic mod/AV1 general AMP,
@@ -134,7 +131,6 @@ register_blueprint "hellpediace_europa_2"
 {!Remark} light range is 5
 
  {YEuropa Central Dig} (outro level)
-{!Boss loot} red relic
 {!Remark} light range is 7
 ]=]
     }
@@ -207,9 +203,6 @@ register_blueprint "hellpediace_io_2"
 {!Special rewards} poison resistance. With {!Rift}
  reward: strong poison aura, +50% poison effect
 {!Remark} light range is 5 (4 in special level)
-
- {YGateway} (outro level)
-{!Boss loot} ancient gun/sword/armband/necklace
 ]=]
     }
 }
@@ -242,6 +235,78 @@ register_blueprint "hellpediace_dante"
  {YLimbo}                                   {YBeyond}
 {!Rewards} AV3 armor or AV3 auto/pistol/shotgun
  AMP, tech station, phase kit
+]=]
+    }
+}
+
+register_blueprint "hellpediace_bosses_1"
+{
+    text = {
+        title = "Mid Bosses",
+        content = [=[
+ {YCallisto}{!: CalSec Warden} (large bot)
+{!Stats} 240 HP, more on N!+
+{!Gimmick} Bulwark mode on damage gate (80):
+ throw mortars and gains armor for a few turns
+{!Advice} EMP grenades will disabled it, protect
+ from mortal by closing the hangar doors, shut
+ it down in Valh. Terminal for 3 blue cards
+{!Reward} 2 mt, large medkit, and maybe exo mod/
+ plasma grenade/phase kit/armor/AMP/heal
+
+ {YEuropa}{!: Cryomancer} (ice warlock)
+{!Stats} 480 HP, more on N!+
+{!Gimmick} throws ice spikes
+{!Advice} use napalm grenades, get cold res. (from
+ Europa Dig Site or ENV armor), go for big
+ damage (no damage gate) or in melee range
+{!Reward} red relic
+
+ {YIo}{!: Ancient} (illusionist gunned demon)
+{!Stats} 400 HP, more on N!+
+{!Gimmick} create decoys on damage gate (100)
+{!Advice} you can use persistent aim help
+ finding decoys
+{!Reward} ancient gun/sword/armband/necklace
+
+ {YShat. Abyss}{!: Swordmaster} (sworded demon)
+{!Gimmick} melee only on this level
+{!Weakness} you can kite him around pillars
+]=]
+    }
+}
+
+register_blueprint "hellpediace_bosses_2"
+{
+    text = {
+        title = "End Bosses",
+        content = [=[
+ {YBeyond}{!: Summoner} (summoning demon)
+{!Stats} 280 HP + 40*difficulty (with overhealth)
+{!Gimmick} invokes (arch)reavers, damage gate (80)
+{!Advice} weak boss, just kill him already
+
+ {YDante}{!: Harbinger}
+{!General advice}
+ - Cover behind the indestructible pillars
+  behind Harbinger
+ - Use grenades/BFT to control the demon crowd
+ - Harbinger is not strong in melee
+ - All phases are weak to cold
+
+         {!1st phase}
+{!Stats} 200 HP, 75% DR, high armor
+{!Gimmick} rely on mortar, cannot move
+{!Advice} focus on strong attacks, vulnerable
+ to EMP grenade. Use krak grenades to shred
+ its armor (it’s not repaired)
+         {!2nd phase}
+{!Stats} 400 HP
+{!Gimmick} rely on mortar, damage gate (80)
+{!Advice} vulnerable to EMP grenade
+         {!3rd phase}
+{!Stats} 400 HP, very fast
+{!Gimmick} it chases you and use beam attack
 ]=]
     }
 }
@@ -789,7 +854,8 @@ register_blueprint "hellpediace_perks_3"
 
  {!P} pistol AMP, applies to SMG too
  {!A} auto AMP, applies to rotary and semi too
- {!S} shotgun AMP          {!M} melee AMP
+ {!S} shotgun AMP
+ {!M} melee AMP
 ]=]
     }
 }
@@ -873,15 +939,15 @@ register_blueprint "hellpediace_perks_6"
         title = "Other Perks",
         content = [=[
  {YManufacturer perks}
-{!VS} +25% damage vs bots  {![Valhalla Term/Spacep.]}
-{!MDF} +1 optimal range                    {![Mimir]}
 {!JS} +25% crit damage  {![Cal. Mines,Barracks,Rift]}
-{!ERI} -75% swap time               {![Eu. Dig Zone]}
+{!MDF} +1 optimal range                    {![Mimir]}
+{!VS} +25% damage vs bots  {![Valhalla Term/Spacep.]}
 {!AT} applies chill on damage             {![Aster.]}
-{!CRT}                     {![Eu. Ruins, Sha. Halls]}
 {!CCB} +20%/10% damage vs bio/semi-mecha     {![CCB]}
-{!IDR} -50% reload time              {![Meph. Mines]}
+{!CRT}                     {![Eu. Ruins, Sha. Halls]}
+{!ERI} -75% swap time               {![Eu. Dig Zone]}
 {!CRI} +25% vs demons                   {![CRI Labs]}
+{!IDR} -50% reload time              {![Meph. Mines]}
 {!TTL} inflicts Wither                {![Black Site]}
 
  {YExalted perks}
@@ -1022,6 +1088,8 @@ register_blueprint "ui_help"
     "hellpediace_purgatory_1",
     "hellpediace_events_2",
     "hellpediace_events_1",
+    "hellpediace_bosses_2",
+    "hellpediace_bosses_1",
     "hellpediace_dante",
     "hellpediace_io_2",
     "hellpediace_io_1",

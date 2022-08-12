@@ -62,7 +62,7 @@ You can go back to the main branch with:
 
 ## Special thanks
 
-Thanks to Epyon, the Jupiter Hell main creator, and to every Jupiter Hell player that maintains the Jupiter Hell Wiki and helped me write this mod, notably Ranmilia and Psojed. Special thanks to Mamijomale for his work on Jupiter Hell modding!
+Thanks to Epyon, the Jupiter Hell main creator, and to every Jupiter Hell player that maintains the Jupiter Hell Wiki and helped me write this mod, notably Sylph, Ranmilia and Psojed. Special thanks to Mamijomale for his work on Jupiter Hell modding!
 
 ## Contact
 
