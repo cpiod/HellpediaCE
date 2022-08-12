@@ -61,9 +61,11 @@ You can go back to the main branch with:
 
     git switch main
 
+With the beta branch, you will get updates during the next beta. With the main branch, you’ll only get the new version of HellpediaCE when the stable version of Jupiter Hell is released. When there is no ongoing beta, both branches are the same.
+
 ## Special thanks
 
-Thanks to Epyon, the Jupiter Hell main creator, and to every Jupiter Hell player that maintains the Jupiter Hell Wiki and helped me write this mod, notably Sylph, Ranmilia and Psojed. Special thanks to Mamijomale for his work on Jupiter Hell modding!
+Thanks to Epyon, the Jupiter Hell main creator, and to every Jupiter Hell player that helped me write this mod, notably Sylph, Deemzul, Ranmilia and Psojed. Special thanks to Mamijomale for his work on Jupiter Hell modding!
 
 ## Contact
 
