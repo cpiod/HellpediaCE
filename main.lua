@@ -249,8 +249,7 @@ register_blueprint "hellpediace_bosses_1"
 {!Gimmick} Bulwark mode on damage gate (80):
  throw mortars and gains armor for a few turns
 {!Advice} EMP grenades will disabled it, protect
- from mortal by closing the hangar doors, shut
- it down in Valh. Terminal for 3 blue cards
+ from mortal by closing the hangar doors
 {!Reward} 2 mt, large medkit, and maybe exo mod/
  plasma grenade/phase kit/armor/AMP/heal
 
@@ -265,13 +264,14 @@ register_blueprint "hellpediace_bosses_1"
  {YIo}{!: Ancient} (illusionist gunned demon)
 {!Stats} 400 HP, more on N!+
 {!Gimmick} create decoys on damage gate (100)
-{!Advice} you can use persistent aim help
- finding decoys
+{!Advice} persistent aim can help finding decoys
 {!Reward} ancient gun/sword/armband/necklace
 
- {YShat. Abyss}{!: Swordmaster} (sworded demon)
+ {YShattered Abyss}{!: Swordmaster} (sworded demon)
+{!Stats} 320+40*difficulty HP
 {!Gimmick} melee only on this level
 {!Weakness} you can kite him around pillars
+{!Reward} {GSoulstealer}
 ]=]
     }
 }
@@ -282,7 +282,7 @@ register_blueprint "hellpediace_bosses_2"
         title = "End Bosses",
         content = [=[
  {YBeyond}{!: Summoner} (summoning demon)
-{!Stats} 280 HP + 40*difficulty (with overhealth)
+{!Stats} 280+40*difficulty HP
 {!Gimmick} invokes (arch)reavers, damage gate (80)
 {!Advice} weak boss, just kill him already
 
@@ -298,8 +298,8 @@ register_blueprint "hellpediace_bosses_2"
 {!Stats} 200 HP, 75% DR, high armor
 {!Gimmick} rely on mortar, cannot move
 {!Advice} focus on strong attacks, vulnerable
- to EMP grenade. Use krak grenades to shred
- its armor (it’s not repaired)
+ to EMP grenade, use krak grenades to shred
+ its armor (not repaired)
          {!2nd phase}
 {!Stats} 400 HP
 {!Gimmick} rely on mortar, damage gate (80)
@@ -307,6 +307,8 @@ register_blueprint "hellpediace_bosses_2"
          {!3rd phase}
 {!Stats} 400 HP, very fast
 {!Gimmick} it chases you and use beam attack
+
+ {YPurgatory}{!: Rexio} (good boy, secret boss)
 ]=]
     }
 }
