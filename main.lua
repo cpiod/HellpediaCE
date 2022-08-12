@@ -201,7 +201,7 @@ register_blueprint "hellpediace_io_2"
 {!Remark} branch guaranteed
 
  {YMephitic Mines}{!: reroute the gas!}
-{!IDR} -50% reload time
+{!Io Defense Reserve} -50% reload time
 {!Rewards} AV3 katana, AV3 blue armor, ENV
  helmet, AV1 hyperblaster
 {!Special rewards} poison resistance. With {!Rift}
@@ -224,7 +224,8 @@ register_blueprint "hellpediace_dante"
 
 
  {YThe Shattered Abyss}              {YDante, Beyond}
-{!Unlock} kill an enemy with melee on L1
+{!Unlock} kill an enemy with melee on Beyond L1 /
+ Dante Vestibule and enter the portal from Io
 {!Perk} (none yet)
 {!Enemies} reaver, arch-reaver, Swordmaster
 {!Special rule} melee only!
@@ -267,51 +268,8 @@ register_blueprint "hellpediace_events_1"
     text = {
         title = "Events",
         content = [=[
- {RVolatile storage}       {![L2/L3 of Ca,Eu,Io+CCB]}
-{!Effect} the level is filled with barrels
-{!Reward} 250 XP
-
- {RLockdown}                        {![Not on Dante]}
-{!Effect} bots (sentry on Ca, security bots on
- Eu, CRI bots on Io) hunt you in 120/150/180s
-{!Reward} 500 XP if canceled by terminal
-
- {RLow power}                       {![Not on Dante]}
-{!Effect} light range is reduced to 4
-{!Reward} 500 XP if power is restored, else 250
-
- {RDesolation}                 {![Callisto L4/L5/L6]}
-{!Effect} patches of fire, auto-exploding barrels,
- low light
-
- {RSecure vault}        {![From Ca L4, not on Dante]}
-{!Effect} a vault with a purple lootbox or a
- manufacturing station, and exalted enemies
-
- {RToxic contamination}         {![Ca L5/L6, Eu, Io]}
-{!Effect} poison clouds in the level
-{!Reward} 500 XP if canceled by terminal
-
- {RWindchill}                                 {![Eu]}
-{!Effect} chill clouds in the level
-{!Reward} 500 XP if canceled by terminal
-]=]
-    }
-}
-
-register_blueprint "hellpediace_events_2"
-{
-    text = {
-        title = "Events",
-        content = [=[
- {RThe Hunt}                          {![From Ca L5]}
-{!Effect} enemies will hunt you in 60s
-{!Reward} 1000 XP
-
- {RInfestation}                         {![Ca,Eu,Io]}
-{!Effect} the level is populated by demons (fiends
- on Callisto, reavers on Europa, kerberi on Io)
-{!Reward} 250 XP
+ {RDesolation}                            {![Ca L4+]}
+{!Effect} fire, auto-exploding barrels, low light
 
  {RExalted curse}                          {![Io,Eu]}
 {!Effect} only exalted enemies on this level
@@ -322,15 +280,58 @@ register_blueprint "hellpediace_events_2"
  120s: step on them to cancel the summoning
 {!Reward} 200 XP for each closed portal
 
-{!Special events}
- {RCursed}                            {![Side rooms]}
-{!Effect} Portals will release hunting demons in
- 30s: step on them to cancel the summoning
+ {RInfestation}                         {![Ca,Eu,Io]}
+{!Effect} the level is populated by demons (fiends
+ on Callisto, reavers on Europa, kerberi on Io)
+{!Reward} 250 XP
 
+ {RLockdown}                            {![Ca,Eu,Io]}
+{!Effect} bots will hunt you in 120/150/180s
+{!Reward} 500 XP if canceled by terminal
+
+ {RLow power}                           {![Ca,Eu,Io]}
+{!Effect} light range is reduced to 4
+{!Reward} 500 XP if power is restored, else 250
+
+ {RSecure vault}                    {![Ca L4+,Eu,Io]}
+{!Effect} a vault with a purple lootbox or a
+ manufacturing station, and exalted enemies
+]=]
+    }
+}
+
+register_blueprint "hellpediace_events_2"
+{
+    text = {
+        title = "Events",
+        content = [=[
+ {RThe Hunt}                     {![Ca L5+,Eu,Io,Da]}
+{!Effect} enemies will hunt you in 60s
+{!Reward} 1000 XP
+
+ {RToxic contamination}             {![Ca L5+,Eu,Io]}
+{!Effect} poison clouds in the level
+{!Reward} 500 XP if canceled by terminal
+
+ {RVolatile storage}                    {![Ca,Eu,Io]}
+{!Effect} the level is filled with barrels
+{!Reward} 250 XP
+
+ {RWindchill}                                 {![Eu]}
+{!Effect} chill clouds in the level
+{!Reward} 500 XP if canceled by terminal
+
+{YSpecial events}
+ {RCursed}                            {![Side rooms]}
+{!Effect} "Exalted summons" but only 30s
  {RSecurity purge}         {![Triggered at terminal]}
- {RCursed}                        {![Callisto Mines]}
+{!Effect} Bots will kill everything
+ {RSummoning}                     {![Callisto Mines]}
+{!Effect} "Exalted summons", 1 portal, little time
  {RInvasion}                            {![CRI Labs]}
+{!Effect} demons will be summoned in 90/120/150s
  {RCRI Assault}                    {![Io Black Site]}
+{!Effect} CRI will hunt demons in 180/210/240s
 ]=]
     }
 }
@@ -869,9 +870,21 @@ register_blueprint "hellpediace_perks_5"
 register_blueprint "hellpediace_perks_6"
 {
     text = {
-        title = "Foe Perks",
+        title = "Other Perks",
         content = [=[
-    {YExalted perk}
+ {YManufacturer perks}
+{!VS} +25% damage vs bots               {![Valhalla]}
+{!MDF} +1 optimal range                    {![Mimir]}
+{!JS} +25% crit damage  {![Cal. Mines,Barracks,Rift]}
+{!ERI} -75% swap time               {![Eu. Dig Zone]}
+{!AT} applies chill on damage             {![Aster.]}
+{!IDR} -50% reload time              {![Meph. Mines]}
+{!CCB} +20%/10% damage vs bio/semi-mecha     {![CCB]}
+{!CRI} +25% vs demons                   {![CRI Labs]}
+{!TTL} inflicts Wither                {![Black Site]}
+{!CRT}                     {![Eu. Ruins, Sha. Halls]}
+
+ {YExalted perks}
 {!ACCURATE} +25% accuracy
 {!ARMORED} heavy armor, extra 30 max HP
 {!DEADLY} deal double damage
@@ -882,11 +895,10 @@ register_blueprint "hellpediace_perks_6"
 {!RESILIENT} overhealth equal to base HP
 {!UNSTABLE} explode (25 damage) on death
 
-
-    {YSpecial status}
+ {YEnemy special status}
 {!Slithering} increased evasion
 {!Warlock Aura} health regenerate to overhealth,
- 50% fire, poison and acid resistance
+ 50% fire, 50% poison and 50% acid resistance
 {!Warlock Gaze} pain doesn’t go away
 ]=]
     }
