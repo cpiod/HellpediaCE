@@ -188,8 +188,7 @@ register_blueprint "hellpediace_io_2"
 {!Rewards} unique exchange (random: Exosuit/Void/
  Death/Apocalypse) OR wish (w/ heart), AV3
  favored AMP, AV3 armor, AV3 pistol/SMG/auto/
- shotgun, AV3 shotgun/hyperblaster/AWP
-{!Special reward} select one wish:
+ shotgun, AV3 shotgun/hyperblaster/AWP. Wishes:
  {!"WEALTH!"} choose 1 of 5 uniques, HP set to 20,
   all healing items and mt removed from level
  {!"POWER!"} +50% damage, receive 50% less
