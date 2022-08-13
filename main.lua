@@ -95,11 +95,11 @@ register_blueprint "hellpediace_europa_1"
  {YEuropa Ruins}{!: (don’t) be greedy!}
 {!Cartel Recon Tech} +25% damage after move
 {!Enemies} only demons
-{!Rewards} AV3 armor, AV3 fav. AMP, frozen heart
+{!Rewards} 1 ancient item per level. Temple:
+ AV3 armor, AV3 fav. AMP, frozen heart
  (cold res. when carried), 2 ancient items
-{!Special rewards} (none yet)
-{!Remark} you can take either the heart or 2
- rewards, otherwise guardians spawn here and
+{!Remark} you can take 4 rewards max (heart counts
+ for 2), otherwise guardians spawn here and
  in Central Dig when Cryomancer is at half HP
 {!Remark} branch guaranteed
 ]=]
