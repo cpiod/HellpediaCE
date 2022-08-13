@@ -124,6 +124,8 @@ register_blueprint "hellpediace_europa_2"
 {!Special reward} on level up, {!Rexio} gains bleed,
  poison, fire & cold res., up to 80% DR, more
  HP and damage, new orders: wait, follow, hunt
+{!Remark} you cannot tame {!Rexio} while wielding
+ a melee weapon, even by using {!{$input_action}}
 
  {MRefueling Base}{!: open fuel valves!}
 {!Enemies} demons, plaguebearer
