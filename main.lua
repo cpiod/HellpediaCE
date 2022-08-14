@@ -317,33 +317,33 @@ register_blueprint "hellpediace_side_rooms"
     text = {
         title = "Side rooms",
         content = [=[
- {CStorage room}: ammo boxes and loot
+  {CStorage room}: ammo boxes and loot
 {!Work awaiting!} exo/AV2 armor               {Y[Ca]}
 {!To (name)} exo/AV2 weapon                   {Y[Ca]}
 {!Suspicious DB entries} exo/AV2 armor        {Y[Eu]}
 {!New storage space} exo/AV2 weapon           {Y[Eu]}
 {!Inventorisation request} exo/AV3 armor      {Y[Io]}
 {!REMINDER} exo/AV3 weapon                    {Y[Io]}
- {CStrongroom}: vault
-{!Re: Scent of gold}/{!Vault access}/{!New}         {Y[Ca]}
-{!directive}/{!Inmate deceased} exo/AV2 loot
-{!That's a bait!}/{!DANGER! Do not enter!}/      {Y[Ca]}
-{!Where is (name), boss?} {RCursed}, exo/AV2 loot,
- need unlock
-{!0.19.1044 Commit info #52}/{!Re: Staff locked} {Y[Eu]}
-{!up!}/{!Further actions}/{!GG EZ} exo/AV3 loot
-{!Re: Locked out from supplies!}/{!Immediate}    {Y[Eu]}
-{!action required!}/{!3.101.12 Commit info #713}
- {RCursed}, exo/AV3 loot, need unlock
-{!Re: Sabotage}/{!Unlikely coincidence} exo/AV3  {Y[Io]}
- loot
+  {CStrongroom}: vault
+{!Re: Scent of gold}{R*}/{!Vault access}{R*}/{!New}       {Y[Ca]}
+ {!directive}/{!Inmate deceased} exo/AV2 loot
+{!That's a bait!}{R*}/{!DANGER! Do not enter!}{R*}/    {Y[Ca]}
+ {!Where is (name), boss?}{R*} {RCursed}, exo/AV2 loot
+{!0.19.1044 Commit info #52}{R*}/{!Re: Staff}       {Y[Eu]}
+ {!locked up!}{R*}/{!Further actions}/{!GG EZ} exo/AV3 loot
+{!Re: Locked out from supplies!}{R*}/{!Immediate}   {Y[Eu]}
+ {!action required!}{R*}/{!3.101.12 Commit info #713}{R*}
+ {RCursed}, exo/AV3 loot
+{!Re: Sabotage}{R*}/{!Unlikely coincidence}{R*} exo/   {Y[Io]}
+ AV3 loot
 {!Breach alert}/{!Re: Security request} exo/AV3  {Y[Io]}
  loot or manufacture station
-{!For your curiosity...}/{!Temporary supply}     {Y[Io]}
-{!lock}/{!1.77.813 Commit info #39} {RCursed}, exo/AV3
- loot, need unlock
- {CWorkshop}: technical station guaranteed
- {CLaboratory}: manufacture station guaranteed
+{!For your curiosity...}{R*}/{!Temporary supply}{R*}   {Y[Io]}
+ {!lock}{R*}/{!1.77.813 Commit info #39}{R*} {RCursed},
+ exo/AV3 loot
+  {CWorkshop}: technical station guaranteed
+  {CLaboratory}: manufacture station guaranteed
+{R*} needs unlocking
 ]=]
     }
 }
