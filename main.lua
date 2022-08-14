@@ -50,23 +50,18 @@ register_blueprint "hellpediace_callisto_2"
 
  {MMilitary Barracks}
 {!JoviSec} +25% crit damage
-{!Enemies} hellish zombies only
 {!Rewards} 2 AV2/exo pistols, 2 AV2/exo shotguns,
  2 AV2/exo autos, AV2/exo grenade launcher,
  EGLS or AV2 rocket launcher, ammo terminal
 
  {MCallisto Docking Bay}{!: activate lockdown!}
 {!Perk} random Callisto perk
-{!Enemies} bots, demons
 {!Rewards} 2 red cards for AV2/exo+AV1/exo pistol,
  AV1+AV2 shotguns, AV2 blue armor+helmet
 {!Special reward} exo visor
 
  {YCallisto Hub} (L4)
 {!Secret} Europa branch list in terminal for 1 mt
-
- {YValhalla Spaceport} (outro level)
-{!ValSec} +25% damage vs bots
 ]=]
     }
 }
@@ -92,9 +87,9 @@ register_blueprint "hellpediace_europa_1"
 {!Remark} bring 9 multitools to guarantee secret
  reward (only available if L2, maybe L3 branch)
 
- {YEuropa Ruins}{!: (don’t) be greedy!}
+ {YEuropa Ruins}{!: don’t be greedy!}
 {!Cartel Recon Tech} +25% damage after move
-{!Enemies} only demons
+{!Enemies} demons only (ammo-hungry branch!)
 {!Rewards} 1 ancient item per level. Temple:
  AV3 armor, AV3 fav. AMP, frozen heart
  (cold res. when carried), 2 ancient items
@@ -118,7 +113,6 @@ register_blueprint "hellpediace_europa_2"
 {!Special reward} cold resistance
 
  {MThe Pit}{!: pet the smaller Kerberos w/ {$input_action}!}
-{!Enemies} kerberi, fiends, ice fiends
 {!Rewards} backpack, AV3 headgear, AV3 favored
  AMP, AV3 armor/auto/semi
 {!Special reward} on level up, {!Rexio} gains bleed,
@@ -128,7 +122,6 @@ register_blueprint "hellpediace_europa_2"
  a melee weapon, even by using {!{$input_action}}
 
  {MRefueling Base}{!: open fuel valves!}
-{!Enemies} demons, plaguebearer
 {!Rewards} backpack, ammo term, AV3 visor,
  AV3 favored+general AMPs, AV3 armor/auto/AMP
 {!Special reward} ENV armor
@@ -165,6 +158,7 @@ register_blueprint "hellpediace_io_1"
 
  {YMephitic Mines}{!: reroute the gas!}
 {!Io Defense Reserve} -50% reload time
+{!Enemies} mostly demons (ammo-hungry branch)
 {!Rewards} AV3 katana, AV3 blue armor, ENV
  helmet, AV1 hyperblaster
 {!Special rewards} poison resistance. With {!Rift}
@@ -183,7 +177,7 @@ register_blueprint "hellpediace_io_2"
         content = [=[
  {YShadow Halls}{!: drop worthy items on portals!}
 {!Cartel Recon Tech} +25% damage after move
-{!Enemies} demons only
+{!Enemies} demons only (ammo-hungry branch)
 {!Special rewards} +50% fire res. and affinity,
  +50% bleed res. and affinity, +10% damage,
  ancient loot
@@ -201,12 +195,10 @@ register_blueprint "hellpediace_io_2"
 {!Remark} worthy item: exo/uniques/ancient/AV
 
  {MIo Warehouse}
-{!Enemies} demons only
 {!Rewards} lots of lootboxes, AV2 hyperblaster
 {!Remark} light range is 4
 
  {MInfernal Lock}{!: block doors with items!}
-{!Enemies} bots only
 {!Rewards} lootboxes, AV3 general AMP
 {!Special reward} cold, sustain, nano or onyx mod
 ]=]
@@ -226,7 +218,7 @@ register_blueprint "hellpediace_dante"
 {!Unlock} kill an enemy with melee on Beyond L1 /
  Dante Vestibule and enter the portal from Io
 {!Perk} (none yet)
-{!Enemies} reaver, arch-reaver, Swordmaster
+{!Enemies} reavers, archreavers, Swordmaster
 {!Special rule} melee only!
 {!Boss loot} {GSoulstealer}
 
@@ -236,6 +228,7 @@ register_blueprint "hellpediace_dante"
 {!Perk} (none yet)
 {!Rewards} AV3 general AMP, a Tier 3 unique (25%
  chance it’s {GBFT 10K})
+{!Remark} very ammo-hungry branch!
 
 
  {YLimbo}                                   {YBeyond}
@@ -253,9 +246,9 @@ register_blueprint "hellpediace_bosses_1"
  {YCallisto}{!: CalSec Warden} (large bot)
 {!Stats} 240 HP, more on N!+
 {!Gimmick} Bulwark mode on damage gate (30):
- throw mortars and gains armor for a few turns
-{!Advice} EMP grenades will disabled it, protect
- from mortal by closing the hangar doors
+ uses mortars and gains armor for a few turns
+{!Advice} EMP grenades will disabled it. Protect
+ from mortar by closing the hangar doors
 {!Reward} 2 mt, large medkit, and maybe exo mod/
  plasma grenade/phase kit/armor/AMP/heal
 
@@ -319,19 +312,38 @@ register_blueprint "hellpediace_bosses_2"
     }
 }
 
-register_blueprint "hellpediace_siderooms"
+register_blueprint "hellpediace_side_rooms"
 {
     text = {
         title = "Side rooms",
         content = [=[
- {CStrongroom}
-
- {CStorage room}
-
- {CWorkshop}
-
- {CLaboratory}
-{Remark} there are no demons in this side room
+ {CStorage room}: ammo boxes and loot
+{!Work awaiting!} exo/AV2 armor               {Y[Ca]}
+{!To (name)} exo/AV2 weapon                   {Y[Ca]}
+{!Suspicious DB entries} exo/AV2 armor        {Y[Eu]}
+{!New storage space} exo/AV2 weapon           {Y[Eu]}
+{!Inventorisation request} exo/AV3 armor      {Y[Io]}
+{!REMINDER} exo/AV3 weapon                    {Y[Io]}
+ {CStrongroom}: vault
+{!Re: Scent of gold}/{!Vault access}/{!New}         {Y[Ca]}
+{!directive}/{!Inmate deceased} exo/AV2 loot
+{!That's a bait!}/{!DANGER! Do not enter!}/      {Y[Ca]}
+{!Where is (name), boss?} {RCursed}, exo/AV2 loot,
+ need unlock
+{!0.19.1044 Commit info #52}/{!Re: Staff locked} {Y[Eu]}
+{!up!}/{!Further actions}/{!GG EZ} exo/AV3 loot
+{!Re: Locked out from supplies!}/{!Immediate}    {Y[Eu]}
+{!action required!}/{!3.101.12 Commit info #713}
+ {RCursed}, exo/AV3 loot, need unlock
+{!Re: Sabotage}/{!Unlikely coincidence} exo/AV3  {Y[Io]}
+ loot
+{!Breach alert}/{!Re: Security request} exo/AV3  {Y[Io]}
+ loot or manufacture station
+{!For your curiosity...}/{!Temporary supply}     {Y[Io]}
+{!lock}/{!1.77.813 Commit info #39} {RCursed}, exo/AV3
+ loot, need unlock
+ {CWorkshop}: technical station guaranteed
+ {CLaboratory}: manufacture station guaranteed
 ]=]
     }
 }
@@ -1103,6 +1115,7 @@ register_blueprint "ui_help"
     "hellpediace_uniques_1",
     "hellpediace_purgatory_2",
     "hellpediace_purgatory_1",
+    "hellpediace_side_rooms",
     "hellpediace_events_2",
     "hellpediace_events_1",
     "hellpediace_bosses_2",
