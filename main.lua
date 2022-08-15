@@ -191,7 +191,7 @@ register_blueprint "hellpediace_io_2"
  {!"POWER!"} +50% damage, receive 50% less
   healing, max HP reduced by 25%, HP set to 20
  {!"HEALTH!"} regenerate 5 HP/s up to 50% of max
-  HP, receive 25% less healing, HP set to 1
+  HP, receive 75% less healing, HP set to 1
 {!Remark} branch guaranteed
 {!Remark} worthy item: exo/uniques/ancient/AV
 
