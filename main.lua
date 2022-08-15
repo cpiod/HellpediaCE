@@ -178,9 +178,10 @@ register_blueprint "hellpediace_io_2"
  {YShadow Halls}{!: drop worthy items on portals!}
 {!Cartel Recon Tech} +25% damage after move
 {!Enemies} demons only (ammo-hungry branch)
-{!Special rewards} +50% fire res. and affinity,
- +50% bleed res. and affinity, +10% damage,
- ancient loot
+{!Special rewards} one per sacrifice: ancient
+ phase kit/medkit/mod/fire elixir (+50% fire
+ res. and affinity)/blood elixir (+50% bleed
+ res. and affinity)/power elixir (+10% damage)
 {!Rewards} unique exchange (random: Exosuit/Void/
  Death/Apocalypse) OR wish (w/ heart), AV3
  favored AMP, AV3 armor, AV3 pistol/SMG/auto/
@@ -537,10 +538,9 @@ register_blueprint "hellpediace_uniques_2"
         title = "Uniques",
         content = [=[
 {GCalamity} ({!Refueling Base}) plasma beam launcher
-{GCybersuit} {Runremovable} armor, high defense,
- high dodge penalty, many mod slots
+{GCybersuit} {Runremovable} armor, high defense, high
+ dodge penalty, autorepair, mod slots: 4+2/lvl
 {GOverlord} helmet, turns mechs neutral/friendly
-
 {GSoulstealer} ({!Sh. Abyss} only) sword, on  {Y[Io,Da]}
  kill gains damage and max HP, no dual-wielding
 {GDeath} ({!Shadow Halls}) plasma pistol, lethal DoT
@@ -576,10 +576,10 @@ register_blueprint "hellpediace_exotics_1"
  {!Melee}
 {MClass blade} +100% crit in adren./stealth/smoke
 {MQuickblade} +100% crit after draw, quick swap
-{MCRI sword} deals plasma damage              {YAst.}
+{MCRI sword} deals plasma damage, always CRI  {YAst.}
 {MPlasma katana} plasma damage + EMP effect
 {MPower saw} deals 400% damage vs armor
-{MAncient sword} +50% damage vs       {YIo boss,Hall}
+{MAncient sword} +50% damage vs   {YIo boss,Sh. Hall}
  demons, no dual-wielding
 
  {!Pistol}
@@ -610,7 +610,7 @@ register_blueprint "hellpediace_exotics_2"
         title = "Exotics",
         content = [=[
  {!Semi}
-{M.44 toxin rifle} low damage, deals poison  {YMimir}
+{M.44 toxin rifle} deals poison, 4 mod slots {YMimir}
 {M7.62 AWP rifle} kills increase crit chance
 {MEMP rifle} EMP damage only, freezes non-mecha,
  no scope
@@ -624,7 +624,7 @@ register_blueprint "hellpediace_exotics_2"
 {M7.62 pierce rifle} high crit dmg, +200%     {YAst.}
  damage vs armor, 100% crit against mecha
 {MNail gun} 1 multitool to reload
-{MAncient gun} do not use ammo to    {YIo boss, Hall}
+{MAncient gun} do not use ammo to {YIo boss,Sh. Hall}
  reload, +50% damage vs demons
 
  {!Rotary}
