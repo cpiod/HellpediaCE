@@ -94,9 +94,9 @@ register_blueprint "hellpediace_europa_1"
  AV3 armor, AV3 fav. AMP, frozen heart
  (cold res. when carried), 2 ancient items
 {!Remark} you can take 4 rewards max (heart counts
- for 2), otherwise guardians spawn here and
- in Central Dig when Cryomancer is at half HP
-{!Remark} branch guaranteed
+ for 2), otherwise guardians spawn. Unkilled
+ ones will spawn when Cryomancer is at half HP
+{!Remark} branch guaranteed. Royal: 2 rewards max
 ]=]
     }
 }
