@@ -354,14 +354,14 @@ register_blueprint "hellpediace_events_1"
     text = {
         title = "Events",
         content = [=[
- {RDesolation}                            {![Ca L4+]}
+ {RDesolation}                  {![Ca,Io Black Site]}
 {!Effect} fire, auto-exploding barrels, low light
 
- {RExalted curse}                          {![Io,Eu]}
+ {RExalted curse}                          {![Eu,Io]}
 {!Effect} only exalted enemies on this level
 {!Reward} 500 XP
 
- {RExalted summons}                     {![Io,Eu,Da]}
+ {RExalted summons}                     {![Eu,Io,Da]}
 {!Effect} Portals will release hunting demons in
  120s: step on them to cancel the summoning
 {!Reward} 200 XP for each closed portal
