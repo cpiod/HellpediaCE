@@ -177,11 +177,11 @@ register_blueprint "hellpediace_io_2"
         content = [=[
  {YShadow Halls}{!: drop worthy items on portals!}
 {!Cartel Recon Tech} +25% damage after move
-{!Enemies} demons only (ammo-hungry branch)
+{!Enemies} mostly demons (ammo-hungry branch)
 {!Special rewards} one per sacrifice: ancient
- phase kit/medkit/mod/fire elixir (+50% fire
- res. and affinity)/blood elixir (+50% bleed
- res. and affinity)/power elixir (+10% damage)
+ phase kit/medkit/mod/power elixir (+10% dmg)/
+ fire elixir (+50% fire res. and affinity)/
+ blood elixir (+50% bleed res. and affinity)
 {!Rewards} unique exchange (random: Exosuit/Void/
  Death/Apocalypse) OR wish (w/ heart), AV3
  favored AMP, AV3 armor, AV3 pistol/SMG/auto/
@@ -214,15 +214,14 @@ register_blueprint "hellpediace_dante"
  {YDante/Beyond L1} (intro level)
 {!Remark} light range is 4
 
-
  {YThe Shattered Abyss}              {YDante, Beyond}
 {!Unlock} kill an enemy with melee on Beyond L1 /
  Dante Vestibule and enter the portal from Io
+ (Medium+ only)
 {!Perk} (none yet)
 {!Enemies} reavers, archreavers, Swordmaster
 {!Special rule} melee only!
 {!Boss loot} {GSoulstealer}
-
 
  {YInferno}                                  {YDante}
 {!Unlock} kill all enemies of Dante L2
@@ -230,7 +229,6 @@ register_blueprint "hellpediace_dante"
 {!Rewards} AV3 general AMP, a Tier 3 unique (25%
  chance it’s {GBFT 10K})
 {!Remark} very ammo-hungry branch!
-
 
  {YLimbo}                                   {YBeyond}
 {!Rewards} AV3 armor or AV3 auto/pistol/shotgun
