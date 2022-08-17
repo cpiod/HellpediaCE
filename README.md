@@ -17,6 +17,8 @@ You can access HellpediaCE from the main menu and the in-game menu by going into
 
 If you use Steam, right click on the game in your library > Properties > Local files > Browse.
 
+For macOS, use the following directory: "(jupiter hell root directory) > JupiterHell.app > Contents > MacOS".
+
 Otherwise, look where you installed the game!
 
 ## Step 2: install
@@ -31,14 +33,14 @@ In the end, the folder structure should be: "(jupiter hell root directory) > mod
 
 ### Manual install (macOS)
 
-1. Navigate to your Jupiter Hell app, right click, select "show package contents", navigate to contents,
+1. Navigate to your Jupiter Hell app, right click, select "show package contents", navigate to Contents > MacOS.
 2. Create a "mods" folder there if it does not exist.
 2. Create a "HellpediaCE" folder inside the "mods" folder.
 3. Inside the "HellpediaCE" folder, put the content of this archive: https://github.com/cpiod/HellpediaCE/archive/refs/heads/main.zip
 
 ### Install with git
 
-Go to the Jupiter Hell root directory and type:
+Go to the Jupiter Hell root directory (or "JupiterHell.app > Contents > MacOS" for macOS) and type:
 
     mkdir -p mods
     cd mods
@@ -65,7 +67,7 @@ With the beta branch, you will get updates during the next beta. With the main b
 
 ## Special thanks
 
-Thanks to Epyon, the Jupiter Hell main creator, and to every Jupiter Hell player that helped me write this mod, notably Sylph, Deemzul, Ranmilia and Psojed. Special thanks to Mamijomale for his work on Jupiter Hell modding!
+Thanks to Epyon, the Jupiter Hell main creator, and to every Jupiter Hell player that helped me write this mod, notably Sylph, Deemzul, Ranmilia and Psojed. Thanks to Feliksas for his help on macOS. Special thanks to Mamijomale for his work on Jupiter Hell modding!
 
 ## Contact
 
