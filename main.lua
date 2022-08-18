@@ -316,14 +316,14 @@ register_blueprint "hellpediace_side_rooms"
     text = {
         title = "Side rooms",
         content = [=[
-  {CStorage room}: ammo boxes and loot
+ {CStorage room}: ammo boxes and loot
 {!Work awaiting!} exo/AV2 armor               {Y[Ca]}
 {!To (name)} exo/AV2 weapon                   {Y[Ca]}
 {!Suspicious DB entries} exo/AV2 armor        {Y[Eu]}
 {!New storage space} exo/AV2 weapon           {Y[Eu]}
 {!Inventorisation request} exo/AV3 armor      {Y[Io]}
 {!REMINDER} exo/AV3 weapon                    {Y[Io]}
-  {CStrongroom}: vault
+ {CStrongroom}: vault
 {!Re: Scent of gold}{R*}/{!Vault access}{R*}/{!New}       {Y[Ca]}
  {!directive}/{!Inmate deceased} exo/AV2 loot
 {!That's a bait!}{R*}/{!DANGER! Do not enter!}{R*}/    {Y[Ca]}
@@ -340,8 +340,9 @@ register_blueprint "hellpediace_side_rooms"
 {!For your curiosity...}{R*}/{!Temporary supply}{R*}   {Y[Io]}
  {!lock}{R*}/{!1.77.813 Commit info #39}{R*} {RCursed},
  exo/AV3 loot
-  {CWorkshop}: technical station guaranteed
-  {CLaboratory}: manufacture station guaranteed
+ {CWorkshop}: med/manu/tech station or ammo term.
+ {CLaboratory}: manufacture station [Ca/Eu], can
+  also be AV3/exo weapon/armor on Io
 {R*} needs unlocking
 ]=]
     }
