@@ -290,7 +290,8 @@ register_blueprint "hellpediace_bosses_2"
  - Cover behind the indestructible pillars
   behind Harbinger
  - Use grenades/BFT to control the demon crowd
- - Harbinger is not strong in melee
+ - Harbinger is not strong in melee but can
+deal 100 damage at the end of the 1st phase!
  - All phases are weak to cold
 
          {!1st phase}
@@ -306,8 +307,6 @@ register_blueprint "hellpediace_bosses_2"
          {!3rd phase}
 {!Stats} 400 HP, very fast
 {!Gimmick} it chases you and use beam attack
-
- {YPurgatory}{!: Rexio} (good boy, secret boss)
 ]=]
     }
 }
