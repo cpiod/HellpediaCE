@@ -229,6 +229,7 @@ register_blueprint "hellpediace_dante"
 {!Rewards} AV3 general AMP, a Tier 3 unique (25%
  chance it’s {GBFT 10K})
 {!Remark} very ammo-hungry branch!
+{!Remark} Rexio won’t follow you on the islands
 
  {YLimbo}                                   {YBeyond}
 {!Rewards} AV3 armor or AV3 auto/pistol/shotgun
@@ -624,7 +625,7 @@ register_blueprint "hellpediace_exotics_2"
  damage vs armor, 100% crit against mecha
 {MNail gun} 1 multitool to reload
 {MAncient gun} do not use ammo to {YIo boss,Sh. Hall}
- reload, +50% damage vs demons
+ reload, +50% damage vs demons, quick swap
 
  {!Rotary}
 {M7.62 gatling} +1 dmg on kill until reload   {YAst.}
@@ -701,7 +702,7 @@ register_blueprint "hellpediace_exotics_4"
 {CAncient} +20% damage                  {YRuins,Hall}
 
  {!Permanent}
-{MBackpack} +2 inventory space  {YThe Pit, Ref. Base}
+{MBackpack} +2 inventory space   {YThe Pit,Ref. Base}
 
  {!Others}
 {CAncient salve} full heal, 20s stimmed {YRuins,Hall}
