@@ -705,8 +705,8 @@ register_blueprint "hellpediace_exotics_4"
 {MBackpack} +2 inventory space   {YThe Pit,Ref. Base}
 
  {!Others}
-{CAncient salve} full heal, 20s stimmed {YRuins,Hall}
 {RAncient heart elixir} +5 max HP       {YRuins,Hall}
+{CAncient salve} full heal, 20s stimmed {YRuins,Hall}
 {CAncient phase kit} teleports you      {YRuins,Hall}
  somewhere near the elevator to the next level
 ]=]
