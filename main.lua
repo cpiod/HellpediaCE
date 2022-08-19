@@ -342,7 +342,7 @@ register_blueprint "hellpediace_side_rooms"
  exo/AV3 loot
  {CWorkshop}: med/manu/tech station or ammo term.
  {CLaboratory}: manufacture station [Ca/Eu], can
-  also be AV3/exo weapon/armor on Io
+  also be an AV3/exo weapon/armor on Io
 {R*} needs unlocking
 ]=]
     }
@@ -544,8 +544,8 @@ register_blueprint "hellpediace_uniques_2"
  kill gains damage and max HP, no dual-wielding
 {GDeath} ({!Shadow Halls}) plasma pistol, lethal DoT
 {GVoid} plasma SMG with infinite ammo
-{GShadowhunter} ({!Io Black Site}) railgun with
- bullets jumping to multiple targets
+{GShadowhunter} ({!Io Black Site}) railgun, bullets
+ jump to multiple targets (including allies!)
 {GAvalanche} ({!Conamara Chaos Biolabs}) plasma rifle
  with regenerating ammo
 {GApocalypse} ({!Infernal Lock}) hyperblaster with
@@ -553,7 +553,7 @@ register_blueprint "hellpediace_uniques_2"
 {GWavedancer} ({!CRI Labs}) plasma shotgun with
  explosions on impact
 {GBFT 10K} ({!Mephitic Mines}, {!Inferno}) BFT with
- multiple jumps
+ multiple jumps. Targets allies too!
 {GExosuit} armor, no dodge penalty, boosts action
  and movement speed
 {GFirecrown} helmet, +100% fire resistance, sets
@@ -652,6 +652,7 @@ register_blueprint "hellpediace_exotics_3"
  blast area
 {MBio launcher} toxic, dead enemies emit poison
 {MBFT9K} big plasma ball jumping to other targets
+ (WARNING: allies are targeted too!)
 
  {!Armor}
 {MAssault armor} +50% damage during adren.  {!Marine}
