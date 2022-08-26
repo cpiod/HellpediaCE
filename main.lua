@@ -144,8 +144,8 @@ register_blueprint "hellpediace_io_1"
  shotgun/auto, AV3 hyperblaster, CRI armor,
  Mk3 manu station, AV3 favored AMP, CRI BFT9K{!*}
 {!Special reward} vaults open, CRI is friendly
-{!Remark} there can be at most 2 CRI deaths per
- level to unlock the special reward
+{!Remark} there can be at most 6 CRI deaths in
+ the branch to unlock the special reward
 
  {YIo Black Site}{!: help the CRI kill the demons!}
 {!TTL} inflicts Wither on bio & semi-mecha (-50%
@@ -154,7 +154,7 @@ register_blueprint "hellpediace_io_1"
  AV3 hyperblaster/AWP, purple relic, TTL BFT9K{!*}
 {!Special reward} 2 red cards, CRI is friendly
 {!Remark} same as CRI Labs + clearing the level
- before CRI arrival cancels the event
+ before CRI arrival cancels the rewards
 
  {YMephitic Mines}{!: reroute the gas!}
 {!Io Defense Reserve} -50% reload time
@@ -513,8 +513,8 @@ register_blueprint "hellpediace_uniques_1"
 {GFirestorm} ({!Valhalla Terminal}) fireball launcher
  with regenerating ammo, 50% swap time
 {GShadowcloak} armor, no penalty, stealths on kill
-{GFiend Crown} helmet, grants dark vision, turns
- fiends neutral/friendly
+{GFiend Crown} helmet, 2 protection, grants dark
+ vision, turns fiends neutral/friendly
 
 {GWavesplitter} ({!Europa Dig Zone}) plasma   {Y[Eu,Io]}
  blade, charges a slash ranged attack
