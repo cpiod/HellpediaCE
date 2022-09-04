@@ -249,7 +249,7 @@ register_blueprint "hellpediace_bosses_1"
  uses mortars and gains armor for a few turns
 {!Advice} EMP grenades will disabled it. Protect
  from mortar by closing the hangar doors
-{!Reward} 2 mt, large medkit, and maybe exo mod/
+{!Reward} 2 mt, large medkit and 2 weapon/exo mod/
  plasma grenade/phase kit/armor/AMP/heal
 
  {YEuropa}{!: Cryomancer} (ice warlock)
@@ -1039,7 +1039,7 @@ register_blueprint "hellpediace_whizkid_a"
  {!Accuracy mod}
 
 {!Melee}          {!Pistol}         {!SMG}
- Relataliate    Calibrated     Calibrated
+ Retaliate      Calibrated     Calibrated
  Resilient      Stabilized     Stabilized
  Mechabane      Precise        Precise
  Critical 25    Critical 25    Critical 25
