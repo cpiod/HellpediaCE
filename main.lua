@@ -617,7 +617,7 @@ register_blueprint "hellpediace_exotics_2"
 {MMagrail} no minimum range, cannot reload
 
  {!Auto}
-{M9mm tactical rifle} scope, +50% aim bonus  {YMimir}
+{M9mm tactical rifle} scope, +50% aim, swap  {YMimir}
 {M9mm precision rifle} aim to shoot one      {YMimir}
  bullet with +15 damage and +100% crit chance
 {M7.62 pierce rifle} high crit dmg, +200%     {YAst.}
