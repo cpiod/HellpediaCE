@@ -6,15 +6,16 @@ register_blueprint "hellpediace_callisto_1"
         title = "Callisto",
         content = [=[
  {YValhalla Terminal}{!: activate lockdowns!}
-{!ValSec} +25% damage vs bots
-{!Enemies} bots, zombies
+{!ValSec} +25% damage vs bots (weapon) / +25%
+ repair (armor, helmet)
 {!Rewards} AV2/exo pistol+shotgun, AV2 headgear
 {!Special rewards} 1 red card for CalSec halt/hack
  Warden bypass. Rooms: supply (AV2 AMP), weapon
  (AV2 favored weapon), armor (AV2 blue armor)
 
  {YCallisto Mines}{!: close portals, QUICK!}
-{!JoviSec} +25% crit damage
+{!JoviSec} +25% crit damage (weapon) / +25%
+ crit chance (armor, helmet)
 {!Enemies} zombies, demons (no bots)
 {!Rewards} AV2/exo pistol+shotgun, AV2 favored
  AMP, red relic. If no closed portal:
@@ -27,8 +28,8 @@ register_blueprint "hellpediace_callisto_1"
  light range of special level is 5
 
  {YMimir Habitat}{!: dl codes from MDF sentries!}
-{!Mimir Defence Force} +1 optimal range
-{!Enemies} bots, zombies
+{!Mimir Defence Force} +1 optimal range (weapon) /
+ +1 mod capacity (armor, helmet)
 {!Rewards} AV2/exo pistol+shotgun, AV2 fav. weapon
 {!Special rewards} 1 red card for exo manu station
  (L2/L3 clearance: 4/6 exos) CalSec halt/reboot
@@ -42,14 +43,16 @@ register_blueprint "hellpediace_callisto_2"
         title = "Callisto",
         content = [=[
  {YCallisto Rift}{!: open valves!}
-{!JoviSec} +25% crit damage
+{!JoviSec} +25% crit damage (weapon) / +25%
+ crit chance (armor, helmet)
 {!Enemies} zombies, demons (no bots)
 {!Rewards} AV2 pistol/shotgun, AV2 favored AMP,
  medical and tech stations, 3 multitools
 {!Special reward} poison resistance
 
  {MMilitary Barracks}
-{!JoviSec} +25% crit damage
+{!JoviSec} +25% crit damage (weapon) / +25%
+ crit chance (armor, helmet)
 {!Rewards} 2 AV2/exo pistols, 2 AV2/exo shotguns,
  2 AV2/exo autos, AV2/exo grenade launcher,
  EGLS or AV2 rocket launcher, ammo terminal
@@ -72,7 +75,8 @@ register_blueprint "hellpediace_europa_1"
         title = "Europa",
         content = [=[
  {YAsterius Habitat}{!: hack & protect AT sentries!}
-{!AsterTech} chill on damage
+{!AsterTech} chill on damage (weapon) / +25%
+ cold resistance (armor, helmet)
 {!Rewards} AV2 AMP for auto/pistol/shotgun,
  red relic, AV2 red armor, AV2 headgear
 {!Special rewards} exotic mod/AV1 general AMP,
@@ -80,6 +84,7 @@ register_blueprint "hellpediace_europa_1"
 
  {YC. Chaos Biolabs}{!: open valves, get essences!}
 {!CCB} +20% dmg vs bio, +10% dmg vs semi-mecha
+ (weapon) / +10% move speed (armor, helmet)
 {!Rewards} AV2 pistol, AV2 semi/auto
 {!Special rewards} acid, pain, bleed, fire
  resistances (at most 3 of them)
@@ -89,6 +94,8 @@ register_blueprint "hellpediace_europa_1"
 
  {YEuropa Ruins}{!: don’t be greedy!}
 {!Cartel Recon Tech} +25% damage after move
+ (weapon) / -10% dodge penalty (armor) /
+ +10% XP gained (helmet)
 {!Enemies} demons only (ammo-hungry branch!)
 {!Rewards} 1 ancient item per level. Temple:
  AV3 armor, AV3 fav. AMP, frozen heart
@@ -107,7 +114,8 @@ register_blueprint "hellpediace_europa_2"
         title = "Europa",
         content = [=[
  {YEuropa Dig Zone}{!: do} {RNOT} {!open valves!}
-{!Europan Recon Initiative} -75% swap time
+{!Europan Recon Initiative} -75% swap time (weapon)
+ / -25% consumable use time (armor, helmet)
 {!Rewards} AV2 AMP for pistol/auto/shotgun/melee
  or AV2 armor/auto, Mk2 manu+tech+med stations
 {!Special reward} cold resistance
@@ -139,7 +147,8 @@ register_blueprint "hellpediace_io_1"
         title = "Io",
         content = [=[
  {YCRI Labs}{!: defend the CRI against the demons!}
-{!CRI} +25% damage vs demons
+{!CRI} +25% damage vs demons (weapon) / +1
+ armor (armor, helmet)
 {!Rewards} 2 AV3/exo favored weapons, exo pistol/
  shotgun/auto, AV3 hyperblaster, CRI armor,
  Mk3 manu station, AV3 favored AMP, CRI BFT9K{!*}
@@ -150,6 +159,7 @@ register_blueprint "hellpediace_io_1"
  {YIo Black Site}{!: help the CRI kill the demons!}
 {!TTL} inflicts Wither on bio & semi-mecha (-50%
  resistances, +20% damage taken, for 3s)
+ (weapon) / +10% healing (armor, helmet)
 {!Rewards} AV3 favored AMP, Mk3 manu station,
  AV3 hyperblaster/AWP, purple relic, TTL BFT9K{!*}
 {!Special reward} 2 red cards, CRI is friendly
@@ -157,7 +167,8 @@ register_blueprint "hellpediace_io_1"
  before CRI arrival cancels the rewards
 
  {YMephitic Mines}{!: reroute the gas!}
-{!Io Defense Reserve} -50% reload time
+{!Io Defense Reserve} -50% reload time (weapon)
+ / +25% poison resistance)
 {!Enemies} mostly demons (ammo-hungry branch)
 {!Rewards} AV3 katana, AV3 blue armor, ENV
  helmet, AV1 hyperblaster
@@ -177,6 +188,8 @@ register_blueprint "hellpediace_io_2"
         content = [=[
  {YShadow Halls}{!: drop worthy items on portals!}
 {!Cartel Recon Tech} +25% damage after move
+ (weapon) / -10% dodge penalty (armor) /
+ +10% XP gained (helmet)
 {!Enemies} mostly demons (ammo-hungry branch)
 {!Special rewards} one per sacrifice: ancient
  phase kit/medkit/mod/power elixir (+10% dmg)/
@@ -287,12 +300,12 @@ register_blueprint "hellpediace_bosses_2"
 
  {YDante}{!: Harbinger}
 {!General advice}
- - Cover behind the indestructible pillars
+ - cover behind the indestructible pillars
   behind Harbinger
- - Use grenades/BFT to control the demon crowd
+ - use grenades/BFT to control the demon crowd
  - Harbinger is not strong in melee but can
 deal 100 damage at the end of the 1st phase!
- - All phases are weak to cold
+ - all phases are weak to cold
 
          {!1st phase}
 {!Stats} 200 HP, 75% DR, high armor
@@ -391,7 +404,7 @@ register_blueprint "hellpediace_events_2"
         title = "Events",
         content = [=[
  {RThe Hunt}                     {![Ca L5+,Eu,Io,Da]}
-{!Effect} enemies will hunt you in 60s
+{!Effect} enemies will hunt you in 60/90/120s
 {!Reward} 1000 XP
 
  {RToxic contamination}             {![Ca L5+,Eu,Io]}
@@ -439,7 +452,7 @@ register_blueprint "hellpediace_purgatory_1"
 {GFiend Crown}     ULDD    {GOverlord}       DLDDD
 
                    {!Tier 3}
-            {GSoulstealer}    DDLLUR
+            {GSoulstealer}  (absent)
             {GDeath}           ULDLD
             {GVoid}           LLDRDD
             {GShadowhunter}   DRULLU
@@ -472,8 +485,7 @@ register_blueprint "hellpediace_purgatory_2"
  |   |     \-{!DR}-{GLove}
  |   |   /-{!UUL}-{GHammerhead}
  |   \-{!U}-+-{!RU}--{GHate}
- |   /-{!DLLUR}-{GSoulstealer}
- +-{!D}-+-{!LDDD}--{GOverlord}
+ +-{!D}-{!LDDD}--{GOverlord}
  |   |       /-{!R}-{GThompson}
  |   \-{!R}-+-{!R}-+-{!U}-{GScrapgun}
  |       \-{!UL}-{GShadowcloak}-{!LU}-{GShadowhunter}
@@ -965,13 +977,13 @@ register_blueprint "hellpediace_perks_5"
 register_blueprint "hellpediace_perks_6"
 {
     text = {
-        title = "Other Perks",
+        title = "Manu. Perks",
         content = [=[
- {YManufacturer perks}
+ {YWeapon perks}
 {!JS} +25% crit damage  {![Cal. Mines,Barracks,Rift]}
 {!MDF} +1 optimal range                    {![Mimir]}
 {!VS} +25% damage vs bots  {![Valhalla Term/Spacep.]}
-{!AT} applies chill on damage             {![Aster.]}
+{!AT} applies chill on damage        {![Asterius H.]}
 {!CCB} +20%/10% damage vs bio/semi-mecha     {![CCB]}
 {!CRT} +25% dmg after move {![Eu. Ruins, Sha. Halls]}
 {!ERI} -75% swap time               {![Eu. Dig Zone]}
@@ -979,15 +991,39 @@ register_blueprint "hellpediace_perks_6"
 {!IDR} -50% reload time              {![Meph. Mines]}
 {!TTL} inflicts Wither                {![Black Site]}
 
+ {YArmor/helmet  perks}
+{!JS} +25% crit chance  {![Cal. Mines,Barracks,Rift]}
+{!MDF} +1 mod capacity                     {![Mimir]}
+{!VS} +25% repair          {![Valhalla Term/Spacep.]}
+{!AT} +25% cold resistance           {![Asterius H.]}
+{!CCB} +10% move speed                       {![CCB]}
+{!CRT} -10% dodge penalty (armor) / +10% gained
+ experience (helmet)       {![Eu. Ruins, Sha. Halls]}
+{!ERI} -25% consumable use time     {![Eu. Dig Zone]}
+{!CRI} +1 armor                         {![CRI Labs]}
+{!IDR} +25% poison resistance        {![Meph. Mines]}
+{!TTL} +10% healing                   {![Black Site]}
+]=]
+    }
+}
+
+register_blueprint "hellpediace_perks_7"
+{
+    text = {
+        title = "Enemy Perks",
+        content = [=[
  {YExalted perks}
 {!ACCURATE} +25% accuracy
 {!ARMORED} heavy armor, extra 30 max HP
 {!DEADLY} deal double damage
 {!FAST} move speed 50% faster
 {!HUNTER} unlimited tracking, +25% move speed
+{!LETHAL} deals 150% damage
 {!REGENERATE} 10% HP (at most 5 HP) regen.
  per action (not per second!)
 {!RESILIENT} overhealth equal to base HP
+{!RESIST} immune to status effects, +2 armor
+{!TOUGH} overhealth equal to half base HP
 {!UNSTABLE} explode (25 damage) on death
 
  {YEnemy special status}
@@ -995,6 +1031,8 @@ register_blueprint "hellpediace_perks_6"
 {!Warlock Aura} health regenerate to overhealth,
  50% fire, 50% poison and 50% acid resistance
 {!Warlock Gaze} pain doesn’t go away
+{!Watcher Gaze} -20% accuracy to player and
+ CRI, +20% accuracy to enemies
 ]=]
     }
 }
@@ -1099,6 +1137,7 @@ register_blueprint "ui_help"
     "hellpediace_whizkid_p",
     "hellpediace_whizkid_a",
     "hellpediace_whizkid_b",
+    "hellpediace_perks_7",
     "hellpediace_perks_6",
     "hellpediace_perks_5",
     "hellpediace_perks_4",
