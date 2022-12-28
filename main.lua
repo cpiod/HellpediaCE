@@ -6,17 +6,16 @@ register_blueprint "hellpediace_callisto_1"
         title = "Callisto",
         content = [=[
  {YValhalla Terminal}{!: activate lockdowns!}
-{!ValSec} +25% damage vs bots (weapon) / +25%
- repair (armor, helmet)
+{!VS} weapon: +25% damage vs bots
+{!VS} armor/helmet: +25% repair
 {!Rewards} AV2/exo pistol+shotgun, AV2 headgear
 {!Special rewards} 1 red card for CalSec halt/hack
  Warden bypass. Rooms: supply (AV2 AMP), weapon
  (AV2 favored weapon), armor (AV2 blue armor)
 
  {YCallisto Mines}{!: close portals, QUICK!}
-{!JoviSec} +25% crit damage (weapon) / +25%
- crit chance (armor, helmet)
-{!Enemies} zombies, demons (no bots)
+{!JS} weapon: +25% crit damage
+{!JS} armor/helmet: +25% crit chance
 {!Rewards} AV2/exo pistol+shotgun, AV2 favored
  AMP, red relic. If no closed portal:
  AV2 helmet/armor                          {!2 5}
@@ -28,8 +27,8 @@ register_blueprint "hellpediace_callisto_1"
  light range of special level is 5
 
  {YMimir Habitat}{!: dl codes from MDF sentries!}
-{!Mimir Defence Force} +1 optimal range (weapon) /
- +1 mod capacity (armor, helmet)
+{!MDF} weapon: +1 optimal range
+{!MDF} armor/helmet: +1 mod capacity
 {!Rewards} AV2/exo pistol+shotgun, AV2 fav. weapon
 {!Special rewards} 1 red card for exo manu station
  (L2/L3 clearance: 4/6 exos) CalSec halt/reboot
@@ -43,16 +42,15 @@ register_blueprint "hellpediace_callisto_2"
         title = "Callisto",
         content = [=[
  {YCallisto Rift}{!: open valves!}
-{!JoviSec} +25% crit damage (weapon) / +25%
- crit chance (armor, helmet)
-{!Enemies} zombies, demons (no bots)
+{!JS} weapon: +25% crit damage
+{!JS} armor/helmet: +25% crit chance
 {!Rewards} AV2 pistol/shotgun, AV2 favored AMP,
  medical and tech stations, 3 multitools
 {!Special reward} poison resistance
 
  {MMilitary Barracks}
-{!JoviSec} +25% crit damage (weapon) / +25%
- crit chance (armor, helmet)
+{!JS} weapon: +25% crit damage
+{!JS} armor/helmet: +25% crit chance
 {!Rewards} 2 AV2/exo pistols, 2 AV2/exo shotguns,
  2 AV2/exo autos, AV2/exo grenade launcher,
  EGLS or AV2 rocket launcher, ammo terminal
@@ -75,27 +73,17 @@ register_blueprint "hellpediace_europa_1"
         title = "Europa",
         content = [=[
  {YAsterius Habitat}{!: hack & protect AT sentries!}
-{!AsterTech} chill on damage (weapon) / +25%
- cold resistance (armor, helmet)
+{!AT} weapon: chill on damage
+{!AT} armor/helmet: +25% cold resistance
 {!Rewards} AV2 AMP for auto/pistol/shotgun,
  red relic, AV2 red armor, AV2 headgear
 {!Special rewards} exotic mod/AV1 general AMP,
  6 consum., AT exotic manu station (list of 3)
 
- {YC. Chaos Biolabs}{!: open valves, get essences!}
-{!CCB} +20% dmg vs bio, +10% dmg vs semi-mecha
- (weapon) / +10% move speed (armor, helmet)
-{!Rewards} AV2 pistol, AV2 semi/auto
-{!Special rewards} acid, pain, bleed, fire
- resistances (at most 3 of them)
-{!Secret reward} +20% damage (if 3 res. bought)
-{!Remark} bring 9 multitools to guarantee secret
- reward (only available if L2, maybe L3 branch)
-
  {YEuropa Ruins}{!: don’t be greedy!}
-{!Cartel Recon Tech} +25% damage after move
- (weapon) / -10% dodge penalty (armor) /
- +10% XP gained (helmet)
+{!CRT} weapon: +25% damage after move
+{!CRT} armor: -10% dodge penalty
+{!CRT} helmet: +10% XP gained
 {!Enemies} demons only (ammo-hungry branch!)
 {!Rewards} 1 ancient item per level. Temple:
  AV3 armor, AV3 fav. AMP, frozen heart
@@ -104,6 +92,13 @@ register_blueprint "hellpediace_europa_1"
  for 2), otherwise guardians spawn. Unkilled
  ones will spawn when Cryomancer is at half HP
 {!Remark} branch guaranteed. Royal: 2 rewards max
+
+ {YEuropa Dig Zone}{!: do} {RNOT} {!open valves!}
+{!ERI} weapon: -75% swap time
+{!ERI} armor/helmet: -25% consumable use time
+{!Rewards} AV2 AMP for pistol/auto/shotgun/melee
+ or AV2 armor/auto, Mk2 manu+tech+med stations
+{!Special reward} cold resistance
 ]=]
     }
 }
@@ -113,12 +108,15 @@ register_blueprint "hellpediace_europa_2"
     text = {
         title = "Europa",
         content = [=[
- {YEuropa Dig Zone}{!: do} {RNOT} {!open valves!}
-{!Europan Recon Initiative} -75% swap time (weapon)
- / -25% consumable use time (armor, helmet)
-{!Rewards} AV2 AMP for pistol/auto/shotgun/melee
- or AV2 armor/auto, Mk2 manu+tech+med stations
-{!Special reward} cold resistance
+ {YC. Chaos Biolabs}{!: open valves, get essences!}
+{!CCB} weapon: +20% dmg vs bio, +10% vs semi-mecha
+{!CCB} armor/helmet: +10% move speed
+{!Rewards} AV2 pistol, AV2 semi/auto
+{!Special rewards} acid, pain, bleed, fire
+ resistances (at most 3 of them)
+{!Secret reward} +20% damage (if 3 res. bought)
+{!Remark} bring 9 multitools to guarantee secret
+ reward (only available if L2, maybe L3 branch)
 
  {MThe Pit}{!: pet the smaller Kerberos w/ {$input_action}!}
 {!Rewards} backpack, AV3 headgear, AV3 favored
@@ -147,8 +145,8 @@ register_blueprint "hellpediace_io_1"
         title = "Io",
         content = [=[
  {YCRI Labs}{!: defend the CRI against the demons!}
-{!CRI} +25% damage vs demons (weapon) / +1
- armor (armor, helmet)
+{!CRI} weapon: +25% damage vs demons
+{!CRI} armor/helmet: +1 armor
 {!Rewards} 2 AV3/exo favored weapons, exo pistol/
  shotgun/auto, AV3 hyperblaster, CRI armor,
  Mk3 manu station, AV3 favored AMP, CRI BFT9K{!*}
@@ -157,24 +155,14 @@ register_blueprint "hellpediace_io_1"
  the branch to unlock the special reward
 
  {YIo Black Site}{!: help the CRI kill the demons!}
-{!TTL} inflicts Wither on bio & semi-mecha (-50%
- resistances, +20% damage taken, for 3s)
- (weapon) / +10% healing (armor, helmet)
+{!TTL} weapon: inflicts Wither on bio & semi-mecha
+ (-50% resistances, +20% damage taken, for 3s)
+{!TTL} armor/helmet: +10% healing received
 {!Rewards} AV3 favored AMP, Mk3 manu station,
  AV3 hyperblaster/AWP, purple relic, TTL BFT9K{!*}
 {!Special reward} 2 red cards, CRI is friendly
 {!Remark} same as CRI Labs + clearing the level
  before CRI arrival cancels the rewards
-
- {YMephitic Mines}{!: reroute the gas!}
-{!Io Defense Reserve} -50% reload time (weapon)
- / +25% poison resistance)
-{!Enemies} mostly demons (ammo-hungry branch)
-{!Rewards} AV3 katana, AV3 blue armor, ENV
- helmet, AV1 hyperblaster
-{!Special rewards} poison resistance. With {!Rift}
- reward: strong poison aura, +50% poison effect
-{!Remark} light range is 5 (4 in special level)
 
 {!*} avail. if 4 vaults are open (w/ 3 red cards)
  ]=]
@@ -187,26 +175,50 @@ register_blueprint "hellpediace_io_2"
         title = "Io",
         content = [=[
  {YShadow Halls}{!: drop worthy items on portals!}
-{!Cartel Recon Tech} +25% damage after move
- (weapon) / -10% dodge penalty (armor) /
- +10% XP gained (helmet)
+{!CRT} weapon: +25% damage after move
+{!CRT} armor: -10% dodge penalty
+{!CRT} helmet: +10% XP gained
 {!Enemies} mostly demons (ammo-hungry branch)
-{!Special rewards} one per sacrifice: ancient
- phase kit/medkit/mod/power elixir (+10% dmg)/
- fire elixir (+50% fire res. and affinity)/
- blood elixir (+50% bleed res. and affinity)
-{!Rewards} unique exchange (random: Exosuit/Void/
- Death/Apocalypse) OR wish (w/ heart), AV3
- favored AMP, AV3 armor, AV3 pistol/SMG/auto/
- shotgun, AV3 shotgun/hyperblaster/AWP. Wishes:
+{!Rewards} AV3 favored AMP, AV3 armor, AV3
+ pistol/SMG/auto/ shotgun, AV3 shotgun/
+ hyperblaster/AWP, and either:
+ - unique exchange (random: Exosuit/Void/
+ Death/Apocalypse)
+ - or a wish (with the heart)
+{!Wishes}
  {!"WEALTH!"} choose 1 of 5 uniques, HP set to 20,
   all healing items and mt removed from level
  {!"POWER!"} +50% damage, receive 50% less
   healing, max HP reduced by 25%, HP set to 20
  {!"HEALTH!"} regenerate 5 HP/s up to 50% of max
   HP, receive 75% less healing, HP set to 1
+{!Special rewards} one per sacrifice{!*}: ancient
+ phase kit/medkit/mod/power elixir (+10% dmg)/
+ fire elixir (+50% fire res. and affinity)/
+ blood elixir (+50% bleed res. and affinity)
 {!Remark} branch guaranteed
-{!Remark} worthy item: exo/uniques/ancient/AV
+
+{!*} worthy item: exo/uniques/ancient/AV
+ ]=]
+    }
+}
+
+
+
+register_blueprint "hellpediace_io_3"
+{
+    text = {
+        title = "Io",
+        content = [=[
+ {YMephitic Mines}{!: reroute the gas!}
+{!IDR} weapon: -50% reload time
+{!IDR} armor/helmet: +25% poison resistance
+{!Enemies} mostly demons (ammo-hungry branch)
+{!Rewards} AV3 katana, AV3 blue armor, ENV
+ helmet, AV1 hyperblaster
+{!Special rewards} poison resistance. With {!Rift}
+ reward: strong poison aura, +50% poison effect
+{!Remark} light range is 5 (4 in special level)
 
  {MIo Warehouse}
 {!Rewards} lots of lootboxes, AV2 hyperblaster
@@ -873,6 +885,7 @@ register_blueprint "hellpediace_perks_3"
     text = {
         title = "AMP Perks",
         content = [=[
+ {YAMP perks}
 {!Speed-loader} -75% reload if empty mag.    {!P   }
 {!Speed-loader} -50% reload if empty mag.    {! AS }
 {!Autoloader} reload on move                 {!  S }
@@ -906,6 +919,7 @@ register_blueprint "hellpediace_perks_4"
     text = {
         title = "Armor Perks",
         content = [=[
+ {YArmor perks}
 {!Tenacity} increase heal on level entry    {!Marine}
 {!Camoboost} increase stealth duration       {!Scout}
 {!Pockets} consumables used twice as fast     {!Tech}
@@ -925,7 +939,6 @@ register_blueprint "hellpediace_perks_4"
 {!Painkiler} +50% pain reduction per turn
 {!Plated} protection +1
 {!Swift} -10% dodge penalty
-
 {CAdrenal} increase adren. healing          {!Marine}
 {CSilent} bonus shot while in stealth        {!Scout}
 {CSmokegen} smoke range +1                    {!Tech}
@@ -997,12 +1010,12 @@ register_blueprint "hellpediace_perks_6"
 {!VS} +25% repair          {![Valhalla Term/Spacep.]}
 {!AT} +25% cold resistance           {![Asterius H.]}
 {!CCB} +10% move speed                       {![CCB]}
-{!CRT} -10% dodge penalty (armor) / +10% gained
- experience (helmet)       {![Eu. Ruins, Sha. Halls]}
+{!CRT} -10% dodge penalty (armor) / +10% XP
+ gained (helmet)        {![Eu. Ruins, Sha. Halls]}
 {!ERI} -25% consumable use time     {![Eu. Dig Zone]}
 {!CRI} +1 armor                         {![CRI Labs]}
 {!IDR} +25% poison resistance        {![Meph. Mines]}
-{!TTL} +10% healing                   {![Black Site]}
+{!TTL} +10% healing received          {![Black Site]}
 ]=]
     }
 }
@@ -1160,6 +1173,7 @@ register_blueprint "ui_help"
     "hellpediace_bosses_2",
     "hellpediace_bosses_1",
     "hellpediace_dante",
+    "hellpediace_io_3",
     "hellpediace_io_2",
     "hellpediace_io_1",
     "hellpediace_europa_2",
