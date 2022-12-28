@@ -7,7 +7,7 @@ register_blueprint "hellpediace_callisto_1"
         content = [=[
  {YValhalla Terminal}{!: activate lockdowns!}
 {!VS} weapon: +25% damage vs bots
-{!VS} armor/helmet: +25% repair
+{!VS} armor/helmet: +25% repair received
 {!Rewards} AV2/exo pistol+shotgun, AV2 headgear
 {!Special rewards} 1 red card for CalSec halt/hack
  Warden bypass. Rooms: supply (AV2 AMP), weapon
@@ -998,8 +998,8 @@ register_blueprint "hellpediace_perks_6"
 {!VS} +25% damage vs bots  {![Valhalla Term/Spacep.]}
 {!AT} applies chill on damage        {![Asterius H.]}
 {!CCB} +20%/10% damage vs bio/semi-mecha     {![CCB]}
-{!CRT} +25% dmg after move {![Eu. Ruins, Sha. Halls]}
 {!ERI} -75% swap time               {![Eu. Dig Zone]}
+{!CRT} +25% damage after move       {![Ruins, Halls]}
 {!CRI} +25% vs demons                   {![CRI Labs]}
 {!IDR} -50% reload time              {![Meph. Mines]}
 {!TTL} inflicts Wither                {![Black Site]}
@@ -1007,12 +1007,12 @@ register_blueprint "hellpediace_perks_6"
  {YArmor/helmet  perks}
 {!JS} +25% crit chance  {![Cal. Mines,Barracks,Rift]}
 {!MDF} +1 mod capacity                     {![Mimir]}
-{!VS} +25% repair          {![Valhalla Term/Spacep.]}
+{!VS} +25% repair received {![Valhalla Term/Spacep.]}
 {!AT} +25% cold resistance           {![Asterius H.]}
 {!CCB} +10% move speed                       {![CCB]}
-{!CRT} -10% dodge penalty (armor) / +10% XP
- gained (helmet)        {![Eu. Ruins, Sha. Halls]}
 {!ERI} -25% consumable use time     {![Eu. Dig Zone]}
+{!CRT} armor: -10% dodge penalty    {![Ruins, Halls]}
+{!CRT} helmet: +10% XP gained       {![Ruins, Halls]}
 {!CRI} +1 armor                         {![CRI Labs]}
 {!IDR} +25% poison resistance        {![Meph. Mines]}
 {!TTL} +10% healing received          {![Black Site]}
@@ -1030,13 +1030,16 @@ register_blueprint "hellpediace_perks_7"
 {!ARMORED} heavy armor, extra 30 max HP
 {!DEADLY} deal double damage
 {!FAST} move speed 50% faster
+{!HELLFIRE} Ravager only: incendiary mortar
 {!HUNTER} unlimited tracking, +25% move speed
+{!ICE} Ravager only: ice aura and attack
 {!LETHAL} deals 150% damage
 {!REGENERATE} 10% HP (at most 5 HP) regen.
  per action (not per second!)
 {!RESILIENT} overhealth equal to base HP
 {!RESIST} immune to status effects, +2 armor
 {!TOUGH} overhealth equal to half base HP
+{!TOXIN} Ravager only: toxic explosive attack
 {!UNSTABLE} explode (25 damage) on death
 
  {YEnemy special status}
