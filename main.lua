@@ -1147,6 +1147,16 @@ register_blueprint "hellpediace_whizkid_p"
     }
 }
 
+register_blueprint "hellpediace_more_below"
+{
+    text = {
+        title = "MORE BELOW",
+        content = [=[
+There is currently no way to scroll, but there are more pages below! Check it out, press {$input_ui_down}!
+]=]
+    }
+}
+
 
 register_blueprint "ui_help"
 {
@@ -1156,6 +1166,7 @@ register_blueprint "ui_help"
     "hellpediace_perks_7",
     "hellpediace_perks_6",
     "hellpediace_perks_5",
+    "hellpediace_more_below",
     "hellpediace_perks_4",
     "hellpediace_perks_3",
     "hellpediace_perks_2",
