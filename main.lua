@@ -1150,7 +1150,7 @@ register_blueprint "hellpediace_whizkid_p"
 register_blueprint "hellpediace_more_below"
 {
     text = {
-        title = "MORE BELOW",
+        title = "{!MORE BELOW!}",
         content = [=[
 There is currently no way to scroll, but there are more pages below! Check it out, press {$input_ui_down}!
 ]=]
