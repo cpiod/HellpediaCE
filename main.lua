@@ -682,7 +682,7 @@ register_blueprint "hellpediace_exotics_3"
 {MAssault armor} +50% damage during adren.  {!Marine}
 {MInfiltration armor} +50% crit for 3s       {!Scout}
  after stealth ends
-{MMediTech} power orbs heal for 1/2 the power {!Tech}
+{MMediTech} power orbs heal for 50% the power {!Tech}
 {MAblative} high protection, no repair
 {MDuramesh} low protection, indestructible
 {MGuardian} light armor, saves your life once
@@ -906,10 +906,12 @@ register_blueprint "hellpediace_perks_3"
 {CHit tracker} +40% crit chance              {!P   }
 {CCrit system} +25% crit, +25% crit dmg      {! ASM}
 
- {!P} pistol AMP, applies to SMG too
- {!A} auto AMP, applies to rotary and semi too
- {!S} shotgun AMP
- {!M} melee AMP
+ {!P} pistol/SMG AMP    {!A} auto/rotary/semi AMP
+ {!S} shotgun AMP       {!M} melee AMP
+
+{CImpr. adrenaline} adrenaline stims       {!Marine}
+{CImpr. stealth} stealth: +100% move speed  {!Scout}
+{CImpr. smoke screen} EMP blast on ability   {!Tech}
 ]=]
     }
 }
