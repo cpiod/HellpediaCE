@@ -288,7 +288,6 @@ register_blueprint "hellpediace_bosses_1"
  {YIo}{!: Ancient} (illusionist gunned demon)
 {!Stats} 400 HP, more on N!+
 {!Gimmick} create decoys on damage gate (100)
-{!Advice} persistent aim can help finding decoys
 {!Reward} ancient gun/sword/armband/necklace
 
  {YShattered Abyss}{!: Swordmaster} (sworded demon)
