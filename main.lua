@@ -678,15 +678,15 @@ register_blueprint "hellpediace_exotics_3"
  (WARNING: allies are targeted too!)
 
  {!Armor}
-{MAssault armor} +50% damage during adren.  {!Marine}
-{MInfiltration armor} +50% crit for 3s       {!Scout}
+{MAssault armor}{!*} +50% damage during adren. {!Marine}
+{MInfiltration armor}{!*} +50% crit for 3s      {!Scout}
  after stealth ends
-{MMediTech} power orbs heal for 50% the power {!Tech}
+{MMediTech}{!*} pow. orbs heal for 50% the power {!Tech}
 {MAblative} high protection, no repair
 {MDuramesh} low protection, indestructible
 {MGuardian} light armor, saves your life once
-{MMedifiber} heals at the cost of durability
-{MNecrotic} auto-repairs at the cost of health
+{MMedifiber}{!*} heals at the cost of durability
+{MNecrotic}{!*} auto-repairs at the cost of health
 {!CRI armor} high protection, low penalty {YCRI Labs}
 {!ENV armor} cold, fire, 50% poison res  {YRef. Base}
 
@@ -694,6 +694,8 @@ register_blueprint "hellpediace_exotics_3"
 {MAnalytic visor} +20% experience
 {MCommand visor} red door bypass
 {MSupply visor} +1 charge in terminal/station
+
+ {!*} not destroyed when durability reaches 0
 ]=]
     }
 }
@@ -704,13 +706,13 @@ register_blueprint "hellpediace_exotics_4"
         title = "Exotics",
         content = [=[
  {!Helmet}
-{MAdrenal helmet} adrenaline heals more,    {!Marine}
+{MAdrenal helmet}{!*} adrenaline heals more,   {!Marine}
  clears status
-{MInfiltrator helmet} stealth stims for 5s   {!Scout}
-{MVaporscan helmet} enemies in smoke take     {!Tech}
+{MInfiltrator helmet}{!*} stealth stims for 5s  {!Scout}
+{MVaporscan helmet}{!*} enemies in smoke take    {!Tech}
  +50% damage
-{MBlast helmet} -75% splash damage
-{MBattle helmet} damage reduction equals pain%
+{MBlast helmet}{!*} -75% splash damage
+{MBattle helmet}{!*} damage reduction equals pain%
 {!ENV helmet} darkvision, heatvision,  {YMeph. Mines}
  poison, 50% fire, 50% cold resistances
 
@@ -723,14 +725,14 @@ register_blueprint "hellpediace_exotics_4"
 {MNano} reloading doesn’t require ammo
 {CAncient} +20% damage                  {YRuins,Hall}
 
- {!Permanent}
-{MBackpack} +2 inventory space   {YThe Pit,Ref. Base}
-
  {!Others}
+{MBackpack} +2 inventory space   {YThe Pit,Ref. Base}
 {RAncient heart elixir} +5 max HP       {YRuins,Hall}
 {CAncient salve} full heal, 20s stimmed {YRuins,Hall}
 {CAncient phase kit} teleports you      {YRuins,Hall}
  somewhere near the elevator to the next level
+
+ {!*} not destroyed when durability reaches 0
 ]=]
     }
 }
