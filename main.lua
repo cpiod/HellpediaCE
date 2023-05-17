@@ -492,7 +492,7 @@ register_blueprint "hellpediace_purgatory_2"
  |   \-{!D}-+-{!LD}-+-{!RU}-{GWavedancer}
  |       \-{!DR}--{GVengeance}-{!R}-{GViper}
  |         /-{!RD}-{GMonster}
--+-{!R}-+--{!R}--+-{!UU}-{YIo}
+-+-{!R}-+--{!R}--+-{!UU}-{Y[Io]}
  |   |     \-{!DR}-{GLove}
  |   |   /-{!UUL}-{GHammerhead}
  |   \-{!U}-+-{!RU}--{GHate}
@@ -506,10 +506,10 @@ register_blueprint "hellpediace_purgatory_2"
  |   |   /-{!D}-+-{!LD}-{GDeath}-{!D}-{GBFG10K}
  |   |   |   \-{!D}--{GFirecrown}
  |   |   |  /{!L}--{GCarnage}
- \-{!U}-+-{!L}-+{!L}-+{!UL}-{YDante}
+ \-{!U}-+-{!L}-+{!L}-+{!UL}-{Y[Dante]}
      |      \{!D}--{GFirestorm}-+{!R}-{GDenial}-{!R}-{GFirecrown}
      |                    \{!D}-{GCalamity}
-     |   /-{!R}-{YEuropa}-{!DLD}-{GExosuit}
+     |   /-{!R}-{Y[Europa]}-{!DLD}-{GExosuit}
      \-{!R}-+-{!U}-+-{!ULL}-{GAvalanche}
              \-{!L}---{GExecutioner}-{!L}-{GCybersuit}
 ]=]
@@ -563,6 +563,7 @@ register_blueprint "hellpediace_uniques_2"
 {GCybersuit} {Runremovable} armor, high defense, high
  dodge penalty, autorepair, mod slots: 4+2/lvl
 {GOverlord} helmet, turns mechs neutral/friendly
+
 {GSoulstealer} ({!Sh. Abyss} only) sword, on  {Y[Io,Da]}
  kill gains damage and max HP, no dual-wielding
 {GDeath} ({!Shadow Halls}) plasma pistol, lethal DoT
@@ -584,8 +585,7 @@ register_blueprint "hellpediace_uniques_2"
 
 {!*} guaranteed unique in: 20% Ca, 40% Eu, 40% Io
 {!*} dual-wielded unique pistols share their perks
-{!*} within parenthesis: favored locations where
- favored uniques have 5% chance of appearing
+{!*} within parenthesis: favored locations
 ]=]
     }
 }
@@ -606,7 +606,7 @@ register_blueprint "hellpediace_exotics_1"
 
  {!Pistol}
 {M9mm calibrated} pierce, +50% crit in opt   {YMimir}
-{M9mm mag pistol} pierce, loses damage with hits
+{M9mm mag-pistol} pierce, loses damage with hits
 {M.44 HE revolver} gibbed enemies       {YMimir,Ast.}
  explode
 {M.44 flintlock} hit enemies deal -50%       {YMimir}
@@ -678,24 +678,24 @@ register_blueprint "hellpediace_exotics_3"
  (WARNING: allies are targeted too!)
 
  {!Armor}
-{MAssault armor}{!*} +50% damage during adren. {!Marine}
-{MInfiltration armor}{!*} +50% crit for 3s      {!Scout}
- after stealth ends
-{MMediTech}{!*} pow. orbs heal for 50% the power {!Tech}
-{MAblative} high protection, no repair
+{MAssault armor} +50% damage during adren.  {!Marine}
+{MInfiltration armor} +50% crit for 3s after {!Scout}
+ stealth ends
+{MMediTech} pow. orbs heal for 50% the power  {!Tech}
+{MAblative}{!*} high protection, no repair
 {MDuramesh} low protection, indestructible
-{MGuardian} light armor, saves your life once
-{MMedifiber}{!*} heals at the cost of durability
-{MNecrotic}{!*} auto-repairs at the cost of health
-{!CRI armor} high protection, low penalty {YCRI Labs}
-{!ENV armor} cold, fire, 50% poison res  {YRef. Base}
+{MGuardian}{!*} light armor, saves your life once
+{MMedifiber} heals at the cost of durability
+{MNecrotic} auto-repairs at the cost of health
+{!CRI armor}{!*} high protect., low penalty{YCRI Labs}
+{!ENV armor}{!*} cold, fire, 50% poison res {YRef. Base}
 
  {!Visor}
-{MAnalytic visor} +20% experience
-{MCommand visor} red door bypass
-{MSupply visor} +1 charge in terminal/station
+{MAnalytic visor}{!*} +20% experience
+{MCommand visor}{!*} red door bypass
+{MSupply visor}{!*} +1 charge in terminal/station
 
- {!*} not destroyed when durability reaches 0
+ {!*} destroyed when durability reaches 0
 ]=]
     }
 }
@@ -706,14 +706,14 @@ register_blueprint "hellpediace_exotics_4"
         title = "Exotics",
         content = [=[
  {!Helmet}
-{MAdrenal helmet}{!*} adrenaline heals more,   {!Marine}
+{MAdrenal helmet} adrenaline heals more,    {!Marine}
  clears status
-{MInfiltrator helmet}{!*} stealth stims for 5s  {!Scout}
-{MVaporscan helmet}{!*} enemies in smoke take    {!Tech}
+{MInfiltrator helmet} stealth stims for 5s   {!Scout}
+{MVaporscan helmet} enemies in smoke take     {!Tech}
  +50% damage
-{MBlast helmet}{!*} -75% splash damage
-{MBattle helmet}{!*} damage reduction equals pain%
-{!ENV helmet} darkvision, heatvision,  {YMeph. Mines}
+{MBlast helmet} -75% splash damage
+{MBattle helmet} damage reduction equals pain%
+{!ENV helmet}{!*} darkvision, heatvision, {YMeph. Mines}
  poison, 50% fire, 50% cold resistances
 
  {!Mod}
@@ -732,7 +732,7 @@ register_blueprint "hellpediace_exotics_4"
 {CAncient phase kit} teleports you      {YRuins,Hall}
  somewhere near the elevator to the next level
 
- {!*} not destroyed when durability reaches 0
+ {!*} destroyed when durability reaches 0
 ]=]
     }
 }
@@ -1062,7 +1062,7 @@ register_blueprint "hellpediace_whizkid_b"
     text = {
         title = "Whizkid B",
         content = [=[
- {!Bulk mod}
+ {YBulk mod}
 
 {!Melee}          {!Pistol}         {!SMG}
  Swap Harness   Swap Harness   Swap Harness
@@ -1093,7 +1093,7 @@ register_blueprint "hellpediace_whizkid_a"
     text = {
         title = "Whizkid A",
         content = [=[
- {!Accuracy mod}
+ {YAccuracy mod}
 
 {!Melee}          {!Pistol}         {!SMG}
  Retaliate      Calibrated     Calibrated
@@ -1124,7 +1124,7 @@ register_blueprint "hellpediace_whizkid_p"
     text = {
         title = "Whizkid P",
         content = [=[
- {!Power mod}
+ {YPower mod}
 
 {!Melee}          {!Pistol}         {!SMG}
  Cleaner 5      Fresh Mag 3    Cleaner 1
@@ -1168,8 +1168,8 @@ register_blueprint "ui_help"
     "hellpediace_whizkid_b",
     "hellpediace_perks_7",
     "hellpediace_perks_6",
-    "hellpediace_perks_5",
     "hellpediace_more_below",
+    "hellpediace_perks_5",
     "hellpediace_perks_4",
     "hellpediace_perks_3",
     "hellpediace_perks_2",
@@ -1184,7 +1184,7 @@ register_blueprint "ui_help"
     "hellpediace_uniques_1",
     "hellpediace_purgatory_2",
     "hellpediace_purgatory_1",
-    "hellpediace_side_rooms",
+    -- "hellpediace_side_rooms",
     "hellpediace_events_2",
     "hellpediace_events_1",
     "hellpediace_bosses_2",
