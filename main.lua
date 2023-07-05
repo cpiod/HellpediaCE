@@ -118,14 +118,14 @@ register_blueprint "hellpediace_europa_2"
 {!Remark} bring 9 multitools to guarantee secret
  reward (only available if L2, maybe L3 branch)
 
- {MThe Pit}{!: pet the smaller Kerberos w/ {$input_action}!}
+ {MThe Pit}{!: pet the smaller Kerberos w/ <{$input_action}>!}
 {!Rewards} backpack, AV3 headgear, AV3 favored
  AMP, AV3 armor/auto/semi
 {!Special reward} on level up, {!Rexio} gains bleed,
  poison, fire & cold res., up to 80% DR, more
  HP and damage, new orders: wait, follow, hunt
 {!Remark} you cannot tame {!Rexio} while wielding
- a melee weapon, even by using {!{$input_action}}
+ a melee weapon, even by using {!<{$input_action}>}
 
  {MRefueling Base}{!: open fuel valves!}
 {!Rewards} backpack, ammo term, AV3 visor,
@@ -181,10 +181,9 @@ register_blueprint "hellpediace_io_2"
 {!Enemies} mostly demons (ammo-hungry branch)
 {!Rewards} AV3 favored AMP, AV3 armor, AV3
  pistol/SMG/auto/ shotgun, AV3 shotgun/
- hyperblaster/AWP, and either:
- - unique exchange (random: Exosuit/Void/
- Death/Apocalypse)
- - or a wish (with the heart)
+ hyperblaster/AWP, unique exchange (random:
+ Exosuit/Void/Death/Apocalypse) and a wish
+ (with the heart)
 {!Wishes}
  {!"WEALTH!"} choose 1 of 5 uniques, HP set to 20,
   all healing items and mt removed from level
@@ -197,6 +196,7 @@ register_blueprint "hellpediace_io_2"
  fire elixir (+50% fire res. and affinity)/
  blood elixir (+50% bleed res. and affinity)
 {!Remark} branch guaranteed
+{!Remark} no possible exchange after the wish!
 
 {!*} worthy item: exo/uniques/ancient/AV
  ]=]
@@ -723,7 +723,8 @@ register_blueprint "hellpediace_exotics_4"
 {MSustain} get ammo back in magazine on kill
 {MOnyx} makes armor indestructible
 {MNano} reloading doesn’t require ammo
-{CAncient} +20% damage                  {YRuins,Hall}
+{CAncient} +20% damage, not returned on {YRuins,Hall}
+ disassemble
 
  {!Others}
 {MBackpack} +2 inventory space   {YThe Pit,Ref. Base}
@@ -731,8 +732,6 @@ register_blueprint "hellpediace_exotics_4"
 {CAncient salve} full heal, 20s stimmed {YRuins,Hall}
 {CAncient phase kit} teleports you      {YRuins,Hall}
  somewhere near the elevator to the next level
-
- {!*} destroyed when durability reaches 0
 ]=]
     }
 }
@@ -1155,7 +1154,7 @@ register_blueprint "hellpediace_more_below"
     text = {
         title = "{!MORE BELOW!}",
         content = [=[
-There is currently no way to scroll, but there are more pages below! Check it out, press {$input_ui_down}!
+There is currently no way to scroll, but there are more pages below! Check it out, press <{$input_ui_down}>!
 ]=]
     }
 }
