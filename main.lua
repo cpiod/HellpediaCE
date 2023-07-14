@@ -14,8 +14,8 @@ register_blueprint "hellpediace_callisto_1"
  (AV2 favored weapon), armor (AV2 blue armor)
 
  {YCallisto Mines}{!: close portals, QUICK!}
-{!JS} weapon: +25% crit damage
-{!JS} armor/helmet: +25% crit chance
+{!JS} weapon: +15% crit damage
+{!JS} armor/helmet: +15% crit chance
 {!Rewards} AV2/exo pistol+shotgun, AV2 favored
  AMP, red relic. If no closed portal:
  AV2 helmet/armor                          {!2 5}
@@ -42,15 +42,15 @@ register_blueprint "hellpediace_callisto_2"
         title = "Callisto",
         content = [=[
  {YCallisto Rift}{!: open valves!}
-{!JS} weapon: +25% crit damage
-{!JS} armor/helmet: +25% crit chance
+{!JS} weapon: +15% crit damage
+{!JS} armor/helmet: +15% crit chance
 {!Rewards} AV2 pistol/shotgun, AV2 favored AMP,
  medical and tech stations, 3 multitools
 {!Special reward} poison resistance
 
  {MMilitary Barracks}
-{!JS} weapon: +25% crit damage
-{!JS} armor/helmet: +25% crit chance
+{!JS} weapon: +15% crit damage
+{!JS} armor/helmet: +15% crit chance
 {!Rewards} 2 AV2/exo pistols, 2 AV2/exo shotguns,
  2 AV2/exo autos, AV2/exo grenade launcher,
  EGLS or AV2 rocket launcher, ammo terminal
@@ -615,7 +615,6 @@ register_blueprint "hellpediace_exotics_1"
 {M.44 deagle} no pain accuracy malus    {YMimir,Ast.}
 {M.44 volley gun} triple-barrel revolver
 {MBlaster} plasma pistol with regenerating ammo
-
  {!SMG}
 {M9mm AP SMG} +100% damage againt humanoids
 {M9mm torrent} crit chance on close enemies  {YMimir}
@@ -1021,7 +1020,7 @@ register_blueprint "hellpediace_perks_manu"
         title = "Manu. Perks",
         content = [=[
  {YWeapon perks}
-{!JS} +25% crit damage  {![Cal. Mines,Barracks,Rift]}
+{!JS} +15% crit damage  {![Cal. Mines,Barracks,Rift]}
 {!MDF} +1 optimal range                    {![Mimir]}
 {!VS} +25% damage vs bots  {![Valhalla Term/Spacep.]}
 {!AT} applies chill on damage        {![Asterius H.]}
@@ -1033,7 +1032,7 @@ register_blueprint "hellpediace_perks_manu"
 {!TTL} inflicts Wither                {![Black Site]}
 
  {YArmor/helmet  perks}
-{!JS} +25% crit chance  {![Cal. Mines,Barracks,Rift]}
+{!JS} +15% crit chance  {![Cal. Mines,Barracks,Rift]}
 {!MDF} +1 mod capacity                     {![Mimir]}
 {!VS} +25% repair received {![Valhalla Term/Spacep.]}
 {!AT} +25% cold resistance           {![Asterius H.]}
