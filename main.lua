@@ -601,27 +601,26 @@ register_blueprint "hellpediace_exotics_1"
 {MCRI sword} deals plasma damage, always CRI  {YAst.}
 {MPlasma katana} plasma damage + EMP effect
 {MPower saw} deals 400% damage vs armor
-{MAncient sword} +50% damage vs   {YIo boss,Sh. Hall}
+{MAncient sword} +100% damage vs  {YIo boss,Sh. Hall}
  demons, no dual-wielding
 
  {!Pistol}
 {M9mm calibrated} pierce, +50% crit in opt   {YMimir}
+{M9mm eliminator} one-shot enemies w/ <50 base HP
 {M9mm mag-pistol} pierce, loses damage with hits
 {M.44 HE revolver} gibbed enemies       {YMimir,Ast.}
  explode
 {M.44 flintlock} hit enemies deal -50%       {YMimir}
  damage, but no crit damage
 {M.44 deagle} no pain accuracy malus    {YMimir,Ast.}
+{M.44 volley gun} triple-barrel revolver
 {MBlaster} plasma pistol with regenerating ammo
 
  {!SMG}
+{M9mm AP SMG} +100% damage againt humanoids
 {M9mm torrent} crit chance on close enemies  {YMimir}
 {M9mm storm} convert (and ignore) pain accuracy
  malus into crit chance
-{M.44 JAC} killing enemies cause nearby      {YMimir}
- enemies to bleed
-{M7.62 riot} +2 dmg for each extra enemy in   {YAst.}
- sight
 ]=]
     }
 }
@@ -631,9 +630,15 @@ register_blueprint "hellpediace_exotics_2"
     text = {
         title = "Exotics",
         content = [=[
+{M.44 JAC} killing enemies cause nearby      {YMimir}
+ enemies to bleed
+{M7.62 riot} +2 dmg for each extra enemy in   {YAst.}
+ sight
+
  {!Semi}
 {M.44 toxin rifle} deals poison, 4 mod slots {YMimir}
 {M7.62 AWP rifle} kills increase crit chance
+{MPES rifle} EMP damage with regenerating ammo
 {MEMP rifle} EMP damage only, freezes non-mecha,
  no scope
 {MRailgun} no minimum range                   {YAst.}
@@ -647,18 +652,11 @@ register_blueprint "hellpediace_exotics_2"
  damage vs armor, 100% crit against mecha
 {MNail gun} 1 multitool to reload
 {MAncient gun} do not use ammo to {YIo boss,Sh. Hall}
- reload, +50% damage vs demons, quick swap
+ reload, +100% damage vs demons, quick swap
 
  {!Rotary}
 {M7.62 gatling} +1 dmg on kill until reload   {YAst.}
 {MSuper nailgun} 1 multitool to reload
-
- {!Shotgun}
-{M9mm frag shotgun} deals bleed, +50% vs bleeding
-{MFocused shotgun} impact, narrow cone       {YMimir}
-{MSuper shotgun} auto-reload on kill    {YMimir,Ast.}
-{MElephant} hit enemies deal -50% damage
-{MJackhammer} fires 3 shells/shot       {YMimir,Ast.}
 ]=]
     }
 }
@@ -668,6 +666,13 @@ register_blueprint "hellpediace_exotics_3"
     text = {
         title = "Exotics",
         content = [=[
+ {!Shotgun}
+{M9mm frag shotgun} deals bleed, +50% vs bleeding
+{MFocused shotgun} impact, narrow cone       {YMimir}
+{MSuper shotgun} auto-reload on kill    {YMimir,Ast.}
+{MElephant} hit enemies deal -50% damage
+{MJackhammer} fires 3 shells/shot       {YMimir,Ast.}
+
  {!Launcher}
 {M40mm drum launcher} fires 3 grenades/shot  {YMimir}
 {MEGLS} grenade launcher, cannot reload
@@ -683,17 +688,9 @@ register_blueprint "hellpediace_exotics_3"
  stealth ends
 {MMediTech} pow. orbs heal for 50% the power  {!Tech}
 {MAblative}{!*} high protection, no repair
+{MBallistic shield} high impact protection
 {MDuramesh} low protection, indestructible
 {MGuardian}{!*} light armor, saves your life once
-{MMedifiber} heals at the cost of durability
-{MNecrotic} auto-repairs at the cost of health
-{!CRI armor}{!*} high protect., low penalty{YCRI Labs}
-{!ENV armor}{!*} cold, fire, 50% poison res {YRef. Base}
-
- {!Visor}
-{MAnalytic visor}{!*} +20% experience
-{MCommand visor}{!*} red door bypass
-{MSupply visor}{!*} +1 charge in terminal/station
 
  {!*} destroyed when durability reaches 0
 ]=]
@@ -705,12 +702,20 @@ register_blueprint "hellpediace_exotics_4"
     text = {
         title = "Exotics",
         content = [=[
- {!Helmet}
+{MMedifiber} heals at the cost of durability
+{MNecrotic} auto-repairs at the cost of health
+{!CRI armor}{!*} high protect., low penalty{YCRI Labs}
+{!ENV armor}{!*} cold, fire, 50% poison res {YRef. Base}
+
+ {!Helment and visor}
 {MAdrenal helmet} adrenaline heals more,    {!Marine}
  clears status
 {MInfiltrator helmet} stealth stims for 5s   {!Scout}
 {MVaporscan helmet} enemies in smoke take     {!Tech}
  +50% damage
+{MAnalytic visor}{!*} +20% experience
+{MCommand visor}{!*} red door bypass
+{MSupply visor}{!*} +1 charge in terminal/station
 {MBlast helmet} -75% splash damage
 {MBattle helmet} damage reduction equals pain%
 {!ENV helmet}{!*} darkvision, heatvision, {YMeph. Mines}
@@ -725,7 +730,15 @@ register_blueprint "hellpediace_exotics_4"
 {MNano} reloading doesn’t require ammo
 {CAncient} +20% damage, not returned on {YRuins,Hall}
  disassemble
+]=]
+    }
+}
 
+register_blueprint "hellpediace_exotics_5"
+{
+    text = {
+        title = "Exotics",
+        content = [=[
  {!Others}
 {MBackpack} +2 inventory space   {YThe Pit,Ref. Base}
 {RAncient heart elixir} +5 max HP       {YRuins,Hall}
@@ -735,6 +748,8 @@ register_blueprint "hellpediace_exotics_4"
 ]=]
     }
 }
+
+
 
 register_blueprint "hellpediace_relics_1"
 {
@@ -763,10 +778,10 @@ register_blueprint "hellpediace_relics_1"
  poison status, poison resistance, -33% healing
 {RCryoreaver claw} cold resistance, cold on hit,
  +50% cold status, -100% fire resistance
-{RAncient trinket} +25% poison/fire effect   {YRuins}
+{RAncient trinket} +50% poison/fire effect   {YRuins}
 {RAncient collar} +50% cold/fire res.        {YRuins}
 {RAncient sigil} +50% poison/acid res.       {YRuins}
-{RAncient legwrap} +10% move speed           {YRuins}
+{RAncient legwrap} +20% move speed           {YRuins}
 {MRavager heart} regen up to 75% of max HP, -75%
  healing, -5 HP max on each level change
 ]=]
@@ -803,17 +818,19 @@ register_blueprint "hellpediace_relics_2"
  visible enemies under a warlock aura bleed
 {MWarlock horn} warlock gaze immunity,  {YCal. Mines}
  50% acid+fire+poison resistances, -20% XP
-{MAncient necklace} +25% res. vs all  {YIo Boss,Hall}
-{MAncient armband} +25% dmg vs demons {YIo Boss,Hall}
+{MAncient necklace} +50% res. vs all  {YIo Boss,Hall}
+{MAncient armband} +50% dmg vs demons {YIo Boss,Hall}
 ]=]
     }
 }
 
-register_blueprint "hellpediace_perks_1"
+register_blueprint "hellpediace_perks_wp_1"
 {
     text = {
         title = "Weap. Perks",
         content = [=[
+ {YWeapon perks}
+
 {!Ambush} bonus damage vs enemies at >=100% HP
 {!Autocalibrated} +10% damage, +1 opt distance,
  50 kills required to be activated
@@ -844,7 +861,7 @@ register_blueprint "hellpediace_perks_1"
     }
 }
 
-register_blueprint "hellpediace_perks_2"
+register_blueprint "hellpediace_perks_wp_2"
 {
     text = {
         title = "Weap. Perks",
@@ -880,7 +897,7 @@ register_blueprint "hellpediace_perks_2"
     }
 }
 
-register_blueprint "hellpediace_perks_3"
+register_blueprint "hellpediace_perks_amp"
 {
     text = {
         title = "AMP Perks",
@@ -901,22 +918,23 @@ register_blueprint "hellpediace_perks_3"
 {!Precise} half aim% is added to damage      {! A  }
 {!Retaliation} pain% added to damage         {!  SM}
 {!Melee guard} +25% guard                    {!   M}
-
 {CBooster} +20% damage                       {!PASM}
 {CHit tracker} +40% crit chance              {!P   }
 {CCrit system} +25% crit, +25% crit dmg      {! ASM}
 
- {!P} pistol/SMG AMP    {!A} auto/rotary/semi AMP
- {!S} shotgun AMP       {!M} melee AMP
+[{!P}:pistol  {!A}:auto  {!S}:shotgun  {!M}:melee]
 
-{CImpr. adrenaline} adrenaline stims       {!Marine}
-{CImpr. stealth} stealth: +100% move speed  {!Scout}
-{CImpr. smoke screen} EMP blast on ability   {!Tech}
+{!Furious} +1 fury per kill                 {!Marine}
+{!Energetic} +5 energy per box open          {!Scout}
+{!Powerful} +1 power per orb                  {!Tech}
+{CImpr. adrenaline} adrenaline stims        {!Marine}
+{CImpr. stealth} stealth: +100% move speed   {!Scout}
+{CImpr. smoke screen} EMP blast on ability    {!Tech}
 ]=]
     }
 }
 
-register_blueprint "hellpediace_perks_4"
+register_blueprint "hellpediace_perks_armor_1"
 {
     text = {
         title = "Armor Perks",
@@ -926,10 +944,14 @@ register_blueprint "hellpediace_perks_4"
 {!Camoboost} increase stealth duration       {!Scout}
 {!Pockets} consumables used twice as fast     {!Tech}
 {!Acid shield} +100% acid resistance
+{!Arm exoskeleton} +25% melee dmg, +1 inventory
 {!Auto-med} small heal on level entry
 {!Auto-repair} repair itself up to 30%
+{!Capacitor matrix} incoming damage recharges
+ class skill
 {!Carrier} +1 inventory slot
 {!Compartments} +2 inventory slots
+{!CQC padding} 75% melee damage resistance
 {!Critical} increase crit chance
 {!Durable} double durability
 {!Fire-resistant} +50% fire resistance
@@ -940,7 +962,19 @@ register_blueprint "hellpediace_perks_4"
 {!Padded} +50% cold resistance
 {!Painkiler} +50% pain reduction per turn
 {!Plated} protection +1
+{!Redline catalyst} extra damage when <50% HP
 {!Swift} -10% dodge penalty
+{!Thorn matrix} 50% incoming melee damage is
+ reflected
+]=]
+    }
+}
+
+register_blueprint "hellpediace_perks_armor_2"
+{
+    text = {
+        title = "Armor Perks",
+        content = [=[
 {CAdrenal} increase adren. healing          {!Marine}
 {CSilent} bonus shot while in stealth        {!Scout}
 {CSmokegen} smoke range +1                    {!Tech}
@@ -952,13 +986,14 @@ register_blueprint "hellpediace_perks_4"
     }
 }
 
-register_blueprint "hellpediace_perks_5"
+register_blueprint "hellpediace_perks_head"
 {
     text = {
-        title = "Other Perks",
+        title = "Head Perks",
         content = [=[
  {YHelmet/visor perks}
 {!Aim assist} +50% aim action
+{!Blast padding} -50% blast damage
 {!Bot scanner} reveal turrets and bots
 {!Crit enhancer} +25% crit damage
 {!Danger monitor} +5% dodge (no max dodge bonus)
@@ -968,6 +1003,7 @@ register_blueprint "hellpediace_perks_5"
 {!Heatvision} reveals close enemies through walls
 {!Long-range tracking} +1 max range
 {!Network scanner} reveals terminals and stations
+{!Scent dampener} reduce scent
 {!Supply scanner} reveal lootboxes
 {!Tech monitor} +50% repair
 {CDarkvision} complete vision in dark
@@ -975,21 +1011,11 @@ register_blueprint "hellpediace_perks_5"
 {CNightvision} better vision in dark (+1 range)
 {CSealed} +100% poison resistance
 {CTarget tracking} +1 optimal distance
-
- {YClass-dependent AMP perks}
-{!Furious} +1 fury per kill                 {!Marine}
-{!Energetic} +5 energy per box open          {!Scout}
-{!Powerful} +1 power per orb                  {!Tech}
-{CImproved adrenaline} skill stims for 5s   {!Marine}
-{CImproved stealth} double move speed while  {!Scout}
- stealthed
-{CImproved smoke screen} EMP blast in smoke   {!Tech}
- screen area
 ]=]
     }
 }
 
-register_blueprint "hellpediace_perks_6"
+register_blueprint "hellpediace_perks_manu"
 {
     text = {
         title = "Manu. Perks",
@@ -1022,7 +1048,7 @@ register_blueprint "hellpediace_perks_6"
     }
 }
 
-register_blueprint "hellpediace_perks_7"
+register_blueprint "hellpediace_perks_enemy"
 {
     text = {
         title = "Enemy Perks",
@@ -1165,16 +1191,18 @@ register_blueprint "ui_help"
     "hellpediace_whizkid_p",
     "hellpediace_whizkid_a",
     "hellpediace_whizkid_b",
-    "hellpediace_perks_7",
-    "hellpediace_perks_6",
+    "hellpediace_perks_enemy",
+    "hellpediace_perks_manu",
+    "hellpediace_perks_head",
+    "hellpediace_perks_armor_2",
     "hellpediace_more_below",
-    "hellpediace_perks_5",
-    "hellpediace_perks_4",
-    "hellpediace_perks_3",
-    "hellpediace_perks_2",
-    "hellpediace_perks_1",
+    "hellpediace_perks_armor_1",
+    "hellpediace_perks_amp",
+    "hellpediace_perks_wp_2",
+    "hellpediace_perks_wp_1",
     "hellpediace_relics_2",
     "hellpediace_relics_1",
+    "hellpediace_exotics_5",
     "hellpediace_exotics_4",
     "hellpediace_exotics_3",
     "hellpediace_exotics_2",
