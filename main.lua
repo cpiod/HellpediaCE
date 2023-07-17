@@ -1,5 +1,3 @@
-nova.log("HellpediaCE is loaded")
-
 register_blueprint "hellpediace_callisto_1"
 {
     text = {
@@ -1050,9 +1048,9 @@ register_blueprint "hellpediace_perks_manu"
 register_blueprint "hellpediace_perks_enemy"
 {
     text = {
-        title = "Enemy Perks",
+        title = "Enemy Trait",
         content = [=[
- {YExalted perks}
+ {YExalted traits}
 {!ACCURATE} +25% accuracy
 {!ARMORED} heavy armor, extra 30 max HP
 {!DEADLY} deal double damage
@@ -1174,17 +1172,6 @@ register_blueprint "hellpediace_whizkid_p"
     }
 }
 
-register_blueprint "hellpediace_more_below"
-{
-    text = {
-        title = "{!MORE BELOW!}",
-        content = [=[
-There is currently no way to scroll, but there are more pages below! Check it out, press <{$input_ui_down}>!
-]=]
-    }
-}
-
-
 register_blueprint "ui_help"
 {
     "hellpediace_whizkid_p",
@@ -1194,7 +1181,6 @@ register_blueprint "ui_help"
     "hellpediace_perks_manu",
     "hellpediace_perks_head",
     "hellpediace_perks_armor_2",
-    "hellpediace_more_below",
     "hellpediace_perks_armor_1",
     "hellpediace_perks_amp",
     "hellpediace_perks_wp_2",
