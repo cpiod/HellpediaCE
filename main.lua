@@ -483,32 +483,32 @@ register_blueprint "hellpediace_purgatory_2"
     text = {
         title = "Purgatory",
         content = [=[
-     /-{!UULD}--{GVulcan}               {!Purgatory Map}
- /-{!L}-+-{!LDRDD}-{GVoid}
- |   |        /-{!L}--{GWavesplitter}
- |   \-{!D}-+-{!LD}-+-{!RU}-{GWavedancer}
- |       \-{!DR}--{GVengeance}-{!R}-{GViper}
- |         /-{!RD}-{GMonster}
--+-{!R}-+--{!R}--+-{!UU}-{Y[Io]}
- |   |     \-{!DR}-{GLove}
- |   |   /-{!UUL}-{GHammerhead}
- |   \-{!U}-+-{!RU}--{GHate}
- +-{!D}-{!LDDD}--{GOverlord}
- |   |       /-{!R}-{GThompson}
- |   \-{!R}-+-{!R}-+-{!U}-{GScrapgun}
- |       \-{!UL}-{GShadowcloak}-{!LU}-{GShadowhunter}
- |
- |        /-{!UL}--{GBloodletter}
- |   /-{!UU}-+-{!LDD}-{GApocalypse}
- |   |   /-{!D}-+-{!LD}-{GDeath}-{!D}-{GBFG10K}
- |   |   |   \-{!D}--{GFirecrown}
- |   |   |  /{!L}--{GCarnage}
- \-{!U}-+-{!L}-+{!L}-+{!UL}-{Y[Dante]}
-     |      \{!D}--{GFirestorm}-+{!R}-{GDenial}-{!R}-{GFirecrown}
-     |                    \{!D}-{GCalamity}
-     |   /-{!R}-{Y[Europa]}-{!DLD}-{GExosuit}
-     \-{!R}-+-{!U}-+-{!ULL}-{GAvalanche}
-             \-{!L}---{GExecutioner}-{!L}-{GCybersuit}
+     {!UULD}{GVulcan}               {!Purgatory Map}
+ {!L}+{!LDRDD}{GVoid}
+            {!L}{GWavesplitter}
+    {!D}{!LD}{!RU}{GWavedancer}
+        {!DR}{GVengeance}{!R}{GViper}
+          {!RD}{GMonster}
++{!R}{!R}+{!UU}{Y[Io]}
+         {!DR}{GLove}
+       {!UUL}{GHammerhead}
+    {!U}{!RU}{GHate}
+ +{!D}{!LDDD}{GOverlord}
+           {!R}{GThompson}
+    {!R}{!R}{!U}{GScrapgun}
+        {!UL}{GShadowcloak}{!LU}{GShadowhunter}
+ 
+         {!UL}{GBloodletter}
+    {!UU}{!LDD}{GApocalypse}
+       {!D}{!LD}{GDeath}{!D}{GBFG10K}
+          {!D}{GFirecrown}
+         {!L}{GCarnage}
+ {!U}+{!L}{!L}+{!UL}{Y[Dante]}
+           {!D}{GFirestorm}{!R}{GDenial}{!R}{GFirecrown}
+                         {!D}{GCalamity}
+        {!R}{Y[Europa]}{!DLD}{GExosuit}
+     {!R}{!U}{!ULL}{GAvalanche}
+             {!L}{GExecutioner}{!L}{GCybersuit}
 ]=]
     }
 }
