@@ -179,10 +179,12 @@ register_blueprint "hellpediace_io_2"
 {!Enemies} mostly demons (ammo-hungry branch)
 {!Rewards} AV3 favored AMP, AV3 armor, AV3
  pistol/SMG/auto/ shotgun, AV3 shotgun/
- hyperblaster/AWP, unique exchange (random:
- Exosuit/Void/Death/Apocalypse) and a wish
- (with the heart)
-{!Wishes}
+ hyperblaster/AWP, unique exchange and a wish
+{!Unique exchange} drop a unique on the pentagram
+ to exchange it with a random one from the
+ pool: Exosuit, Void, Death, Apocalypse.
+ Unavailable after the wish!
+{!Wishes} drop the frozen heart on the pentagram
  {!"WEALTH!"} choose 1 of 5 uniques, HP set to 20,
   all healing items and mt removed from level
  {!"POWER!"} +50% damage, receive 50% less
@@ -194,7 +196,6 @@ register_blueprint "hellpediace_io_2"
  fire elixir (+50% fire res. and affinity)/
  blood elixir (+50% bleed res. and affinity)
 {!Remark} branch guaranteed
-{!Remark} no possible exchange after the wish!
 
 {!*} worthy item: exo/uniques/ancient/AV
  ]=]
@@ -241,14 +242,12 @@ register_blueprint "hellpediace_dante"
 {!Unlock} kill an enemy with melee on Beyond L1 /
  Dante Vestibule and enter the portal from Io
  (Medium+ only)
-{!Perk} (none yet)
 {!Enemies} reavers, archreavers, Swordmaster
 {!Special rule} melee only!
 {!Boss loot} {GSoulstealer}
 
  {YInferno}                                  {YDante}
 {!Unlock} kill all enemies of Dante L2
-{!Perk} (none yet)
 {!Rewards} AV3 general AMP, a Tier 3 unique (25%
  chance it’s {GBFT 10K})
 {!Remark} very ammo-hungry branch!
@@ -283,7 +282,7 @@ register_blueprint "hellpediace_bosses_1"
  damage (no damage gate) or in melee range
 {!Reward} red relic
 
- {YIo}{!: Ancient} (illusionist gunned demon)
+ {YIo}{!: Ancient} (illusionist gunned creature)
 {!Stats} 400 HP, more on N!+
 {!Gimmick} create decoys on damage gate (100)
 {!Reward} ancient gun/sword/armband/necklace
@@ -291,7 +290,7 @@ register_blueprint "hellpediace_bosses_1"
  {YShattered Abyss}{!: Swordmaster} (sworded demon)
 {!Stats} 320+40*difficulty HP
 {!Gimmick} melee only on this level
-{!Weakness} you can kite him around pillars
+{!Advice} you can kite him around pillars
 {!Reward} {GSoulstealer}
 ]=]
     }
@@ -613,6 +612,7 @@ register_blueprint "hellpediace_exotics_1"
 {M.44 deagle} no pain accuracy malus    {YMimir,Ast.}
 {M.44 volley gun} triple-barrel revolver
 {MBlaster} plasma pistol with regenerating ammo
+
  {!SMG}
 {M9mm AP SMG} +100% damage againt humanoids
 {M9mm torrent} crit chance on close enemies  {YMimir}
