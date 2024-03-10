@@ -179,10 +179,12 @@ register_blueprint "hellpediace_io_2"
 {!Enemies} mostly demons (ammo-hungry branch)
 {!Rewards} AV3 favored AMP, AV3 armor, AV3
  pistol/SMG/auto/ shotgun, AV3 shotgun/
- hyperblaster/AWP, unique exchange (random:
- Exosuit/Void/Death/Apocalypse) and a wish
- (with the heart)
-{!Wishes}
+ hyperblaster/AWP, unique exchange and a wish
+{!Unique exchange} drop a unique on the pentagram
+ to exchange it with a random one from the
+ pool: Exosuit, Void, Death, Apocalypse.
+ Unavailable after the wish!
+{!Wishes} drop the frozen heart on the pentagram
  {!"WEALTH!"} choose 1 of 5 uniques, HP set to 20,
   all healing items and mt removed from level
  {!"POWER!"} +50% damage, receive 50% less
@@ -194,7 +196,6 @@ register_blueprint "hellpediace_io_2"
  fire elixir (+50% fire res. and affinity)/
  blood elixir (+50% bleed res. and affinity)
 {!Remark} branch guaranteed
-{!Remark} no possible exchange after the wish!
 
 {!*} worthy item: exo/uniques/ancient/AV
  ]=]
@@ -232,34 +233,63 @@ register_blueprint "hellpediace_io_3"
 register_blueprint "hellpediace_dante"
 {
     text = {
-        title = "Dante/Bey.",
+        title = "Dante",
         content = [=[
- {YDante/Beyond L1} (intro level)
+ {YOssuary}{!: clear levels for more loot!}
+{!Unlock} kill all enemies in Dante Vestibule
+ and enter the green elevator (Medium+ only)
+{!Remark} enemies get stronger as you kill them
+{!Remark} boss: the Butcher (cf. boss page)
+{!Rewards} up to: Dante manu + medical + tech
+ stations and many lootboxes
+
+ {YThe Shattered Abyss}
+{!Unlock} kill an enemy with melee on Dante L1
+ and enter the portal from Io (Medium+ only)
+{!Special rule} melee only!
+{!Boss loot} {GSoulstealer}
+
+ {YInferno}
+{!Unlock} kill all enemies of Dante L2
+{!Rewards} AV3 general AMP, a Tier 3 unique (25%
+ chance it’s a {GBFT 10K}), Dante medical and
+ Dante technical stations
+{!Remark} very ammo-hungry level!
+{!Remark} Rexio won’t follow you on the islands
+
+{!Dante medical station} can exchange frozen heart
+ for +10% damage (+15% if you got power elixir)
+{!Dante tech station} can create +20% dmg mod (2
+ mt), phase kit (3 mt), add a mod slot (2 mt)
+{!Dante manu station} can create fire/blood/power
+ elixir (3 mt) and ancient relic (2 mt)
+]=]
+    }
+}
+
+register_blueprint "hellpediace_beyond"
+{
+    text = {
+        title = "Beyond",
+        content = [=[
+ {YBeyond L1} (intro level)
 {!Remark} light range is 4
 
- {YThe Shattered Abyss}              {YDante, Beyond}
-{!Unlock} kill an enemy with melee on Beyond L1 /
- Dante Vestibule and enter the portal from Io
- (Medium+ only)
-{!Perk} (none yet)
+ {YThe Shattered Abyss}
+{!Unlock} kill an enemy with melee on Beyond L1
+ and enter the portal from Io (Medium+ only)
 {!Enemies} reavers, archreavers, Swordmaster
 {!Special rule} melee only!
 {!Boss loot} {GSoulstealer}
 
- {YInferno}                                  {YDante}
-{!Unlock} kill all enemies of Dante L2
-{!Perk} (none yet)
-{!Rewards} AV3 general AMP, a Tier 3 unique (25%
- chance it’s {GBFT 10K})
-{!Remark} very ammo-hungry branch!
-{!Remark} Rexio won’t follow you on the islands
-
- {YLimbo}                                   {YBeyond}
+ {YLimbo}
 {!Rewards} AV3 armor or AV3 auto/pistol/shotgun
  AMP, tech station, phase kit
 ]=]
     }
 }
+
+
 
 register_blueprint "hellpediace_bosses_1"
 {
@@ -283,21 +313,40 @@ register_blueprint "hellpediace_bosses_1"
  damage (no damage gate) or in melee range
 {!Reward} red relic
 
- {YIo}{!: Ancient} (illusionist gunned demon)
+ {YIo}{!: Ancient} (illusionist gunned creature)
 {!Stats} 400 HP, more on N!+
 {!Gimmick} create decoys on damage gate (100)
 {!Reward} ancient gun/sword/armband/necklace
-
- {YShattered Abyss}{!: Swordmaster} (sworded demon)
-{!Stats} 320+40*difficulty HP
-{!Gimmick} melee only on this level
-{!Weakness} you can kite him around pillars
-{!Reward} {GSoulstealer}
 ]=]
     }
 }
 
 register_blueprint "hellpediace_bosses_2"
+{
+    text = {
+        title = "Mid Bosses",
+        content = [=[
+ {YShattered Abyss}{!: Swordmaster} (sworded demon)
+{!Stats} 320+40*difficulty HP
+{!Gimmick} melee only on this level
+{!Advice} you can kite him around pillars
+{!Reward} {GSoulstealer}
+
+ {YOssuary}{!: Butcher} (melee demon)
+{!Stats} 340+20*difficulty HP
+{!Gimmick} the farther, the more DR and
+ resistance it has (up to 100% at dist. 5)
+ He has a tractor beam attack to pull you.
+ Its cleaver inflicts "Crippled" status
+ (you inflict -20% damage per Crippled level)
+{!Remark} Arena cannot be evaded
+]=]
+    }
+}
+
+
+
+register_blueprint "hellpediace_bosses_3"
 {
     text = {
         title = "End Bosses",
@@ -484,32 +533,32 @@ register_blueprint "hellpediace_purgatory_2"
     text = {
         title = "Purgatory",
         content = [=[
-     /-{!UULD}--{GVulcan}               {!Purgatory Map}
- /-{!L}-+-{!LDRDD}-{GVoid}
- |   |        /-{!L}--{GWavesplitter}
- |   \-{!D}-+-{!LD}-+-{!RU}-{GWavedancer}
- |       \-{!DR}--{GVengeance}-{!R}-{GViper}
- |         /-{!RD}-{GMonster}
--+-{!R}-+--{!R}--+-{!UU}-{Y[Io]}
- |   |     \-{!DR}-{GLove}
- |   |   /-{!UUL}-{GHammerhead}
- |   \-{!U}-+-{!RU}--{GHate}
- +-{!D}-{!LDDD}--{GOverlord}
- |   |       /-{!R}-{GThompson}
- |   \-{!R}-+-{!R}-+-{!U}-{GScrapgun}
- |       \-{!UL}-{GShadowcloak}-{!LU}-{GShadowhunter}
- |
- |        /-{!UL}--{GBloodletter}
- |   /-{!UU}-+-{!LDD}-{GApocalypse}
- |   |   /-{!D}-+-{!LD}-{GDeath}-{!D}-{GBFG10K}
- |   |   |   \-{!D}--{GFirecrown}
- |   |   |  /{!L}--{GCarnage}
- \-{!U}-+-{!L}-+{!L}-+{!UL}-{Y[Dante]}
-     |      \{!D}--{GFirestorm}-+{!R}-{GDenial}-{!R}-{GFirecrown}
-     |                    \{!D}-{GCalamity}
-     |   /-{!R}-{Y[Europa]}-{!DLD}-{GExosuit}
-     \-{!R}-+-{!U}-+-{!ULL}-{GAvalanche}
-             \-{!L}---{GExecutioner}-{!L}-{GCybersuit}
+     {!UULD}{GVulcan}               {!Purgatory Map}
+ {!L}+{!LDRDD}{GVoid}
+            {!L}{GWavesplitter}
+    {!D}{!LD}{!RU}{GWavedancer}
+        {!DR}{GVengeance}{!R}{GViper}
+          {!RD}{GMonster}
++{!R}{!R}+{!UU}{Y[Io]}
+         {!DR}{GLove}
+       {!UUL}{GHammerhead}
+    {!U}{!RU}{GHate}
+ +{!D}{!LDDD}{GOverlord}
+           {!R}{GThompson}
+    {!R}{!R}{!U}{GScrapgun}
+        {!UL}{GShadowcloak}{!LU}{GShadowhunter}
+ 
+         {!UL}{GBloodletter}
+    {!UU}{!LDD}{GApocalypse}
+       {!D}{!LD}{GDeath}{!D}{GBFG10K}
+          {!D}{GFirecrown}
+         {!L}{GCarnage}
+ {!U}+{!L}{!L}+{!UL}{Y[Dante]}
+           {!D}{GFirestorm}{!R}{GDenial}{!R}{GFirecrown}
+                         {!D}{GCalamity}
+        {!R}{Y[Europa]}{!DLD}{GExosuit}
+     {!R}{!U}{!ULL}{GAvalanche}
+             {!L}{GExecutioner}{!L}{GCybersuit}
 ]=]
     }
 }
@@ -613,6 +662,7 @@ register_blueprint "hellpediace_exotics_1"
 {M.44 deagle} no pain accuracy malus    {YMimir,Ast.}
 {M.44 volley gun} triple-barrel revolver
 {MBlaster} plasma pistol with regenerating ammo
+
  {!SMG}
 {M9mm AP SMG} +100% damage againt humanoids
 {M9mm torrent} crit chance on close enemies  {YMimir}
@@ -742,6 +792,7 @@ register_blueprint "hellpediace_exotics_5"
 {CAncient salve} full heal, 20s stimmed {YRuins,Hall}
 {CAncient phase kit} teleports you      {YRuins,Hall}
  somewhere near the elevator to the next level
+
 ]=]
     }
 }
@@ -1048,36 +1099,45 @@ register_blueprint "hellpediace_perks_manu"
 register_blueprint "hellpediace_perks_enemy"
 {
     text = {
-        title = "Enemy Trait",
+        title = "Exalted",
         content = [=[
  {YExalted traits}
 {!ACCURATE} +25% accuracy
+{!ADAPTIVE} gets resistance againt attack damage
+ type, degrades with time
 {!ARMORED} heavy armor, extra 30 max HP
+{!BEHOLDER} grants deduff that halves damage
+{!CORROSIVE} acid immunity, acid trail
 {!DEADLY} deal double damage
 {!FAST} move speed 50% faster
+{!GATEKEEPER} blocks exit elevator, +50% HP
 {!HELLFIRE} Ravager only: incendiary mortar
 {!HUNTER} unlimited tracking, +25% move speed
 {!ICE} Ravager only: ice aura and attack
+{!IMMUNE} immune to status effects, +2 armor
+{!INFERNAL} fire immunity, vulnerable to cold,
+ fire trail
 {!LETHAL} deals 150% damage
+{!MEPHITIC} poison immunity, poison trail
 {!REGENERATE} 10% HP (at most 5 HP) regen.
  per action (not per second!)
 {!RESILIENT} overhealth equal to base HP
-{!RESIST} immune to status effects, +2 armor
+{!RESIST} 50% resistance to all, +2 armor
 {!TOUGH} overhealth equal to half base HP
 {!TOXIN} Ravager only: toxic explosive attack
 {!UNSTABLE} explode (25 damage) on death
 
- {YEnemy special status}
-{!Slithering} increased evasion
-{!Warlock Aura} health regenerate to overhealth,
- 50% fire, 50% poison and 50% acid resistance
-{!Warlock Gaze} pain doesn’t go away
-{!Watcher Gaze} -20% accuracy to player and
- CRI, +20% accuracy to enemies
 ]=]
     }
 }
 
+ -- {YEnemy special status}
+-- {!Slithering} increased evasion
+-- {!Warlock Aura} health regenerate to overhealth,
+ -- 50% fire, 50% poison and 50% acid resistance
+-- {!Warlock Gaze} pain doesn’t go away
+-- {!Watcher Gaze} -20% accuracy to player and
+ -- CRI, +20% accuracy to enemies
 
 register_blueprint "hellpediace_whizkid_b"
 {
