@@ -358,8 +358,6 @@ register_blueprint "hellpediace_bosses_3"
 
  {YDante}{!: Harbinger}
 {!General advice}
- - cover behind the indestructible pillars
-  behind Harbinger
  - use grenades/BFT to control the demon crowd
  - Harbinger is not strong in melee but can
 deal 100 damage at the end of the 1st phase!
@@ -510,7 +508,7 @@ register_blueprint "hellpediace_purgatory_1"
 {GFiend Crown}     ULDD    {GOverlord}       DLDDD
 
                    {!Tier 3}
-            {GSoulstealer}  (absent)
+            {GSoulstealer}    DDLLUR
             {GDeath}           ULDLD
             {GVoid}           LLDRDD
             {GShadowhunter}   DRULLU
@@ -543,7 +541,8 @@ register_blueprint "hellpediace_purgatory_2"
          {!DR}{GLove}
        {!UUL}{GHammerhead}
     {!U}{!RU}{GHate}
- +{!D}{!LDDD}{GOverlord}
+    {!DLLUR}{GSoulstealer}
+ +{!D}+{!LDDD}{GOverlord}
            {!R}{GThompson}
     {!R}{!R}{!U}{GScrapgun}
         {!UL}{GShadowcloak}{!LU}{GShadowhunter}
