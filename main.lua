@@ -1,7 +1,7 @@
 register_blueprint "hellpediace_callisto_1"
 {
     text = {
-        title = "Callisto",
+        title = "{!}Callisto",
         content = [=[
  {YValhalla Terminal}{!: activate lockdowns!}
 {!VS} weapon: +25% damage vs bots
@@ -37,7 +37,7 @@ register_blueprint "hellpediace_callisto_1"
 register_blueprint "hellpediace_callisto_2"
 {
     text = {
-        title = "Callisto",
+        title = "{!}",
         content = [=[
  {YCallisto Rift}{!: open valves!}
 {!JS} weapon: +15% crit damage
@@ -68,7 +68,7 @@ register_blueprint "hellpediace_callisto_2"
 register_blueprint "hellpediace_europa_1"
 {
     text = {
-        title = "Europa",
+        title = "{!}Europa",
         content = [=[
  {YAsterius Habitat}{!: hack & protect AT sentries!}
 {!AT} weapon: chill on damage
@@ -104,7 +104,7 @@ register_blueprint "hellpediace_europa_1"
 register_blueprint "hellpediace_europa_2"
 {
     text = {
-        title = "Europa",
+        title = "{!}",
         content = [=[
  {YC. Chaos Biolabs}{!: open valves, get essences!}
 {!CCB} weapon: +20% dmg vs bio, +10% vs semi-mecha
@@ -140,7 +140,7 @@ register_blueprint "hellpediace_europa_2"
 register_blueprint "hellpediace_io_1"
 {
     text = {
-        title = "Io",
+        title = "{!}Io",
         content = [=[
  {YCRI Labs}{!: defend the CRI against the demons!}
 {!CRI} weapon: +25% damage vs demons
@@ -170,7 +170,7 @@ register_blueprint "hellpediace_io_1"
 register_blueprint "hellpediace_io_2"
 {
     text = {
-        title = "Io",
+        title = "{!}",
         content = [=[
  {YShadow Halls}{!: drop worthy items on portals!}
 {!CRT} weapon: +25% damage after move
@@ -207,7 +207,7 @@ register_blueprint "hellpediace_io_2"
 register_blueprint "hellpediace_io_3"
 {
     text = {
-        title = "Io",
+        title = "{!}",
         content = [=[
  {YMephitic Mines}{!: reroute the gas!}
 {!IDR} weapon: -50% reload time
@@ -230,19 +230,11 @@ register_blueprint "hellpediace_io_3"
     }
 }
 
-register_blueprint "hellpediace_dante"
+register_blueprint "hellpediace_dante_1"
 {
     text = {
-        title = "Dante",
+        title = "{!}Dante",
         content = [=[
- {YOssuary}{!: clear levels for more loot!}
-{!Unlock} kill all enemies in Dante Vestibule
- and enter the green elevator (Medium+ only)
-{!Remark} enemies get stronger as you kill them
-{!Remark} boss: the Butcher (cf. boss page)
-{!Rewards} up to: Dante manu + medical + tech
- stations and many lootboxes
-
  {YThe Shattered Abyss}
 {!Unlock} kill an enemy with melee on Dante L1
  and enter the portal from Io (Medium+ only)
@@ -256,13 +248,44 @@ register_blueprint "hellpediace_dante"
  Dante technical stations
 {!Remark} very ammo-hungry level!
 {!Remark} Rexio won’t follow you on the islands
-
-{!Dante medical station} can exchange frozen heart
- for +10% damage (+15% if you got power elixir)
-{!Dante tech station} can create +20% dmg mod (2
- mt), phase kit (3 mt), add a mod slot (2 mt)
-{!Dante manu station} can create fire/blood/power
  elixir (3 mt) and ancient relic (2 mt)
+]=]
+    }
+}
+
+
+register_blueprint "hellpediace_dante_2"
+{
+    text = {
+        title = "{!}",
+        content = [=[
+ {YOssuary}{!: clear levels for more loot!}
+{!Unlock} kill all enemies in Dante Vestibule
+ and enter the green elevator (Medium+ only)
+{!Remark} enemies get stronger as you kill them
+{!Remark} boss: the Butcher (cf. boss page)
+{!Rewards} many lootboxes and special stations:
+
+{!Left room station}
+ {!Circle} (1 charge): ancient mod pack,
+  ancient phase kit or ancient medkit
+ {!Triangle} (2 charges): random ancient relic
+ {!Elixir} (3 charges): fire/blood/power elixir
+ {!Present ADV item} (2 charges): reroll ADV perk
+
+{!Middle room station}
+ {!Blood} (1 charge): heal
+ {!Herb} (2 charges): ancient salve
+ {!Heart} (3 charges): +5HP max
+ {!Present frozen heart} (destroys it): +10%
+  (or +15% if you got the power elixir) damage
+
+{!Right room station}
+ {!Broken symbol} (1 charge): Repair armor
+ {!Presen weapon} (2 charges): add ancient mod
+ {!Present ADV/EXO item} (2 charges): add a mod
+  slot to AV or exotic item
+ {!Portal symbol} (3 charges): ancient phase kit
 ]=]
     }
 }
@@ -270,7 +293,7 @@ register_blueprint "hellpediace_dante"
 register_blueprint "hellpediace_beyond"
 {
     text = {
-        title = "Beyond",
+        title = " Beyond",
         content = [=[
  {YBeyond L1} (intro level)
 {!Remark} light range is 4
@@ -294,7 +317,7 @@ register_blueprint "hellpediace_beyond"
 register_blueprint "hellpediace_bosses_1"
 {
     text = {
-        title = "Mid Bosses",
+        title = "{!}Bosses",
         content = [=[
  {YCallisto}{!: CalSec Warden} (large bot)
 {!Stats} 240 HP, more on N!+
@@ -324,7 +347,7 @@ register_blueprint "hellpediace_bosses_1"
 register_blueprint "hellpediace_bosses_2"
 {
     text = {
-        title = "Mid Bosses",
+        title = "{!}",
         content = [=[
  {YShattered Abyss}{!: Swordmaster} (sworded demon)
 {!Stats} 320+40*difficulty HP
@@ -337,8 +360,8 @@ register_blueprint "hellpediace_bosses_2"
 {!Gimmick} the farther, the more DR and
  resistance it has (up to 100% at dist. 5)
  He has a tractor beam attack to pull you.
- Its cleaver inflicts "Crippled" status
- (you inflict -20% damage per Crippled level)
+ His cleaver inflicts "Crippled" status (you
+ inflict -20% damage per Crippled level)
 {!Remark} Arena cannot be evaded
 ]=]
     }
@@ -349,7 +372,7 @@ register_blueprint "hellpediace_bosses_2"
 register_blueprint "hellpediace_bosses_3"
 {
     text = {
-        title = "End Bosses",
+        title = "{!}",
         content = [=[
  {YBeyond}{!: Summoner} (summoning demon)
 {!Stats} 280+40*difficulty HP
@@ -383,7 +406,7 @@ deal 100 damage at the end of the 1st phase!
 register_blueprint "hellpediace_side_rooms"
 {
     text = {
-        title = "Side rooms",
+        title = " Side rooms",
         content = [=[
  {CStorage room}: ammo boxes and loot
 {!Work awaiting!} exo/AV2 armor               {Y[Ca]}
@@ -406,7 +429,7 @@ register_blueprint "hellpediace_side_rooms"
  AV3 loot
 {!Breach alert}/{!Re: Security request} exo/AV3  {Y[Io]}
  loot or manufacture station
-{!For your curiosity...}{R*}/{!Temporary supply}{R*}   {Y[Io]}
+{!For your curiosity{!.}}{R*}/{!Temporary supply}{R*}   {Y[Io]}
  {!lock}{R*}/{!1.77.813 Commit info #39}{R*} {RCursed},
  exo/AV3 loot
  {CWorkshop}: med/manu/tech station or ammo term.
@@ -420,7 +443,7 @@ register_blueprint "hellpediace_side_rooms"
 register_blueprint "hellpediace_events_1"
 {
     text = {
-        title = "Events",
+        title = "{!}Events",
         content = [=[
  {RDesolation}                  {![Ca,Io Black Site]}
 {!Effect} fire, auto-exploding barrels, low light
@@ -457,7 +480,7 @@ register_blueprint "hellpediace_events_1"
 register_blueprint "hellpediace_events_2"
 {
     text = {
-        title = "Events",
+        title = "{!}",
         content = [=[
  {RThe Hunt}                     {![Ca L5+,Eu,Io,Da]}
 {!Effect} enemies will hunt you in 60/90/120s
@@ -493,7 +516,7 @@ register_blueprint "hellpediace_events_2"
 register_blueprint "hellpediace_purgatory_1"
 {
     text = {
-        title = "Purgatory",
+        title = "{!}Purgatory",
         content = [=[
        {!Tier 1}                  {!Tier 2}
 {GExecutioner}     URUL    {GWavesplitter}   LDLDL
@@ -529,7 +552,7 @@ register_blueprint "hellpediace_purgatory_1"
 register_blueprint "hellpediace_purgatory_2"
 {
     text = {
-        title = "Purgatory",
+        title = "{!}",
         content = [=[
      {!UULD}{GVulcan}               {!Purgatory Map}
  {!L}+{!LDRDD}{GVoid}
@@ -567,35 +590,35 @@ register_blueprint "hellpediace_purgatory_2"
 register_blueprint "hellpediace_uniques_1"
 {
     text = {
-        title = "Uniques",
+        title = "{!}Uniques",
         content = [=[
-{GExecutioner} ({!Callisto Mines}) knife      {Y[Ca,Eu]}
- that one-shots low HP targets
-{GLove} ({!Mimir Habitat}) vampiric .44 revolver
-{GCarnage} 9mm SMG, attacks other targets on kill
-{GVengeance} .44 hunter rifle, stacks crit chance
- if not manually reloaded (get a loading feed!)
-{GThompson} ({!C. Docking Bay}) .44 auto w/ spin-up
-{GScrapgun} modable 9mm chaingun, ammo efficient
-{GMonster} ({!Military Barracks}) low range, high
- damage 12ga double shotgun with 25% swap time
-{GFirestorm} ({!Valhalla Terminal}) fireball launcher
- with regenerating ammo, 50% swap time
-{GShadowcloak} armor, no penalty, stealths on kill
-{GFiend Crown} helmet, 2 protection, grants dark
- vision, turns fiends neutral/friendly
-
-{GWavesplitter} ({!Europa Dig Zone}) plasma   {Y[Eu,Io]}
- blade, charges a slash ranged attack
-{GHate} 7.62 sidearm, stacks crit chance on hits
-{GTwin Viper} 7.62 SMG, inflicts poison, gets copy
+{GApocalypse} ({!Infernal Lock}) hyperblaster with
+ explosions on impact
+{GAvalanche} ({!Conamara Chaos Biolabs}) plasma rifle
+ with regenerating ammo
+{GBFT 10K} ({!Mephitic Mines}, {!Inferno}) BFT with
+ multiple jumps. Targets allies too!
 {GBloodletter} ({!Europa Ruins}) 7.62 sniper rifle,
  causes damage and bleed by automatic reload
-{GHammerhead} ({!Asterius Habitat}) 7.62 pierce
- rifle, rail projectile, 100% crit damage
-{GVulcan} pierce damage chaingun
+{GCalamity} ({!Refueling Base}) plasma beam launcher
+{GCarnage} 9mm SMG, attacks other targets on kill
+{GCybersuit} {Runremovable} armor, high defense, high
+ dodge penalty, autorepair, mod slots: 4+2/lvl
+{GDeath} ({!Shadow Halls}) plasma pistol, lethal DoT
 {GDenial} ({!The Pit}) 12ga autoshotgun with a
  secondary plasma shockwave
+{GExecutioner} ({!Callisto Mines}) knife      {Y[Ca,Eu]}
+ that one-shots low HP targets
+{GExosuit} armor, no dodge penalty, boosts action
+ and movement speed
+{GFiend Crown} helmet, 2 protection, grants dark
+ vision, turns fiends neutral/friendly
+{GFirecrown} helmet, +100% fire resistance, sets
+ enemies in sight on fire
+{GFirestorm} ({!Valhalla Terminal}) fireball launcher
+ with regenerating ammo, 50% swap time
+{GHammerhead} ({!Asterius Habitat}) 7.62 pierce
+ rifle, rail projectile, 100% crit damage
 ]=]
     }
 }
@@ -603,31 +626,29 @@ register_blueprint "hellpediace_uniques_1"
 register_blueprint "hellpediace_uniques_2"
 {
     text = {
-        title = "Uniques",
+        title = "{!}",
         content = [=[
-{GCalamity} ({!Refueling Base}) plasma beam launcher
-{GCybersuit} {Runremovable} armor, high defense, high
- dodge penalty, autorepair, mod slots: 4+2/lvl
+{GHate} 7.62 sidearm, stacks crit chance on hits
+{GLove} ({!Mimir Habitat}) vampiric .44 revolver
+{GMonster} ({!Military Barracks}) low range, high
+ damage 12ga double shotgun with 25% swap time
 {GOverlord} helmet, turns mechs neutral/friendly
-
-{GSoulstealer} ({!Sh. Abyss} only) sword, on  {Y[Io,Da]}
- kill gains damage and max HP, no dual-wielding
-{GDeath} ({!Shadow Halls}) plasma pistol, lethal DoT
-{GVoid} plasma SMG with infinite ammo
+{GScrapgun} modable 9mm chaingun, ammo efficient
+{GShadowcloak} armor, no penalty, stealths on kill
 {GShadowhunter} ({!Io Black Site}) railgun, bullets
  jump to multiple targets (including allies!)
-{GAvalanche} ({!Conamara Chaos Biolabs}) plasma rifle
- with regenerating ammo
-{GApocalypse} ({!Infernal Lock}) hyperblaster with
- explosions on impact
+{GSoulstealer} ({!Sh. Abyss} only) sword, on  {Y[Io,Da]}
+ kill gains damage and max HP, no dual-wielding
+{GThompson} ({!C. Docking Bay}) .44 auto w/ spin-up
+{GTwin Viper} 7.62 SMG, inflicts poison, gets copy
+{GVengeance} .44 hunter rifle, stacks crit chance
+ if not manually reloaded (get a loading feed!)
+{GVoid} plasma SMG with infinite ammo
+{GVulcan} pierce damage chaingun
 {GWavedancer} ({!CRI Labs}) plasma shotgun with
  explosions on impact
-{GBFT 10K} ({!Mephitic Mines}, {!Inferno}) BFT with
- multiple jumps. Targets allies too!
-{GExosuit} armor, no dodge penalty, boosts action
- and movement speed
-{GFirecrown} helmet, +100% fire resistance, sets
- enemies in sight on fire
+{GWavesplitter} ({!Europa Dig Zone}) plasma   {Y[Eu,Io]}
+ blade, charges a slash ranged attack
 
 {!*} guaranteed unique in: 20% Ca, 40% Eu, 40% Io
 {!*} dual-wielded unique pistols share their perks
@@ -639,7 +660,7 @@ register_blueprint "hellpediace_uniques_2"
 register_blueprint "hellpediace_exotics_1"
 {
     text = {
-        title = "Exotics",
+        title = "{!}Exotics",
         content = [=[
  {!Melee}
 {MClass blade} +100% crit in adren./stealth/smoke
@@ -651,7 +672,8 @@ register_blueprint "hellpediace_exotics_1"
  demons, no dual-wielding
 
  {!Pistol}
-{M9mm calibrated} pierce, +50% crit in opt   {YMimir}
+{M9mm calibrated} pierce, +50% crit chance within
+ optimal distance                         {YMimir}
 {M9mm eliminator} one-shot enemies w/ <50 base HP
 {M9mm mag-pistol} pierce, loses damage with hits
 {M.44 HE revolver} gibbed enemies       {YMimir,Ast.}
@@ -663,7 +685,7 @@ register_blueprint "hellpediace_exotics_1"
 {MBlaster} plasma pistol with regenerating ammo
 
  {!SMG}
-{M9mm AP SMG} +100% damage againt humanoids
+{M9mm AP SMG} +100% damage against humanoids
 {M9mm torrent} crit chance on close enemies  {YMimir}
 {M9mm storm} convert (and ignore) pain accuracy
  malus into crit chance
@@ -674,7 +696,7 @@ register_blueprint "hellpediace_exotics_1"
 register_blueprint "hellpediace_exotics_2"
 {
     text = {
-        title = "Exotics",
+        title = "{!}",
         content = [=[
 {M.44 JAC} killing enemies cause nearby      {YMimir}
  enemies to bleed
@@ -710,7 +732,7 @@ register_blueprint "hellpediace_exotics_2"
 register_blueprint "hellpediace_exotics_3"
 {
     text = {
-        title = "Exotics",
+        title = "{!}",
         content = [=[
  {!Shotgun}
 {M9mm frag shotgun} deals bleed, +50% vs bleeding
@@ -746,11 +768,11 @@ register_blueprint "hellpediace_exotics_3"
 register_blueprint "hellpediace_exotics_4"
 {
     text = {
-        title = "Exotics",
+        title = "{!}",
         content = [=[
 {MMedifiber} heals at the cost of durability
 {MNecrotic} auto-repairs at the cost of health
-{!CRI armor}{!*} high protect., low penalty{YCRI Labs}
+{!CRI armor}{!*} high protect., low penalty  {YCRI Labs}
 {!ENV armor}{!*} cold, fire, 50% poison res {YRef. Base}
 
  {!Helment and visor}
@@ -783,7 +805,7 @@ register_blueprint "hellpediace_exotics_4"
 register_blueprint "hellpediace_exotics_5"
 {
     text = {
-        title = "Exotics",
+        title = "{!}",
         content = [=[
  {!Others}
 {MBackpack} +2 inventory space   {YThe Pit,Ref. Base}
@@ -801,7 +823,7 @@ register_blueprint "hellpediace_exotics_5"
 register_blueprint "hellpediace_relics_1"
 {
     text = {
-        title = "Relics",
+        title = "{!}Relics",
         content = [=[
 {RFiend heart} pain immunity, -75% repair
 {RFiend claw} +25% slash damage, -25% other damage
@@ -838,7 +860,7 @@ register_blueprint "hellpediace_relics_1"
 register_blueprint "hellpediace_relics_2"
 {
     text = {
-        title = "Relics",
+        title = "{!}",
         content = [=[
 {MRavager claw} ignore splash, explosion on
  hit (25 damage), -50% damage
@@ -874,7 +896,7 @@ register_blueprint "hellpediace_relics_2"
 register_blueprint "hellpediace_perks_wp_1"
 {
     text = {
-        title = "Weap. Perks",
+        title = "{!}Perks",
         content = [=[
  {YWeapon perks}
 
@@ -911,7 +933,7 @@ register_blueprint "hellpediace_perks_wp_1"
 register_blueprint "hellpediace_perks_wp_2"
 {
     text = {
-        title = "Weap. Perks",
+        title = "{!}",
         content = [=[
 {!Precise} half aim% added to base damage
 {!Resilient} -50% pain effect on accuracy
@@ -947,7 +969,7 @@ register_blueprint "hellpediace_perks_wp_2"
 register_blueprint "hellpediace_perks_amp"
 {
     text = {
-        title = "AMP Perks",
+        title = "{!}",
         content = [=[
  {YAMP perks}
 {!Speed-loader} -75% reload if empty mag.    {!P   }
@@ -984,7 +1006,7 @@ register_blueprint "hellpediace_perks_amp"
 register_blueprint "hellpediace_perks_armor_1"
 {
     text = {
-        title = "Armor Perks",
+        title = "{!}",
         content = [=[
  {YArmor perks}
 {!Tenacity} increase heal on level entry    {!Marine}
@@ -1020,7 +1042,7 @@ register_blueprint "hellpediace_perks_armor_1"
 register_blueprint "hellpediace_perks_armor_2"
 {
     text = {
-        title = "Armor Perks",
+        title = "{!}",
         content = [=[
 {CAdrenal} increase adren. healing          {!Marine}
 {CSilent} bonus shot while in stealth        {!Scout}
@@ -1036,7 +1058,7 @@ register_blueprint "hellpediace_perks_armor_2"
 register_blueprint "hellpediace_perks_head"
 {
     text = {
-        title = "Head Perks",
+        title = "{!}",
         content = [=[
  {YHelmet/visor perks}
 {!Aim assist} +50% aim action
@@ -1065,7 +1087,7 @@ register_blueprint "hellpediace_perks_head"
 register_blueprint "hellpediace_perks_manu"
 {
     text = {
-        title = "Manu. Perks",
+        title = "{!}",
         content = [=[
  {YWeapon perks}
 {!JS} +15% crit damage  {![Cal. Mines,Barracks,Rift]}
@@ -1098,7 +1120,7 @@ register_blueprint "hellpediace_perks_manu"
 register_blueprint "hellpediace_perks_enemy"
 {
     text = {
-        title = "Exalted",
+        title = " Exalted",
         content = [=[
  {YExalted traits}
 {!ACCURATE} +25% accuracy
@@ -1141,7 +1163,7 @@ register_blueprint "hellpediace_perks_enemy"
 register_blueprint "hellpediace_whizkid_b"
 {
     text = {
-        title = "Whizkid B",
+        title = "{!}Mod B",
         content = [=[
  {YBulk mod}
 
@@ -1165,6 +1187,9 @@ register_blueprint "hellpediace_whizkid_b"
  Autoloader     Padded         Tech Monitor
  Barbed 3       Loading Feed   Health Monitor
  Second Chamber Auto Repair    Auto Repair
+
+
+Higher level perks require Whizkid
 ]=]
     }
 }
@@ -1172,7 +1197,7 @@ register_blueprint "hellpediace_whizkid_b"
 register_blueprint "hellpediace_whizkid_a"
 {
     text = {
-        title = "Whizkid A",
+        title = "{!}Mod A",
         content = [=[
  {YAccuracy mod}
 
@@ -1196,6 +1221,9 @@ register_blueprint "hellpediace_whizkid_a"
  Precise        Critical 10    Critical 10
  Critical 25    Pockets        Heat Vision 3
  Exalted Bane   Meta. Boost    Network Scanner
+
+
+Higher level perks require Whizkid
 ]=]
     }
 }
@@ -1203,7 +1231,7 @@ register_blueprint "hellpediace_whizkid_a"
 register_blueprint "hellpediace_whizkid_p"
 {
     text = {
-        title = "Whizkid P",
+        title = "{!}Mod P",
         content = [=[
  {YPower mod}
 
@@ -1227,6 +1255,9 @@ register_blueprint "hellpediace_whizkid_p"
  Hunter 8       Acid Shield    Plated
  Frenzy 8       Plated         Crit Enhancer 25
  Molten 3       Auto Med       Supply Scanner
+
+
+Higher level perks require Whizkid
 ]=]
     }
 }
@@ -1262,7 +1293,8 @@ register_blueprint "ui_help"
     "hellpediace_bosses_2",
     "hellpediace_bosses_1",
     "hellpediace_beyond",
-    "hellpediace_dante",
+    "hellpediace_dante_2",
+    "hellpediace_dante_1",
     "hellpediace_io_3",
     "hellpediace_io_2",
     "hellpediace_io_1",
