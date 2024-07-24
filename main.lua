@@ -293,7 +293,7 @@ register_blueprint "hellpediace_dante_2"
 register_blueprint "hellpediace_beyond"
 {
     text = {
-        title = " Beyond",
+        title = "{!-}Beyond",
         content = [=[
  {YBeyond L1} (intro level)
 {!Remark} light range is 4
@@ -406,7 +406,7 @@ deal 100 damage at the end of the 1st phase!
 register_blueprint "hellpediace_side_rooms"
 {
     text = {
-        title = " Side rooms",
+        title = "{!-}Side rooms",
         content = [=[
  {CStorage room}: ammo boxes and loot
 {!Work awaiting!} exo/AV2 armor               {Y[Ca]}
@@ -1120,7 +1120,7 @@ register_blueprint "hellpediace_perks_manu"
 register_blueprint "hellpediace_perks_enemy"
 {
     text = {
-        title = " Exalted",
+        title = "{!-}Exalted",
         content = [=[
  {YExalted traits}
 {!ACCURATE} +25% accuracy
