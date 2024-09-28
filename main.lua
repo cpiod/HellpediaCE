@@ -82,7 +82,6 @@ register_blueprint "hellpediace_europa_1"
 {!CRT} weapon: +25% damage after move
 {!CRT} armor: -10% dodge penalty
 {!CRT} helmet: +10% XP gained
-{!Enemies} demons only (ammo-hungry branch!)
 {!Rewards} 1 ancient item per level. Temple:
  AV3 armor, AV3 fav. AMP, frozen heart
  (cold res. when carried), 2 ancient items
