@@ -1061,7 +1061,6 @@ register_blueprint "hellpediace_perks_head"
         content = [=[
  {YHelmet/visor perks}
 {!Aim assist} +50% aim action
-{!Blast padding} -50% blast damage
 {!Bot scanner} reveal turrets and bots
 {!Crit enhancer} +25% crit damage
 {!Danger monitor} +5% dodge (no max dodge bonus)
@@ -1074,6 +1073,7 @@ register_blueprint "hellpediace_perks_head"
 {!Scent dampener} reduce scent
 {!Supply scanner} reveal lootboxes
 {!Tech monitor} +50% repair
+{CBlast padding} -50% blast damage
 {CDarkvision} complete vision in dark
 {CHacking rig} +1 to hacking skill
 {CNightvision} better vision in dark (+1 range)
