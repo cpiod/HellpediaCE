@@ -3,13 +3,19 @@ register_blueprint "hellpediace_callisto_1"
     text = {
         title = "{!}Callisto",
         content = [=[
+ {YCallisto Hub} (L4)
+{!Secret} Europa branch list in terminal for 1
+ multitool
+
  {YValhalla Terminal}{!: activate lockdowns!}
 {!VS} weapon: +25% damage vs bots
 {!VS} armor/helmet: +25% repair received
 {!Rewards} AV2/exo pistol+shotgun, AV2 headgear
-{!Special rewards} 1 red card for CalSec halt/hack
- Warden bypass. Rooms: supply (AV2 AMP), weapon
- (AV2 favored weapon), armor (AV2 blue armor)
+{!Special rewards} print 1 blue card for CalSec
+ halt, 1 red card for CalSec hack / Warden
+ bypass. Rooms: supply (AV2 AMP), weapon (AV2
+ favored weapon), armor (AV2 blue helmet).
+ Chance of AV3.
 
  {YCallisto Mines}{!: close portals, QUICK!}
 {!JS} weapon: +15% crit damage
@@ -23,13 +29,6 @@ register_blueprint "hellpediace_callisto_1"
  plan) for {!Purgatory} access (Medium+ only)  {!1}
 {!Remarks} branch guaranteed on Callisto L2/L3,
  light range of special level is 5
-
- {YMimir Habitat}{!: dl codes from MDF sentries!}
-{!MDF} weapon: +1 optimal range
-{!MDF} armor/helmet: +1 mod capacity
-{!Rewards} AV2/exo pistol+shotgun, AV2 fav. weapon
-{!Special rewards} 1 red card for exo manu station
- (L2/L3 clearance: 4/6 exos) CalSec halt/reboot
 ]=]
     }
 }
@@ -39,11 +38,18 @@ register_blueprint "hellpediace_callisto_2"
     text = {
         title = "{!}",
         content = [=[
+ {YMimir Habitat}{!: dl codes from MDF sentries!}
+{!MDF} weapon: +1 optimal range
+{!MDF} armor/helmet: +1 mod capacity
+{!Rewards} AV2/exo pistol+shotgun, AV2 fav. weapon
+{!Special rewards} 1 red card for exo manu station
+ (L2/L3 clearance: 4/6 exos) CalSec halt/reboot
+
  {YCallisto Rift}{!: open valves!}
 {!JS} weapon: +15% crit damage
 {!JS} armor/helmet: +15% crit chance
 {!Rewards} AV2 pistol/shotgun, AV2 favored AMP,
- medical and tech stations, 3 multitools
+ medical and tech stations, 1 multitools
 {!Special reward} poison resistance
 
  {MMilitary Barracks}
@@ -51,7 +57,8 @@ register_blueprint "hellpediace_callisto_2"
 {!JS} armor/helmet: +15% crit chance
 {!Rewards} 2 AV2/exo pistols, 2 AV2/exo shotguns,
  2 AV2/exo autos, AV2/exo grenade launcher,
- EGLS or AV2 rocket launcher, ammo terminal
+ EGLS or AV2 rocket launcher, ammo terminal,
+ 2 toolkits, health chest, chance of AV3 weapons
 
  {MCallisto Docking Bay}{!: activate lockdown!}
 {!Perk} random Callisto perk
@@ -59,8 +66,6 @@ register_blueprint "hellpediace_callisto_2"
  AV1+AV2 shotguns, AV2 blue armor+helmet
 {!Special reward} exo visor
 
- {YCallisto Hub} (L4)
-{!Secret} Europa branch list in terminal for 1 mt
 ]=]
     }
 }
@@ -126,7 +131,8 @@ register_blueprint "hellpediace_europa_2"
 
  {MRefueling Base}{!: open fuel valves!}
 {!Rewards} backpack, ammo term, AV3 visor,
- AV3 favored+general AMPs, AV3 armor/auto/AMP
+ AV3 favored+general AMPs, AV3 armor/auto/AMP,
+ chance of AV4 items
 {!Special reward} ENV armor
 {!Remark} light range is 5
 
@@ -219,12 +225,13 @@ register_blueprint "hellpediace_io_3"
 {!Remark} light range is 5 (4 in special level)
 
  {MIo Warehouse}
-{!Rewards} lots of lootboxes, AV2 hyperblaster
+{!Rewards} lots of lootboxes, AV3 or AV4
+ hyperblaster
 {!Remark} light range is 4
 
  {MInfernal Lock}{!: block doors with items!}
 {!Rewards} lootboxes, AV3 general AMP
-{!Special reward} cold, sustain, nano or onyx mod
+{!Special reward} sustain, nano or onyx mod
 ]=]
     }
 }
@@ -600,7 +607,7 @@ register_blueprint "hellpediace_uniques_1"
 {GBloodletter} ({!Europa Ruins}) 7.62 sniper rifle,
  causes damage and bleed by automatic reload
 {GCalamity} ({!Refueling Base}) plasma beam launcher
-{GCarnage} 9mm SMG, attacks other targets on kill
+{GCarnage} 9mm SMG, autoshot on kill for zero ammo
 {GCybersuit} {Runremovable} armor, high defense, high
  dodge penalty, autorepair, mod slots: 4+2/lvl
 {GDeath} ({!Shadow Halls}) plasma pistol, lethal DoT
@@ -613,7 +620,7 @@ register_blueprint "hellpediace_uniques_1"
 {GFiend Crown} helmet, 2 protection, grants dark
  vision, turns fiends neutral/friendly
 {GFirecrown} helmet, +100% fire resistance, sets
- enemies in sight on fire
+ enemies in sight on fire, debuff fire resistance
 {GFirestorm} ({!Valhalla Terminal}) fireball launcher
  with regenerating ammo, 50% swap time
 {GHammerhead} ({!Asterius Habitat}) 7.62 pierce
@@ -662,9 +669,10 @@ register_blueprint "hellpediace_exotics_1"
         title = "{!}Exotics",
         content = [=[
  {!Melee}
-{MClass blade} +100% crit in adren./stealth/smoke
+{MClass blade} +200% crit in adren./stealth/smoke
 {MQuickblade} +100% crit after draw, quick swap
-{MCRI sword} deals plasma damage, always CRI  {YAst.}
+{MCRI sword} deals plasma damage, always CRI,
+ +5 damage on kill, -1 on move             {YAst.}
 {MPlasma katana} plasma damage + EMP effect
 {MPower saw} deals 400% damage vs armor
 {MAncient sword} +100% damage vs  {YIo boss,Sh. Hall}
@@ -868,7 +876,7 @@ register_blueprint "hellpediace_relics_2"
 {MKerberos heart} when <50%HP: +50% damage, +40%
  move speed but lose health (until 10HP)
 {MKerberos paw} +40% move speed, enemies are
- looking for you
+ looking for you (except to boss)
 {MKerberos jaw} +50% damage, enemies spawn next to
  you regularly
 {MCyberos heart} vampiric, -100% healing
@@ -885,7 +893,7 @@ register_blueprint "hellpediace_relics_2"
 {MWarlock eye} warlock gaze immunity,   {YCal. Mines}
  visible enemies under a warlock aura bleed
 {MWarlock horn} warlock gaze immunity,  {YCal. Mines}
- 50% acid+fire+poison resistances, -20% XP
+ 50% acid, fire and poison resistances
 {MAncient necklace} +50% res. vs all  {YIo Boss,Hall}
 {MAncient armband} +50% dmg vs demons {YIo Boss,Hall}
 ]=]
@@ -900,7 +908,7 @@ register_blueprint "hellpediace_perks_wp_1"
  {YWeapon perks}
 
 {!Ambush} bonus damage vs enemies at >=100% HP
-{!Autocalibrated} +10% damage, +1 opt distance,
+{!Autocalibrated} +10% damage, +2 opt distance,
  50 kills required to be activated
 {!Autoloader} reloads on move
 {!Balanced} decrease minimal distance
@@ -914,15 +922,15 @@ register_blueprint "hellpediace_perks_wp_1"
 {!Focused} -1 blast radius, +10 damage
 {!Frenzy} cumulative bonus after kill for 5s
 {!Fresh mag} bonus damage on full magazine
-{!Grenadier} +100% damage after grenade
+{!Grenadier} +200% damage after grenade
 {!Guarded} increase melee guard
 {!Guard shield} increase guard range
 {!Haze} cover area in smoke
-{!High explosive} +1 blast radius, -10 damage
+{!High explosive} +1 blast radius, -50% blast
 {!Hunter} bonus vs enemies w/ >60 max HP
 {!Loading holster} auto-reload on swap
 {!Longshot} bonus damage at range 5+
-{!Mechabane} +25% damage vs bots
+{!Mechabane} +50% damage vs bots
 {!Molten} applies burning
 {!Point blank} bonus damage in range < 3
 ]=]
@@ -936,18 +944,18 @@ register_blueprint "hellpediace_perks_wp_2"
         content = [=[
 {!Precise} half aim% added to base damage
 {!Resilient} -50% pain effect on accuracy
-{!Retaliate} pain% added to damage
+{!Retaliate} 4*pain% added to damage
 {!Ripper} bonus damage vs wounded enemies
 {!Rush} bonus damage after move
 {!Safe} no self-damage with explosion
 {!Scope} (innate on semis) aim% added to crit
 {!Second chamber} doubles magazine size
-{!Specialist} +100% damage after skill use
+{!Specialist} +200% damage after skill use
 {!Speedloader} -75% reload if empty magazine
 {!Stabilized} increase maximum range
 {!Surrounded} 33% DR if 3+ enemies in sight
 {!Swap harness} -75% swap time
-{!Zombiebane} +50% damage vs zombies
+{!Zombiebane} +100% damage vs zombies
 
 {CDeadly} increase flat damage
 {CDemon bane} +25% damage vs demons
@@ -1019,7 +1027,7 @@ register_blueprint "hellpediace_perks_armor_1"
  class skill
 {!Carrier} +1 inventory slot
 {!Compartments} +2 inventory slots
-{!CQC padding} 75% melee damage resistance
+{!CQC padding} 90% melee damage resistance
 {!Critical} increase crit chance
 {!Durable} double durability
 {!Fire-resistant} +50% fire resistance
@@ -1029,10 +1037,10 @@ register_blueprint "hellpediace_perks_armor_1"
 {!Metabolic boost} +10% move speed
 {!Padded} +50% cold resistance
 {!Painkiler} +50% pain reduction per turn
-{!Plated} protection +1
+{!Plated} protection +2
 {!Redline catalyst} extra damage when <50% HP
 {!Swift} -10% dodge penalty
-{!Thorn matrix} 50% incoming melee damage is
+{!Thorn matrix} incoming melee damage is
  reflected
 ]=]
     }
@@ -1204,21 +1212,21 @@ register_blueprint "hellpediace_whizkid_a"
  Retaliate      Calibrated     Calibrated
  Resilient      Stabilized     Stabilized
  Mechabane      Precise        Precise
- Critical 25    Critical 25    Critical 25
+ Critical 20    Critical 20    Critical 20
  Exalted Bane   Exalted Bane   Exalted Bane
 
 {!Semi}           {!Auto,Rotary}    {!Shotgun}
  Calibrated     Calibrated     Calibrated
  Stabilized     Stabilized     Stabilized
  Balanced       Balanced       Retaliate
- Critical 25    Critical 25    Critical 25
+ Critical 20    Critical 20    Critical 20
  Exalted Bane   Exalted Bane   Exalted Bane
 
 {!Launcher}       {!Armor}          {!Helmet/Visor}
  Calibrated     Swift          Aim Assist
  Stabilized     Painkiller     Long-range Track
  Precise        Critical 10    Critical 10
- Critical 25    Pockets        Heat Vision 3
+ Critical 20    Pockets        Heat Vision 3
  Exalted Bane   Meta. Boost    Network Scanner
 
 
