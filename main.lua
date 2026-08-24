@@ -18,8 +18,8 @@ register_blueprint "hellpediace_callisto_1"
  Chance of AV3.
 
  {YCallisto Mines}{!: close portals, QUICK!}
-{!JS} weapon: +15% crit damage
-{!JS} armor/helmet: +15% crit chance
+{!JS} weapon: +25% crit damage
+{!JS} armor/helmet: +10% crit chance
 {!Rewards} AV2/exo pistol+shotgun, AV2 favored
  AMP, red relic. If no closed portal:
  AV2 helmet/armor                          {!2 5}
@@ -46,15 +46,15 @@ register_blueprint "hellpediace_callisto_2"
  (L2/L3 clearance: 4/6 exos) CalSec halt/reboot
 
  {YCallisto Rift}{!: open valves!}
-{!JS} weapon: +15% crit damage
-{!JS} armor/helmet: +15% crit chance
+{!JS} weapon: +25% crit damage
+{!JS} armor/helmet: +10% crit chance
 {!Rewards} AV2 pistol/shotgun, AV2 favored AMP,
  medical and tech stations, 1 multitools
 {!Special reward} poison resistance
 
  {MMilitary Barracks}
-{!JS} weapon: +15% crit damage
-{!JS} armor/helmet: +15% crit chance
+{!JS} weapon: +25% crit damage
+{!JS} armor/helmet: +10% crit chance
 {!Rewards} 2 AV2/exo pistols, 2 AV2/exo shotguns,
  2 AV2/exo autos, AV2/exo grenade launcher,
  EGLS or AV2 rocket launcher, ammo terminal,
@@ -1097,7 +1097,7 @@ register_blueprint "hellpediace_perks_manu"
         title = "{!}",
         content = [=[
  {YWeapon perks}
-{!JS} +15% crit damage  {![Cal. Mines,Barracks,Rift]}
+{!JS} +25% crit damage  {![Cal. Mines,Barracks,Rift]}
 {!MDF} +1 optimal range                    {![Mimir]}
 {!VS} +25% damage vs bots  {![Valhalla Term/Spacep.]}
 {!AT} applies chill on damage        {![Asterius H.]}
@@ -1109,7 +1109,7 @@ register_blueprint "hellpediace_perks_manu"
 {!TTL} inflicts Wither                {![Black Site]}
 
  {YArmor/helmet  perks}
-{!JS} +15% crit chance  {![Cal. Mines,Barracks,Rift]}
+{!JS} +10% crit chance  {![Cal. Mines,Barracks,Rift]}
 {!MDF} +1 mod capacity                     {![Mimir]}
 {!VS} +25% repair received {![Valhalla Term/Spacep.]}
 {!AT} +25% cold resistance           {![Asterius H.]}
